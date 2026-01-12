@@ -177,11 +177,32 @@ class Visitor extends BaseVisitor
 
             $id = (string) $id;
             if (!empty($id) && !array_key_exists($id, $returned)) {
+                
+                // Get Name and Avatar
+                $name = user('name', $item->user);
+                $avatar = user('avatar', $item->user);
+                $bio = user('bio', $item->user);
+
+                // Check if it is a workspace
+                $workspace = \App\Models\Workspace::where('slug', $id)->first();
+                if($workspace){
+                    $name = $workspace->name;
+                    $bio = $workspace->bio;
+                    
+                    if (!empty($workspace->avatar)) {
+                        $avatar = getStorage('media/bio/avatar', $workspace->avatar);
+                    } 
+                }
+
                 $returned[$id] = [
                     'visits' => 0,
                     'unique' => 0,
                     'user' => $item->user,
                     'slug' => $id,
+                    'name' => $name,
+                    'avatar' => $avatar,
+                    'bio' => $bio,
+                    'is_workspace' => $workspace ? true : false
                 ];
             }
 

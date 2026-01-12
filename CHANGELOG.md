@@ -24,3 +24,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Added missing columns (`postedBy`, `thumbnail`, `description`, `author`, `ttr`) to `pages` table migration to resolve SQL errors during page creation.
+
+## [1.0.3] - 2026-01-12
+
+### Fixed
+
+- **Discover Route Attribution:** Fixed issue where visits to workspace pages were being merged with the main user account. System now explicitly attributes visits to the correct workspace ID.
+- **Discover Route Display:** Updated logic to display the specific Name, Avatar, and Slug of the workspace/page instead of defaulting to the main user's profile.
+- **Visitor Tracking:** Updated `MySession` model to ensure `slug` is always saved during visitor creation, with fallbacks for legacy data.

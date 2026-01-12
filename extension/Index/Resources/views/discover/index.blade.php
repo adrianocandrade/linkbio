@@ -32,13 +32,9 @@
                 </div>
 
                 <div class="creator-card-info p-5 absolute bottom-0 z-50">
-                    <div class="h-avatar md is-video remove-before remove-after">
-                       <img src="{{ avatar(ao($items, 'user')) }}" class="h-full w-full" alt="">
-                    </div>
-
                     <div class="flex flex-col">
-                        <div class="text-lg text-white truncate">{{ user('name', ao($items, 'user')) }}</div>
-                        <div class="text-sm text-white truncate">{{ '@'. user('username', ao($items, 'user')) }}</div>
+                        <div class="text-lg text-white truncate">{{ ao($items, 'name') }}</div>
+                        <div class="text-sm text-white truncate">{{ '@'. ao($items, 'slug') }}</div>
                     </div>
                 </div>
             </a>
