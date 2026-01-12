@@ -307,7 +307,7 @@ if (!function_exists('sandy_dev_links')) {
         $array = [
             'docs' => 'https://withsandy.gitbook.io/rio',
             'script' => 'https://rio-script.com',
-            'support' => 'https://support.sandydev.com',
+
             'aws_purchase' => 'https://sandycode.gumroad.com/l/iXNeF'
         ];
 

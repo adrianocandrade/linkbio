@@ -28,12 +28,7 @@
 
       <p class="text-xs italic">{{ __('(Note: This catch all exceptions & log them to sandy.log which can be accessed in this page or manually in: storage / logs / sandy.log)') }}</p>
       
-      <div class="flex items-center mt-5">
-        <i class="text-2xl sio professions-007-phone-operator mr-3"></i>
-        <p>{{ __('Wanna log an error to me? Do it here!') }}</p>
-      </div>
 
-      <a class="button sandy-quality-button bg-black mt-5" target="_blank" href="support.sandydev.com">{{ __('Submit here!') }}</a>
     </div>
   </div>
 </div>

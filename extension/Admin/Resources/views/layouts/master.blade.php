@@ -129,16 +129,7 @@
                @endif
                {!! getPluginAdminMenus() !!}
             </nav>
-            <div class="step-banner sidebar-footer has-cta-bg-shade mb-5">
-               <div class="cta-background-shade">
-                  <img src="{{ gs('assets/image/others/index-cta-bg.png') }}" alt="">
-               </div>
-               <div class="flex justify-center z-10 relative">
-                  <i class="sio security-icon-039-danger-sign text-5xl text-white pt-5"></i>
-               </div>
-               <p class="text-center text-white text-sm mt-5 font-bold block z-10 relative">{{ __('Wanna log an error? Do it here!') }}</p>
-               <a class="button white w-full mt-5 z-10 relative" href="{{ sandy_dev_links('support') }}" target="_blank">{{ __('Send error') }}</a>
-            </div>
+
          </div>
       </div>
       <div class="page__content">

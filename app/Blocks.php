@@ -277,8 +277,8 @@ class Blocks{
 
 
                             'content' => [
-                                'caption' => 'Second Image',
-                                'alt' => 'Our Second Preset Image'
+                                'caption' => __('Second Image'),
+                                'alt' => __('Our Second Preset Image')
                             ],
                         ],
                         'item_1' => [
@@ -290,8 +290,8 @@ class Blocks{
 
 
                             'content' => [
-                                'caption' => 'First Image',
-                                'alt' => 'Our First Preset Image'
+                                'caption' => __('First Image'),
+                                'alt' => __('Our First Preset Image')
                             ],
                         ],
                     ],
@@ -308,7 +308,7 @@ class Blocks{
 
 
                             'content' => [
-                                'heading' => 'Crazy Links 🥴'
+                                'heading' => __('Crazy Links 🥴')
                             ],
                         ],
                         'link_2' => [
@@ -320,7 +320,7 @@ class Blocks{
 
 
                             'content' => [
-                                'heading' => 'Earn Cash 🤑'
+                                'heading' => __('Earn Cash 🤑')
                             ],
                         ],
                         'link_3' => [
@@ -332,21 +332,21 @@ class Blocks{
 
 
                             'content' => [
-                                'heading' => 'Dont Click! 😺'
+                                'heading' => __('Dont Click! 😺')
                             ],
                         ],
                     ],
                 ],
                 'text' => [
                     'content' => [
-                        'heading' => 'Welcome Aboard 🤩',
-                        'content' => '<ul><li><p>We have added some blocks to help you get started.</p></li></ul><ul><li><p>Click this to edit or any of the elements below.</p></li></ul><ul><li><p>You can drag them to reorder their position.</p></li></ul><ul><li><p>Click on the (+) icon to add more blocks.</p></li></ul><ul><li><p>Click on the blot menu to add elements.</p></li></ul><ul><li><p>Elements can be in the form of email collection, paid items, etc.</p></li></ul>',
+                        'heading' => __('Welcome Aboard 🤩'),
+                        'content' => __('<ul><li><p>We have added some blocks to help you get started.</p></li></ul><ul><li><p>Click this to edit or any of the elements below.</p></li></ul><ul><li><p>You can drag them to reorder their position.</p></li></ul><ul><li><p>Click on the (+) icon to add more blocks.</p></li></ul><ul><li><p>Click on the blot menu to add elements.</p></li></ul><ul><li><p>Elements can be in the form of email collection, paid items, etc.</p></li></ul>'),
                     ]
                 ]
         ];
 
         $others = [
-            'bio' => 'Click here to add a brief summary about your page to get your audience interested in what you do.'
+            'bio' => __('Click here to add a brief summary about your page to get your audience interested in what you do.')
         ];
         $returned = [
             'sections' => $skel,
