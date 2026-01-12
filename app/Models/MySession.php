@@ -99,7 +99,7 @@ class MySession extends Model {
      * @param  \Illuminate\Database\Eloquent\Builder  $query
      * @return \Illuminate\Database\Eloquent\Builder
      */
-    public function scopeUpdateBio(Builder $query, $id){
+    public function scopeUpdateBio(Builder $query, $id, $workspaceId = null){
         $check = \App\Models\MySession::where('id', Session::getId())->where('user_bio', $id)->first();
 
 
@@ -114,23 +114,23 @@ class MySession extends Model {
         $tracking = ['country' => ['iso' => $iso_code, 'name' => $country, 'city' => $city], 'agent' => ['browser' => $agent->browser(), 'os' => $agent->platform()]];
 
 
-        // Get workspace_id if available
-        // Try to get from workspace shared in views (set by UserBioInfo trait)
-        $workspaceId = null;
-        try {
-            $workspace = \Illuminate\Support\Facades\View::shared('workspace');
-            if ($workspace && isset($workspace->id)) {
-                $workspaceId = $workspace->id;
-            }
-        } catch (\Exception $e) {
-            // If not available in views, try to find workspace by user's default
-            // This is a fallback for backward compatibility
-            $defaultWorkspace = \App\Models\Workspace::where('user_id', $id)
-                ->where('is_default', 1)
-                ->first();
-            if ($defaultWorkspace) {
-                $workspaceId = $defaultWorkspace->id;
-            }
+        // If workspaceId not passed, try to find default (backward compatibility or missing arg)
+        if (!$workspaceId) {
+             try {
+                // Try to get from View::shared just in case
+                $workspace = \Illuminate\Support\Facades\View::shared('workspace');
+                if ($workspace && isset($workspace->id)) {
+                    $workspaceId = $workspace->id;
+                } else {
+                    // Fallback to default workspace
+                    $defaultWorkspace = \App\Models\Workspace::where('user_id', $id)
+                        ->where('is_default', 1)
+                        ->first();
+                    if ($defaultWorkspace) {
+                        $workspaceId = $defaultWorkspace->id;
+                    }
+                }
+            } catch (\Exception $e) {}
         }
         
         // Track Visits - check by session and workspace_id if available

@@ -47,7 +47,7 @@ trait UserBioInfo {
                    }
                }
                
-               MySession::updateBio($this->bio->id);
+               MySession::updateBio($this->bio->id, $this->workspace->id);
            } else {
                // Fallback: try to find user by username (backward compatibility)
                if (!$this->bio = User::where('username', $bioSlug)->first()) {
@@ -64,7 +64,7 @@ trait UserBioInfo {
                    $this->workspace = $defaultWorkspace;
                }
                
-               MySession::updateBio($this->bio->id);
+               MySession::updateBio($this->bio->id, $this->workspace->id ?? null);
            }
 
            return $next($request);
