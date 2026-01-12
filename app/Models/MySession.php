@@ -158,6 +158,15 @@ class MySession extends Model {
             $new->ip = $ip;
             $new->tracking = $tracking;
             $new->views = 1;
+
+            // Set Slug
+             if ($workspaceId) {
+                 $ws = \App\Models\Workspace::find($workspaceId);
+                 if ($ws) $new->slug = $ws->slug;
+             } else {
+                 $new->slug = user('username', $id);
+             }
+
             $new->save();
         }
 
