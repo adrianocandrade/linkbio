@@ -1,0 +1,71 @@
+/* Rise Theme Styles */
+
+.bio-wrap {
+    background: linear-gradient(135deg, #9d0208 0%, #e85d04 50%, #ffba08 100%);
+    color: #FFFFFF;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: {button_text_color} !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 8px 32px 0 rgba(157, 2, 8, 0.37) !important;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.25) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 8px 32px 0 rgba(157, 2, 8, 0.5) !important;
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background: linear-gradient(135deg, #370617 0%, #6a040f 100%) !important;
+}

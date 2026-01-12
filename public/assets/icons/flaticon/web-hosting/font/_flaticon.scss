@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "web-hosting";
+  src: url("web-hosting/font/Flaticon.eot");
+  src: url("web-hosting/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("web-hosting/font/Flaticon.woff2") format("woff2"),
+       url("web-hosting/font/Flaticon.woff") format("woff"),
+       url("web-hosting/font/Flaticon.ttf") format("truetype"),
+       url("web-hosting/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "web-hosting";
+    src: url("web-hosting/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" web-hosting-"]:before,
+[class^=web-hosting-]:before {
+  font-family: "web-hosting";
+}
+
+.web-hosting-001-error-page:before { content: "\f100"; }
+.web-hosting-002-data-storage:before { content: "\f101"; }
+.web-hosting-003-landing-page:before { content: "\f102"; }
+.web-hosting-004-social-network:before { content: "\f103"; }
+.web-hosting-005-cloud-storage:before { content: "\f104"; }
+.web-hosting-006-seo-and-web:before { content: "\f105"; }
+.web-hosting-007-hierarchical-structure:before { content: "\f106"; }
+.web-hosting-008-cloud-network:before { content: "\f107"; }
+.web-hosting-009-downloadings:before { content: "\f108"; }
+.web-hosting-010-network-connection:before { content: "\f109"; }
+.web-hosting-011-cloud-hosting:before { content: "\f10a"; }
+.web-hosting-012-secure-data:before { content: "\f10b"; }
+.web-hosting-013-seo-and-web:before { content: "\f10c"; }
+.web-hosting-014-social-network:before { content: "\f10d"; }
+.web-hosting-015-cloud-computing:before { content: "\f10e"; }
+.web-hosting-016-global-network:before { content: "\f10f"; }
+.web-hosting-017-web-analysis:before { content: "\f110"; }
+.web-hosting-018-cloud-hosting:before { content: "\f111"; }
+.web-hosting-019-web-security:before { content: "\f112"; }
+.web-hosting-020-cloud-network:before { content: "\f113"; }
+.web-hosting-021-mobile-search:before { content: "\f114"; }
+.web-hosting-022-data-exchange:before { content: "\f115"; }
+.web-hosting-023-network-server:before { content: "\f116"; }
+.web-hosting-024-error-404:before { content: "\f117"; }
+.web-hosting-025-web-hosting:before { content: "\f118"; }
+.web-hosting-026-web-hosting:before { content: "\f119"; }
+.web-hosting-027-premium-quality:before { content: "\f11a"; }
+.web-hosting-028-search-engine-optimization:before { content: "\f11b"; }
+.web-hosting-029-error-404:before { content: "\f11c"; }
+.web-hosting-030-web-hosting:before { content: "\f11d"; }
+.web-hosting-031-cloud-network:before { content: "\f11e"; }
+.web-hosting-032-customer-support:before { content: "\f11f"; }
+.web-hosting-033-electronic-circuit:before { content: "\f120"; }
+.web-hosting-034-pin-code:before { content: "\f121"; }
+.web-hosting-035-server-storage:before { content: "\f122"; }
+.web-hosting-036-server-storage:before { content: "\f123"; }
+.web-hosting-037-cloud-uploading:before { content: "\f124"; }
+.web-hosting-038-binocular:before { content: "\f125"; }
+.web-hosting-039-secure-data:before { content: "\f126"; }
+.web-hosting-040-printer:before { content: "\f127"; }
+.web-hosting-041-access-denied:before { content: "\f128"; }
+.web-hosting-042-home-network:before { content: "\f129"; }
+.web-hosting-043-login:before { content: "\f12a"; }
+.web-hosting-044-customer-service-agent:before { content: "\f12b"; }
+.web-hosting-045-geolocalization:before { content: "\f12c"; }
+.web-hosting-046-www:before { content: "\f12d"; }
+.web-hosting-047-page-speed:before { content: "\f12e"; }
+.web-hosting-048-web-hosting:before { content: "\f12f"; }
+.web-hosting-049-website:before { content: "\f130"; }
+.web-hosting-050-sitemap:before { content: "\f131"; }
+.web-hosting-051-global-network:before { content: "\f132"; }
+.web-hosting-052-error-page:before { content: "\f133"; }
+.web-hosting-053-web-design:before { content: "\f134"; }
+.web-hosting-054-page-not-found:before { content: "\f135"; }
+.web-hosting-055-antivirus:before { content: "\f136"; }
+.web-hosting-056-cloud-computing:before { content: "\f137"; }
+.web-hosting-057-web-hosting:before { content: "\f138"; }
+.web-hosting-058-data-network:before { content: "\f139"; }
+.web-hosting-059-server:before { content: "\f13a"; }
+.web-hosting-060-secure-data:before { content: "\f13b"; }
+.web-hosting-061-search-engine:before { content: "\f13c"; }
+.web-hosting-062-shared-folder:before { content: "\f13d"; }
+.web-hosting-063-mobile-storage:before { content: "\f13e"; }
+.web-hosting-064-emailing:before { content: "\f13f"; }
+.web-hosting-065-hosting-server:before { content: "\f140"; }
+.web-hosting-066-server:before { content: "\f141"; }
+.web-hosting-067-shared-folder:before { content: "\f142"; }
+.web-hosting-068-keyboard:before { content: "\f143"; }
+.web-hosting-069-social-media-marketing:before { content: "\f144"; }
+.web-hosting-070-ethernet:before { content: "\f145"; }
+.web-hosting-071-server:before { content: "\f146"; }
+.web-hosting-072-global-network:before { content: "\f147"; }
+.web-hosting-073-global-network:before { content: "\f148"; }
+.web-hosting-074-sitemap:before { content: "\f149"; }
+.web-hosting-075-startup:before { content: "\f14a"; }
+.web-hosting-076-page-speed:before { content: "\f14b"; }
+.web-hosting-077-network-server:before { content: "\f14c"; }
+.web-hosting-078-speed-test:before { content: "\f14d"; }
+.web-hosting-079-data-synchronization:before { content: "\f14e"; }
+.web-hosting-080-map-location:before { content: "\f14f"; }
+.web-hosting-081-web-traffic:before { content: "\f150"; }
+.web-hosting-082-password-code:before { content: "\f151"; }
+.web-hosting-083-cloud-computing:before { content: "\f152"; }
+.web-hosting-084-web-maintenance:before { content: "\f153"; }
+.web-hosting-085-web-programming:before { content: "\f154"; }
+.web-hosting-086-web-hosting:before { content: "\f155"; }
+.web-hosting-087-debugging:before { content: "\f156"; }
+.web-hosting-088-web-traffic:before { content: "\f157"; }
+.web-hosting-089-data-storage:before { content: "\f158"; }
+.web-hosting-090-web-hosting:before { content: "\f159"; }
+.web-hosting-091-cloud-hosting:before { content: "\f15a"; }
+.web-hosting-092-security-shield:before { content: "\f15b"; }
+.web-hosting-093-maintenance:before { content: "\f15c"; }
+.web-hosting-094-server-control:before { content: "\f15d"; }
+.web-hosting-095-cyber-security:before { content: "\f15e"; }
+.web-hosting-096-seo-and-web:before { content: "\f15f"; }
+.web-hosting-097-server:before { content: "\f160"; }
+.web-hosting-098-hotspot:before { content: "\f161"; }
+.web-hosting-099-cloud-network:before { content: "\f162"; }
+.web-hosting-100-virus:before { content: "\f163"; }
+
+$font-web-hosting-001-error-page: "\f100";
+$font-web-hosting-002-data-storage: "\f101";
+$font-web-hosting-003-landing-page: "\f102";
+$font-web-hosting-004-social-network: "\f103";
+$font-web-hosting-005-cloud-storage: "\f104";
+$font-web-hosting-006-seo-and-web: "\f105";
+$font-web-hosting-007-hierarchical-structure: "\f106";
+$font-web-hosting-008-cloud-network: "\f107";
+$font-web-hosting-009-downloadings: "\f108";
+$font-web-hosting-010-network-connection: "\f109";
+$font-web-hosting-011-cloud-hosting: "\f10a";
+$font-web-hosting-012-secure-data: "\f10b";
+$font-web-hosting-013-seo-and-web: "\f10c";
+$font-web-hosting-014-social-network: "\f10d";
+$font-web-hosting-015-cloud-computing: "\f10e";
+$font-web-hosting-016-global-network: "\f10f";
+$font-web-hosting-017-web-analysis: "\f110";
+$font-web-hosting-018-cloud-hosting: "\f111";
+$font-web-hosting-019-web-security: "\f112";
+$font-web-hosting-020-cloud-network: "\f113";
+$font-web-hosting-021-mobile-search: "\f114";
+$font-web-hosting-022-data-exchange: "\f115";
+$font-web-hosting-023-network-server: "\f116";
+$font-web-hosting-024-error-404: "\f117";
+$font-web-hosting-025-web-hosting: "\f118";
+$font-web-hosting-026-web-hosting: "\f119";
+$font-web-hosting-027-premium-quality: "\f11a";
+$font-web-hosting-028-search-engine-optimization: "\f11b";
+$font-web-hosting-029-error-404: "\f11c";
+$font-web-hosting-030-web-hosting: "\f11d";
+$font-web-hosting-031-cloud-network: "\f11e";
+$font-web-hosting-032-customer-support: "\f11f";
+$font-web-hosting-033-electronic-circuit: "\f120";
+$font-web-hosting-034-pin-code: "\f121";
+$font-web-hosting-035-server-storage: "\f122";
+$font-web-hosting-036-server-storage: "\f123";
+$font-web-hosting-037-cloud-uploading: "\f124";
+$font-web-hosting-038-binocular: "\f125";
+$font-web-hosting-039-secure-data: "\f126";
+$font-web-hosting-040-printer: "\f127";
+$font-web-hosting-041-access-denied: "\f128";
+$font-web-hosting-042-home-network: "\f129";
+$font-web-hosting-043-login: "\f12a";
+$font-web-hosting-044-customer-service-agent: "\f12b";
+$font-web-hosting-045-geolocalization: "\f12c";
+$font-web-hosting-046-www: "\f12d";
+$font-web-hosting-047-page-speed: "\f12e";
+$font-web-hosting-048-web-hosting: "\f12f";
+$font-web-hosting-049-website: "\f130";
+$font-web-hosting-050-sitemap: "\f131";
+$font-web-hosting-051-global-network: "\f132";
+$font-web-hosting-052-error-page: "\f133";
+$font-web-hosting-053-web-design: "\f134";
+$font-web-hosting-054-page-not-found: "\f135";
+$font-web-hosting-055-antivirus: "\f136";
+$font-web-hosting-056-cloud-computing: "\f137";
+$font-web-hosting-057-web-hosting: "\f138";
+$font-web-hosting-058-data-network: "\f139";
+$font-web-hosting-059-server: "\f13a";
+$font-web-hosting-060-secure-data: "\f13b";
+$font-web-hosting-061-search-engine: "\f13c";
+$font-web-hosting-062-shared-folder: "\f13d";
+$font-web-hosting-063-mobile-storage: "\f13e";
+$font-web-hosting-064-emailing: "\f13f";
+$font-web-hosting-065-hosting-server: "\f140";
+$font-web-hosting-066-server: "\f141";
+$font-web-hosting-067-shared-folder: "\f142";
+$font-web-hosting-068-keyboard: "\f143";
+$font-web-hosting-069-social-media-marketing: "\f144";
+$font-web-hosting-070-ethernet: "\f145";
+$font-web-hosting-071-server: "\f146";
+$font-web-hosting-072-global-network: "\f147";
+$font-web-hosting-073-global-network: "\f148";
+$font-web-hosting-074-sitemap: "\f149";
+$font-web-hosting-075-startup: "\f14a";
+$font-web-hosting-076-page-speed: "\f14b";
+$font-web-hosting-077-network-server: "\f14c";
+$font-web-hosting-078-speed-test: "\f14d";
+$font-web-hosting-079-data-synchronization: "\f14e";
+$font-web-hosting-080-map-location: "\f14f";
+$font-web-hosting-081-web-traffic: "\f150";
+$font-web-hosting-082-password-code: "\f151";
+$font-web-hosting-083-cloud-computing: "\f152";
+$font-web-hosting-084-web-maintenance: "\f153";
+$font-web-hosting-085-web-programming: "\f154";
+$font-web-hosting-086-web-hosting: "\f155";
+$font-web-hosting-087-debugging: "\f156";
+$font-web-hosting-088-web-traffic: "\f157";
+$font-web-hosting-089-data-storage: "\f158";
+$font-web-hosting-090-web-hosting: "\f159";
+$font-web-hosting-091-cloud-hosting: "\f15a";
+$font-web-hosting-092-security-shield: "\f15b";
+$font-web-hosting-093-maintenance: "\f15c";
+$font-web-hosting-094-server-control: "\f15d";
+$font-web-hosting-095-cyber-security: "\f15e";
+$font-web-hosting-096-seo-and-web: "\f15f";
+$font-web-hosting-097-server: "\f160";
+$font-web-hosting-098-hotspot: "\f161";
+$font-web-hosting-099-cloud-network: "\f162";
+$font-web-hosting-100-virus: "\f163";

@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "design-and-development";
+  src: url("design-and-development/font/Flaticon.eot");
+  src: url("design-and-development/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("design-and-development/font/Flaticon.woff2") format("woff2"),
+       url("design-and-development/font/Flaticon.woff") format("woff"),
+       url("design-and-development/font/Flaticon.ttf") format("truetype"),
+       url("design-and-development/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "design-and-development";
+    src: url("design-and-development/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" design-and-development-"]:before,
+[class^=design-and-development-]:before {
+  font-family: "design-and-development";
+}
+
+.design-and-development-001-graphic-file:before { content: "\f100"; }
+.design-and-development-002-heart:before { content: "\f101"; }
+.design-and-development-003-documents:before { content: "\f102"; }
+.design-and-development-004-lifebelt:before { content: "\f103"; }
+.design-and-development-005-list:before { content: "\f104"; }
+.design-and-development-006-overlap:before { content: "\f105"; }
+.design-and-development-007-telescope:before { content: "\f106"; }
+.design-and-development-008-graphic-tablet:before { content: "\f107"; }
+.design-and-development-009-page-layout:before { content: "\f108"; }
+.design-and-development-010-chat:before { content: "\f109"; }
+.design-and-development-011-mobile:before { content: "\f10a"; }
+.design-and-development-012-seo-and-web:before { content: "\f10b"; }
+.design-and-development-013-media-player:before { content: "\f10c"; }
+.design-and-development-014-edit-tools:before { content: "\f10d"; }
+.design-and-development-015-sitemap:before { content: "\f10e"; }
+.design-and-development-016-web-design:before { content: "\f10f"; }
+.design-and-development-017-blog-template:before { content: "\f110"; }
+.design-and-development-018-graphic-tool:before { content: "\f111"; }
+.design-and-development-019-cube:before { content: "\f112"; }
+.design-and-development-020-video-player:before { content: "\f113"; }
+.design-and-development-021-projection-screen:before { content: "\f114"; }
+.design-and-development-022-hierarchical-structure:before { content: "\f115"; }
+.design-and-development-023-paint-tool:before { content: "\f116"; }
+.design-and-development-024-chain:before { content: "\f117"; }
+.design-and-development-025-settings:before { content: "\f118"; }
+.design-and-development-026-cloud-download:before { content: "\f119"; }
+.design-and-development-027-paper-printer:before { content: "\f11a"; }
+.design-and-development-028-configuration:before { content: "\f11b"; }
+.design-and-development-029-desk-lamp:before { content: "\f11c"; }
+.design-and-development-030-page-layout:before { content: "\f11d"; }
+.design-and-development-031-floppy:before { content: "\f11e"; }
+.design-and-development-032-camera:before { content: "\f11f"; }
+.design-and-development-033-laptop:before { content: "\f120"; }
+.design-and-development-034-gearwheel:before { content: "\f121"; }
+.design-and-development-035-magnifier:before { content: "\f122"; }
+.design-and-development-036-homepage:before { content: "\f123"; }
+.design-and-development-037-flag:before { content: "\f124"; }
+.design-and-development-038-paint-brush:before { content: "\f125"; }
+.design-and-development-039-light-bulb:before { content: "\f126"; }
+.design-and-development-040-shooting-target:before { content: "\f127"; }
+.design-and-development-041-toggle:before { content: "\f128"; }
+.design-and-development-042-equalizer:before { content: "\f129"; }
+.design-and-development-043-crop-tool:before { content: "\f12a"; }
+.design-and-development-044-briefcase:before { content: "\f12b"; }
+.design-and-development-045-cloud-network:before { content: "\f12c"; }
+.design-and-development-046-mobile-phone:before { content: "\f12d"; }
+.design-and-development-047-bezier-tool:before { content: "\f12e"; }
+.design-and-development-048-text-tool:before { content: "\f12f"; }
+.design-and-development-049-compact-disk:before { content: "\f130"; }
+.design-and-development-050-headphone:before { content: "\f131"; }
+.design-and-development-051-alignment:before { content: "\f132"; }
+.design-and-development-052-trophy:before { content: "\f133"; }
+.design-and-development-053-battery-level:before { content: "\f134"; }
+.design-and-development-054-calendar:before { content: "\f135"; }
+.design-and-development-055-web-design:before { content: "\f136"; }
+.design-and-development-056-sale-tag:before { content: "\f137"; }
+.design-and-development-057-dustbin:before { content: "\f138"; }
+.design-and-development-058-cyber-security:before { content: "\f139"; }
+.design-and-development-059-pen-tool:before { content: "\f13a"; }
+.design-and-development-060-commerce-and-shopping:before { content: "\f13b"; }
+.design-and-development-061-picture:before { content: "\f13c"; }
+.design-and-development-062-layer:before { content: "\f13d"; }
+.design-and-development-063-exclamation-mark:before { content: "\f13e"; }
+.design-and-development-064-volume-mute:before { content: "\f13f"; }
+.design-and-development-065-book:before { content: "\f140"; }
+.design-and-development-066-server-check:before { content: "\f141"; }
+.design-and-development-067-eye:before { content: "\f142"; }
+.design-and-development-068-newspaper:before { content: "\f143"; }
+.design-and-development-069-global-network:before { content: "\f144"; }
+.design-and-development-070-cinema:before { content: "\f145"; }
+.design-and-development-071-user:before { content: "\f146"; }
+.design-and-development-072-eraser-tool:before { content: "\f147"; }
+.design-and-development-073-square-calendar:before { content: "\f148"; }
+.design-and-development-074-expand:before { content: "\f149"; }
+.design-and-development-075-shield:before { content: "\f14a"; }
+.design-and-development-076-alignment:before { content: "\f14b"; }
+.design-and-development-077-bezier-tool:before { content: "\f14c"; }
+.design-and-development-078-web-design:before { content: "\f14d"; }
+.design-and-development-079-cloud-server:before { content: "\f14e"; }
+.design-and-development-080-left-alignment:before { content: "\f14f"; }
+.design-and-development-081-sitemap:before { content: "\f150"; }
+.design-and-development-082-3ds:before { content: "\f151"; }
+.design-and-development-083-video-games:before { content: "\f152"; }
+.design-and-development-084-electric-current:before { content: "\f153"; }
+.design-and-development-085-wireless-internet:before { content: "\f154"; }
+.design-and-development-086-shop:before { content: "\f155"; }
+.design-and-development-087-bank:before { content: "\f156"; }
+.design-and-development-088-web-development:before { content: "\f157"; }
+.design-and-development-089-bugs:before { content: "\f158"; }
+.design-and-development-090-web-security:before { content: "\f159"; }
+.design-and-development-091-font-style:before { content: "\f15a"; }
+.design-and-development-092-bar-graph:before { content: "\f15b"; }
+.design-and-development-093-rocket-launch:before { content: "\f15c"; }
+.design-and-development-094-thumb-up:before { content: "\f15d"; }
+.design-and-development-095-speedometer:before { content: "\f15e"; }
+.design-and-development-096-chatting:before { content: "\f15f"; }
+.design-and-development-097-sitemap:before { content: "\f160"; }
+.design-and-development-098-key:before { content: "\f161"; }
+.design-and-development-099-ship-anchor:before { content: "\f162"; }
+.design-and-development-100-puzzle:before { content: "\f163"; }
+
+$font-design-and-development-001-graphic-file: "\f100";
+$font-design-and-development-002-heart: "\f101";
+$font-design-and-development-003-documents: "\f102";
+$font-design-and-development-004-lifebelt: "\f103";
+$font-design-and-development-005-list: "\f104";
+$font-design-and-development-006-overlap: "\f105";
+$font-design-and-development-007-telescope: "\f106";
+$font-design-and-development-008-graphic-tablet: "\f107";
+$font-design-and-development-009-page-layout: "\f108";
+$font-design-and-development-010-chat: "\f109";
+$font-design-and-development-011-mobile: "\f10a";
+$font-design-and-development-012-seo-and-web: "\f10b";
+$font-design-and-development-013-media-player: "\f10c";
+$font-design-and-development-014-edit-tools: "\f10d";
+$font-design-and-development-015-sitemap: "\f10e";
+$font-design-and-development-016-web-design: "\f10f";
+$font-design-and-development-017-blog-template: "\f110";
+$font-design-and-development-018-graphic-tool: "\f111";
+$font-design-and-development-019-cube: "\f112";
+$font-design-and-development-020-video-player: "\f113";
+$font-design-and-development-021-projection-screen: "\f114";
+$font-design-and-development-022-hierarchical-structure: "\f115";
+$font-design-and-development-023-paint-tool: "\f116";
+$font-design-and-development-024-chain: "\f117";
+$font-design-and-development-025-settings: "\f118";
+$font-design-and-development-026-cloud-download: "\f119";
+$font-design-and-development-027-paper-printer: "\f11a";
+$font-design-and-development-028-configuration: "\f11b";
+$font-design-and-development-029-desk-lamp: "\f11c";
+$font-design-and-development-030-page-layout: "\f11d";
+$font-design-and-development-031-floppy: "\f11e";
+$font-design-and-development-032-camera: "\f11f";
+$font-design-and-development-033-laptop: "\f120";
+$font-design-and-development-034-gearwheel: "\f121";
+$font-design-and-development-035-magnifier: "\f122";
+$font-design-and-development-036-homepage: "\f123";
+$font-design-and-development-037-flag: "\f124";
+$font-design-and-development-038-paint-brush: "\f125";
+$font-design-and-development-039-light-bulb: "\f126";
+$font-design-and-development-040-shooting-target: "\f127";
+$font-design-and-development-041-toggle: "\f128";
+$font-design-and-development-042-equalizer: "\f129";
+$font-design-and-development-043-crop-tool: "\f12a";
+$font-design-and-development-044-briefcase: "\f12b";
+$font-design-and-development-045-cloud-network: "\f12c";
+$font-design-and-development-046-mobile-phone: "\f12d";
+$font-design-and-development-047-bezier-tool: "\f12e";
+$font-design-and-development-048-text-tool: "\f12f";
+$font-design-and-development-049-compact-disk: "\f130";
+$font-design-and-development-050-headphone: "\f131";
+$font-design-and-development-051-alignment: "\f132";
+$font-design-and-development-052-trophy: "\f133";
+$font-design-and-development-053-battery-level: "\f134";
+$font-design-and-development-054-calendar: "\f135";
+$font-design-and-development-055-web-design: "\f136";
+$font-design-and-development-056-sale-tag: "\f137";
+$font-design-and-development-057-dustbin: "\f138";
+$font-design-and-development-058-cyber-security: "\f139";
+$font-design-and-development-059-pen-tool: "\f13a";
+$font-design-and-development-060-commerce-and-shopping: "\f13b";
+$font-design-and-development-061-picture: "\f13c";
+$font-design-and-development-062-layer: "\f13d";
+$font-design-and-development-063-exclamation-mark: "\f13e";
+$font-design-and-development-064-volume-mute: "\f13f";
+$font-design-and-development-065-book: "\f140";
+$font-design-and-development-066-server-check: "\f141";
+$font-design-and-development-067-eye: "\f142";
+$font-design-and-development-068-newspaper: "\f143";
+$font-design-and-development-069-global-network: "\f144";
+$font-design-and-development-070-cinema: "\f145";
+$font-design-and-development-071-user: "\f146";
+$font-design-and-development-072-eraser-tool: "\f147";
+$font-design-and-development-073-square-calendar: "\f148";
+$font-design-and-development-074-expand: "\f149";
+$font-design-and-development-075-shield: "\f14a";
+$font-design-and-development-076-alignment: "\f14b";
+$font-design-and-development-077-bezier-tool: "\f14c";
+$font-design-and-development-078-web-design: "\f14d";
+$font-design-and-development-079-cloud-server: "\f14e";
+$font-design-and-development-080-left-alignment: "\f14f";
+$font-design-and-development-081-sitemap: "\f150";
+$font-design-and-development-082-3ds: "\f151";
+$font-design-and-development-083-video-games: "\f152";
+$font-design-and-development-084-electric-current: "\f153";
+$font-design-and-development-085-wireless-internet: "\f154";
+$font-design-and-development-086-shop: "\f155";
+$font-design-and-development-087-bank: "\f156";
+$font-design-and-development-088-web-development: "\f157";
+$font-design-and-development-089-bugs: "\f158";
+$font-design-and-development-090-web-security: "\f159";
+$font-design-and-development-091-font-style: "\f15a";
+$font-design-and-development-092-bar-graph: "\f15b";
+$font-design-and-development-093-rocket-launch: "\f15c";
+$font-design-and-development-094-thumb-up: "\f15d";
+$font-design-and-development-095-speedometer: "\f15e";
+$font-design-and-development-096-chatting: "\f15f";
+$font-design-and-development-097-sitemap: "\f160";
+$font-design-and-development-098-key: "\f161";
+$font-design-and-development-099-ship-anchor: "\f162";
+$font-design-and-development-100-puzzle: "\f163";

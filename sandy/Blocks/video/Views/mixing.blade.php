@@ -1,0 +1,1 @@
+<livewire:video-blocks-livewire :block_id="$block->id" :user_id="$block->user" :wire:key="$block->id"/>

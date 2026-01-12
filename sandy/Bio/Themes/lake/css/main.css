@@ -1,0 +1,60 @@
+/* Lake Theme Styles */
+
+.bio-wrap {
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+    border: 1px solid rgba(255,255,255,0.05) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    background: #334155 !important;
+    transform: translateY(-1px);
+}
+
+.avatar-thumb .avatar-container .thumb {
+    border: none;
+    background: {button_background} !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+}
+
+body.is-dark .bio-wrap {
+    background-color: #0F172A !important;
+}

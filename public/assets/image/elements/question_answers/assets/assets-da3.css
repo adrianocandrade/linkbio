@@ -1,0 +1,45 @@
+.questions-header .questions-header-banner{
+    position: relative;
+    max-height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 20px;
+}
+.questions-header .questions-header-banner .bio-background{
+    position: relative;
+    display: flex;
+}
+.questions-header .questions-header-banner .bio-background * {
+    position: relative;
+    height: auto;
+    border-radius: 10px 10px 0 0 !important;
+}
+.questions-header .questions-header-desc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 20px;
+    padding: 30px;
+}
+.questions-header .questions-header-desc p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.41px;
+    text-align: center;
+    margin-bottom: 26px;
+    color: rgb(17, 17, 17);
+    padding-top: 20px;
+}
+.context-body{
+    height: initial;
+    border-radius: 20px;
+}
+#app-sandy-mix #content, #app-sandy-mix.is-bio{
+    overflow: initial !important;
+}
+#app-sandy-mix #content{
+    width: 600px;
+}

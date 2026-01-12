@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "professions-icon";
+  src: url("professions/font/Flaticon.eot");
+  src: url("professions/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("professions/font/Flaticon.woff2") format("woff2"),
+       url("professions/font/Flaticon.woff") format("woff"),
+       url("professions/font/Flaticon.ttf") format("truetype"),
+       url("professions/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "professions-icon";
+    src: url("professions/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" professions-"]:before,
+[class^=professions-]:before {
+  font-family: "professions-icon";
+}
+
+.professions-001-constructor:before { content: "\f100"; }
+.professions-002-royal-guard:before { content: "\f101"; }
+.professions-003-cop:before { content: "\f102"; }
+.professions-004-cyclist:before { content: "\f103"; }
+.professions-005-pilot:before { content: "\f104"; }
+.professions-006-doctor:before { content: "\f105"; }
+.professions-007-phone-operator:before { content: "\f106"; }
+.professions-008-clown:before { content: "\f107"; }
+.professions-009-chef:before { content: "\f108"; }
+.professions-010-manager:before { content: "\f109"; }
+.professions-011-barber:before { content: "\f10a"; }
+.professions-012-farmer:before { content: "\f10b"; }
+.professions-013-chef:before { content: "\f10c"; }
+.professions-014-arab-man:before { content: "\f10d"; }
+.professions-015-nun:before { content: "\f10e"; }
+.professions-016-magician:before { content: "\f10f"; }
+.professions-017-cop:before { content: "\f110"; }
+.professions-018-muslim:before { content: "\f111"; }
+.professions-019-arab-woman:before { content: "\f112"; }
+.professions-020-athlete:before { content: "\f113"; }
+.professions-021-clerk:before { content: "\f114"; }
+.professions-022-surgeon:before { content: "\f115"; }
+.professions-023-spy:before { content: "\f116"; }
+.professions-024-diver:before { content: "\f117"; }
+.professions-025-fireman:before { content: "\f118"; }
+.professions-026-driver:before { content: "\f119"; }
+.professions-027-phone-operator:before { content: "\f11a"; }
+.professions-028-teacher:before { content: "\f11b"; }
+.professions-029-astronaut:before { content: "\f11c"; }
+.professions-030-air-hostess:before { content: "\f11d"; }
+.professions-031-magician:before { content: "\f11e"; }
+.professions-032-farmer:before { content: "\f11f"; }
+.professions-033-athlete:before { content: "\f120"; }
+.professions-034-thief:before { content: "\f121"; }
+.professions-035-nun:before { content: "\f122"; }
+.professions-036-priest:before { content: "\f123"; }
+.professions-037-miner:before { content: "\f124"; }
+.professions-038-graduate:before { content: "\f125"; }
+.professions-039-scientist:before { content: "\f126"; }
+.professions-040-flight-attendant:before { content: "\f127"; }
+.professions-041-female-doctor:before { content: "\f128"; }
+.professions-042-spy:before { content: "\f129"; }
+.professions-043-driver:before { content: "\f12a"; }
+.professions-044-surgeon:before { content: "\f12b"; }
+.professions-045-professional-profile:before { content: "\f12c"; }
+.professions-046-welder:before { content: "\f12d"; }
+.professions-047-news-reporter:before { content: "\f12e"; }
+.professions-048-businesswoman:before { content: "\f12f"; }
+.professions-049-nurse:before { content: "\f130"; }
+.professions-050-phone-operator:before { content: "\f131"; }
+.professions-051-attorney:before { content: "\f132"; }
+.professions-052-manager:before { content: "\f133"; }
+.professions-053-administrator:before { content: "\f134"; }
+.professions-054-administrator:before { content: "\f135"; }
+.professions-055-accountant:before { content: "\f136"; }
+.professions-056-employee:before { content: "\f137"; }
+.professions-057-air-hostess:before { content: "\f138"; }
+.professions-058-pilot:before { content: "\f139"; }
+.professions-059-queen:before { content: "\f13a"; }
+.professions-060-waiter:before { content: "\f13b"; }
+.professions-061-air-hostess:before { content: "\f13c"; }
+.professions-062-cooker:before { content: "\f13d"; }
+.professions-063-teacher:before { content: "\f13e"; }
+.professions-064-delivery-boy:before { content: "\f13f"; }
+.professions-065-professional-profile:before { content: "\f140"; }
+.professions-066-driver:before { content: "\f141"; }
+.professions-067-taxi-driver:before { content: "\f142"; }
+.professions-068-attorney:before { content: "\f143"; }
+.professions-069-prisoner:before { content: "\f144"; }
+.professions-070-sportsman:before { content: "\f145"; }
+.professions-071-air-hostess:before { content: "\f146"; }
+.professions-072-stewardess:before { content: "\f147"; }
+.professions-073-celebrity:before { content: "\f148"; }
+.professions-074-actress:before { content: "\f149"; }
+.professions-075-phone-operator:before { content: "\f14a"; }
+.professions-076-fireman:before { content: "\f14b"; }
+.professions-077-spy:before { content: "\f14c"; }
+.professions-078-cop:before { content: "\f14d"; }
+.professions-079-air-hostess:before { content: "\f14e"; }
+.professions-080-farmer:before { content: "\f14f"; }
+.professions-081-waiter:before { content: "\f150"; }
+.professions-082-baseball-player:before { content: "\f151"; }
+.professions-083-athletic:before { content: "\f152"; }
+.professions-084-phone-operator:before { content: "\f153"; }
+.professions-085-salesman:before { content: "\f154"; }
+.professions-086-soldier:before { content: "\f155"; }
+.professions-087-bellboy:before { content: "\f156"; }
+.professions-088-waiter:before { content: "\f157"; }
+.professions-089-welder:before { content: "\f158"; }
+.professions-090-park-ranger:before { content: "\f159"; }
+.professions-091-sportsman:before { content: "\f15a"; }
+.professions-092-welder:before { content: "\f15b"; }
+.professions-093-employer:before { content: "\f15c"; }
+.professions-094-professor:before { content: "\f15d"; }
+.professions-095-professor:before { content: "\f15e"; }
+.professions-096-businesswoman:before { content: "\f15f"; }
+.professions-097-coach:before { content: "\f160"; }
+.professions-098-receptionist:before { content: "\f161"; }
+.professions-099-personal-assistant:before { content: "\f162"; }
+.professions-100-stewardess:before { content: "\f163"; }
+
+$font-professions-001-constructor: "\f100";
+$font-professions-002-royal-guard: "\f101";
+$font-professions-003-cop: "\f102";
+$font-professions-004-cyclist: "\f103";
+$font-professions-005-pilot: "\f104";
+$font-professions-006-doctor: "\f105";
+$font-professions-007-phone-operator: "\f106";
+$font-professions-008-clown: "\f107";
+$font-professions-009-chef: "\f108";
+$font-professions-010-manager: "\f109";
+$font-professions-011-barber: "\f10a";
+$font-professions-012-farmer: "\f10b";
+$font-professions-013-chef: "\f10c";
+$font-professions-014-arab-man: "\f10d";
+$font-professions-015-nun: "\f10e";
+$font-professions-016-magician: "\f10f";
+$font-professions-017-cop: "\f110";
+$font-professions-018-muslim: "\f111";
+$font-professions-019-arab-woman: "\f112";
+$font-professions-020-athlete: "\f113";
+$font-professions-021-clerk: "\f114";
+$font-professions-022-surgeon: "\f115";
+$font-professions-023-spy: "\f116";
+$font-professions-024-diver: "\f117";
+$font-professions-025-fireman: "\f118";
+$font-professions-026-driver: "\f119";
+$font-professions-027-phone-operator: "\f11a";
+$font-professions-028-teacher: "\f11b";
+$font-professions-029-astronaut: "\f11c";
+$font-professions-030-air-hostess: "\f11d";
+$font-professions-031-magician: "\f11e";
+$font-professions-032-farmer: "\f11f";
+$font-professions-033-athlete: "\f120";
+$font-professions-034-thief: "\f121";
+$font-professions-035-nun: "\f122";
+$font-professions-036-priest: "\f123";
+$font-professions-037-miner: "\f124";
+$font-professions-038-graduate: "\f125";
+$font-professions-039-scientist: "\f126";
+$font-professions-040-flight-attendant: "\f127";
+$font-professions-041-female-doctor: "\f128";
+$font-professions-042-spy: "\f129";
+$font-professions-043-driver: "\f12a";
+$font-professions-044-surgeon: "\f12b";
+$font-professions-045-professional-profile: "\f12c";
+$font-professions-046-welder: "\f12d";
+$font-professions-047-news-reporter: "\f12e";
+$font-professions-048-businesswoman: "\f12f";
+$font-professions-049-nurse: "\f130";
+$font-professions-050-phone-operator: "\f131";
+$font-professions-051-attorney: "\f132";
+$font-professions-052-manager: "\f133";
+$font-professions-053-administrator: "\f134";
+$font-professions-054-administrator: "\f135";
+$font-professions-055-accountant: "\f136";
+$font-professions-056-employee: "\f137";
+$font-professions-057-air-hostess: "\f138";
+$font-professions-058-pilot: "\f139";
+$font-professions-059-queen: "\f13a";
+$font-professions-060-waiter: "\f13b";
+$font-professions-061-air-hostess: "\f13c";
+$font-professions-062-cooker: "\f13d";
+$font-professions-063-teacher: "\f13e";
+$font-professions-064-delivery-boy: "\f13f";
+$font-professions-065-professional-profile: "\f140";
+$font-professions-066-driver: "\f141";
+$font-professions-067-taxi-driver: "\f142";
+$font-professions-068-attorney: "\f143";
+$font-professions-069-prisoner: "\f144";
+$font-professions-070-sportsman: "\f145";
+$font-professions-071-air-hostess: "\f146";
+$font-professions-072-stewardess: "\f147";
+$font-professions-073-celebrity: "\f148";
+$font-professions-074-actress: "\f149";
+$font-professions-075-phone-operator: "\f14a";
+$font-professions-076-fireman: "\f14b";
+$font-professions-077-spy: "\f14c";
+$font-professions-078-cop: "\f14d";
+$font-professions-079-air-hostess: "\f14e";
+$font-professions-080-farmer: "\f14f";
+$font-professions-081-waiter: "\f150";
+$font-professions-082-baseball-player: "\f151";
+$font-professions-083-athletic: "\f152";
+$font-professions-084-phone-operator: "\f153";
+$font-professions-085-salesman: "\f154";
+$font-professions-086-soldier: "\f155";
+$font-professions-087-bellboy: "\f156";
+$font-professions-088-waiter: "\f157";
+$font-professions-089-welder: "\f158";
+$font-professions-090-park-ranger: "\f159";
+$font-professions-091-sportsman: "\f15a";
+$font-professions-092-welder: "\f15b";
+$font-professions-093-employer: "\f15c";
+$font-professions-094-professor: "\f15d";
+$font-professions-095-professor: "\f15e";
+$font-professions-096-businesswoman: "\f15f";
+$font-professions-097-coach: "\f160";
+$font-professions-098-receptionist: "\f161";
+$font-professions-099-personal-assistant: "\f162";
+$font-professions-100-stewardess: "\f163";

@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "ConstructionIcon";
+  src: url("construction/font/Flaticon.eot");
+  src: url("construction/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("construction/font/Flaticon.woff2") format("woff2"),
+       url("construction/font/Flaticon.woff") format("woff"),
+       url("construction/font/Flaticon.ttf") format("truetype"),
+       url("construction/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "ConstructionIcon";
+    src: url("construction/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" construction-icon-"]:before,
+[class^=construction-icon-]:before {
+  font-family: "ConstructionIcon";
+}
+
+.construction-icon-001-bricks:before { content: "\f100"; }
+.construction-icon-002-axe:before { content: "\f101"; }
+.construction-icon-003-traffic-sign:before { content: "\f102"; }
+.construction-icon-004-toolbox:before { content: "\f103"; }
+.construction-icon-005-trowel:before { content: "\f104"; }
+.construction-icon-006-plier:before { content: "\f105"; }
+.construction-icon-007-gardening-tools:before { content: "\f106"; }
+.construction-icon-008-paint-roller:before { content: "\f107"; }
+.construction-icon-009-paintbrushes:before { content: "\f108"; }
+.construction-icon-010-wheelbarrow:before { content: "\f109"; }
+.construction-icon-011-adjustable-spanner:before { content: "\f10a"; }
+.construction-icon-012-drilling-machine:before { content: "\f10b"; }
+.construction-icon-013-warning-sign:before { content: "\f10c"; }
+.construction-icon-014-pocket-knife:before { content: "\f10d"; }
+.construction-icon-015-paint-roller:before { content: "\f10e"; }
+.construction-icon-016-oil-tank:before { content: "\f10f"; }
+.construction-icon-017-gas-mask:before { content: "\f110"; }
+.construction-icon-018-cooling-tower:before { content: "\f111"; }
+.construction-icon-019-valve:before { content: "\f112"; }
+.construction-icon-020-fuel-station:before { content: "\f113"; }
+.construction-icon-021-spanner:before { content: "\f114"; }
+.construction-icon-022-electric-plug:before { content: "\f115"; }
+.construction-icon-023-pump-jack:before { content: "\f116"; }
+.construction-icon-024-traffic-cone:before { content: "\f117"; }
+.construction-icon-025-jerrycan:before { content: "\f118"; }
+.construction-icon-026-screwdriver:before { content: "\f119"; }
+.construction-icon-027-screw:before { content: "\f11a"; }
+.construction-icon-028-protractor:before { content: "\f11b"; }
+.construction-icon-029-nut:before { content: "\f11c"; }
+.construction-icon-030-clamp:before { content: "\f11d"; }
+.construction-icon-031-wrench:before { content: "\f11e"; }
+.construction-icon-032-axe:before { content: "\f11f"; }
+.construction-icon-033-hoist:before { content: "\f120"; }
+.construction-icon-034-scissor:before { content: "\f121"; }
+.construction-icon-035-spirit-level:before { content: "\f122"; }
+.construction-icon-036-dump-truck:before { content: "\f123"; }
+.construction-icon-037-signboard:before { content: "\f124"; }
+.construction-icon-038-excavator:before { content: "\f125"; }
+.construction-icon-039-harbor-crane:before { content: "\f126"; }
+.construction-icon-040-tower-crane:before { content: "\f127"; }
+.construction-icon-041-light-bulb:before { content: "\f128"; }
+.construction-icon-042-volumetric-flask:before { content: "\f129"; }
+.construction-icon-043-battery-status:before { content: "\f12a"; }
+.construction-icon-044-hoist:before { content: "\f12b"; }
+.construction-icon-045-pulley:before { content: "\f12c"; }
+.construction-icon-046-paint-bucket:before { content: "\f12d"; }
+.construction-icon-047-wheelbarrow:before { content: "\f12e"; }
+.construction-icon-048-ladder:before { content: "\f12f"; }
+.construction-icon-049-worker:before { content: "\f130"; }
+.construction-icon-050-brickwork:before { content: "\f131"; }
+.construction-icon-051-stop-sign:before { content: "\f132"; }
+.construction-icon-052-paint-spray:before { content: "\f133"; }
+.construction-icon-053-tower-crane:before { content: "\f134"; }
+.construction-icon-054-road-barrier:before { content: "\f135"; }
+.construction-icon-055-gallon:before { content: "\f136"; }
+.construction-icon-056-construction-worker:before { content: "\f137"; }
+.construction-icon-057-repair-tools:before { content: "\f138"; }
+.construction-icon-058-bulldozer:before { content: "\f139"; }
+.construction-icon-059-drilling-machine:before { content: "\f13a"; }
+.construction-icon-060-pliers-tool:before { content: "\f13b"; }
+.construction-icon-061-vest-buoy:before { content: "\f13c"; }
+.construction-icon-062-traffic-cone:before { content: "\f13d"; }
+.construction-icon-063-paint-roller:before { content: "\f13e"; }
+.construction-icon-064-hammer:before { content: "\f13f"; }
+.construction-icon-065-jackhammer:before { content: "\f140"; }
+.construction-icon-066-greek-pillars:before { content: "\f141"; }
+.construction-icon-067-cooling-tower:before { content: "\f142"; }
+.construction-icon-068-paintbrush:before { content: "\f143"; }
+.construction-icon-069-spade:before { content: "\f144"; }
+.construction-icon-070-house:before { content: "\f145"; }
+.construction-icon-071-measuring-tape:before { content: "\f146"; }
+.construction-icon-072-dump-truck:before { content: "\f147"; }
+.construction-icon-073-circular-saw:before { content: "\f148"; }
+.construction-icon-074-forbidden-sign:before { content: "\f149"; }
+.construction-icon-075-light-bulb:before { content: "\f14a"; }
+.construction-icon-076-cement:before { content: "\f14b"; }
+.construction-icon-077-hard-hat:before { content: "\f14c"; }
+.construction-icon-078-electric-saw:before { content: "\f14d"; }
+.construction-icon-079-door-sign:before { content: "\f14e"; }
+.construction-icon-080-hoist:before { content: "\f14f"; }
+.construction-icon-081-paintbrush:before { content: "\f150"; }
+.construction-icon-082-house:before { content: "\f151"; }
+.construction-icon-083-spray-bottle:before { content: "\f152"; }
+.construction-icon-084-siren:before { content: "\f153"; }
+.construction-icon-085-set-square:before { content: "\f154"; }
+.construction-icon-086-water-tap:before { content: "\f155"; }
+.construction-icon-087-electric-socket:before { content: "\f156"; }
+.construction-icon-088-valve:before { content: "\f157"; }
+.construction-icon-089-fire-hydrant:before { content: "\f158"; }
+.construction-icon-090-hand-saw:before { content: "\f159"; }
+.construction-icon-091-ladder:before { content: "\f15a"; }
+.construction-icon-092-traffic-sign:before { content: "\f15b"; }
+.construction-icon-093-valve:before { content: "\f15c"; }
+.construction-icon-094-dump-truck:before { content: "\f15d"; }
+.construction-icon-095-hand-saw-tool:before { content: "\f15e"; }
+.construction-icon-096-wrench:before { content: "\f15f"; }
+.construction-icon-097-wrench:before { content: "\f160"; }
+.construction-icon-098-building-plan:before { content: "\f161"; }
+.construction-icon-099-map:before { content: "\f162"; }
+.construction-icon-100-rain-boots:before { content: "\f163"; }
+
+$font-construction-icon-001-bricks: "\f100";
+$font-construction-icon-002-axe: "\f101";
+$font-construction-icon-003-traffic-sign: "\f102";
+$font-construction-icon-004-toolbox: "\f103";
+$font-construction-icon-005-trowel: "\f104";
+$font-construction-icon-006-plier: "\f105";
+$font-construction-icon-007-gardening-tools: "\f106";
+$font-construction-icon-008-paint-roller: "\f107";
+$font-construction-icon-009-paintbrushes: "\f108";
+$font-construction-icon-010-wheelbarrow: "\f109";
+$font-construction-icon-011-adjustable-spanner: "\f10a";
+$font-construction-icon-012-drilling-machine: "\f10b";
+$font-construction-icon-013-warning-sign: "\f10c";
+$font-construction-icon-014-pocket-knife: "\f10d";
+$font-construction-icon-015-paint-roller: "\f10e";
+$font-construction-icon-016-oil-tank: "\f10f";
+$font-construction-icon-017-gas-mask: "\f110";
+$font-construction-icon-018-cooling-tower: "\f111";
+$font-construction-icon-019-valve: "\f112";
+$font-construction-icon-020-fuel-station: "\f113";
+$font-construction-icon-021-spanner: "\f114";
+$font-construction-icon-022-electric-plug: "\f115";
+$font-construction-icon-023-pump-jack: "\f116";
+$font-construction-icon-024-traffic-cone: "\f117";
+$font-construction-icon-025-jerrycan: "\f118";
+$font-construction-icon-026-screwdriver: "\f119";
+$font-construction-icon-027-screw: "\f11a";
+$font-construction-icon-028-protractor: "\f11b";
+$font-construction-icon-029-nut: "\f11c";
+$font-construction-icon-030-clamp: "\f11d";
+$font-construction-icon-031-wrench: "\f11e";
+$font-construction-icon-032-axe: "\f11f";
+$font-construction-icon-033-hoist: "\f120";
+$font-construction-icon-034-scissor: "\f121";
+$font-construction-icon-035-spirit-level: "\f122";
+$font-construction-icon-036-dump-truck: "\f123";
+$font-construction-icon-037-signboard: "\f124";
+$font-construction-icon-038-excavator: "\f125";
+$font-construction-icon-039-harbor-crane: "\f126";
+$font-construction-icon-040-tower-crane: "\f127";
+$font-construction-icon-041-light-bulb: "\f128";
+$font-construction-icon-042-volumetric-flask: "\f129";
+$font-construction-icon-043-battery-status: "\f12a";
+$font-construction-icon-044-hoist: "\f12b";
+$font-construction-icon-045-pulley: "\f12c";
+$font-construction-icon-046-paint-bucket: "\f12d";
+$font-construction-icon-047-wheelbarrow: "\f12e";
+$font-construction-icon-048-ladder: "\f12f";
+$font-construction-icon-049-worker: "\f130";
+$font-construction-icon-050-brickwork: "\f131";
+$font-construction-icon-051-stop-sign: "\f132";
+$font-construction-icon-052-paint-spray: "\f133";
+$font-construction-icon-053-tower-crane: "\f134";
+$font-construction-icon-054-road-barrier: "\f135";
+$font-construction-icon-055-gallon: "\f136";
+$font-construction-icon-056-construction-worker: "\f137";
+$font-construction-icon-057-repair-tools: "\f138";
+$font-construction-icon-058-bulldozer: "\f139";
+$font-construction-icon-059-drilling-machine: "\f13a";
+$font-construction-icon-060-pliers-tool: "\f13b";
+$font-construction-icon-061-vest-buoy: "\f13c";
+$font-construction-icon-062-traffic-cone: "\f13d";
+$font-construction-icon-063-paint-roller: "\f13e";
+$font-construction-icon-064-hammer: "\f13f";
+$font-construction-icon-065-jackhammer: "\f140";
+$font-construction-icon-066-greek-pillars: "\f141";
+$font-construction-icon-067-cooling-tower: "\f142";
+$font-construction-icon-068-paintbrush: "\f143";
+$font-construction-icon-069-spade: "\f144";
+$font-construction-icon-070-house: "\f145";
+$font-construction-icon-071-measuring-tape: "\f146";
+$font-construction-icon-072-dump-truck: "\f147";
+$font-construction-icon-073-circular-saw: "\f148";
+$font-construction-icon-074-forbidden-sign: "\f149";
+$font-construction-icon-075-light-bulb: "\f14a";
+$font-construction-icon-076-cement: "\f14b";
+$font-construction-icon-077-hard-hat: "\f14c";
+$font-construction-icon-078-electric-saw: "\f14d";
+$font-construction-icon-079-door-sign: "\f14e";
+$font-construction-icon-080-hoist: "\f14f";
+$font-construction-icon-081-paintbrush: "\f150";
+$font-construction-icon-082-house: "\f151";
+$font-construction-icon-083-spray-bottle: "\f152";
+$font-construction-icon-084-siren: "\f153";
+$font-construction-icon-085-set-square: "\f154";
+$font-construction-icon-086-water-tap: "\f155";
+$font-construction-icon-087-electric-socket: "\f156";
+$font-construction-icon-088-valve: "\f157";
+$font-construction-icon-089-fire-hydrant: "\f158";
+$font-construction-icon-090-hand-saw: "\f159";
+$font-construction-icon-091-ladder: "\f15a";
+$font-construction-icon-092-traffic-sign: "\f15b";
+$font-construction-icon-093-valve: "\f15c";
+$font-construction-icon-094-dump-truck: "\f15d";
+$font-construction-icon-095-hand-saw-tool: "\f15e";
+$font-construction-icon-096-wrench: "\f15f";
+$font-construction-icon-097-wrench: "\f160";
+$font-construction-icon-098-building-plan: "\f161";
+$font-construction-icon-099-map: "\f162";
+$font-construction-icon-100-rain-boots: "\f163";

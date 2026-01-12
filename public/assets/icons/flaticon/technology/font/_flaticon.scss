@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "TechnologyFlaticon";
+  src: url("technology/font/Flaticon.eot");
+  src: url("technology/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("technology/font/Flaticon.woff2") format("woff2"),
+       url("technology/font/Flaticon.woff") format("woff"),
+       url("technology/font/Flaticon.ttf") format("truetype"),
+       url("technology/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("technology/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" technology-flaticon-"]:before,
+[class^=technology-flaticon-]:before {
+  display: inline-block;
+  font-family: "TechnologyFlaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.technology-flaticon-001-folder-network:before { content: "\f100"; }
+.technology-flaticon-002-web-camera:before { content: "\f101"; }
+.technology-flaticon-003-email:before { content: "\f102"; }
+.technology-flaticon-004-power-switch:before { content: "\f103"; }
+.technology-flaticon-005-cpu-tower:before { content: "\f104"; }
+.technology-flaticon-006-modem:before { content: "\f105"; }
+.technology-flaticon-007-printer:before { content: "\f106"; }
+.technology-flaticon-008-woofer:before { content: "\f107"; }
+.technology-flaticon-009-customer-care:before { content: "\f108"; }
+.technology-flaticon-010-modem:before { content: "\f109"; }
+.technology-flaticon-011-multimedia-controls:before { content: "\f10a"; }
+.technology-flaticon-012-server:before { content: "\f10b"; }
+.technology-flaticon-013-keyboard:before { content: "\f10c"; }
+.technology-flaticon-014-multimedia-option:before { content: "\f10d"; }
+.technology-flaticon-015-cloud-uploading:before { content: "\f10e"; }
+.technology-flaticon-016-plug:before { content: "\f10f"; }
+.technology-flaticon-017-mobile-phones:before { content: "\f110"; }
+.technology-flaticon-018-washing-machine:before { content: "\f111"; }
+.technology-flaticon-019-equalizer:before { content: "\f112"; }
+.technology-flaticon-020-television:before { content: "\f113"; }
+.technology-flaticon-021-video-camera:before { content: "\f114"; }
+.technology-flaticon-022-usb:before { content: "\f115"; }
+.technology-flaticon-023-log-in:before { content: "\f116"; }
+.technology-flaticon-024-graphic-card:before { content: "\f117"; }
+.technology-flaticon-025-speaker:before { content: "\f118"; }
+.technology-flaticon-026-usb:before { content: "\f119"; }
+.technology-flaticon-027-processor:before { content: "\f11a"; }
+.technology-flaticon-028-orbit:before { content: "\f11b"; }
+.technology-flaticon-029-speaker-box:before { content: "\f11c"; }
+.technology-flaticon-030-experiments:before { content: "\f11d"; }
+.technology-flaticon-031-robotic-hand:before { content: "\f11e"; }
+.technology-flaticon-032-artificial-intelligence:before { content: "\f11f"; }
+.technology-flaticon-033-question:before { content: "\f120"; }
+.technology-flaticon-034-ram:before { content: "\f121"; }
+.technology-flaticon-035-caliper:before { content: "\f122"; }
+.technology-flaticon-036-data-security:before { content: "\f123"; }
+.technology-flaticon-037-piston:before { content: "\f124"; }
+.technology-flaticon-038-startup:before { content: "\f125"; }
+.technology-flaticon-039-cooling-fan:before { content: "\f126"; }
+.technology-flaticon-040-memory-card:before { content: "\f127"; }
+.technology-flaticon-041-idea:before { content: "\f128"; }
+.technology-flaticon-042-battery:before { content: "\f129"; }
+.technology-flaticon-043-compact-disk:before { content: "\f12a"; }
+.technology-flaticon-044-circuit:before { content: "\f12b"; }
+.technology-flaticon-045-usb-connector:before { content: "\f12c"; }
+.technology-flaticon-046-video-player:before { content: "\f12d"; }
+.technology-flaticon-047-robot:before { content: "\f12e"; }
+.technology-flaticon-048-battery:before { content: "\f12f"; }
+.technology-flaticon-049-gas-mask:before { content: "\f130"; }
+.technology-flaticon-050-fingerprint-scanning:before { content: "\f131"; }
+.technology-flaticon-051-bomb:before { content: "\f132"; }
+.technology-flaticon-052-usb-cable:before { content: "\f133"; }
+.technology-flaticon-053-cordless-phone:before { content: "\f134"; }
+.technology-flaticon-054-wristwatch:before { content: "\f135"; }
+.technology-flaticon-055-smartwatch:before { content: "\f136"; }
+.technology-flaticon-056-laptop:before { content: "\f137"; }
+.technology-flaticon-057-torch:before { content: "\f138"; }
+.technology-flaticon-058-light-bulb:before { content: "\f139"; }
+.technology-flaticon-059-usb-connector:before { content: "\f13a"; }
+.technology-flaticon-060-megaphone:before { content: "\f13b"; }
+.technology-flaticon-061-floppy-disc:before { content: "\f13c"; }
+.technology-flaticon-062-graphic-tablet:before { content: "\f13d"; }
+.technology-flaticon-063-swiss-knife:before { content: "\f13e"; }
+.technology-flaticon-064-3d-glasses:before { content: "\f13f"; }
+.technology-flaticon-065-network:before { content: "\f140"; }
+.technology-flaticon-066-projector:before { content: "\f141"; }
+.technology-flaticon-067-monitor:before { content: "\f142"; }
+.technology-flaticon-068-cloud-download:before { content: "\f143"; }
+.technology-flaticon-069-camera:before { content: "\f144"; }
+.technology-flaticon-070-cloud-storage:before { content: "\f145"; }
+.technology-flaticon-071-cloud-computing:before { content: "\f146"; }
+.technology-flaticon-072-multiple-devices:before { content: "\f147"; }
+.technology-flaticon-073-communication:before { content: "\f148"; }
+.technology-flaticon-074-shared:before { content: "\f149"; }
+.technology-flaticon-075-radio:before { content: "\f14a"; }
+.technology-flaticon-076-communications:before { content: "\f14b"; }
+.technology-flaticon-077-network:before { content: "\f14c"; }
+.technology-flaticon-078-hard-drive:before { content: "\f14d"; }
+.technology-flaticon-079-app-development:before { content: "\f14e"; }
+.technology-flaticon-080-circuit:before { content: "\f14f"; }
+.technology-flaticon-081-hd-screen:before { content: "\f150"; }
+.technology-flaticon-082-camcorder:before { content: "\f151"; }
+.technology-flaticon-083-share:before { content: "\f152"; }
+.technology-flaticon-084-video-player:before { content: "\f153"; }
+.technology-flaticon-085-signals:before { content: "\f154"; }
+.technology-flaticon-086-magnetism:before { content: "\f155"; }
+.technology-flaticon-087-toaster:before { content: "\f156"; }
+.technology-flaticon-088-jigsaw:before { content: "\f157"; }
+.technology-flaticon-089-mouse:before { content: "\f158"; }
+.technology-flaticon-090-battery:before { content: "\f159"; }
+.technology-flaticon-091-microphone:before { content: "\f15a"; }
+.technology-flaticon-092-home-network:before { content: "\f15b"; }
+.technology-flaticon-093-wireless:before { content: "\f15c"; }
+.technology-flaticon-094-cloud-storage:before { content: "\f15d"; }
+.technology-flaticon-095-film-reel:before { content: "\f15e"; }
+.technology-flaticon-096-cctv-camera:before { content: "\f15f"; }
+.technology-flaticon-097-brain:before { content: "\f160"; }
+.technology-flaticon-098-film-strip:before { content: "\f161"; }
+.technology-flaticon-099-conversation:before { content: "\f162"; }
+
+$font-technology-flaticon-001-folder-network: "\f100";
+$font-technology-flaticon-002-web-camera: "\f101";
+$font-technology-flaticon-003-email: "\f102";
+$font-technology-flaticon-004-power-switch: "\f103";
+$font-technology-flaticon-005-cpu-tower: "\f104";
+$font-technology-flaticon-006-modem: "\f105";
+$font-technology-flaticon-007-printer: "\f106";
+$font-technology-flaticon-008-woofer: "\f107";
+$font-technology-flaticon-009-customer-care: "\f108";
+$font-technology-flaticon-010-modem: "\f109";
+$font-technology-flaticon-011-multimedia-controls: "\f10a";
+$font-technology-flaticon-012-server: "\f10b";
+$font-technology-flaticon-013-keyboard: "\f10c";
+$font-technology-flaticon-014-multimedia-option: "\f10d";
+$font-technology-flaticon-015-cloud-uploading: "\f10e";
+$font-technology-flaticon-016-plug: "\f10f";
+$font-technology-flaticon-017-mobile-phones: "\f110";
+$font-technology-flaticon-018-washing-machine: "\f111";
+$font-technology-flaticon-019-equalizer: "\f112";
+$font-technology-flaticon-020-television: "\f113";
+$font-technology-flaticon-021-video-camera: "\f114";
+$font-technology-flaticon-022-usb: "\f115";
+$font-technology-flaticon-023-log-in: "\f116";
+$font-technology-flaticon-024-graphic-card: "\f117";
+$font-technology-flaticon-025-speaker: "\f118";
+$font-technology-flaticon-026-usb: "\f119";
+$font-technology-flaticon-027-processor: "\f11a";
+$font-technology-flaticon-028-orbit: "\f11b";
+$font-technology-flaticon-029-speaker-box: "\f11c";
+$font-technology-flaticon-030-experiments: "\f11d";
+$font-technology-flaticon-031-robotic-hand: "\f11e";
+$font-technology-flaticon-032-artificial-intelligence: "\f11f";
+$font-technology-flaticon-033-question: "\f120";
+$font-technology-flaticon-034-ram: "\f121";
+$font-technology-flaticon-035-caliper: "\f122";
+$font-technology-flaticon-036-data-security: "\f123";
+$font-technology-flaticon-037-piston: "\f124";
+$font-technology-flaticon-038-startup: "\f125";
+$font-technology-flaticon-039-cooling-fan: "\f126";
+$font-technology-flaticon-040-memory-card: "\f127";
+$font-technology-flaticon-041-idea: "\f128";
+$font-technology-flaticon-042-battery: "\f129";
+$font-technology-flaticon-043-compact-disk: "\f12a";
+$font-technology-flaticon-044-circuit: "\f12b";
+$font-technology-flaticon-045-usb-connector: "\f12c";
+$font-technology-flaticon-046-video-player: "\f12d";
+$font-technology-flaticon-047-robot: "\f12e";
+$font-technology-flaticon-048-battery: "\f12f";
+$font-technology-flaticon-049-gas-mask: "\f130";
+$font-technology-flaticon-050-fingerprint-scanning: "\f131";
+$font-technology-flaticon-051-bomb: "\f132";
+$font-technology-flaticon-052-usb-cable: "\f133";
+$font-technology-flaticon-053-cordless-phone: "\f134";
+$font-technology-flaticon-054-wristwatch: "\f135";
+$font-technology-flaticon-055-smartwatch: "\f136";
+$font-technology-flaticon-056-laptop: "\f137";
+$font-technology-flaticon-057-torch: "\f138";
+$font-technology-flaticon-058-light-bulb: "\f139";
+$font-technology-flaticon-059-usb-connector: "\f13a";
+$font-technology-flaticon-060-megaphone: "\f13b";
+$font-technology-flaticon-061-floppy-disc: "\f13c";
+$font-technology-flaticon-062-graphic-tablet: "\f13d";
+$font-technology-flaticon-063-swiss-knife: "\f13e";
+$font-technology-flaticon-064-3d-glasses: "\f13f";
+$font-technology-flaticon-065-network: "\f140";
+$font-technology-flaticon-066-projector: "\f141";
+$font-technology-flaticon-067-monitor: "\f142";
+$font-technology-flaticon-068-cloud-download: "\f143";
+$font-technology-flaticon-069-camera: "\f144";
+$font-technology-flaticon-070-cloud-storage: "\f145";
+$font-technology-flaticon-071-cloud-computing: "\f146";
+$font-technology-flaticon-072-multiple-devices: "\f147";
+$font-technology-flaticon-073-communication: "\f148";
+$font-technology-flaticon-074-shared: "\f149";
+$font-technology-flaticon-075-radio: "\f14a";
+$font-technology-flaticon-076-communications: "\f14b";
+$font-technology-flaticon-077-network: "\f14c";
+$font-technology-flaticon-078-hard-drive: "\f14d";
+$font-technology-flaticon-079-app-development: "\f14e";
+$font-technology-flaticon-080-circuit: "\f14f";
+$font-technology-flaticon-081-hd-screen: "\f150";
+$font-technology-flaticon-082-camcorder: "\f151";
+$font-technology-flaticon-083-share: "\f152";
+$font-technology-flaticon-084-video-player: "\f153";
+$font-technology-flaticon-085-signals: "\f154";
+$font-technology-flaticon-086-magnetism: "\f155";
+$font-technology-flaticon-087-toaster: "\f156";
+$font-technology-flaticon-088-jigsaw: "\f157";
+$font-technology-flaticon-089-mouse: "\f158";
+$font-technology-flaticon-090-battery: "\f159";
+$font-technology-flaticon-091-microphone: "\f15a";
+$font-technology-flaticon-092-home-network: "\f15b";
+$font-technology-flaticon-093-wireless: "\f15c";
+$font-technology-flaticon-094-cloud-storage: "\f15d";
+$font-technology-flaticon-095-film-reel: "\f15e";
+$font-technology-flaticon-096-cctv-camera: "\f15f";
+$font-technology-flaticon-097-brain: "\f160";
+$font-technology-flaticon-098-film-strip: "\f161";
+$font-technology-flaticon-099-conversation: "\f162";

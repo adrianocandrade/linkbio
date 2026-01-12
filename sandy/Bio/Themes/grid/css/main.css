@@ -1,0 +1,70 @@
+/* Grid Theme Styles */
+
+.bio-wrap {
+    background-color: #CCDDD3;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #1A1A1A;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+    border: 2px solid #1A1A1A !important;
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.2) !important;
+    border-radius: 0 !important;
+}
+
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.3) !important;
+}
+
+.avatar-thumb .avatar-container .thumb {
+    border: 3px solid #1A1A1A;
+    background: {button_background} !important;
+    border-radius: 0 !important;
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+    font-family: 'Space Mono', monospace;
+}
+
+body.is-dark .bio-wrap {
+    background-color: #111;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+}

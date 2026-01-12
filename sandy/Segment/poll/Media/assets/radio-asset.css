@@ -1,0 +1,48 @@
+
+.sandy-big-checkbox.is-vote .checkbox-inner{
+    height: initial;
+    padding: 18px 25px;
+    border-radius: 550px;
+    border: 1.5px solid #f0f0f0;
+}
+
+.sandy-big-checkbox.is-vote .sandy-input-inner:checked + .checkbox-inner {
+    border-color: #000;
+}
+.sandy-big-checkbox.is-vote.show-result{
+    
+}
+
+.sandy-big-checkbox.is-vote.show-result .checkbox-inner{
+    border: 0 !important;
+}
+
+.sandy-big-checkbox.is-vote.show-result .result-first-half{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: calc(100% - 4px);
+    border-radius: 500px;
+    background-color: rgb(31 31 31 / 15%);
+}
+.sandy-big-checkbox.is-vote .checkbox-inner h1{
+    z-index: 99;
+    position: relative;
+}
+
+.sandy-big-checkbox.is-vote.show-result .result-end{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0px, -50%);
+}
+.sandy-big-checkbox.is-vote.show-result .content{
+    display: flex;
+}
+
+.sandy-big-checkbox.is-vote.show-result.has-voted .checkbox-inner{
+    border-color: rgba(97,186,255,1);
+}
+.sandy-big-checkbox.is-vote.show-result.has-voted .result-first-half{
+    background: rgba(97,186,255,1);
+}

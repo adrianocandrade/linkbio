@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "office-icon";
+  src: url("office/font/Flaticon.eot");
+  src: url("office/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("office/font/Flaticon.woff2") format("woff2"),
+       url("office/font/Flaticon.woff") format("woff"),
+       url("office/font/Flaticon.ttf") format("truetype"),
+       url("office/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "office-icon";
+    src: url("office/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" office-"]:before,
+[class^=office-]:before {
+  font-family: "office-icon";
+}
+
+.office-001-basket:before { content: "\f100"; }
+.office-002-lifesaver:before { content: "\f101"; }
+.office-003-magnifying-glass:before { content: "\f102"; }
+.office-004-adhesive-tape:before { content: "\f103"; }
+.office-005-calendar:before { content: "\f104"; }
+.office-006-stapler:before { content: "\f105"; }
+.office-007-coffee-machine:before { content: "\f106"; }
+.office-008-recycle-bin:before { content: "\f107"; }
+.office-009-usb:before { content: "\f108"; }
+.office-010-paper-plane:before { content: "\f109"; }
+.office-011-dollar-coin:before { content: "\f10a"; }
+.office-012-web-development:before { content: "\f10b"; }
+.office-013-vision:before { content: "\f10c"; }
+.office-014-global-network:before { content: "\f10d"; }
+.office-015-marketing-online:before { content: "\f10e"; }
+.office-016-chatting:before { content: "\f10f"; }
+.office-017-pencil:before { content: "\f110"; }
+.office-018-smartphone:before { content: "\f111"; }
+.office-019-map-pin:before { content: "\f112"; }
+.office-020-computer-monitor:before { content: "\f113"; }
+.office-021-bar-chart:before { content: "\f114"; }
+.office-022-startup:before { content: "\f115"; }
+.office-023-live-streaming:before { content: "\f116"; }
+.office-024-manager:before { content: "\f117"; }
+.office-025-signpost:before { content: "\f118"; }
+.office-026-organization-structure:before { content: "\f119"; }
+.office-027-spam-alert:before { content: "\f11a"; }
+.office-028-businesswoman:before { content: "\f11b"; }
+.office-029-power-plug:before { content: "\f11c"; }
+.office-030-cogwheel:before { content: "\f11d"; }
+.office-031-notepad:before { content: "\f11e"; }
+.office-032-floppy-disk:before { content: "\f11f"; }
+.office-033-stopwatch:before { content: "\f120"; }
+.office-034-pie-chart:before { content: "\f121"; }
+.office-035-credit-cards:before { content: "\f122"; }
+.office-036-page-layout:before { content: "\f123"; }
+.office-037-star:before { content: "\f124"; }
+.office-038-page-layout:before { content: "\f125"; }
+.office-039-new-email:before { content: "\f126"; }
+.office-040-business-and-finance:before { content: "\f127"; }
+.office-041-money-sack:before { content: "\f128"; }
+.office-042-ribbon-badge:before { content: "\f129"; }
+.office-043-businessman:before { content: "\f12a"; }
+.office-044-project-plan:before { content: "\f12b"; }
+.office-045-necktie:before { content: "\f12c"; }
+.office-046-binoculars:before { content: "\f12d"; }
+.office-047-checkmark:before { content: "\f12e"; }
+.office-048-faq:before { content: "\f12f"; }
+.office-049-chess-piece:before { content: "\f130"; }
+.office-050-thumbtacks:before { content: "\f131"; }
+.office-051-light-bulb:before { content: "\f132"; }
+.office-052-file-folder:before { content: "\f133"; }
+.office-053-binder-clip:before { content: "\f134"; }
+.office-054-briefcase:before { content: "\f135"; }
+.office-055-desk-lamp:before { content: "\f136"; }
+.office-056-wall-clock:before { content: "\f137"; }
+.office-057-business-report:before { content: "\f138"; }
+.office-058-cactus:before { content: "\f139"; }
+.office-059-hierarchical-structure:before { content: "\f13a"; }
+.office-060-newspaper:before { content: "\f13b"; }
+.office-061-phonebook:before { content: "\f13c"; }
+.office-062-tea:before { content: "\f13d"; }
+.office-063-file-sharing:before { content: "\f13e"; }
+.office-064-files-and-folders:before { content: "\f13f"; }
+.office-065-open-mail:before { content: "\f140"; }
+.office-066-telephone:before { content: "\f141"; }
+.office-067-id-card:before { content: "\f142"; }
+.office-068-pencilcase:before { content: "\f143"; }
+.office-069-address-book:before { content: "\f144"; }
+.office-070-projection-screen:before { content: "\f145"; }
+.office-071-calculator:before { content: "\f146"; }
+.office-072-wireless-internet:before { content: "\f147"; }
+.office-073-house:before { content: "\f148"; }
+.office-074-telephone-receiver:before { content: "\f149"; }
+.office-075-scissor:before { content: "\f14a"; }
+.office-076-sim-card:before { content: "\f14b"; }
+.office-077-id-card:before { content: "\f14c"; }
+.office-078-curriculum-vitae:before { content: "\f14d"; }
+.office-079-dollar-coin:before { content: "\f14e"; }
+.office-080-office-table:before { content: "\f14f"; }
+.office-081-office-chair:before { content: "\f150"; }
+.office-082-text-document:before { content: "\f151"; }
+.office-083-wax-seal:before { content: "\f152"; }
+.office-084-paper-printer:before { content: "\f153"; }
+.office-085-id-card:before { content: "\f154"; }
+.office-086-file-folder:before { content: "\f155"; }
+.office-087-highlighter:before { content: "\f156"; }
+.office-088-tea:before { content: "\f157"; }
+.office-089-globe:before { content: "\f158"; }
+.office-090-paper-cutter:before { content: "\f159"; }
+.office-091-price-tag:before { content: "\f15a"; }
+.office-092-desk-lamp:before { content: "\f15b"; }
+.office-093-money-sack:before { content: "\f15c"; }
+.office-094-chest-of-drawers:before { content: "\f15d"; }
+.office-095-headphone:before { content: "\f15e"; }
+.office-096-up-arrow-upload:before { content: "\f15f"; }
+.office-097-hourglass:before { content: "\f160"; }
+.office-098-diamond:before { content: "\f161"; }
+.office-099-coins-stack:before { content: "\f162"; }
+.office-100-fedora-hat:before { content: "\f163"; }
+
+$font-office-001-basket: "\f100";
+$font-office-002-lifesaver: "\f101";
+$font-office-003-magnifying-glass: "\f102";
+$font-office-004-adhesive-tape: "\f103";
+$font-office-005-calendar: "\f104";
+$font-office-006-stapler: "\f105";
+$font-office-007-coffee-machine: "\f106";
+$font-office-008-recycle-bin: "\f107";
+$font-office-009-usb: "\f108";
+$font-office-010-paper-plane: "\f109";
+$font-office-011-dollar-coin: "\f10a";
+$font-office-012-web-development: "\f10b";
+$font-office-013-vision: "\f10c";
+$font-office-014-global-network: "\f10d";
+$font-office-015-marketing-online: "\f10e";
+$font-office-016-chatting: "\f10f";
+$font-office-017-pencil: "\f110";
+$font-office-018-smartphone: "\f111";
+$font-office-019-map-pin: "\f112";
+$font-office-020-computer-monitor: "\f113";
+$font-office-021-bar-chart: "\f114";
+$font-office-022-startup: "\f115";
+$font-office-023-live-streaming: "\f116";
+$font-office-024-manager: "\f117";
+$font-office-025-signpost: "\f118";
+$font-office-026-organization-structure: "\f119";
+$font-office-027-spam-alert: "\f11a";
+$font-office-028-businesswoman: "\f11b";
+$font-office-029-power-plug: "\f11c";
+$font-office-030-cogwheel: "\f11d";
+$font-office-031-notepad: "\f11e";
+$font-office-032-floppy-disk: "\f11f";
+$font-office-033-stopwatch: "\f120";
+$font-office-034-pie-chart: "\f121";
+$font-office-035-credit-cards: "\f122";
+$font-office-036-page-layout: "\f123";
+$font-office-037-star: "\f124";
+$font-office-038-page-layout: "\f125";
+$font-office-039-new-email: "\f126";
+$font-office-040-business-and-finance: "\f127";
+$font-office-041-money-sack: "\f128";
+$font-office-042-ribbon-badge: "\f129";
+$font-office-043-businessman: "\f12a";
+$font-office-044-project-plan: "\f12b";
+$font-office-045-necktie: "\f12c";
+$font-office-046-binoculars: "\f12d";
+$font-office-047-checkmark: "\f12e";
+$font-office-048-faq: "\f12f";
+$font-office-049-chess-piece: "\f130";
+$font-office-050-thumbtacks: "\f131";
+$font-office-051-light-bulb: "\f132";
+$font-office-052-file-folder: "\f133";
+$font-office-053-binder-clip: "\f134";
+$font-office-054-briefcase: "\f135";
+$font-office-055-desk-lamp: "\f136";
+$font-office-056-wall-clock: "\f137";
+$font-office-057-business-report: "\f138";
+$font-office-058-cactus: "\f139";
+$font-office-059-hierarchical-structure: "\f13a";
+$font-office-060-newspaper: "\f13b";
+$font-office-061-phonebook: "\f13c";
+$font-office-062-tea: "\f13d";
+$font-office-063-file-sharing: "\f13e";
+$font-office-064-files-and-folders: "\f13f";
+$font-office-065-open-mail: "\f140";
+$font-office-066-telephone: "\f141";
+$font-office-067-id-card: "\f142";
+$font-office-068-pencilcase: "\f143";
+$font-office-069-address-book: "\f144";
+$font-office-070-projection-screen: "\f145";
+$font-office-071-calculator: "\f146";
+$font-office-072-wireless-internet: "\f147";
+$font-office-073-house: "\f148";
+$font-office-074-telephone-receiver: "\f149";
+$font-office-075-scissor: "\f14a";
+$font-office-076-sim-card: "\f14b";
+$font-office-077-id-card: "\f14c";
+$font-office-078-curriculum-vitae: "\f14d";
+$font-office-079-dollar-coin: "\f14e";
+$font-office-080-office-table: "\f14f";
+$font-office-081-office-chair: "\f150";
+$font-office-082-text-document: "\f151";
+$font-office-083-wax-seal: "\f152";
+$font-office-084-paper-printer: "\f153";
+$font-office-085-id-card: "\f154";
+$font-office-086-file-folder: "\f155";
+$font-office-087-highlighter: "\f156";
+$font-office-088-tea: "\f157";
+$font-office-089-globe: "\f158";
+$font-office-090-paper-cutter: "\f159";
+$font-office-091-price-tag: "\f15a";
+$font-office-092-desk-lamp: "\f15b";
+$font-office-093-money-sack: "\f15c";
+$font-office-094-chest-of-drawers: "\f15d";
+$font-office-095-headphone: "\f15e";
+$font-office-096-up-arrow-upload: "\f15f";
+$font-office-097-hourglass: "\f160";
+$font-office-098-diamond: "\f161";
+$font-office-099-coins-stack: "\f162";
+$font-office-100-fedora-hat: "\f163";

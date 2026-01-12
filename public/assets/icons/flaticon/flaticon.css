@@ -1,0 +1,9549 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "TechnologyFlaticon";
+  src: url("technology/font/Flaticon.eot");
+  src: url("technology/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("technology/font/Flaticon.woff2") format("woff2"), url("technology/font/Flaticon.woff") format("woff"), url("technology/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" technology-flaticon-"]:before,
+[class^=technology-flaticon-]:before {
+  display: inline-block;
+  font-family: "TechnologyFlaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.technology-flaticon-001-folder-network:before {
+  content: "";
+}
+
+.technology-flaticon-002-web-camera:before {
+  content: "";
+}
+
+.technology-flaticon-003-email:before {
+  content: "";
+}
+
+.technology-flaticon-004-power-switch:before {
+  content: "";
+}
+
+.technology-flaticon-005-cpu-tower:before {
+  content: "";
+}
+
+.technology-flaticon-006-modem:before {
+  content: "";
+}
+
+.technology-flaticon-007-printer:before {
+  content: "";
+}
+
+.technology-flaticon-008-woofer:before {
+  content: "";
+}
+
+.technology-flaticon-009-customer-care:before {
+  content: "";
+}
+
+.technology-flaticon-010-modem:before {
+  content: "";
+}
+
+.technology-flaticon-011-multimedia-controls:before {
+  content: "";
+}
+
+.technology-flaticon-012-server:before {
+  content: "";
+}
+
+.technology-flaticon-013-keyboard:before {
+  content: "";
+}
+
+.technology-flaticon-014-multimedia-option:before {
+  content: "";
+}
+
+.technology-flaticon-015-cloud-uploading:before {
+  content: "";
+}
+
+.technology-flaticon-016-plug:before {
+  content: "";
+}
+
+.technology-flaticon-017-mobile-phones:before {
+  content: "";
+}
+
+.technology-flaticon-018-washing-machine:before {
+  content: "";
+}
+
+.technology-flaticon-019-equalizer:before {
+  content: "";
+}
+
+.technology-flaticon-020-television:before {
+  content: "";
+}
+
+.technology-flaticon-021-video-camera:before {
+  content: "";
+}
+
+.technology-flaticon-022-usb:before {
+  content: "";
+}
+
+.technology-flaticon-023-log-in:before {
+  content: "";
+}
+
+.technology-flaticon-024-graphic-card:before {
+  content: "";
+}
+
+.technology-flaticon-025-speaker:before {
+  content: "";
+}
+
+.technology-flaticon-026-usb:before {
+  content: "";
+}
+
+.technology-flaticon-027-processor:before {
+  content: "";
+}
+
+.technology-flaticon-028-orbit:before {
+  content: "";
+}
+
+.technology-flaticon-029-speaker-box:before {
+  content: "";
+}
+
+.technology-flaticon-030-experiments:before {
+  content: "";
+}
+
+.technology-flaticon-031-robotic-hand:before {
+  content: "";
+}
+
+.technology-flaticon-032-artificial-intelligence:before {
+  content: "";
+}
+
+.technology-flaticon-033-question:before {
+  content: "";
+}
+
+.technology-flaticon-034-ram:before {
+  content: "";
+}
+
+.technology-flaticon-035-caliper:before {
+  content: "";
+}
+
+.technology-flaticon-036-data-security:before {
+  content: "";
+}
+
+.technology-flaticon-037-piston:before {
+  content: "";
+}
+
+.technology-flaticon-038-startup:before {
+  content: "";
+}
+
+.technology-flaticon-039-cooling-fan:before {
+  content: "";
+}
+
+.technology-flaticon-040-memory-card:before {
+  content: "";
+}
+
+.technology-flaticon-041-idea:before {
+  content: "";
+}
+
+.technology-flaticon-042-battery:before {
+  content: "";
+}
+
+.technology-flaticon-043-compact-disk:before {
+  content: "";
+}
+
+.technology-flaticon-044-circuit:before {
+  content: "";
+}
+
+.technology-flaticon-045-usb-connector:before {
+  content: "";
+}
+
+.technology-flaticon-046-video-player:before {
+  content: "";
+}
+
+.technology-flaticon-047-robot:before {
+  content: "";
+}
+
+.technology-flaticon-048-battery:before {
+  content: "";
+}
+
+.technology-flaticon-049-gas-mask:before {
+  content: "";
+}
+
+.technology-flaticon-050-fingerprint-scanning:before {
+  content: "";
+}
+
+.technology-flaticon-051-bomb:before {
+  content: "";
+}
+
+.technology-flaticon-052-usb-cable:before {
+  content: "";
+}
+
+.technology-flaticon-053-cordless-phone:before {
+  content: "";
+}
+
+.technology-flaticon-054-wristwatch:before {
+  content: "";
+}
+
+.technology-flaticon-055-smartwatch:before {
+  content: "";
+}
+
+.technology-flaticon-056-laptop:before {
+  content: "";
+}
+
+.technology-flaticon-057-torch:before {
+  content: "";
+}
+
+.technology-flaticon-058-light-bulb:before {
+  content: "";
+}
+
+.technology-flaticon-059-usb-connector:before {
+  content: "";
+}
+
+.technology-flaticon-060-megaphone:before {
+  content: "";
+}
+
+.technology-flaticon-061-floppy-disc:before {
+  content: "";
+}
+
+.technology-flaticon-062-graphic-tablet:before {
+  content: "";
+}
+
+.technology-flaticon-063-swiss-knife:before {
+  content: "";
+}
+
+.technology-flaticon-064-3d-glasses:before {
+  content: "";
+}
+
+.technology-flaticon-065-network:before {
+  content: "";
+}
+
+.technology-flaticon-066-projector:before {
+  content: "";
+}
+
+.technology-flaticon-067-monitor:before {
+  content: "";
+}
+
+.technology-flaticon-068-cloud-download:before {
+  content: "";
+}
+
+.technology-flaticon-069-camera:before {
+  content: "";
+}
+
+.technology-flaticon-070-cloud-storage:before {
+  content: "";
+}
+
+.technology-flaticon-071-cloud-computing:before {
+  content: "";
+}
+
+.technology-flaticon-072-multiple-devices:before {
+  content: "";
+}
+
+.technology-flaticon-073-communication:before {
+  content: "";
+}
+
+.technology-flaticon-074-shared:before {
+  content: "";
+}
+
+.technology-flaticon-075-radio:before {
+  content: "";
+}
+
+.technology-flaticon-076-communications:before {
+  content: "";
+}
+
+.technology-flaticon-077-network:before {
+  content: "";
+}
+
+.technology-flaticon-078-hard-drive:before {
+  content: "";
+}
+
+.technology-flaticon-079-app-development:before {
+  content: "";
+}
+
+.technology-flaticon-080-circuit:before {
+  content: "";
+}
+
+.technology-flaticon-081-hd-screen:before {
+  content: "";
+}
+
+.technology-flaticon-082-camcorder:before {
+  content: "";
+}
+
+.technology-flaticon-083-share:before {
+  content: "";
+}
+
+.technology-flaticon-084-video-player:before {
+  content: "";
+}
+
+.technology-flaticon-085-signals:before {
+  content: "";
+}
+
+.technology-flaticon-086-magnetism:before {
+  content: "";
+}
+
+.technology-flaticon-087-toaster:before {
+  content: "";
+}
+
+.technology-flaticon-088-jigsaw:before {
+  content: "";
+}
+
+.technology-flaticon-089-mouse:before {
+  content: "";
+}
+
+.technology-flaticon-090-battery:before {
+  content: "";
+}
+
+.technology-flaticon-091-microphone:before {
+  content: "";
+}
+
+.technology-flaticon-092-home-network:before {
+  content: "";
+}
+
+.technology-flaticon-093-wireless:before {
+  content: "";
+}
+
+.technology-flaticon-094-cloud-storage:before {
+  content: "";
+}
+
+.technology-flaticon-095-film-reel:before {
+  content: "";
+}
+
+.technology-flaticon-096-cctv-camera:before {
+  content: "";
+}
+
+.technology-flaticon-097-brain:before {
+  content: "";
+}
+
+.technology-flaticon-098-film-strip:before {
+  content: "";
+}
+
+.technology-flaticon-099-conversation:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "BankingFinanceFlaticon";
+  src: url("banking-and-finance/font/Flaticon.eot");
+  src: url("banking-and-finance/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("banking-and-finance/font/Flaticon.woff2") format("woff2"), url("banking-and-finance/font/Flaticon.woff") format("woff"), url("banking-and-finance/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" banking-finance-flaticon-"]:before,
+[class^=banking-finance-flaticon-]:before {
+  display: inline-block;
+  font-family: "BankingFinanceFlaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.banking-finance-flaticon-001-growth-graph:before {
+  content: "";
+}
+
+.banking-finance-flaticon-002-cloud-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-003-line-chart:before {
+  content: "";
+}
+
+.banking-finance-flaticon-004-business-presentation:before {
+  content: "";
+}
+
+.banking-finance-flaticon-005-security-shield:before {
+  content: "";
+}
+
+.banking-finance-flaticon-006-currency-exchange:before {
+  content: "";
+}
+
+.banking-finance-flaticon-007-calculation:before {
+  content: "";
+}
+
+.banking-finance-flaticon-008-piggy-bank:before {
+  content: "";
+}
+
+.banking-finance-flaticon-009-online-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-010-debt:before {
+  content: "";
+}
+
+.banking-finance-flaticon-011-bid:before {
+  content: "";
+}
+
+.banking-finance-flaticon-012-online-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-013-coin-stack:before {
+  content: "";
+}
+
+.banking-finance-flaticon-014-donut-chart:before {
+  content: "";
+}
+
+.banking-finance-flaticon-015-analysis:before {
+  content: "";
+}
+
+.banking-finance-flaticon-016-accounting-book:before {
+  content: "";
+}
+
+.banking-finance-flaticon-017-graphical-report:before {
+  content: "";
+}
+
+.banking-finance-flaticon-018-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-019-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-020-decision-making:before {
+  content: "";
+}
+
+.banking-finance-flaticon-021-money-flow:before {
+  content: "";
+}
+
+.banking-finance-flaticon-022-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-023-graphical-report:before {
+  content: "";
+}
+
+.banking-finance-flaticon-024-mobile-payment:before {
+  content: "";
+}
+
+.banking-finance-flaticon-025-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-026-dollar-coin:before {
+  content: "";
+}
+
+.banking-finance-flaticon-027-greek-pillars:before {
+  content: "";
+}
+
+.banking-finance-flaticon-028-locked:before {
+  content: "";
+}
+
+.banking-finance-flaticon-029-online-business:before {
+  content: "";
+}
+
+.banking-finance-flaticon-030-printer:before {
+  content: "";
+}
+
+.banking-finance-flaticon-031-gold-ingot:before {
+  content: "";
+}
+
+.banking-finance-flaticon-032-newspaper:before {
+  content: "";
+}
+
+.banking-finance-flaticon-033-piggy-bank:before {
+  content: "";
+}
+
+.banking-finance-flaticon-034-network:before {
+  content: "";
+}
+
+.banking-finance-flaticon-035-briefcase:before {
+  content: "";
+}
+
+.banking-finance-flaticon-036-network:before {
+  content: "";
+}
+
+.banking-finance-flaticon-037-loudspeaker:before {
+  content: "";
+}
+
+.banking-finance-flaticon-038-income:before {
+  content: "";
+}
+
+.banking-finance-flaticon-039-dollar-sack:before {
+  content: "";
+}
+
+.banking-finance-flaticon-040-location-pin:before {
+  content: "";
+}
+
+.banking-finance-flaticon-041-ufo:before {
+  content: "";
+}
+
+.banking-finance-flaticon-042-line-chart:before {
+  content: "";
+}
+
+.banking-finance-flaticon-043-delivery-box:before {
+  content: "";
+}
+
+.banking-finance-flaticon-044-banking-system:before {
+  content: "";
+}
+
+.banking-finance-flaticon-045-barcode-scanner:before {
+  content: "";
+}
+
+.banking-finance-flaticon-046-safe-box:before {
+  content: "";
+}
+
+.banking-finance-flaticon-047-padlock:before {
+  content: "";
+}
+
+.banking-finance-flaticon-048-traffic-lights:before {
+  content: "";
+}
+
+.banking-finance-flaticon-049-key-of-success:before {
+  content: "";
+}
+
+.banking-finance-flaticon-050-abacus:before {
+  content: "";
+}
+
+.banking-finance-flaticon-051-income:before {
+  content: "";
+}
+
+.banking-finance-flaticon-052-line-graph:before {
+  content: "";
+}
+
+.banking-finance-flaticon-053-lockers:before {
+  content: "";
+}
+
+.banking-finance-flaticon-054-money-transfer:before {
+  content: "";
+}
+
+.banking-finance-flaticon-055-business-report:before {
+  content: "";
+}
+
+.banking-finance-flaticon-056-magnet-tool:before {
+  content: "";
+}
+
+.banking-finance-flaticon-057-loan:before {
+  content: "";
+}
+
+.banking-finance-flaticon-058-bar-chart:before {
+  content: "";
+}
+
+.banking-finance-flaticon-059-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-060-erlenmeyer:before {
+  content: "";
+}
+
+.banking-finance-flaticon-061-chat:before {
+  content: "";
+}
+
+.banking-finance-flaticon-062-secure-payment:before {
+  content: "";
+}
+
+.banking-finance-flaticon-063-calculation:before {
+  content: "";
+}
+
+.banking-finance-flaticon-064-online-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-065-padlock:before {
+  content: "";
+}
+
+.banking-finance-flaticon-066-graphical-report:before {
+  content: "";
+}
+
+.banking-finance-flaticon-067-pot-plant:before {
+  content: "";
+}
+
+.banking-finance-flaticon-068-location-pin:before {
+  content: "";
+}
+
+.banking-finance-flaticon-069-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-070-briefcase:before {
+  content: "";
+}
+
+.banking-finance-flaticon-071-open-umbrella:before {
+  content: "";
+}
+
+.banking-finance-flaticon-072-business-presentation:before {
+  content: "";
+}
+
+.banking-finance-flaticon-073-padlock:before {
+  content: "";
+}
+
+.banking-finance-flaticon-074-dollar-symbol:before {
+  content: "";
+}
+
+.banking-finance-flaticon-075-joystick:before {
+  content: "";
+}
+
+.banking-finance-flaticon-076-euro-sign:before {
+  content: "";
+}
+
+.banking-finance-flaticon-077-pen-and-paper:before {
+  content: "";
+}
+
+.banking-finance-flaticon-078-piggy-bank:before {
+  content: "";
+}
+
+.banking-finance-flaticon-079-business-suit:before {
+  content: "";
+}
+
+.banking-finance-flaticon-080-growth-graph:before {
+  content: "";
+}
+
+.banking-finance-flaticon-081-telephone-call:before {
+  content: "";
+}
+
+.banking-finance-flaticon-082-id-card:before {
+  content: "";
+}
+
+.banking-finance-flaticon-083-graphical-presentation:before {
+  content: "";
+}
+
+.banking-finance-flaticon-084-rook:before {
+  content: "";
+}
+
+.banking-finance-flaticon-085-cash-flow:before {
+  content: "";
+}
+
+.banking-finance-flaticon-086-businesswoman:before {
+  content: "";
+}
+
+.banking-finance-flaticon-087-goal:before {
+  content: "";
+}
+
+.banking-finance-flaticon-088-online-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-089-airplane:before {
+  content: "";
+}
+
+.banking-finance-flaticon-090-wallet:before {
+  content: "";
+}
+
+.banking-finance-flaticon-091-pie-chart:before {
+  content: "";
+}
+
+.banking-finance-flaticon-092-bank:before {
+  content: "";
+}
+
+.banking-finance-flaticon-093-dollar-coin:before {
+  content: "";
+}
+
+.banking-finance-flaticon-094-online-banking:before {
+  content: "";
+}
+
+.banking-finance-flaticon-095-business-and-finance:before {
+  content: "";
+}
+
+.banking-finance-flaticon-096-percentage:before {
+  content: "";
+}
+
+.banking-finance-flaticon-097-information-sign:before {
+  content: "";
+}
+
+.banking-finance-flaticon-098-business-idea:before {
+  content: "";
+}
+
+.banking-finance-flaticon-099-man-avatar:before {
+  content: "";
+}
+
+.banking-finance-flaticon-100-wristwatch:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "SpaceAndAircraft";
+  src: url("space-and-aircraft/font/Flaticon.eot");
+  src: url("space-and-aircraft/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("space-and-aircraft/font/Flaticon.woff2") format("woff2"), url("space-and-aircraft/font/Flaticon.woff") format("woff"), url("space-and-aircraft/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" space-and-aircraft-"]:before,
+[class^=space-and-aircraft-]:before {
+  font-family: "SpaceAndAircraft";
+}
+
+.space-and-aircraft-001-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-002-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-003-night:before {
+  content: "";
+}
+
+.space-and-aircraft-004-space:before {
+  content: "";
+}
+
+.space-and-aircraft-005-earth:before {
+  content: "";
+}
+
+.space-and-aircraft-006-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-007-zeppelin:before {
+  content: "";
+}
+
+.space-and-aircraft-008-moon-phase:before {
+  content: "";
+}
+
+.space-and-aircraft-009-helicopter:before {
+  content: "";
+}
+
+.space-and-aircraft-010-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-011-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-012-alien:before {
+  content: "";
+}
+
+.space-and-aircraft-013-full-moon:before {
+  content: "";
+}
+
+.space-and-aircraft-014-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-015-jupiter:before {
+  content: "";
+}
+
+.space-and-aircraft-016-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-017-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-018-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-019-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-020-satellite-dish:before {
+  content: "";
+}
+
+.space-and-aircraft-021-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-022-startup:before {
+  content: "";
+}
+
+.space-and-aircraft-023-zeppelin:before {
+  content: "";
+}
+
+.space-and-aircraft-024-astronaut:before {
+  content: "";
+}
+
+.space-and-aircraft-025-alien:before {
+  content: "";
+}
+
+.space-and-aircraft-026-mission:before {
+  content: "";
+}
+
+.space-and-aircraft-027-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-028-full-moon:before {
+  content: "";
+}
+
+.space-and-aircraft-029-earth:before {
+  content: "";
+}
+
+.space-and-aircraft-030-sun:before {
+  content: "";
+}
+
+.space-and-aircraft-031-solar-system:before {
+  content: "";
+}
+
+.space-and-aircraft-032-alien:before {
+  content: "";
+}
+
+.space-and-aircraft-033-observatory:before {
+  content: "";
+}
+
+.space-and-aircraft-034-alien:before {
+  content: "";
+}
+
+.space-and-aircraft-035-telescope:before {
+  content: "";
+}
+
+.space-and-aircraft-036-sputnik:before {
+  content: "";
+}
+
+.space-and-aircraft-037-saturn:before {
+  content: "";
+}
+
+.space-and-aircraft-038-satellite-dish:before {
+  content: "";
+}
+
+.space-and-aircraft-039-satellite-dish:before {
+  content: "";
+}
+
+.space-and-aircraft-040-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-041-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-042-astronaut:before {
+  content: "";
+}
+
+.space-and-aircraft-043-magnet:before {
+  content: "";
+}
+
+.space-and-aircraft-044-solar-system:before {
+  content: "";
+}
+
+.space-and-aircraft-045-hot-air-balloon:before {
+  content: "";
+}
+
+.space-and-aircraft-046-nuclear:before {
+  content: "";
+}
+
+.space-and-aircraft-047-astronauts:before {
+  content: "";
+}
+
+.space-and-aircraft-048-meteorite:before {
+  content: "";
+}
+
+.space-and-aircraft-049-telescope:before {
+  content: "";
+}
+
+.space-and-aircraft-050-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-051-alien:before {
+  content: "";
+}
+
+.space-and-aircraft-052-balloon:before {
+  content: "";
+}
+
+.space-and-aircraft-053-spaceship:before {
+  content: "";
+}
+
+.space-and-aircraft-054-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-055-observatory:before {
+  content: "";
+}
+
+.space-and-aircraft-056-asteroid:before {
+  content: "";
+}
+
+.space-and-aircraft-057-pistol:before {
+  content: "";
+}
+
+.space-and-aircraft-058-astrophysics:before {
+  content: "";
+}
+
+.space-and-aircraft-059-spaceship:before {
+  content: "";
+}
+
+.space-and-aircraft-060-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-061-full-moon:before {
+  content: "";
+}
+
+.space-and-aircraft-062-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-063-telescope:before {
+  content: "";
+}
+
+.space-and-aircraft-064-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-065-hot-air-balloon:before {
+  content: "";
+}
+
+.space-and-aircraft-066-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-067-mars:before {
+  content: "";
+}
+
+.space-and-aircraft-068-jupiter:before {
+  content: "";
+}
+
+.space-and-aircraft-069-shooting-star:before {
+  content: "";
+}
+
+.space-and-aircraft-070-satellite-dish:before {
+  content: "";
+}
+
+.space-and-aircraft-071-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-072-satellite-dish:before {
+  content: "";
+}
+
+.space-and-aircraft-073-galaxy:before {
+  content: "";
+}
+
+.space-and-aircraft-074-ufo:before {
+  content: "";
+}
+
+.space-and-aircraft-075-astronaut:before {
+  content: "";
+}
+
+.space-and-aircraft-076-rocket:before {
+  content: "";
+}
+
+.space-and-aircraft-077-aeroplane:before {
+  content: "";
+}
+
+.space-and-aircraft-078-full-moon:before {
+  content: "";
+}
+
+.space-and-aircraft-079-satellite-dish:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "MusicIcon";
+  src: url("music/font/Flaticon.eot");
+  src: url("music/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("music/font/Flaticon.woff2") format("woff2"), url("music/font/Flaticon.woff") format("woff"), url("music/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" music-icon-"]:before,
+[class^=music-icon-]:before {
+  display: inline-block;
+  font-family: "MusicIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.music-icon-001-equalizer:before {
+  content: "";
+}
+
+.music-icon-002-woofer:before {
+  content: "";
+}
+
+.music-icon-003-guitar:before {
+  content: "";
+}
+
+.music-icon-004-darbuka:before {
+  content: "";
+}
+
+.music-icon-005-woofer:before {
+  content: "";
+}
+
+.music-icon-006-online-video:before {
+  content: "";
+}
+
+.music-icon-007-megaphone:before {
+  content: "";
+}
+
+.music-icon-008-music-player:before {
+  content: "";
+}
+
+.music-icon-009-voice-microphone:before {
+  content: "";
+}
+
+.music-icon-010-piano:before {
+  content: "";
+}
+
+.music-icon-011-music-file:before {
+  content: "";
+}
+
+.music-icon-012-sheet-music:before {
+  content: "";
+}
+
+.music-icon-013-music-note:before {
+  content: "";
+}
+
+.music-icon-014-compact-disc:before {
+  content: "";
+}
+
+.music-icon-015-jack-cable:before {
+  content: "";
+}
+
+.music-icon-016-gramophone:before {
+  content: "";
+}
+
+.music-icon-017-trumpet:before {
+  content: "";
+}
+
+.music-icon-018-equalizer:before {
+  content: "";
+}
+
+.music-icon-019-multimedia-controls:before {
+  content: "";
+}
+
+.music-icon-020-music-folder:before {
+  content: "";
+}
+
+.music-icon-021-clapperboard:before {
+  content: "";
+}
+
+.music-icon-022-saxophone:before {
+  content: "";
+}
+
+.music-icon-023-video-camera:before {
+  content: "";
+}
+
+.music-icon-024-compact-disc:before {
+  content: "";
+}
+
+.music-icon-025-cassette:before {
+  content: "";
+}
+
+.music-icon-026-guitar:before {
+  content: "";
+}
+
+.music-icon-027-headphone:before {
+  content: "";
+}
+
+.music-icon-028-microphone:before {
+  content: "";
+}
+
+.music-icon-029-guitar:before {
+  content: "";
+}
+
+.music-icon-030-piano-keyboard:before {
+  content: "";
+}
+
+.music-icon-031-speaker:before {
+  content: "";
+}
+
+.music-icon-032-usb:before {
+  content: "";
+}
+
+.music-icon-033-bell:before {
+  content: "";
+}
+
+.music-icon-034-film-strip:before {
+  content: "";
+}
+
+.music-icon-035-piano-keyboard:before {
+  content: "";
+}
+
+.music-icon-036-maracas:before {
+  content: "";
+}
+
+.music-icon-037-video-camera:before {
+  content: "";
+}
+
+.music-icon-038-loud-speaker:before {
+  content: "";
+}
+
+.music-icon-039-earbud:before {
+  content: "";
+}
+
+.music-icon-040-maracas:before {
+  content: "";
+}
+
+.music-icon-041-conga:before {
+  content: "";
+}
+
+.music-icon-042-saxophone:before {
+  content: "";
+}
+
+.music-icon-043-play-button:before {
+  content: "";
+}
+
+.music-icon-044-radio:before {
+  content: "";
+}
+
+.music-icon-045-headphones:before {
+  content: "";
+}
+
+.music-icon-046-radio:before {
+  content: "";
+}
+
+.music-icon-047-darbuka:before {
+  content: "";
+}
+
+.music-icon-048-tape-recorder:before {
+  content: "";
+}
+
+.music-icon-049-camcorder:before {
+  content: "";
+}
+
+.music-icon-050-bagpipes:before {
+  content: "";
+}
+
+.music-icon-051-tambourine:before {
+  content: "";
+}
+
+.music-icon-052-music-player:before {
+  content: "";
+}
+
+.music-icon-053-harp:before {
+  content: "";
+}
+
+.music-icon-054-film-reel:before {
+  content: "";
+}
+
+.music-icon-055-music:before {
+  content: "";
+}
+
+.music-icon-056-radio:before {
+  content: "";
+}
+
+.music-icon-057-tape-recorder:before {
+  content: "";
+}
+
+.music-icon-058-download:before {
+  content: "";
+}
+
+.music-icon-059-guitar:before {
+  content: "";
+}
+
+.music-icon-060-drumstick:before {
+  content: "";
+}
+
+.music-icon-061-harp:before {
+  content: "";
+}
+
+.music-icon-062-maracas:before {
+  content: "";
+}
+
+.music-icon-063-french-horn:before {
+  content: "";
+}
+
+.music-icon-064-television:before {
+  content: "";
+}
+
+.music-icon-065-trumpet:before {
+  content: "";
+}
+
+.music-icon-066-drumstick:before {
+  content: "";
+}
+
+.music-icon-067-conga:before {
+  content: "";
+}
+
+.music-icon-068-music-tape:before {
+  content: "";
+}
+
+.music-icon-069-remote-control:before {
+  content: "";
+}
+
+.music-icon-070-music:before {
+  content: "";
+}
+
+.music-icon-071-ipod:before {
+  content: "";
+}
+
+.music-icon-072-radio:before {
+  content: "";
+}
+
+.music-icon-073-maracas:before {
+  content: "";
+}
+
+.music-icon-074-piano:before {
+  content: "";
+}
+
+.music-icon-075-musical-note:before {
+  content: "";
+}
+
+.music-icon-076-music:before {
+  content: "";
+}
+
+.music-icon-077-music-player:before {
+  content: "";
+}
+
+.music-icon-078-ipod:before {
+  content: "";
+}
+
+.music-icon-079-piano-keyboard:before {
+  content: "";
+}
+
+.music-icon-080-speaker:before {
+  content: "";
+}
+
+.music-icon-081-jack-connector:before {
+  content: "";
+}
+
+.music-icon-082-ipod:before {
+  content: "";
+}
+
+.music-icon-083-vinyl:before {
+  content: "";
+}
+
+.music-icon-084-music-cloud:before {
+  content: "";
+}
+
+.music-icon-085-ipod:before {
+  content: "";
+}
+
+.music-icon-086-microphone:before {
+  content: "";
+}
+
+.music-icon-087-mute:before {
+  content: "";
+}
+
+.music-icon-088-sitar:before {
+  content: "";
+}
+
+.music-icon-089-handsfree:before {
+  content: "";
+}
+
+.music-icon-090-orchestra:before {
+  content: "";
+}
+
+.music-icon-091-xylophone:before {
+  content: "";
+}
+
+.music-icon-092-headphones:before {
+  content: "";
+}
+
+.music-icon-093-accordion:before {
+  content: "";
+}
+
+.music-icon-094-memory-card:before {
+  content: "";
+}
+
+.music-icon-095-radio:before {
+  content: "";
+}
+
+.music-icon-096-television:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "WeatherIcon";
+  src: url("weather/font/Flaticon.eot");
+  src: url("weather/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("weather/font/Flaticon.woff2") format("woff2"), url("weather/font/Flaticon.woff") format("woff"), url("weather/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" weather-icon-"]:before,
+[class^=weather-icon-]:before {
+  display: inline-block;
+  font-family: "WeatherIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.weather-icon-001-winter:before {
+  content: "";
+}
+
+.weather-icon-002-snowfall:before {
+  content: "";
+}
+
+.weather-icon-003-rainy:before {
+  content: "";
+}
+
+.weather-icon-004-snowfall:before {
+  content: "";
+}
+
+.weather-icon-005-rainy:before {
+  content: "";
+}
+
+.weather-icon-006-stormy:before {
+  content: "";
+}
+
+.weather-icon-007-moon:before {
+  content: "";
+}
+
+.weather-icon-008-moon:before {
+  content: "";
+}
+
+.weather-icon-009-clouds:before {
+  content: "";
+}
+
+.weather-icon-010-raining:before {
+  content: "";
+}
+
+.weather-icon-011-raining:before {
+  content: "";
+}
+
+.weather-icon-012-moon:before {
+  content: "";
+}
+
+.weather-icon-013-windstorm:before {
+  content: "";
+}
+
+.weather-icon-014-moon-phase:before {
+  content: "";
+}
+
+.weather-icon-015-rainbow:before {
+  content: "";
+}
+
+.weather-icon-016-weather:before {
+  content: "";
+}
+
+.weather-icon-017-tornado:before {
+  content: "";
+}
+
+.weather-icon-018-windsock:before {
+  content: "";
+}
+
+.weather-icon-019-raining:before {
+  content: "";
+}
+
+.weather-icon-020-weather:before {
+  content: "";
+}
+
+.weather-icon-021-raining:before {
+  content: "";
+}
+
+.weather-icon-022-snowfall:before {
+  content: "";
+}
+
+.weather-icon-023-weather:before {
+  content: "";
+}
+
+.weather-icon-024-clouds:before {
+  content: "";
+}
+
+.weather-icon-025-clouds:before {
+  content: "";
+}
+
+.weather-icon-026-thermometer:before {
+  content: "";
+}
+
+.weather-icon-027-thermometer:before {
+  content: "";
+}
+
+.weather-icon-028-clouds:before {
+  content: "";
+}
+
+.weather-icon-029-raining:before {
+  content: "";
+}
+
+.weather-icon-030-weather:before {
+  content: "";
+}
+
+.weather-icon-031-snowflakes:before {
+  content: "";
+}
+
+.weather-icon-032-cloudy-night:before {
+  content: "";
+}
+
+.weather-icon-033-windy:before {
+  content: "";
+}
+
+.weather-icon-034-climate:before {
+  content: "";
+}
+
+.weather-icon-035-thunderstorm:before {
+  content: "";
+}
+
+.weather-icon-036-climate:before {
+  content: "";
+}
+
+.weather-icon-037-weather:before {
+  content: "";
+}
+
+.weather-icon-038-drops:before {
+  content: "";
+}
+
+.weather-icon-039-windy:before {
+  content: "";
+}
+
+.weather-icon-040-raining:before {
+  content: "";
+}
+
+.weather-icon-041-raining:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "ShoppingIcon";
+  src: url("shopping/font/Flaticon.eot");
+  src: url("shopping/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("shopping/font/Flaticon.woff2") format("woff2"), url("shopping/font/Flaticon.woff") format("woff"), url("shopping/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" shopping-icon-"]:before,
+[class^=shopping-icon-]:before {
+  display: inline-block;
+  font-family: "ShoppingIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.shopping-icon-001-shopping:before {
+  content: "";
+}
+
+.shopping-icon-002-thinking:before {
+  content: "";
+}
+
+.shopping-icon-003-address-book:before {
+  content: "";
+}
+
+.shopping-icon-004-shopping-basket:before {
+  content: "";
+}
+
+.shopping-icon-005-ribbon-badge:before {
+  content: "";
+}
+
+.shopping-icon-006-cardboard-box:before {
+  content: "";
+}
+
+.shopping-icon-007-barcode-scanner:before {
+  content: "";
+}
+
+.shopping-icon-008-marketing:before {
+  content: "";
+}
+
+.shopping-icon-009-atm-machine:before {
+  content: "";
+}
+
+.shopping-icon-010-downloading-data:before {
+  content: "";
+}
+
+.shopping-icon-011-shopping-bag:before {
+  content: "";
+}
+
+.shopping-icon-012-customer-satisfaction:before {
+  content: "";
+}
+
+.shopping-icon-013-map-location:before {
+  content: "";
+}
+
+.shopping-icon-014-call-made:before {
+  content: "";
+}
+
+.shopping-icon-015-shopping-bag:before {
+  content: "";
+}
+
+.shopping-icon-016-new-product:before {
+  content: "";
+}
+
+.shopping-icon-017-money:before {
+  content: "";
+}
+
+.shopping-icon-018-open-sign:before {
+  content: "";
+}
+
+.shopping-icon-019-gift-box:before {
+  content: "";
+}
+
+.shopping-icon-020-luggage-cart:before {
+  content: "";
+}
+
+.shopping-icon-021-wallet:before {
+  content: "";
+}
+
+.shopping-icon-022-heart-shape:before {
+  content: "";
+}
+
+.shopping-icon-023-shopping-mall:before {
+  content: "";
+}
+
+.shopping-icon-024-store:before {
+  content: "";
+}
+
+.shopping-icon-025-delivery-van:before {
+  content: "";
+}
+
+.shopping-icon-026-money-bag:before {
+  content: "";
+}
+
+.shopping-icon-027-female-footwear:before {
+  content: "";
+}
+
+.shopping-icon-028-24-hours:before {
+  content: "";
+}
+
+.shopping-icon-029-t-shirt:before {
+  content: "";
+}
+
+.shopping-icon-030-call-center:before {
+  content: "";
+}
+
+.shopping-icon-031-percentage:before {
+  content: "";
+}
+
+.shopping-icon-032-evening-dress:before {
+  content: "";
+}
+
+.shopping-icon-033-wrist-watch:before {
+  content: "";
+}
+
+.shopping-icon-034-payment-gateway:before {
+  content: "";
+}
+
+.shopping-icon-035-computer-monitor:before {
+  content: "";
+}
+
+.shopping-icon-036-days:before {
+  content: "";
+}
+
+.shopping-icon-037-balloons:before {
+  content: "";
+}
+
+.shopping-icon-038-dollar-coin:before {
+  content: "";
+}
+
+.shopping-icon-039-shopping-cart:before {
+  content: "";
+}
+
+.shopping-icon-040-clothes-hanger:before {
+  content: "";
+}
+
+.shopping-icon-041-airplane:before {
+  content: "";
+}
+
+.shopping-icon-042-security-shield:before {
+  content: "";
+}
+
+.shopping-icon-043-padlock:before {
+  content: "";
+}
+
+.shopping-icon-044-sale-tag:before {
+  content: "";
+}
+
+.shopping-icon-045-open-sign:before {
+  content: "";
+}
+
+.shopping-icon-046-hotline:before {
+  content: "";
+}
+
+.shopping-icon-047-announcement:before {
+  content: "";
+}
+
+.shopping-icon-048-giftbox:before {
+  content: "";
+}
+
+.shopping-icon-049-sticker:before {
+  content: "";
+}
+
+.shopping-icon-050-shopping-bag:before {
+  content: "";
+}
+
+.shopping-icon-051-piggy-bank:before {
+  content: "";
+}
+
+.shopping-icon-052-shopping-cart:before {
+  content: "";
+}
+
+.shopping-icon-053-twenty-four-hours:before {
+  content: "";
+}
+
+.shopping-icon-054-sale-tag:before {
+  content: "";
+}
+
+.shopping-icon-055-directional-arrows:before {
+  content: "";
+}
+
+.shopping-icon-056-online-shopping:before {
+  content: "";
+}
+
+.shopping-icon-057-sale-tag:before {
+  content: "";
+}
+
+.shopping-icon-058-ticket:before {
+  content: "";
+}
+
+.shopping-icon-059-eyeglasses:before {
+  content: "";
+}
+
+.shopping-icon-060-smart-washing-machine:before {
+  content: "";
+}
+
+.shopping-icon-061-desk-lamp:before {
+  content: "";
+}
+
+.shopping-icon-062-mens-clothing:before {
+  content: "";
+}
+
+.shopping-icon-063-smartphone:before {
+  content: "";
+}
+
+.shopping-icon-064-photo-camera:before {
+  content: "";
+}
+
+.shopping-icon-065-wifi-router:before {
+  content: "";
+}
+
+.shopping-icon-066-computer-mouse:before {
+  content: "";
+}
+
+.shopping-icon-067-ecommerce:before {
+  content: "";
+}
+
+.shopping-icon-068-calendar:before {
+  content: "";
+}
+
+.shopping-icon-069-sneaker:before {
+  content: "";
+}
+
+.shopping-icon-070-mixer-blender:before {
+  content: "";
+}
+
+.shopping-icon-071-clapperboard:before {
+  content: "";
+}
+
+.shopping-icon-072-flowers:before {
+  content: "";
+}
+
+.shopping-icon-073-couch:before {
+  content: "";
+}
+
+.shopping-icon-074-wallet:before {
+  content: "";
+}
+
+.shopping-icon-075-banknotes:before {
+  content: "";
+}
+
+.shopping-icon-076-shopping-cart:before {
+  content: "";
+}
+
+.shopping-icon-077-qr-code:before {
+  content: "";
+}
+
+.shopping-icon-078-map-location:before {
+  content: "";
+}
+
+.shopping-icon-079-briefcase:before {
+  content: "";
+}
+
+.shopping-icon-080-idea-bulb:before {
+  content: "";
+}
+
+.shopping-icon-081-ribbon-badge:before {
+  content: "";
+}
+
+.shopping-icon-082-vase:before {
+  content: "";
+}
+
+.shopping-icon-083-piano:before {
+  content: "";
+}
+
+.shopping-icon-084-money-bag:before {
+  content: "";
+}
+
+.shopping-icon-085-fast-delivery:before {
+  content: "";
+}
+
+.shopping-icon-086-business-and-finance:before {
+  content: "";
+}
+
+.shopping-icon-087-price-tag:before {
+  content: "";
+}
+
+.shopping-icon-088-cash-register:before {
+  content: "";
+}
+
+.shopping-icon-089-earrings:before {
+  content: "";
+}
+
+.shopping-icon-090-map-point:before {
+  content: "";
+}
+
+.shopping-icon-091-checklist:before {
+  content: "";
+}
+
+.shopping-icon-092-invoice:before {
+  content: "";
+}
+
+.shopping-icon-093-online-shopping:before {
+  content: "";
+}
+
+.shopping-icon-094-dial-pad:before {
+  content: "";
+}
+
+.shopping-icon-095-radio-transmitter:before {
+  content: "";
+}
+
+.shopping-icon-096-diamond-ring:before {
+  content: "";
+}
+
+.shopping-icon-097-mobile-shopping:before {
+  content: "";
+}
+
+.shopping-icon-098-qr-code-scan:before {
+  content: "";
+}
+
+.shopping-icon-099-support:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "MediaIcon";
+  src: url("media/font/Flaticon.eot");
+  src: url("media/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("media/font/Flaticon.woff2") format("woff2"), url("media/font/Flaticon.woff") format("woff"), url("media/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" media-icon-"]:before,
+[class^=media-icon-]:before {
+  display: inline-block;
+  font-family: "MediaIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.media-icon-001-letter:before {
+  content: "";
+}
+
+.media-icon-002-radio-transmitter:before {
+  content: "";
+}
+
+.media-icon-003-cpu-tower:before {
+  content: "";
+}
+
+.media-icon-004-landline:before {
+  content: "";
+}
+
+.media-icon-005-computer-monitor:before {
+  content: "";
+}
+
+.media-icon-006-cloud-storage:before {
+  content: "";
+}
+
+.media-icon-007-earth:before {
+  content: "";
+}
+
+.media-icon-008-old-movie-camera:before {
+  content: "";
+}
+
+.media-icon-009-newspaper:before {
+  content: "";
+}
+
+.media-icon-010-microphone:before {
+  content: "";
+}
+
+.media-icon-011-tweet:before {
+  content: "";
+}
+
+.media-icon-012-internet:before {
+  content: "";
+}
+
+.media-icon-013-woofer:before {
+  content: "";
+}
+
+.media-icon-014-monitor:before {
+  content: "";
+}
+
+.media-icon-015-paper-printer:before {
+  content: "";
+}
+
+.media-icon-016-keyboard:before {
+  content: "";
+}
+
+.media-icon-017-dustbin:before {
+  content: "";
+}
+
+.media-icon-018-padlock:before {
+  content: "";
+}
+
+.media-icon-019-usb:before {
+  content: "";
+}
+
+.media-icon-020-cloud-uploading:before {
+  content: "";
+}
+
+.media-icon-021-cloud-download:before {
+  content: "";
+}
+
+.media-icon-022-newspaper:before {
+  content: "";
+}
+
+.media-icon-023-magnifying-glass:before {
+  content: "";
+}
+
+.media-icon-024-smartphone:before {
+  content: "";
+}
+
+.media-icon-025-floppy-disk:before {
+  content: "";
+}
+
+.media-icon-026-manual-book:before {
+  content: "";
+}
+
+.media-icon-027-star-shape:before {
+  content: "";
+}
+
+.media-icon-028-bookmarking:before {
+  content: "";
+}
+
+.media-icon-029-radio-transmitter:before {
+  content: "";
+}
+
+.media-icon-030-pen-and-paper:before {
+  content: "";
+}
+
+.media-icon-031-media-player:before {
+  content: "";
+}
+
+.media-icon-032-chatting:before {
+  content: "";
+}
+
+.media-icon-033-computing:before {
+  content: "";
+}
+
+.media-icon-034-compass:before {
+  content: "";
+}
+
+.media-icon-035-wifi-signal:before {
+  content: "";
+}
+
+.media-icon-036-telephone-call:before {
+  content: "";
+}
+
+.media-icon-037-wifi-signal:before {
+  content: "";
+}
+
+.media-icon-038-smiley:before {
+  content: "";
+}
+
+.media-icon-039-group:before {
+  content: "";
+}
+
+.media-icon-040-smile-emoticon:before {
+  content: "";
+}
+
+.media-icon-041-on-air:before {
+  content: "";
+}
+
+.media-icon-042-gearwheel:before {
+  content: "";
+}
+
+.media-icon-043-wall-clock:before {
+  content: "";
+}
+
+.media-icon-044-good-feedback:before {
+  content: "";
+}
+
+.media-icon-045-clapperboard:before {
+  content: "";
+}
+
+.media-icon-046-heart-shape:before {
+  content: "";
+}
+
+.media-icon-047-social-network:before {
+  content: "";
+}
+
+.media-icon-048-megaphone:before {
+  content: "";
+}
+
+.media-icon-049-good-feedback:before {
+  content: "";
+}
+
+.media-icon-050-radio-transmitter:before {
+  content: "";
+}
+
+.media-icon-051-cloud-hosting:before {
+  content: "";
+}
+
+.media-icon-052-loudspeaker:before {
+  content: "";
+}
+
+.media-icon-053-sms:before {
+  content: "";
+}
+
+.media-icon-054-volume:before {
+  content: "";
+}
+
+.media-icon-055-film-strip:before {
+  content: "";
+}
+
+.media-icon-056-map-pin:before {
+  content: "";
+}
+
+.media-icon-057-vintage-tv:before {
+  content: "";
+}
+
+.media-icon-058-unread-message:before {
+  content: "";
+}
+
+.media-icon-059-chatting:before {
+  content: "";
+}
+
+.media-icon-060-data-cable:before {
+  content: "";
+}
+
+.media-icon-061-website:before {
+  content: "";
+}
+
+.media-icon-062-digital-camera:before {
+  content: "";
+}
+
+.media-icon-063-simcard:before {
+  content: "";
+}
+
+.media-icon-064-target-audience:before {
+  content: "";
+}
+
+.media-icon-065-video-camera:before {
+  content: "";
+}
+
+.media-icon-066-film-negatives:before {
+  content: "";
+}
+
+.media-icon-067-bidirectional:before {
+  content: "";
+}
+
+.media-icon-068-finger-control:before {
+  content: "";
+}
+
+.media-icon-069-van:before {
+  content: "";
+}
+
+.media-icon-070-file-download:before {
+  content: "";
+}
+
+.media-icon-071-billboard:before {
+  content: "";
+}
+
+.media-icon-072-scissor:before {
+  content: "";
+}
+
+.media-icon-073-address-book:before {
+  content: "";
+}
+
+.media-icon-074-outgoing-email:before {
+  content: "";
+}
+
+.media-icon-075-open-mail:before {
+  content: "";
+}
+
+.media-icon-076-house:before {
+  content: "";
+}
+
+.media-icon-077-avi:before {
+  content: "";
+}
+
+.media-icon-078-charging-battery:before {
+  content: "";
+}
+
+.media-icon-079-thumbtack:before {
+  content: "";
+}
+
+.media-icon-080-mail-inbox:before {
+  content: "";
+}
+
+.media-icon-081-telephone-symbol:before {
+  content: "";
+}
+
+.media-icon-082-compact-disk:before {
+  content: "";
+}
+
+.media-icon-083-vintage-tv:before {
+  content: "";
+}
+
+.media-icon-084-musical-note:before {
+  content: "";
+}
+
+.media-icon-085-wifi-signal:before {
+  content: "";
+}
+
+.media-icon-086-voice-microphone:before {
+  content: "";
+}
+
+.media-icon-087-remote-control:before {
+  content: "";
+}
+
+.media-icon-088-ipod-music:before {
+  content: "";
+}
+
+.media-icon-089-joystick:before {
+  content: "";
+}
+
+.media-icon-090-radio-transmitter:before {
+  content: "";
+}
+
+.media-icon-091-headphone:before {
+  content: "";
+}
+
+.media-icon-092-on-air:before {
+  content: "";
+}
+
+.media-icon-093-vintage-tv:before {
+  content: "";
+}
+
+.media-icon-094-megaphone:before {
+  content: "";
+}
+
+.media-icon-095-share:before {
+  content: "";
+}
+
+.media-icon-096-subwoofer:before {
+  content: "";
+}
+
+.media-icon-097-wifi-signal:before {
+  content: "";
+}
+
+.media-icon-098-space-satellite:before {
+  content: "";
+}
+
+.media-icon-099-mp3-player:before {
+  content: "";
+}
+
+.media-icon-100-post:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "NetworkIcon";
+  src: url("network/font/Flaticon.eot");
+  src: url("network/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("network/font/Flaticon.woff2") format("woff2"), url("network/font/Flaticon.woff") format("woff"), url("network/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" network-icon-"]:before,
+[class^=network-icon-]:before {
+  display: inline-block;
+  font-family: "NetworkIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.network-icon-001-wireless-internet:before {
+  content: "";
+}
+
+.network-icon-002-hard-disk:before {
+  content: "";
+}
+
+.network-icon-003-desktop-computer:before {
+  content: "";
+}
+
+.network-icon-004-shared-folder:before {
+  content: "";
+}
+
+.network-icon-005-client-server:before {
+  content: "";
+}
+
+.network-icon-006-satellite-dish:before {
+  content: "";
+}
+
+.network-icon-007-computer-networks:before {
+  content: "";
+}
+
+.network-icon-008-cyber-security:before {
+  content: "";
+}
+
+.network-icon-009-home-network:before {
+  content: "";
+}
+
+.network-icon-010-secure-data:before {
+  content: "";
+}
+
+.network-icon-011-server:before {
+  content: "";
+}
+
+.network-icon-012-webcam:before {
+  content: "";
+}
+
+.network-icon-013-global-network:before {
+  content: "";
+}
+
+.network-icon-014-floppy-disk:before {
+  content: "";
+}
+
+.network-icon-015-power-plug:before {
+  content: "";
+}
+
+.network-icon-016-pencil-tool:before {
+  content: "";
+}
+
+.network-icon-017-cloud-network:before {
+  content: "";
+}
+
+.network-icon-018-cyber-security:before {
+  content: "";
+}
+
+.network-icon-019-web-analytics:before {
+  content: "";
+}
+
+.network-icon-020-chatting:before {
+  content: "";
+}
+
+.network-icon-021-cloud-hosting:before {
+  content: "";
+}
+
+.network-icon-022-mobile-network:before {
+  content: "";
+}
+
+.network-icon-023-cloud-storage:before {
+  content: "";
+}
+
+.network-icon-024-music-disk:before {
+  content: "";
+}
+
+.network-icon-025-microphone:before {
+  content: "";
+}
+
+.network-icon-026-cloud-connection:before {
+  content: "";
+}
+
+.network-icon-027-mobile-network:before {
+  content: "";
+}
+
+.network-icon-028-data-network:before {
+  content: "";
+}
+
+.network-icon-029-network-server:before {
+  content: "";
+}
+
+.network-icon-030-web-development:before {
+  content: "";
+}
+
+.network-icon-031-phone-call:before {
+  content: "";
+}
+
+.network-icon-032-equalizer-controller:before {
+  content: "";
+}
+
+.network-icon-033-delete-folder:before {
+  content: "";
+}
+
+.network-icon-034-cloud-sharing:before {
+  content: "";
+}
+
+.network-icon-035-wireless-internet:before {
+  content: "";
+}
+
+.network-icon-036-wireless-connectivity:before {
+  content: "";
+}
+
+.network-icon-037-binary-codes:before {
+  content: "";
+}
+
+.network-icon-038-internet-security:before {
+  content: "";
+}
+
+.network-icon-039-file-download:before {
+  content: "";
+}
+
+.network-icon-040-secure-data:before {
+  content: "";
+}
+
+.network-icon-041-cloud-storage:before {
+  content: "";
+}
+
+.network-icon-042-up-and-down-arrows:before {
+  content: "";
+}
+
+.network-icon-043-data-management:before {
+  content: "";
+}
+
+.network-icon-044-synchronization:before {
+  content: "";
+}
+
+.network-icon-045-thunder-bolt:before {
+  content: "";
+}
+
+.network-icon-046-exclamation-mark:before {
+  content: "";
+}
+
+.network-icon-047-cloud-download:before {
+  content: "";
+}
+
+.network-icon-048-ethernet:before {
+  content: "";
+}
+
+.network-icon-049-power-switch:before {
+  content: "";
+}
+
+.network-icon-050-cloud-uploading:before {
+  content: "";
+}
+
+.network-icon-051-newspaper:before {
+  content: "";
+}
+
+.network-icon-052-space-satellite:before {
+  content: "";
+}
+
+.network-icon-053-network-server:before {
+  content: "";
+}
+
+.network-icon-054-satellite-dish:before {
+  content: "";
+}
+
+.network-icon-055-bell:before {
+  content: "";
+}
+
+.network-icon-056-chain:before {
+  content: "";
+}
+
+.network-icon-057-computer-monitor:before {
+  content: "";
+}
+
+.network-icon-058-received-message:before {
+  content: "";
+}
+
+.network-icon-059-bidirectional:before {
+  content: "";
+}
+
+.network-icon-060-wireless-internet:before {
+  content: "";
+}
+
+.network-icon-061-data-network:before {
+  content: "";
+}
+
+.network-icon-062-outgoing-email:before {
+  content: "";
+}
+
+.network-icon-063-compass:before {
+  content: "";
+}
+
+.network-icon-064-network-server:before {
+  content: "";
+}
+
+.network-icon-065-web-mail:before {
+  content: "";
+}
+
+.network-icon-066-talk:before {
+  content: "";
+}
+
+.network-icon-067-chatting:before {
+  content: "";
+}
+
+.network-icon-068-house:before {
+  content: "";
+}
+
+.network-icon-069-users:before {
+  content: "";
+}
+
+.network-icon-070-signal-tower:before {
+  content: "";
+}
+
+.network-icon-071-thumbtack:before {
+  content: "";
+}
+
+.network-icon-072-cloud-hosting:before {
+  content: "";
+}
+
+.network-icon-073-speed-test:before {
+  content: "";
+}
+
+.network-icon-074-client-server:before {
+  content: "";
+}
+
+.network-icon-075-people-network:before {
+  content: "";
+}
+
+.network-icon-076-network-server:before {
+  content: "";
+}
+
+.network-icon-077-web-hosting:before {
+  content: "";
+}
+
+.network-icon-078-global-network:before {
+  content: "";
+}
+
+.network-icon-079-network-server:before {
+  content: "";
+}
+
+.network-icon-080-web-hosting:before {
+  content: "";
+}
+
+.network-icon-081-affiliate-marketing:before {
+  content: "";
+}
+
+.network-icon-082-hotspot:before {
+  content: "";
+}
+
+.network-icon-083-data-network:before {
+  content: "";
+}
+
+.network-icon-084-wireless-network:before {
+  content: "";
+}
+
+.network-icon-085-mobile-network:before {
+  content: "";
+}
+
+.network-icon-086-web-administrator:before {
+  content: "";
+}
+
+.network-icon-087-client-server:before {
+  content: "";
+}
+
+.network-icon-088-network:before {
+  content: "";
+}
+
+.network-icon-089-cloud-hosting:before {
+  content: "";
+}
+
+.network-icon-090-world-wide-web:before {
+  content: "";
+}
+
+.network-icon-091-network:before {
+  content: "";
+}
+
+.network-icon-092-cloud-network:before {
+  content: "";
+}
+
+.network-icon-093-web-hosting:before {
+  content: "";
+}
+
+.network-icon-094-network:before {
+  content: "";
+}
+
+.network-icon-095-social-network:before {
+  content: "";
+}
+
+.network-icon-096-cloud-network:before {
+  content: "";
+}
+
+.network-icon-097-social-network:before {
+  content: "";
+}
+
+.network-icon-098-global-network:before {
+  content: "";
+}
+
+.network-icon-099-online-community:before {
+  content: "";
+}
+
+.network-icon-100-cloud-network:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "ConstructionIcon";
+  src: url("construction/font/Flaticon.eot");
+  src: url("construction/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("construction/font/Flaticon.woff2") format("woff2"), url("construction/font/Flaticon.woff") format("woff"), url("construction/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" construction-icon-"]:before,
+[class^=construction-icon-]:before {
+  font-family: "ConstructionIcon";
+}
+
+.construction-icon-001-bricks:before {
+  content: "";
+}
+
+.construction-icon-002-axe:before {
+  content: "";
+}
+
+.construction-icon-003-traffic-sign:before {
+  content: "";
+}
+
+.construction-icon-004-toolbox:before {
+  content: "";
+}
+
+.construction-icon-005-trowel:before {
+  content: "";
+}
+
+.construction-icon-006-plier:before {
+  content: "";
+}
+
+.construction-icon-007-gardening-tools:before {
+  content: "";
+}
+
+.construction-icon-008-paint-roller:before {
+  content: "";
+}
+
+.construction-icon-009-paintbrushes:before {
+  content: "";
+}
+
+.construction-icon-010-wheelbarrow:before {
+  content: "";
+}
+
+.construction-icon-011-adjustable-spanner:before {
+  content: "";
+}
+
+.construction-icon-012-drilling-machine:before {
+  content: "";
+}
+
+.construction-icon-013-warning-sign:before {
+  content: "";
+}
+
+.construction-icon-014-pocket-knife:before {
+  content: "";
+}
+
+.construction-icon-015-paint-roller:before {
+  content: "";
+}
+
+.construction-icon-016-oil-tank:before {
+  content: "";
+}
+
+.construction-icon-017-gas-mask:before {
+  content: "";
+}
+
+.construction-icon-018-cooling-tower:before {
+  content: "";
+}
+
+.construction-icon-019-valve:before {
+  content: "";
+}
+
+.construction-icon-020-fuel-station:before {
+  content: "";
+}
+
+.construction-icon-021-spanner:before {
+  content: "";
+}
+
+.construction-icon-022-electric-plug:before {
+  content: "";
+}
+
+.construction-icon-023-pump-jack:before {
+  content: "";
+}
+
+.construction-icon-024-traffic-cone:before {
+  content: "";
+}
+
+.construction-icon-025-jerrycan:before {
+  content: "";
+}
+
+.construction-icon-026-screwdriver:before {
+  content: "";
+}
+
+.construction-icon-027-screw:before {
+  content: "";
+}
+
+.construction-icon-028-protractor:before {
+  content: "";
+}
+
+.construction-icon-029-nut:before {
+  content: "";
+}
+
+.construction-icon-030-clamp:before {
+  content: "";
+}
+
+.construction-icon-031-wrench:before {
+  content: "";
+}
+
+.construction-icon-032-axe:before {
+  content: "";
+}
+
+.construction-icon-033-hoist:before {
+  content: "";
+}
+
+.construction-icon-034-scissor:before {
+  content: "";
+}
+
+.construction-icon-035-spirit-level:before {
+  content: "";
+}
+
+.construction-icon-036-dump-truck:before {
+  content: "";
+}
+
+.construction-icon-037-signboard:before {
+  content: "";
+}
+
+.construction-icon-038-excavator:before {
+  content: "";
+}
+
+.construction-icon-039-harbor-crane:before {
+  content: "";
+}
+
+.construction-icon-040-tower-crane:before {
+  content: "";
+}
+
+.construction-icon-041-light-bulb:before {
+  content: "";
+}
+
+.construction-icon-042-volumetric-flask:before {
+  content: "";
+}
+
+.construction-icon-043-battery-status:before {
+  content: "";
+}
+
+.construction-icon-044-hoist:before {
+  content: "";
+}
+
+.construction-icon-045-pulley:before {
+  content: "";
+}
+
+.construction-icon-046-paint-bucket:before {
+  content: "";
+}
+
+.construction-icon-047-wheelbarrow:before {
+  content: "";
+}
+
+.construction-icon-048-ladder:before {
+  content: "";
+}
+
+.construction-icon-049-worker:before {
+  content: "";
+}
+
+.construction-icon-050-brickwork:before {
+  content: "";
+}
+
+.construction-icon-051-stop-sign:before {
+  content: "";
+}
+
+.construction-icon-052-paint-spray:before {
+  content: "";
+}
+
+.construction-icon-053-tower-crane:before {
+  content: "";
+}
+
+.construction-icon-054-road-barrier:before {
+  content: "";
+}
+
+.construction-icon-055-gallon:before {
+  content: "";
+}
+
+.construction-icon-056-construction-worker:before {
+  content: "";
+}
+
+.construction-icon-057-repair-tools:before {
+  content: "";
+}
+
+.construction-icon-058-bulldozer:before {
+  content: "";
+}
+
+.construction-icon-059-drilling-machine:before {
+  content: "";
+}
+
+.construction-icon-060-pliers-tool:before {
+  content: "";
+}
+
+.construction-icon-061-vest-buoy:before {
+  content: "";
+}
+
+.construction-icon-062-traffic-cone:before {
+  content: "";
+}
+
+.construction-icon-063-paint-roller:before {
+  content: "";
+}
+
+.construction-icon-064-hammer:before {
+  content: "";
+}
+
+.construction-icon-065-jackhammer:before {
+  content: "";
+}
+
+.construction-icon-066-greek-pillars:before {
+  content: "";
+}
+
+.construction-icon-067-cooling-tower:before {
+  content: "";
+}
+
+.construction-icon-068-paintbrush:before {
+  content: "";
+}
+
+.construction-icon-069-spade:before {
+  content: "";
+}
+
+.construction-icon-070-house:before {
+  content: "";
+}
+
+.construction-icon-071-measuring-tape:before {
+  content: "";
+}
+
+.construction-icon-072-dump-truck:before {
+  content: "";
+}
+
+.construction-icon-073-circular-saw:before {
+  content: "";
+}
+
+.construction-icon-074-forbidden-sign:before {
+  content: "";
+}
+
+.construction-icon-075-light-bulb:before {
+  content: "";
+}
+
+.construction-icon-076-cement:before {
+  content: "";
+}
+
+.construction-icon-077-hard-hat:before {
+  content: "";
+}
+
+.construction-icon-078-electric-saw:before {
+  content: "";
+}
+
+.construction-icon-079-door-sign:before {
+  content: "";
+}
+
+.construction-icon-080-hoist:before {
+  content: "";
+}
+
+.construction-icon-081-paintbrush:before {
+  content: "";
+}
+
+.construction-icon-082-house:before {
+  content: "";
+}
+
+.construction-icon-083-spray-bottle:before {
+  content: "";
+}
+
+.construction-icon-084-siren:before {
+  content: "";
+}
+
+.construction-icon-085-set-square:before {
+  content: "";
+}
+
+.construction-icon-086-water-tap:before {
+  content: "";
+}
+
+.construction-icon-087-electric-socket:before {
+  content: "";
+}
+
+.construction-icon-088-valve:before {
+  content: "";
+}
+
+.construction-icon-089-fire-hydrant:before {
+  content: "";
+}
+
+.construction-icon-090-hand-saw:before {
+  content: "";
+}
+
+.construction-icon-091-ladder:before {
+  content: "";
+}
+
+.construction-icon-092-traffic-sign:before {
+  content: "";
+}
+
+.construction-icon-093-valve:before {
+  content: "";
+}
+
+.construction-icon-094-dump-truck:before {
+  content: "";
+}
+
+.construction-icon-095-hand-saw-tool:before {
+  content: "";
+}
+
+.construction-icon-096-wrench:before {
+  content: "";
+}
+
+.construction-icon-097-wrench:before {
+  content: "";
+}
+
+.construction-icon-098-building-plan:before {
+  content: "";
+}
+
+.construction-icon-099-map:before {
+  content: "";
+}
+
+.construction-icon-100-rain-boots:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "MapsAndNavigation";
+  src: url("maps-and-navigation/font/Flaticon.eot");
+  src: url("maps-and-navigation/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("maps-and-navigation/font/Flaticon.woff2") format("woff2"), url("maps-and-navigation/font/Flaticon.woff") format("woff"), url("maps-and-navigation/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" maps-and-navigation-"]:before,
+[class^=maps-and-navigation-]:before {
+  font-family: "MapsAndNavigation";
+}
+
+.maps-and-navigation-001-pointing-arrow:before {
+  content: "";
+}
+
+.maps-and-navigation-002-road-map:before {
+  content: "";
+}
+
+.maps-and-navigation-003-walkie-talkie:before {
+  content: "";
+}
+
+.maps-and-navigation-004-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-005-traffic-lights:before {
+  content: "";
+}
+
+.maps-and-navigation-006-gps-phone:before {
+  content: "";
+}
+
+.maps-and-navigation-007-flag:before {
+  content: "";
+}
+
+.maps-and-navigation-008-map-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-009-satellite:before {
+  content: "";
+}
+
+.maps-and-navigation-010-flag:before {
+  content: "";
+}
+
+.maps-and-navigation-011-arrow:before {
+  content: "";
+}
+
+.maps-and-navigation-012-compass:before {
+  content: "";
+}
+
+.maps-and-navigation-013-road-map:before {
+  content: "";
+}
+
+.maps-and-navigation-014-earth:before {
+  content: "";
+}
+
+.maps-and-navigation-015-mountains:before {
+  content: "";
+}
+
+.maps-and-navigation-016-joystick:before {
+  content: "";
+}
+
+.maps-and-navigation-017-maps-and-location:before {
+  content: "";
+}
+
+.maps-and-navigation-018-road:before {
+  content: "";
+}
+
+.maps-and-navigation-019-directional-arrows:before {
+  content: "";
+}
+
+.maps-and-navigation-020-compass:before {
+  content: "";
+}
+
+.maps-and-navigation-021-traffic-cone:before {
+  content: "";
+}
+
+.maps-and-navigation-022-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-023-arrows:before {
+  content: "";
+}
+
+.maps-and-navigation-024-road-map:before {
+  content: "";
+}
+
+.maps-and-navigation-025-resize-option:before {
+  content: "";
+}
+
+.maps-and-navigation-026-wireless-connectivity:before {
+  content: "";
+}
+
+.maps-and-navigation-027-ship-wheel:before {
+  content: "";
+}
+
+.maps-and-navigation-028-worldwide:before {
+  content: "";
+}
+
+.maps-and-navigation-029-signpost:before {
+  content: "";
+}
+
+.maps-and-navigation-030-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-031-airplane:before {
+  content: "";
+}
+
+.maps-and-navigation-032-sphere:before {
+  content: "";
+}
+
+.maps-and-navigation-033-search-location:before {
+  content: "";
+}
+
+.maps-and-navigation-034-fuel-pump:before {
+  content: "";
+}
+
+.maps-and-navigation-035-location-pointer:before {
+  content: "";
+}
+
+.maps-and-navigation-036-road-map:before {
+  content: "";
+}
+
+.maps-and-navigation-037-speech-bubbles:before {
+  content: "";
+}
+
+.maps-and-navigation-038-directional-arrows:before {
+  content: "";
+}
+
+.maps-and-navigation-039-directional-arrow:before {
+  content: "";
+}
+
+.maps-and-navigation-040-expand-arrows:before {
+  content: "";
+}
+
+.maps-and-navigation-041-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-042-bank:before {
+  content: "";
+}
+
+.maps-and-navigation-043-anchor:before {
+  content: "";
+}
+
+.maps-and-navigation-044-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-045-flag:before {
+  content: "";
+}
+
+.maps-and-navigation-046-directional-arrows:before {
+  content: "";
+}
+
+.maps-and-navigation-047-global-search:before {
+  content: "";
+}
+
+.maps-and-navigation-048-map-location:before {
+  content: "";
+}
+
+.maps-and-navigation-049-home:before {
+  content: "";
+}
+
+.maps-and-navigation-050-geography:before {
+  content: "";
+}
+
+.maps-and-navigation-051-navigation:before {
+  content: "";
+}
+
+.maps-and-navigation-052-open-eye:before {
+  content: "";
+}
+
+.maps-and-navigation-053-directions:before {
+  content: "";
+}
+
+.maps-and-navigation-054-search-location:before {
+  content: "";
+}
+
+.maps-and-navigation-055-measure-distance:before {
+  content: "";
+}
+
+.maps-and-navigation-056-flag:before {
+  content: "";
+}
+
+.maps-and-navigation-057-parking-sign:before {
+  content: "";
+}
+
+.maps-and-navigation-058-ship-wheel:before {
+  content: "";
+}
+
+.maps-and-navigation-059-volume-adjustment:before {
+  content: "";
+}
+
+.maps-and-navigation-060-castle:before {
+  content: "";
+}
+
+.maps-and-navigation-061-satellite-dish:before {
+  content: "";
+}
+
+.maps-and-navigation-062-satellite:before {
+  content: "";
+}
+
+.maps-and-navigation-063-location-pointer:before {
+  content: "";
+}
+
+.maps-and-navigation-064-measure-distance:before {
+  content: "";
+}
+
+.maps-and-navigation-065-measure-distance:before {
+  content: "";
+}
+
+.maps-and-navigation-066-church:before {
+  content: "";
+}
+
+.maps-and-navigation-067-map-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-068-location-pointer:before {
+  content: "";
+}
+
+.maps-and-navigation-069-compass-flower:before {
+  content: "";
+}
+
+.maps-and-navigation-070-push-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-071-rating:before {
+  content: "";
+}
+
+.maps-and-navigation-072-gps-navigation:before {
+  content: "";
+}
+
+.maps-and-navigation-073-flag:before {
+  content: "";
+}
+
+.maps-and-navigation-074-user:before {
+  content: "";
+}
+
+.maps-and-navigation-075-train:before {
+  content: "";
+}
+
+.maps-and-navigation-076-house:before {
+  content: "";
+}
+
+.maps-and-navigation-077-walkie-talkie:before {
+  content: "";
+}
+
+.maps-and-navigation-078-landscape:before {
+  content: "";
+}
+
+.maps-and-navigation-079-satellite-dish:before {
+  content: "";
+}
+
+.maps-and-navigation-080-user:before {
+  content: "";
+}
+
+.maps-and-navigation-081-radar-sonar:before {
+  content: "";
+}
+
+.maps-and-navigation-082-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-083-city-building:before {
+  content: "";
+}
+
+.maps-and-navigation-084-signal-tower:before {
+  content: "";
+}
+
+.maps-and-navigation-085-crossroads:before {
+  content: "";
+}
+
+.maps-and-navigation-086-church:before {
+  content: "";
+}
+
+.maps-and-navigation-087-gps-navigation:before {
+  content: "";
+}
+
+.maps-and-navigation-088-navigator:before {
+  content: "";
+}
+
+.maps-and-navigation-089-wifi-connection:before {
+  content: "";
+}
+
+.maps-and-navigation-090-compass:before {
+  content: "";
+}
+
+.maps-and-navigation-091-egypt:before {
+  content: "";
+}
+
+.maps-and-navigation-092-ship:before {
+  content: "";
+}
+
+.maps-and-navigation-093-location-pin:before {
+  content: "";
+}
+
+.maps-and-navigation-094-christmas-tree:before {
+  content: "";
+}
+
+.maps-and-navigation-095-gps-navigation:before {
+  content: "";
+}
+
+.maps-and-navigation-096-bookmark:before {
+  content: "";
+}
+
+.maps-and-navigation-097-map:before {
+  content: "";
+}
+
+.maps-and-navigation-098-guidepost:before {
+  content: "";
+}
+
+.maps-and-navigation-099-star:before {
+  content: "";
+}
+
+.maps-and-navigation-100-health-clinic:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "SecurityIcon";
+  src: url("security/font/Flaticon.eot");
+  src: url("security/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("security/font/Flaticon.woff2") format("woff2"), url("security/font/Flaticon.woff") format("woff"), url("security/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" security-icon-"]:before,
+[class^=security-icon-]:before {
+  font-family: "SecurityIcon";
+}
+
+.security-icon-001-gears:before {
+  content: "";
+}
+
+.security-icon-002-radar:before {
+  content: "";
+}
+
+.security-icon-003-binocular:before {
+  content: "";
+}
+
+.security-icon-004-attention:before {
+  content: "";
+}
+
+.security-icon-005-lock:before {
+  content: "";
+}
+
+.security-icon-006-envelope:before {
+  content: "";
+}
+
+.security-icon-007-website:before {
+  content: "";
+}
+
+.security-icon-008-danger-sign:before {
+  content: "";
+}
+
+.security-icon-009-shared-folder:before {
+  content: "";
+}
+
+.security-icon-010-bug:before {
+  content: "";
+}
+
+.security-icon-011-cloud-download:before {
+  content: "";
+}
+
+.security-icon-012-safe-box:before {
+  content: "";
+}
+
+.security-icon-013-warning:before {
+  content: "";
+}
+
+.security-icon-014-switch:before {
+  content: "";
+}
+
+.security-icon-015-handcuffs:before {
+  content: "";
+}
+
+.security-icon-016-spyware:before {
+  content: "";
+}
+
+.security-icon-017-cds:before {
+  content: "";
+}
+
+.security-icon-018-compact-disc:before {
+  content: "";
+}
+
+.security-icon-019-bug:before {
+  content: "";
+}
+
+.security-icon-020-danger:before {
+  content: "";
+}
+
+.security-icon-021-biometric-identification:before {
+  content: "";
+}
+
+.security-icon-022-ethernet:before {
+  content: "";
+}
+
+.security-icon-023-web-crawler:before {
+  content: "";
+}
+
+.security-icon-024-star:before {
+  content: "";
+}
+
+.security-icon-025-hash:before {
+  content: "";
+}
+
+.security-icon-026-password-code:before {
+  content: "";
+}
+
+.security-icon-027-spam-alert:before {
+  content: "";
+}
+
+.security-icon-028-umbrella:before {
+  content: "";
+}
+
+.security-icon-029-spanner:before {
+  content: "";
+}
+
+.security-icon-030-lock:before {
+  content: "";
+}
+
+.security-icon-031-siren:before {
+  content: "";
+}
+
+.security-icon-032-hacking:before {
+  content: "";
+}
+
+.security-icon-033-firewall:before {
+  content: "";
+}
+
+.security-icon-034-key:before {
+  content: "";
+}
+
+.security-icon-035-shield:before {
+  content: "";
+}
+
+.security-icon-036-sign-in:before {
+  content: "";
+}
+
+.security-icon-037-customer-support:before {
+  content: "";
+}
+
+.security-icon-038-danger:before {
+  content: "";
+}
+
+.security-icon-039-danger-sign:before {
+  content: "";
+}
+
+.security-icon-040-binocular:before {
+  content: "";
+}
+
+.security-icon-041-dynamite:before {
+  content: "";
+}
+
+.security-icon-042-thunder-bolt:before {
+  content: "";
+}
+
+.security-icon-043-server:before {
+  content: "";
+}
+
+.security-icon-044-gear:before {
+  content: "";
+}
+
+.security-icon-045-keyboard-key:before {
+  content: "";
+}
+
+.security-icon-046-key:before {
+  content: "";
+}
+
+.security-icon-047-ethernet:before {
+  content: "";
+}
+
+.security-icon-048-internet-security:before {
+  content: "";
+}
+
+.security-icon-049-alert:before {
+  content: "";
+}
+
+.security-icon-050-cyber-security:before {
+  content: "";
+}
+
+.security-icon-051-telephone:before {
+  content: "";
+}
+
+.security-icon-052-id-card:before {
+  content: "";
+}
+
+.security-icon-053-exclamation-mark:before {
+  content: "";
+}
+
+.security-icon-054-safety-glasses:before {
+  content: "";
+}
+
+.security-icon-055-search-bar:before {
+  content: "";
+}
+
+.security-icon-056-video-camera:before {
+  content: "";
+}
+
+.security-icon-057-wrench:before {
+  content: "";
+}
+
+.security-icon-058-internet-security:before {
+  content: "";
+}
+
+.security-icon-059-data-center:before {
+  content: "";
+}
+
+.security-icon-060-telecommunication:before {
+  content: "";
+}
+
+.security-icon-061-server:before {
+  content: "";
+}
+
+.security-icon-062-add-to-cart:before {
+  content: "";
+}
+
+.security-icon-063-private-account:before {
+  content: "";
+}
+
+.security-icon-064-global-network:before {
+  content: "";
+}
+
+.security-icon-065-data-encryption:before {
+  content: "";
+}
+
+.security-icon-066-data-encryption:before {
+  content: "";
+}
+
+.security-icon-067-prohibited:before {
+  content: "";
+}
+
+.security-icon-068-lifebuoy:before {
+  content: "";
+}
+
+.security-icon-069-vinyl-record:before {
+  content: "";
+}
+
+.security-icon-070-virus:before {
+  content: "";
+}
+
+.security-icon-071-bullhorn:before {
+  content: "";
+}
+
+.security-icon-072-cleaning:before {
+  content: "";
+}
+
+.security-icon-073-internet-security:before {
+  content: "";
+}
+
+.security-icon-074-cctv-camera:before {
+  content: "";
+}
+
+.security-icon-075-internet-security:before {
+  content: "";
+}
+
+.security-icon-076-memory-card:before {
+  content: "";
+}
+
+.security-icon-077-webcam:before {
+  content: "";
+}
+
+.security-icon-078-shield:before {
+  content: "";
+}
+
+.security-icon-079-unprotected:before {
+  content: "";
+}
+
+.security-icon-080-cloud-network:before {
+  content: "";
+}
+
+.security-icon-081-pistol:before {
+  content: "";
+}
+
+.security-icon-082-padlock:before {
+  content: "";
+}
+
+.security-icon-083-computer-bug:before {
+  content: "";
+}
+
+.security-icon-084-internet-security:before {
+  content: "";
+}
+
+.security-icon-085-traffic-cone:before {
+  content: "";
+}
+
+.security-icon-086-fire-extinguisher:before {
+  content: "";
+}
+
+.security-icon-087-cctv-camera:before {
+  content: "";
+}
+
+.security-icon-088-security-officer:before {
+  content: "";
+}
+
+.security-icon-089-poison:before {
+  content: "";
+}
+
+.security-icon-090-login:before {
+  content: "";
+}
+
+.security-icon-091-eye:before {
+  content: "";
+}
+
+.security-icon-092-alert-sign:before {
+  content: "";
+}
+
+.security-icon-093-compass:before {
+  content: "";
+}
+
+.security-icon-094-usb:before {
+  content: "";
+}
+
+.security-icon-095-arrows:before {
+  content: "";
+}
+
+.security-icon-096-error-page:before {
+  content: "";
+}
+
+.security-icon-097-refresh-button:before {
+  content: "";
+}
+
+.security-icon-098-keyboard-key:before {
+  content: "";
+}
+
+.security-icon-099-internet-security:before {
+  content: "";
+}
+
+.security-icon-100-secured-network:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "IndustrialIcon";
+  src: url("industrial/font/Flaticon.eot");
+  src: url("industrial/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("industrial/font/Flaticon.woff2") format("woff2"), url("industrial/font/Flaticon.woff") format("woff"), url("industrial/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" industrial-icon-"]:before,
+[class^=industrial-icon-]:before {
+  font-family: "IndustrialIcon";
+}
+
+.industrial-icon-001-ecology:before {
+  content: "";
+}
+
+.industrial-icon-002-nuclear-plant:before {
+  content: "";
+}
+
+.industrial-icon-003-lifebuoy:before {
+  content: "";
+}
+
+.industrial-icon-004-shipping-and-delivery:before {
+  content: "";
+}
+
+.industrial-icon-005-excavator:before {
+  content: "";
+}
+
+.industrial-icon-006-hammer:before {
+  content: "";
+}
+
+.industrial-icon-007-construction-worker:before {
+  content: "";
+}
+
+.industrial-icon-008-mine-cart:before {
+  content: "";
+}
+
+.industrial-icon-009-tunnel:before {
+  content: "";
+}
+
+.industrial-icon-010-cogwheel:before {
+  content: "";
+}
+
+.industrial-icon-011-mining:before {
+  content: "";
+}
+
+.industrial-icon-012-spade:before {
+  content: "";
+}
+
+.industrial-icon-013-factory:before {
+  content: "";
+}
+
+.industrial-icon-014-tractor:before {
+  content: "";
+}
+
+.industrial-icon-015-cargo-truck:before {
+  content: "";
+}
+
+.industrial-icon-016-electric-outlet:before {
+  content: "";
+}
+
+.industrial-icon-017-industrial-scale:before {
+  content: "";
+}
+
+.industrial-icon-018-electric-tower:before {
+  content: "";
+}
+
+.industrial-icon-019-car-battery:before {
+  content: "";
+}
+
+.industrial-icon-020-forklift:before {
+  content: "";
+}
+
+.industrial-icon-021-jackhammer:before {
+  content: "";
+}
+
+.industrial-icon-022-warehouse:before {
+  content: "";
+}
+
+.industrial-icon-023-earth-globe:before {
+  content: "";
+}
+
+.industrial-icon-024-petrol-can:before {
+  content: "";
+}
+
+.industrial-icon-025-cooling-tower:before {
+  content: "";
+}
+
+.industrial-icon-026-bridge:before {
+  content: "";
+}
+
+.industrial-icon-027-voltmeter:before {
+  content: "";
+}
+
+.industrial-icon-028-hazard-sign:before {
+  content: "";
+}
+
+.industrial-icon-029-labor-man:before {
+  content: "";
+}
+
+.industrial-icon-030-light-bulb:before {
+  content: "";
+}
+
+.industrial-icon-031-battery:before {
+  content: "";
+}
+
+.industrial-icon-032-led-light:before {
+  content: "";
+}
+
+.industrial-icon-033-robotic-arm:before {
+  content: "";
+}
+
+.industrial-icon-034-industrial-robot:before {
+  content: "";
+}
+
+.industrial-icon-035-greenhouse:before {
+  content: "";
+}
+
+.industrial-icon-036-alert-sign:before {
+  content: "";
+}
+
+.industrial-icon-037-tape-measure:before {
+  content: "";
+}
+
+.industrial-icon-038-car:before {
+  content: "";
+}
+
+.industrial-icon-039-uniforms:before {
+  content: "";
+}
+
+.industrial-icon-040-lifting:before {
+  content: "";
+}
+
+.industrial-icon-041-spanner:before {
+  content: "";
+}
+
+.industrial-icon-042-construction-drill:before {
+  content: "";
+}
+
+.industrial-icon-043-compass:before {
+  content: "";
+}
+
+.industrial-icon-044-wall:before {
+  content: "";
+}
+
+.industrial-icon-045-helmet:before {
+  content: "";
+}
+
+.industrial-icon-046-pump-jack:before {
+  content: "";
+}
+
+.industrial-icon-047-hand-saw:before {
+  content: "";
+}
+
+.industrial-icon-048-water-pump:before {
+  content: "";
+}
+
+.industrial-icon-049-engineer:before {
+  content: "";
+}
+
+.industrial-icon-050-dump-truck:before {
+  content: "";
+}
+
+.industrial-icon-051-painter-roller:before {
+  content: "";
+}
+
+.industrial-icon-052-manufacturing:before {
+  content: "";
+}
+
+.industrial-icon-053-industry:before {
+  content: "";
+}
+
+.industrial-icon-054-droplet:before {
+  content: "";
+}
+
+.industrial-icon-055-fire-flame:before {
+  content: "";
+}
+
+.industrial-icon-056-jerrycan:before {
+  content: "";
+}
+
+.industrial-icon-057-green-energy:before {
+  content: "";
+}
+
+.industrial-icon-058-water-drop:before {
+  content: "";
+}
+
+.industrial-icon-059-saw-machine:before {
+  content: "";
+}
+
+.industrial-icon-060-headphones:before {
+  content: "";
+}
+
+.industrial-icon-061-gas-cylinder:before {
+  content: "";
+}
+
+.industrial-icon-062-fire-extinguisher:before {
+  content: "";
+}
+
+.industrial-icon-063-hard-hat:before {
+  content: "";
+}
+
+.industrial-icon-064-power-plug:before {
+  content: "";
+}
+
+.industrial-icon-065-oil-well:before {
+  content: "";
+}
+
+.industrial-icon-066-traffic-cone:before {
+  content: "";
+}
+
+.industrial-icon-067-first-aid-kit:before {
+  content: "";
+}
+
+.industrial-icon-068-battery:before {
+  content: "";
+}
+
+.industrial-icon-069-pump-jack:before {
+  content: "";
+}
+
+.industrial-icon-070-drill-tool:before {
+  content: "";
+}
+
+.industrial-icon-071-under-construction:before {
+  content: "";
+}
+
+.industrial-icon-072-torch:before {
+  content: "";
+}
+
+.industrial-icon-073-flag:before {
+  content: "";
+}
+
+.industrial-icon-074-paint-roller:before {
+  content: "";
+}
+
+.industrial-icon-075-siren:before {
+  content: "";
+}
+
+.industrial-icon-076-vest-buoy:before {
+  content: "";
+}
+
+.industrial-icon-077-compass:before {
+  content: "";
+}
+
+.industrial-icon-078-pressure-gauge:before {
+  content: "";
+}
+
+.industrial-icon-079-factory:before {
+  content: "";
+}
+
+.industrial-icon-080-whistle:before {
+  content: "";
+}
+
+.industrial-icon-081-co2-cloud:before {
+  content: "";
+}
+
+.industrial-icon-082-business-and-finance:before {
+  content: "";
+}
+
+.industrial-icon-083-water-tap:before {
+  content: "";
+}
+
+.industrial-icon-084-natural-gas:before {
+  content: "";
+}
+
+.industrial-icon-085-oil-barrel:before {
+  content: "";
+}
+
+.industrial-icon-086-cogwheels:before {
+  content: "";
+}
+
+.industrial-icon-087-factory:before {
+  content: "";
+}
+
+.industrial-icon-088-thunderbolt:before {
+  content: "";
+}
+
+.industrial-icon-089-oil-derrick:before {
+  content: "";
+}
+
+.industrial-icon-090-mine-cart:before {
+  content: "";
+}
+
+.industrial-icon-091-power-plug:before {
+  content: "";
+}
+
+.industrial-icon-092-oil-truck:before {
+  content: "";
+}
+
+.industrial-icon-093-oil-refinery:before {
+  content: "";
+}
+
+.industrial-icon-094-business-and-finance:before {
+  content: "";
+}
+
+.industrial-icon-095-train:before {
+  content: "";
+}
+
+.industrial-icon-096-petrol-pump:before {
+  content: "";
+}
+
+.industrial-icon-097-oil-valve:before {
+  content: "";
+}
+
+.industrial-icon-098-hard-hat:before {
+  content: "";
+}
+
+.industrial-icon-099-fuel-station:before {
+  content: "";
+}
+
+.industrial-icon-100-oil-derrick:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "medical-and-health";
+  src: url("medical-and-health/font/Flaticon.eot");
+  src: url("medical-and-health/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("medical-and-health/font/Flaticon.woff2") format("woff2"), url("medical-and-health/font/Flaticon.woff") format("woff"), url("medical-and-health/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" medical-and-health-icon-"]:before,
+[class^=medical-and-health-icon-]:before {
+  font-family: "medical-and-health";
+}
+
+.medical-and-health-icon-001-appointment-book:before {
+  content: "";
+}
+
+.medical-and-health-icon-002-bathroom-scale:before {
+  content: "";
+}
+
+.medical-and-health-icon-003-medicine-jar:before {
+  content: "";
+}
+
+.medical-and-health-icon-004-capsules:before {
+  content: "";
+}
+
+.medical-and-health-icon-005-blood-donation:before {
+  content: "";
+}
+
+.medical-and-health-icon-006-test-tubes:before {
+  content: "";
+}
+
+.medical-and-health-icon-007-intravenous-saline-drip:before {
+  content: "";
+}
+
+.medical-and-health-icon-008-pills:before {
+  content: "";
+}
+
+.medical-and-health-icon-009-microscope:before {
+  content: "";
+}
+
+.medical-and-health-icon-010-psychology:before {
+  content: "";
+}
+
+.medical-and-health-icon-011-arm-muscle:before {
+  content: "";
+}
+
+.medical-and-health-icon-012-medical-report:before {
+  content: "";
+}
+
+.medical-and-health-icon-013-microscope:before {
+  content: "";
+}
+
+.medical-and-health-icon-014-eye:before {
+  content: "";
+}
+
+.medical-and-health-icon-015-science-research:before {
+  content: "";
+}
+
+.medical-and-health-icon-016-health-care:before {
+  content: "";
+}
+
+.medical-and-health-icon-017-blood-sample:before {
+  content: "";
+}
+
+.medical-and-health-icon-018-ears:before {
+  content: "";
+}
+
+.medical-and-health-icon-019-tooth:before {
+  content: "";
+}
+
+.medical-and-health-icon-020-capsules:before {
+  content: "";
+}
+
+.medical-and-health-icon-021-erlenmeyer:before {
+  content: "";
+}
+
+.medical-and-health-icon-022-human-bones:before {
+  content: "";
+}
+
+.medical-and-health-icon-023-appointment-book:before {
+  content: "";
+}
+
+.medical-and-health-icon-024-first-aid-kit:before {
+  content: "";
+}
+
+.medical-and-health-icon-025-rubber-gloves:before {
+  content: "";
+}
+
+.medical-and-health-icon-026-breast-cancer:before {
+  content: "";
+}
+
+.medical-and-health-icon-027-bandage:before {
+  content: "";
+}
+
+.medical-and-health-icon-028-medicine:before {
+  content: "";
+}
+
+.medical-and-health-icon-029-apple-fruit:before {
+  content: "";
+}
+
+.medical-and-health-icon-030-sperms:before {
+  content: "";
+}
+
+.medical-and-health-icon-031-ambulance:before {
+  content: "";
+}
+
+.medical-and-health-icon-032-chemical-bond:before {
+  content: "";
+}
+
+.medical-and-health-icon-033-broccoli:before {
+  content: "";
+}
+
+.medical-and-health-icon-034-pills:before {
+  content: "";
+}
+
+.medical-and-health-icon-035-liver-organ:before {
+  content: "";
+}
+
+.medical-and-health-icon-036-electrocardiogram:before {
+  content: "";
+}
+
+.medical-and-health-icon-037-medical-shield:before {
+  content: "";
+}
+
+.medical-and-health-icon-038-reflex-hammer:before {
+  content: "";
+}
+
+.medical-and-health-icon-039-pills:before {
+  content: "";
+}
+
+.medical-and-health-icon-040-blood-donation:before {
+  content: "";
+}
+
+.medical-and-health-icon-041-hospital-phone:before {
+  content: "";
+}
+
+.medical-and-health-icon-042-injury:before {
+  content: "";
+}
+
+.medical-and-health-icon-043-ambulance-lights:before {
+  content: "";
+}
+
+.medical-and-health-icon-044-capsules:before {
+  content: "";
+}
+
+.medical-and-health-icon-045-toothbrush:before {
+  content: "";
+}
+
+.medical-and-health-icon-046-human-brain:before {
+  content: "";
+}
+
+.medical-and-health-icon-047-injured-knee:before {
+  content: "";
+}
+
+.medical-and-health-icon-048-breast:before {
+  content: "";
+}
+
+.medical-and-health-icon-049-dental-drill:before {
+  content: "";
+}
+
+.medical-and-health-icon-050-skull:before {
+  content: "";
+}
+
+.medical-and-health-icon-051-ampoule:before {
+  content: "";
+}
+
+.medical-and-health-icon-052-honey-jar:before {
+  content: "";
+}
+
+.medical-and-health-icon-053-medical-sign:before {
+  content: "";
+}
+
+.medical-and-health-icon-054-intravenous-saline-drip:before {
+  content: "";
+}
+
+.medical-and-health-icon-055-stethoscope:before {
+  content: "";
+}
+
+.medical-and-health-icon-056-intravenous-saline-drip:before {
+  content: "";
+}
+
+.medical-and-health-icon-057-bandage:before {
+  content: "";
+}
+
+.medical-and-health-icon-058-hospital-bed:before {
+  content: "";
+}
+
+.medical-and-health-icon-059-medical-stretcher:before {
+  content: "";
+}
+
+.medical-and-health-icon-060-ecg-monitor:before {
+  content: "";
+}
+
+.medical-and-health-icon-061-blood-pressure-meter:before {
+  content: "";
+}
+
+.medical-and-health-icon-062-crutch:before {
+  content: "";
+}
+
+.medical-and-health-icon-063-medical-prescription:before {
+  content: "";
+}
+
+.medical-and-health-icon-064-ecg-monitor:before {
+  content: "";
+}
+
+.medical-and-health-icon-065-medicine-dropper:before {
+  content: "";
+}
+
+.medical-and-health-icon-066-hospital-building:before {
+  content: "";
+}
+
+.medical-and-health-icon-067-heartbeat:before {
+  content: "";
+}
+
+.medical-and-health-icon-068-volumetric-flask:before {
+  content: "";
+}
+
+.medical-and-health-icon-069-ambulance:before {
+  content: "";
+}
+
+.medical-and-health-icon-070-nurse:before {
+  content: "";
+}
+
+.medical-and-health-icon-071-medicine-jar:before {
+  content: "";
+}
+
+.medical-and-health-icon-072-tooth:before {
+  content: "";
+}
+
+.medical-and-health-icon-073-dentist-tools:before {
+  content: "";
+}
+
+.medical-and-health-icon-074-first-aid-kit:before {
+  content: "";
+}
+
+.medical-and-health-icon-075-injury:before {
+  content: "";
+}
+
+.medical-and-health-icon-076-weight-loss:before {
+  content: "";
+}
+
+.medical-and-health-icon-077-female-symbol:before {
+  content: "";
+}
+
+.medical-and-health-icon-078-medical-app:before {
+  content: "";
+}
+
+.medical-and-health-icon-079-red-cross:before {
+  content: "";
+}
+
+.medical-and-health-icon-080-medical-symbol:before {
+  content: "";
+}
+
+.medical-and-health-icon-081-stomach:before {
+  content: "";
+}
+
+.medical-and-health-icon-082-ampoule:before {
+  content: "";
+}
+
+.medical-and-health-icon-083-pills:before {
+  content: "";
+}
+
+.medical-and-health-icon-084-ecg-monitor:before {
+  content: "";
+}
+
+.medical-and-health-icon-085-medical-symbol:before {
+  content: "";
+}
+
+.medical-and-health-icon-086-herbal-treatment:before {
+  content: "";
+}
+
+.medical-and-health-icon-087-map-pin:before {
+  content: "";
+}
+
+.medical-and-health-icon-088-bonnet:before {
+  content: "";
+}
+
+.medical-and-health-icon-089-dumbbell:before {
+  content: "";
+}
+
+.medical-and-health-icon-090-chemical-bond:before {
+  content: "";
+}
+
+.medical-and-health-icon-091-human-lungs:before {
+  content: "";
+}
+
+.medical-and-health-icon-092-syringe:before {
+  content: "";
+}
+
+.medical-and-health-icon-093-first-aid-kit:before {
+  content: "";
+}
+
+.medical-and-health-icon-094-vagina:before {
+  content: "";
+}
+
+.medical-and-health-icon-095-toothpaste:before {
+  content: "";
+}
+
+.medical-and-health-icon-096-erlenmeyer:before {
+  content: "";
+}
+
+.medical-and-health-icon-097-cherries:before {
+  content: "";
+}
+
+.medical-and-health-icon-098-capsule:before {
+  content: "";
+}
+
+.medical-and-health-icon-099-first-aid-bag:before {
+  content: "";
+}
+
+.medical-and-health-icon-100-nasal-aspirator:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "project-management";
+  src: url("project-management/font/Flaticon.eot");
+  src: url("project-management/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("project-management/font/Flaticon.woff2") format("woff2"), url("project-management/font/Flaticon.woff") format("woff"), url("project-management/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" project-management-"]:before,
+[class^=project-management-]:before {
+  font-family: "project-management";
+}
+
+.project-management-001-resume:before {
+  content: "";
+}
+
+.project-management-002-podium:before {
+  content: "";
+}
+
+.project-management-003-sms:before {
+  content: "";
+}
+
+.project-management-004-network:before {
+  content: "";
+}
+
+.project-management-005-payments:before {
+  content: "";
+}
+
+.project-management-006-landing-pages:before {
+  content: "";
+}
+
+.project-management-007-chatting:before {
+  content: "";
+}
+
+.project-management-008-strategic-plan:before {
+  content: "";
+}
+
+.project-management-009-compass:before {
+  content: "";
+}
+
+.project-management-010-data-network:before {
+  content: "";
+}
+
+.project-management-011-network:before {
+  content: "";
+}
+
+.project-management-012-cloud-user:before {
+  content: "";
+}
+
+.project-management-013-binders:before {
+  content: "";
+}
+
+.project-management-014-page-speed:before {
+  content: "";
+}
+
+.project-management-015-people-network:before {
+  content: "";
+}
+
+.project-management-016-to-do-list:before {
+  content: "";
+}
+
+.project-management-017-curriculum-vitae:before {
+  content: "";
+}
+
+.project-management-018-project-scheme:before {
+  content: "";
+}
+
+.project-management-019-web-mail:before {
+  content: "";
+}
+
+.project-management-020-text-document:before {
+  content: "";
+}
+
+.project-management-021-online-appointment:before {
+  content: "";
+}
+
+.project-management-022-businessman:before {
+  content: "";
+}
+
+.project-management-023-files-and-folders:before {
+  content: "";
+}
+
+.project-management-024-seo-and-web:before {
+  content: "";
+}
+
+.project-management-025-project-management:before {
+  content: "";
+}
+
+.project-management-026-magnifying:before {
+  content: "";
+}
+
+.project-management-027-online-chat:before {
+  content: "";
+}
+
+.project-management-028-tactics:before {
+  content: "";
+}
+
+.project-management-029-rocket-launch:before {
+  content: "";
+}
+
+.project-management-030-landline:before {
+  content: "";
+}
+
+.project-management-031-business-report:before {
+  content: "";
+}
+
+.project-management-032-graph-report:before {
+  content: "";
+}
+
+.project-management-033-dialogue:before {
+  content: "";
+}
+
+.project-management-034-audio-message:before {
+  content: "";
+}
+
+.project-management-035-manager:before {
+  content: "";
+}
+
+.project-management-036-office-building:before {
+  content: "";
+}
+
+.project-management-037-giving-present:before {
+  content: "";
+}
+
+.project-management-038-opportunities:before {
+  content: "";
+}
+
+.project-management-039-ecology-and-environment:before {
+  content: "";
+}
+
+.project-management-040-strategy:before {
+  content: "";
+}
+
+.project-management-041-organizer:before {
+  content: "";
+}
+
+.project-management-042-argue:before {
+  content: "";
+}
+
+.project-management-043-good-feedback:before {
+  content: "";
+}
+
+.project-management-044-toasting:before {
+  content: "";
+}
+
+.project-management-045-oath:before {
+  content: "";
+}
+
+.project-management-046-balance-scale:before {
+  content: "";
+}
+
+.project-management-047-scissor:before {
+  content: "";
+}
+
+.project-management-048-medal:before {
+  content: "";
+}
+
+.project-management-049-strategy:before {
+  content: "";
+}
+
+.project-management-050-time-management:before {
+  content: "";
+}
+
+.project-management-051-save-energy:before {
+  content: "";
+}
+
+.project-management-052-teamwork:before {
+  content: "";
+}
+
+.project-management-053-pyramid-chart:before {
+  content: "";
+}
+
+.project-management-054-megaphone:before {
+  content: "";
+}
+
+.project-management-055-light-bulb:before {
+  content: "";
+}
+
+.project-management-056-shooting-target:before {
+  content: "";
+}
+
+.project-management-057-diamond:before {
+  content: "";
+}
+
+.project-management-058-bank:before {
+  content: "";
+}
+
+.project-management-059-necktie:before {
+  content: "";
+}
+
+.project-management-060-chatting:before {
+  content: "";
+}
+
+.project-management-061-open-mail:before {
+  content: "";
+}
+
+.project-management-062-invest-trust:before {
+  content: "";
+}
+
+.project-management-063-data-transfer:before {
+  content: "";
+}
+
+.project-management-064-gold-ingots:before {
+  content: "";
+}
+
+.project-management-065-creative-process:before {
+  content: "";
+}
+
+.project-management-066-argue:before {
+  content: "";
+}
+
+.project-management-067-creative-mind:before {
+  content: "";
+}
+
+.project-management-068-data-transfer:before {
+  content: "";
+}
+
+.project-management-069-business-report:before {
+  content: "";
+}
+
+.project-management-070-management-service:before {
+  content: "";
+}
+
+.project-management-071-give-money:before {
+  content: "";
+}
+
+.project-management-072-money-bag:before {
+  content: "";
+}
+
+.project-management-073-lighthouse:before {
+  content: "";
+}
+
+.project-management-074-global-network:before {
+  content: "";
+}
+
+.project-management-075-hierarchical-structure:before {
+  content: "";
+}
+
+.project-management-076-organization-chart:before {
+  content: "";
+}
+
+.project-management-077-add-contact:before {
+  content: "";
+}
+
+.project-management-078-manager:before {
+  content: "";
+}
+
+.project-management-079-swivel-chair:before {
+  content: "";
+}
+
+.project-management-080-mission-accomplished:before {
+  content: "";
+}
+
+.project-management-081-identity-card:before {
+  content: "";
+}
+
+.project-management-082-magnification-tool:before {
+  content: "";
+}
+
+.project-management-083-payment:before {
+  content: "";
+}
+
+.project-management-084-survey:before {
+  content: "";
+}
+
+.project-management-085-hourglass:before {
+  content: "";
+}
+
+.project-management-086-page-layout:before {
+  content: "";
+}
+
+.project-management-087-project-management:before {
+  content: "";
+}
+
+.project-management-088-web-administrator:before {
+  content: "";
+}
+
+.project-management-089-to-do-list:before {
+  content: "";
+}
+
+.project-management-090-ribbon-badge:before {
+  content: "";
+}
+
+.project-management-091-creative-mind:before {
+  content: "";
+}
+
+.project-management-092-page-layout:before {
+  content: "";
+}
+
+.project-management-093-social-network:before {
+  content: "";
+}
+
+.project-management-094-earth-day:before {
+  content: "";
+}
+
+.project-management-095-leadership:before {
+  content: "";
+}
+
+.project-management-096-network:before {
+  content: "";
+}
+
+.project-management-097-web-traffic:before {
+  content: "";
+}
+
+.project-management-098-task-planning:before {
+  content: "";
+}
+
+.project-management-099-chatting:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "database-and-storage";
+  src: url("database-and-storage/font/Flaticon.eot");
+  src: url("database-and-storage/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("database-and-storage/font/Flaticon.woff2") format("woff2"), url("database-and-storage/font/Flaticon.woff") format("woff"), url("database-and-storage/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" database-and-storage-"]:before,
+[class^=database-and-storage-]:before {
+  font-family: "database-and-storage";
+}
+
+.database-and-storage-001-speedometer:before {
+  content: "";
+}
+
+.database-and-storage-002-server:before {
+  content: "";
+}
+
+.database-and-storage-003-cloud-sync:before {
+  content: "";
+}
+
+.database-and-storage-004-internet:before {
+  content: "";
+}
+
+.database-and-storage-005-web-filter:before {
+  content: "";
+}
+
+.database-and-storage-006-web-development:before {
+  content: "";
+}
+
+.database-and-storage-007-cloud-database:before {
+  content: "";
+}
+
+.database-and-storage-008-web-programming:before {
+  content: "";
+}
+
+.database-and-storage-009-data-synchronization:before {
+  content: "";
+}
+
+.database-and-storage-010-microprocessor:before {
+  content: "";
+}
+
+.database-and-storage-011-sitemap:before {
+  content: "";
+}
+
+.database-and-storage-012-webpages:before {
+  content: "";
+}
+
+.database-and-storage-013-cloud-sync:before {
+  content: "";
+}
+
+.database-and-storage-014-global-communication:before {
+  content: "";
+}
+
+.database-and-storage-015-network:before {
+  content: "";
+}
+
+.database-and-storage-016-filtering:before {
+  content: "";
+}
+
+.database-and-storage-017-data-transfer:before {
+  content: "";
+}
+
+.database-and-storage-018-sitemap:before {
+  content: "";
+}
+
+.database-and-storage-019-hosting-server:before {
+  content: "";
+}
+
+.database-and-storage-020-data-analysis:before {
+  content: "";
+}
+
+.database-and-storage-021-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-022-cloud-server:before {
+  content: "";
+}
+
+.database-and-storage-023-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-024-search-file:before {
+  content: "";
+}
+
+.database-and-storage-025-cloud-sync:before {
+  content: "";
+}
+
+.database-and-storage-026-server:before {
+  content: "";
+}
+
+.database-and-storage-027-shared-folder:before {
+  content: "";
+}
+
+.database-and-storage-028-icloud:before {
+  content: "";
+}
+
+.database-and-storage-029-network-server:before {
+  content: "";
+}
+
+.database-and-storage-030-cloud-storage:before {
+  content: "";
+}
+
+.database-and-storage-031-web-programming:before {
+  content: "";
+}
+
+.database-and-storage-032-internet:before {
+  content: "";
+}
+
+.database-and-storage-033-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-034-sitemap:before {
+  content: "";
+}
+
+.database-and-storage-035-file-download:before {
+  content: "";
+}
+
+.database-and-storage-036-database-storage:before {
+  content: "";
+}
+
+.database-and-storage-037-cloud-computing:before {
+  content: "";
+}
+
+.database-and-storage-038-business-and-commerce:before {
+  content: "";
+}
+
+.database-and-storage-039-log-in:before {
+  content: "";
+}
+
+.database-and-storage-040-web-storage:before {
+  content: "";
+}
+
+.database-and-storage-041-file-upload:before {
+  content: "";
+}
+
+.database-and-storage-042-web-hosting:before {
+  content: "";
+}
+
+.database-and-storage-043-data-network:before {
+  content: "";
+}
+
+.database-and-storage-044-web-coding:before {
+  content: "";
+}
+
+.database-and-storage-045-microprocessor:before {
+  content: "";
+}
+
+.database-and-storage-046-web-analysis:before {
+  content: "";
+}
+
+.database-and-storage-047-web-filter:before {
+  content: "";
+}
+
+.database-and-storage-048-backup:before {
+  content: "";
+}
+
+.database-and-storage-049-padlock:before {
+  content: "";
+}
+
+.database-and-storage-050-sql-server:before {
+  content: "";
+}
+
+.database-and-storage-051-mail-online:before {
+  content: "";
+}
+
+.database-and-storage-052-web-hosting:before {
+  content: "";
+}
+
+.database-and-storage-053-add-user:before {
+  content: "";
+}
+
+.database-and-storage-054-downward-arrow:before {
+  content: "";
+}
+
+.database-and-storage-055-security-shield:before {
+  content: "";
+}
+
+.database-and-storage-056-resize-expand:before {
+  content: "";
+}
+
+.database-and-storage-057-server-storage:before {
+  content: "";
+}
+
+.database-and-storage-058-puzzle-piece:before {
+  content: "";
+}
+
+.database-and-storage-059-data-collection:before {
+  content: "";
+}
+
+.database-and-storage-060-share:before {
+  content: "";
+}
+
+.database-and-storage-061-page-layout:before {
+  content: "";
+}
+
+.database-and-storage-062-secure-data:before {
+  content: "";
+}
+
+.database-and-storage-063-page-layout:before {
+  content: "";
+}
+
+.database-and-storage-064-backup:before {
+  content: "";
+}
+
+.database-and-storage-065-ad-block:before {
+  content: "";
+}
+
+.database-and-storage-066-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-067-client-server:before {
+  content: "";
+}
+
+.database-and-storage-068-data-encryption:before {
+  content: "";
+}
+
+.database-and-storage-069-wireless-network:before {
+  content: "";
+}
+
+.database-and-storage-070-error-404:before {
+  content: "";
+}
+
+.database-and-storage-071-web-programming:before {
+  content: "";
+}
+
+.database-and-storage-072-data-cable:before {
+  content: "";
+}
+
+.database-and-storage-073-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-074-data-network:before {
+  content: "";
+}
+
+.database-and-storage-075-cloud-storage:before {
+  content: "";
+}
+
+.database-and-storage-076-backup:before {
+  content: "";
+}
+
+.database-and-storage-077-hosting-server:before {
+  content: "";
+}
+
+.database-and-storage-078-network-server:before {
+  content: "";
+}
+
+.database-and-storage-079-data-network:before {
+  content: "";
+}
+
+.database-and-storage-080-cloud-computing:before {
+  content: "";
+}
+
+.database-and-storage-081-cloud-storage:before {
+  content: "";
+}
+
+.database-and-storage-082-social-network:before {
+  content: "";
+}
+
+.database-and-storage-083-sitemap:before {
+  content: "";
+}
+
+.database-and-storage-084-network:before {
+  content: "";
+}
+
+.database-and-storage-085-web-mail:before {
+  content: "";
+}
+
+.database-and-storage-086-development:before {
+  content: "";
+}
+
+.database-and-storage-087-search-engine-optimization:before {
+  content: "";
+}
+
+.database-and-storage-088-data-security:before {
+  content: "";
+}
+
+.database-and-storage-089-network:before {
+  content: "";
+}
+
+.database-and-storage-090-mobile-analytics:before {
+  content: "";
+}
+
+.database-and-storage-091-cloud-network:before {
+  content: "";
+}
+
+.database-and-storage-092-wireless-internet:before {
+  content: "";
+}
+
+.database-and-storage-093-wireless-internet:before {
+  content: "";
+}
+
+.database-and-storage-094-cloud-hosting:before {
+  content: "";
+}
+
+.database-and-storage-095-cloud-database:before {
+  content: "";
+}
+
+.database-and-storage-096-space-satellite:before {
+  content: "";
+}
+
+.database-and-storage-097-signal-tower:before {
+  content: "";
+}
+
+.database-and-storage-098-technology:before {
+  content: "";
+}
+
+.database-and-storage-099-cloud-hosting:before {
+  content: "";
+}
+
+.database-and-storage-100-hosting-server:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "communication";
+  src: url("communication/font/Flaticon.eot");
+  src: url("communication/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("communication/font/Flaticon.woff2") format("woff2"), url("communication/font/Flaticon.woff") format("woff"), url("communication/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" communication-"]:before,
+[class^=communication-]:before {
+  font-family: "communication";
+}
+
+.communication-001-vintage-tv:before {
+  content: "";
+}
+
+.communication-002-sms:before {
+  content: "";
+}
+
+.communication-003-newspaper:before {
+  content: "";
+}
+
+.communication-004-walkie-talkie:before {
+  content: "";
+}
+
+.communication-005-loudspeaker:before {
+  content: "";
+}
+
+.communication-006-24-hours-support:before {
+  content: "";
+}
+
+.communication-007-headhunting:before {
+  content: "";
+}
+
+.communication-008-loudspeaker:before {
+  content: "";
+}
+
+.communication-009-thumbs-up:before {
+  content: "";
+}
+
+.communication-010-phonebook:before {
+  content: "";
+}
+
+.communication-011-customer-support:before {
+  content: "";
+}
+
+.communication-012-telephone-receiver:before {
+  content: "";
+}
+
+.communication-013-wireless-internet:before {
+  content: "";
+}
+
+.communication-014-apps:before {
+  content: "";
+}
+
+.communication-015-chatting:before {
+  content: "";
+}
+
+.communication-016-megaphone:before {
+  content: "";
+}
+
+.communication-017-voice-microphone:before {
+  content: "";
+}
+
+.communication-018-microphone:before {
+  content: "";
+}
+
+.communication-019-earth-globe:before {
+  content: "";
+}
+
+.communication-020-wifi-signal:before {
+  content: "";
+}
+
+.communication-021-satellite-dish:before {
+  content: "";
+}
+
+.communication-022-contact-book:before {
+  content: "";
+}
+
+.communication-023-battery-status:before {
+  content: "";
+}
+
+.communication-024-voice-microphone:before {
+  content: "";
+}
+
+.communication-025-volume:before {
+  content: "";
+}
+
+.communication-026-outgoing-email:before {
+  content: "";
+}
+
+.communication-027-diagonal-arrows:before {
+  content: "";
+}
+
+.communication-028-talk:before {
+  content: "";
+}
+
+.communication-029-people-network:before {
+  content: "";
+}
+
+.communication-030-share:before {
+  content: "";
+}
+
+.communication-031-speech-bubble:before {
+  content: "";
+}
+
+.communication-032-telephone-receiver:before {
+  content: "";
+}
+
+.communication-033-love-message:before {
+  content: "";
+}
+
+.communication-034-joystick:before {
+  content: "";
+}
+
+.communication-035-received-message:before {
+  content: "";
+}
+
+.communication-036-unread-message:before {
+  content: "";
+}
+
+.communication-037-webcam:before {
+  content: "";
+}
+
+.communication-038-missed-call:before {
+  content: "";
+}
+
+.communication-039-telephone-call:before {
+  content: "";
+}
+
+.communication-040-world-news:before {
+  content: "";
+}
+
+.communication-041-landline:before {
+  content: "";
+}
+
+.communication-042-id-card:before {
+  content: "";
+}
+
+.communication-043-audio-message:before {
+  content: "";
+}
+
+.communication-044-newspaper:before {
+  content: "";
+}
+
+.communication-045-landline:before {
+  content: "";
+}
+
+.communication-046-radio-transmitter:before {
+  content: "";
+}
+
+.communication-047-usb-flash-drive:before {
+  content: "";
+}
+
+.communication-048-phonebook:before {
+  content: "";
+}
+
+.communication-049-bidirectional:before {
+  content: "";
+}
+
+.communication-050-chatting:before {
+  content: "";
+}
+
+.communication-051-bullhorn:before {
+  content: "";
+}
+
+.communication-052-sms:before {
+  content: "";
+}
+
+.communication-053-space-satellite:before {
+  content: "";
+}
+
+.communication-054-calls:before {
+  content: "";
+}
+
+.communication-055-letter:before {
+  content: "";
+}
+
+.communication-056-compass-tool:before {
+  content: "";
+}
+
+.communication-057-wireless-internet:before {
+  content: "";
+}
+
+.communication-058-sms:before {
+  content: "";
+}
+
+.communication-059-open-mail:before {
+  content: "";
+}
+
+.communication-060-internet:before {
+  content: "";
+}
+
+.communication-061-diary:before {
+  content: "";
+}
+
+.communication-062-space-satellite:before {
+  content: "";
+}
+
+.communication-063-chatting:before {
+  content: "";
+}
+
+.communication-064-unread-message:before {
+  content: "";
+}
+
+.communication-065-gps:before {
+  content: "";
+}
+
+.communication-066-wireless-internet:before {
+  content: "";
+}
+
+.communication-067-wifi-signal:before {
+  content: "";
+}
+
+.communication-068-gps-navigation:before {
+  content: "";
+}
+
+.communication-069-shared-folder:before {
+  content: "";
+}
+
+.communication-070-map-pin:before {
+  content: "";
+}
+
+.communication-071-finger-pointing:before {
+  content: "";
+}
+
+.communication-072-satellite-dish:before {
+  content: "";
+}
+
+.communication-073-web-administrator:before {
+  content: "";
+}
+
+.communication-074-loudspeaker:before {
+  content: "";
+}
+
+.communication-075-landline:before {
+  content: "";
+}
+
+.communication-076-social-network:before {
+  content: "";
+}
+
+.communication-077-humanpictos:before {
+  content: "";
+}
+
+.communication-078-submit:before {
+  content: "";
+}
+
+.communication-079-media-player:before {
+  content: "";
+}
+
+.communication-080-paper-plane:before {
+  content: "";
+}
+
+.communication-081-yes-or-no:before {
+  content: "";
+}
+
+.communication-082-cloud-network:before {
+  content: "";
+}
+
+.communication-083-business-report:before {
+  content: "";
+}
+
+.communication-084-wifi-router:before {
+  content: "";
+}
+
+.communication-085-laptop:before {
+  content: "";
+}
+
+.communication-086-tweet:before {
+  content: "";
+}
+
+.communication-087-wireless-internet:before {
+  content: "";
+}
+
+.communication-088-mail-inbox:before {
+  content: "";
+}
+
+.communication-089-outgoing-email:before {
+  content: "";
+}
+
+.communication-090-love-message:before {
+  content: "";
+}
+
+.communication-091-cloud-network:before {
+  content: "";
+}
+
+.communication-092-documents:before {
+  content: "";
+}
+
+.communication-093-internet:before {
+  content: "";
+}
+
+.communication-094-microphone:before {
+  content: "";
+}
+
+.communication-095-network:before {
+  content: "";
+}
+
+.communication-096-faq:before {
+  content: "";
+}
+
+.communication-097-frequently-asked-questions:before {
+  content: "";
+}
+
+.communication-098-customer-service-agent:before {
+  content: "";
+}
+
+.communication-099-customer-service-agent:before {
+  content: "";
+}
+
+.communication-100-customer-feedback:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "internet-icon";
+  src: url("internet/font/Flaticon.eot");
+  src: url("internet/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("internet/font/Flaticon.woff2") format("woff2"), url("internet/font/Flaticon.woff") format("woff"), url("internet/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" internet-"]:before,
+[class^=internet-]:before {
+  font-family: "internet-icon";
+}
+
+.internet-001-sniper:before {
+  content: "";
+}
+
+.internet-002-file-download:before {
+  content: "";
+}
+
+.internet-003-share:before {
+  content: "";
+}
+
+.internet-004-warning-sign:before {
+  content: "";
+}
+
+.internet-005-hierarchical-structure:before {
+  content: "";
+}
+
+.internet-006-data-exchange:before {
+  content: "";
+}
+
+.internet-007-chat:before {
+  content: "";
+}
+
+.internet-008-shared-folder:before {
+  content: "";
+}
+
+.internet-009-cloud-download:before {
+  content: "";
+}
+
+.internet-010-web-hosting:before {
+  content: "";
+}
+
+.internet-011-pattern-lock:before {
+  content: "";
+}
+
+.internet-012-web-development:before {
+  content: "";
+}
+
+.internet-013-wall-clock:before {
+  content: "";
+}
+
+.internet-014-light-bulb:before {
+  content: "";
+}
+
+.internet-015-gps-phone:before {
+  content: "";
+}
+
+.internet-016-world-wide-web:before {
+  content: "";
+}
+
+.internet-017-map-location:before {
+  content: "";
+}
+
+.internet-018-wireless-internet:before {
+  content: "";
+}
+
+.internet-019-wireless-connection:before {
+  content: "";
+}
+
+.internet-020-telephone-call:before {
+  content: "";
+}
+
+.internet-021-equalizer-controller:before {
+  content: "";
+}
+
+.internet-022-vision:before {
+  content: "";
+}
+
+.internet-023-shopping-basket:before {
+  content: "";
+}
+
+.internet-024-pin-code:before {
+  content: "";
+}
+
+.internet-025-internet-video:before {
+  content: "";
+}
+
+.internet-026-hosting-server:before {
+  content: "";
+}
+
+.internet-027-open-email:before {
+  content: "";
+}
+
+.internet-028-chatting:before {
+  content: "";
+}
+
+.internet-029-flag-symbol:before {
+  content: "";
+}
+
+.internet-030-photo-camera:before {
+  content: "";
+}
+
+.internet-031-secure-data:before {
+  content: "";
+}
+
+.internet-032-earth-globe:before {
+  content: "";
+}
+
+.internet-033-chatting:before {
+  content: "";
+}
+
+.internet-034-connected-user:before {
+  content: "";
+}
+
+.internet-035-server-storage:before {
+  content: "";
+}
+
+.internet-036-microphone:before {
+  content: "";
+}
+
+.internet-037-wireless-internet:before {
+  content: "";
+}
+
+.internet-038-cloud-computing:before {
+  content: "";
+}
+
+.internet-039-mobile-network:before {
+  content: "";
+}
+
+.internet-040-volume:before {
+  content: "";
+}
+
+.internet-041-hierarchical-structure:before {
+  content: "";
+}
+
+.internet-042-house:before {
+  content: "";
+}
+
+.internet-043-internet-connection:before {
+  content: "";
+}
+
+.internet-044-server-storage:before {
+  content: "";
+}
+
+.internet-045-arroba-sign:before {
+  content: "";
+}
+
+.internet-046-landline:before {
+  content: "";
+}
+
+.internet-047-wifi-connection:before {
+  content: "";
+}
+
+.internet-048-puzzle-piece:before {
+  content: "";
+}
+
+.internet-049-address-book:before {
+  content: "";
+}
+
+.internet-050-headphone:before {
+  content: "";
+}
+
+.internet-051-tools:before {
+  content: "";
+}
+
+.internet-052-pencil:before {
+  content: "";
+}
+
+.internet-053-group-users:before {
+  content: "";
+}
+
+.internet-054-satellite-dish:before {
+  content: "";
+}
+
+.internet-055-network-user:before {
+  content: "";
+}
+
+.internet-056-usb:before {
+  content: "";
+}
+
+.internet-057-ethernet:before {
+  content: "";
+}
+
+.internet-058-bidirectional:before {
+  content: "";
+}
+
+.internet-059-webcam:before {
+  content: "";
+}
+
+.internet-060-telephone-receiver:before {
+  content: "";
+}
+
+.internet-061-padlock:before {
+  content: "";
+}
+
+.internet-062-lock:before {
+  content: "";
+}
+
+.internet-063-banned:before {
+  content: "";
+}
+
+.internet-064-warning-sign:before {
+  content: "";
+}
+
+.internet-065-hosting-server:before {
+  content: "";
+}
+
+.internet-066-web-hosting:before {
+  content: "";
+}
+
+.internet-067-space-satellite:before {
+  content: "";
+}
+
+.internet-068-internet-video:before {
+  content: "";
+}
+
+.internet-069-web-development:before {
+  content: "";
+}
+
+.internet-070-volume:before {
+  content: "";
+}
+
+.internet-071-computer-bug:before {
+  content: "";
+}
+
+.internet-072-computer-networking:before {
+  content: "";
+}
+
+.internet-073-data-security:before {
+  content: "";
+}
+
+.internet-074-bar-chart:before {
+  content: "";
+}
+
+.internet-075-server-storage:before {
+  content: "";
+}
+
+.internet-076-search-engine:before {
+  content: "";
+}
+
+.internet-077-good-feedback:before {
+  content: "";
+}
+
+.internet-078-thumbs-down:before {
+  content: "";
+}
+
+.internet-079-wifi-signal:before {
+  content: "";
+}
+
+.internet-080-sim-card:before {
+  content: "";
+}
+
+.internet-081-laptop:before {
+  content: "";
+}
+
+.internet-082-cloud-download:before {
+  content: "";
+}
+
+.internet-083-usb-flash-drive:before {
+  content: "";
+}
+
+.internet-084-telephone-receiver:before {
+  content: "";
+}
+
+.internet-085-dustbin:before {
+  content: "";
+}
+
+.internet-086-wireless-internet:before {
+  content: "";
+}
+
+.internet-087-wireless-internet:before {
+  content: "";
+}
+
+.internet-088-up-and-down-arrows:before {
+  content: "";
+}
+
+.internet-089-woofer:before {
+  content: "";
+}
+
+.internet-090-cloud-uploading:before {
+  content: "";
+}
+
+.internet-091-shopping-basket:before {
+  content: "";
+}
+
+.internet-092-share:before {
+  content: "";
+}
+
+.internet-093-hourglass:before {
+  content: "";
+}
+
+.internet-094-shopping-cart:before {
+  content: "";
+}
+
+.internet-095-key:before {
+  content: "";
+}
+
+.internet-096-world-wide-web:before {
+  content: "";
+}
+
+.internet-097-file-folder:before {
+  content: "";
+}
+
+.internet-098-sitemap:before {
+  content: "";
+}
+
+.internet-099-computer-mouse:before {
+  content: "";
+}
+
+.internet-100-online-communication:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "office-icon";
+  src: url("office/font/Flaticon.eot");
+  src: url("office/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("office/font/Flaticon.woff2") format("woff2"), url("office/font/Flaticon.woff") format("woff"), url("office/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" office-"]:before,
+[class^=office-]:before {
+  font-family: "office-icon";
+}
+
+.office-001-basket:before {
+  content: "";
+}
+
+.office-002-lifesaver:before {
+  content: "";
+}
+
+.office-003-magnifying-glass:before {
+  content: "";
+}
+
+.office-004-adhesive-tape:before {
+  content: "";
+}
+
+.office-005-calendar:before {
+  content: "";
+}
+
+.office-006-stapler:before {
+  content: "";
+}
+
+.office-007-coffee-machine:before {
+  content: "";
+}
+
+.office-008-recycle-bin:before {
+  content: "";
+}
+
+.office-009-usb:before {
+  content: "";
+}
+
+.office-010-paper-plane:before {
+  content: "";
+}
+
+.office-011-dollar-coin:before {
+  content: "";
+}
+
+.office-012-web-development:before {
+  content: "";
+}
+
+.office-013-vision:before {
+  content: "";
+}
+
+.office-014-global-network:before {
+  content: "";
+}
+
+.office-015-marketing-online:before {
+  content: "";
+}
+
+.office-016-chatting:before {
+  content: "";
+}
+
+.office-017-pencil:before {
+  content: "";
+}
+
+.office-018-smartphone:before {
+  content: "";
+}
+
+.office-019-map-pin:before {
+  content: "";
+}
+
+.office-020-computer-monitor:before {
+  content: "";
+}
+
+.office-021-bar-chart:before {
+  content: "";
+}
+
+.office-022-startup:before {
+  content: "";
+}
+
+.office-023-live-streaming:before {
+  content: "";
+}
+
+.office-024-manager:before {
+  content: "";
+}
+
+.office-025-signpost:before {
+  content: "";
+}
+
+.office-026-organization-structure:before {
+  content: "";
+}
+
+.office-027-spam-alert:before {
+  content: "";
+}
+
+.office-028-businesswoman:before {
+  content: "";
+}
+
+.office-029-power-plug:before {
+  content: "";
+}
+
+.office-030-cogwheel:before {
+  content: "";
+}
+
+.office-031-notepad:before {
+  content: "";
+}
+
+.office-032-floppy-disk:before {
+  content: "";
+}
+
+.office-033-stopwatch:before {
+  content: "";
+}
+
+.office-034-pie-chart:before {
+  content: "";
+}
+
+.office-035-credit-cards:before {
+  content: "";
+}
+
+.office-036-page-layout:before {
+  content: "";
+}
+
+.office-037-star:before {
+  content: "";
+}
+
+.office-038-page-layout:before {
+  content: "";
+}
+
+.office-039-new-email:before {
+  content: "";
+}
+
+.office-040-business-and-finance:before {
+  content: "";
+}
+
+.office-041-money-sack:before {
+  content: "";
+}
+
+.office-042-ribbon-badge:before {
+  content: "";
+}
+
+.office-043-businessman:before {
+  content: "";
+}
+
+.office-044-project-plan:before {
+  content: "";
+}
+
+.office-045-necktie:before {
+  content: "";
+}
+
+.office-046-binoculars:before {
+  content: "";
+}
+
+.office-047-checkmark:before {
+  content: "";
+}
+
+.office-048-faq:before {
+  content: "";
+}
+
+.office-049-chess-piece:before {
+  content: "";
+}
+
+.office-050-thumbtacks:before {
+  content: "";
+}
+
+.office-051-light-bulb:before {
+  content: "";
+}
+
+.office-052-file-folder:before {
+  content: "";
+}
+
+.office-053-binder-clip:before {
+  content: "";
+}
+
+.office-054-briefcase:before {
+  content: "";
+}
+
+.office-055-desk-lamp:before {
+  content: "";
+}
+
+.office-056-wall-clock:before {
+  content: "";
+}
+
+.office-057-business-report:before {
+  content: "";
+}
+
+.office-058-cactus:before {
+  content: "";
+}
+
+.office-059-hierarchical-structure:before {
+  content: "";
+}
+
+.office-060-newspaper:before {
+  content: "";
+}
+
+.office-061-phonebook:before {
+  content: "";
+}
+
+.office-062-tea:before {
+  content: "";
+}
+
+.office-063-file-sharing:before {
+  content: "";
+}
+
+.office-064-files-and-folders:before {
+  content: "";
+}
+
+.office-065-open-mail:before {
+  content: "";
+}
+
+.office-066-telephone:before {
+  content: "";
+}
+
+.office-067-id-card:before {
+  content: "";
+}
+
+.office-068-pencilcase:before {
+  content: "";
+}
+
+.office-069-address-book:before {
+  content: "";
+}
+
+.office-070-projection-screen:before {
+  content: "";
+}
+
+.office-071-calculator:before {
+  content: "";
+}
+
+.office-072-wireless-internet:before {
+  content: "";
+}
+
+.office-073-house:before {
+  content: "";
+}
+
+.office-074-telephone-receiver:before {
+  content: "";
+}
+
+.office-075-scissor:before {
+  content: "";
+}
+
+.office-076-sim-card:before {
+  content: "";
+}
+
+.office-077-id-card:before {
+  content: "";
+}
+
+.office-078-curriculum-vitae:before {
+  content: "";
+}
+
+.office-079-dollar-coin:before {
+  content: "";
+}
+
+.office-080-office-table:before {
+  content: "";
+}
+
+.office-081-office-chair:before {
+  content: "";
+}
+
+.office-082-text-document:before {
+  content: "";
+}
+
+.office-083-wax-seal:before {
+  content: "";
+}
+
+.office-084-paper-printer:before {
+  content: "";
+}
+
+.office-085-id-card:before {
+  content: "";
+}
+
+.office-086-file-folder:before {
+  content: "";
+}
+
+.office-087-highlighter:before {
+  content: "";
+}
+
+.office-088-tea:before {
+  content: "";
+}
+
+.office-089-globe:before {
+  content: "";
+}
+
+.office-090-paper-cutter:before {
+  content: "";
+}
+
+.office-091-price-tag:before {
+  content: "";
+}
+
+.office-092-desk-lamp:before {
+  content: "";
+}
+
+.office-093-money-sack:before {
+  content: "";
+}
+
+.office-094-chest-of-drawers:before {
+  content: "";
+}
+
+.office-095-headphone:before {
+  content: "";
+}
+
+.office-096-up-arrow-upload:before {
+  content: "";
+}
+
+.office-097-hourglass:before {
+  content: "";
+}
+
+.office-098-diamond:before {
+  content: "";
+}
+
+.office-099-coins-stack:before {
+  content: "";
+}
+
+.office-100-fedora-hat:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "web-hosting";
+  src: url("web-hosting/font/Flaticon.eot");
+  src: url("web-hosting/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("web-hosting/font/Flaticon.woff2") format("woff2"), url("web-hosting/font/Flaticon.woff") format("woff"), url("web-hosting/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" web-hosting-"]:before,
+[class^=web-hosting-]:before {
+  font-family: "web-hosting";
+}
+
+.web-hosting-001-error-page:before {
+  content: "";
+}
+
+.web-hosting-002-data-storage:before {
+  content: "";
+}
+
+.web-hosting-003-landing-page:before {
+  content: "";
+}
+
+.web-hosting-004-social-network:before {
+  content: "";
+}
+
+.web-hosting-005-cloud-storage:before {
+  content: "";
+}
+
+.web-hosting-006-seo-and-web:before {
+  content: "";
+}
+
+.web-hosting-007-hierarchical-structure:before {
+  content: "";
+}
+
+.web-hosting-008-cloud-network:before {
+  content: "";
+}
+
+.web-hosting-009-downloadings:before {
+  content: "";
+}
+
+.web-hosting-010-network-connection:before {
+  content: "";
+}
+
+.web-hosting-011-cloud-hosting:before {
+  content: "";
+}
+
+.web-hosting-012-secure-data:before {
+  content: "";
+}
+
+.web-hosting-013-seo-and-web:before {
+  content: "";
+}
+
+.web-hosting-014-social-network:before {
+  content: "";
+}
+
+.web-hosting-015-cloud-computing:before {
+  content: "";
+}
+
+.web-hosting-016-global-network:before {
+  content: "";
+}
+
+.web-hosting-017-web-analysis:before {
+  content: "";
+}
+
+.web-hosting-018-cloud-hosting:before {
+  content: "";
+}
+
+.web-hosting-019-web-security:before {
+  content: "";
+}
+
+.web-hosting-020-cloud-network:before {
+  content: "";
+}
+
+.web-hosting-021-mobile-search:before {
+  content: "";
+}
+
+.web-hosting-022-data-exchange:before {
+  content: "";
+}
+
+.web-hosting-023-network-server:before {
+  content: "";
+}
+
+.web-hosting-024-error-404:before {
+  content: "";
+}
+
+.web-hosting-025-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-026-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-027-premium-quality:before {
+  content: "";
+}
+
+.web-hosting-028-search-engine-optimization:before {
+  content: "";
+}
+
+.web-hosting-029-error-404:before {
+  content: "";
+}
+
+.web-hosting-030-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-031-cloud-network:before {
+  content: "";
+}
+
+.web-hosting-032-customer-support:before {
+  content: "";
+}
+
+.web-hosting-033-electronic-circuit:before {
+  content: "";
+}
+
+.web-hosting-034-pin-code:before {
+  content: "";
+}
+
+.web-hosting-035-server-storage:before {
+  content: "";
+}
+
+.web-hosting-036-server-storage:before {
+  content: "";
+}
+
+.web-hosting-037-cloud-uploading:before {
+  content: "";
+}
+
+.web-hosting-038-binocular:before {
+  content: "";
+}
+
+.web-hosting-039-secure-data:before {
+  content: "";
+}
+
+.web-hosting-040-printer:before {
+  content: "";
+}
+
+.web-hosting-041-access-denied:before {
+  content: "";
+}
+
+.web-hosting-042-home-network:before {
+  content: "";
+}
+
+.web-hosting-043-login:before {
+  content: "";
+}
+
+.web-hosting-044-customer-service-agent:before {
+  content: "";
+}
+
+.web-hosting-045-geolocalization:before {
+  content: "";
+}
+
+.web-hosting-046-www:before {
+  content: "";
+}
+
+.web-hosting-047-page-speed:before {
+  content: "";
+}
+
+.web-hosting-048-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-049-website:before {
+  content: "";
+}
+
+.web-hosting-050-sitemap:before {
+  content: "";
+}
+
+.web-hosting-051-global-network:before {
+  content: "";
+}
+
+.web-hosting-052-error-page:before {
+  content: "";
+}
+
+.web-hosting-053-web-design:before {
+  content: "";
+}
+
+.web-hosting-054-page-not-found:before {
+  content: "";
+}
+
+.web-hosting-055-antivirus:before {
+  content: "";
+}
+
+.web-hosting-056-cloud-computing:before {
+  content: "";
+}
+
+.web-hosting-057-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-058-data-network:before {
+  content: "";
+}
+
+.web-hosting-059-server:before {
+  content: "";
+}
+
+.web-hosting-060-secure-data:before {
+  content: "";
+}
+
+.web-hosting-061-search-engine:before {
+  content: "";
+}
+
+.web-hosting-062-shared-folder:before {
+  content: "";
+}
+
+.web-hosting-063-mobile-storage:before {
+  content: "";
+}
+
+.web-hosting-064-emailing:before {
+  content: "";
+}
+
+.web-hosting-065-hosting-server:before {
+  content: "";
+}
+
+.web-hosting-066-server:before {
+  content: "";
+}
+
+.web-hosting-067-shared-folder:before {
+  content: "";
+}
+
+.web-hosting-068-keyboard:before {
+  content: "";
+}
+
+.web-hosting-069-social-media-marketing:before {
+  content: "";
+}
+
+.web-hosting-070-ethernet:before {
+  content: "";
+}
+
+.web-hosting-071-server:before {
+  content: "";
+}
+
+.web-hosting-072-global-network:before {
+  content: "";
+}
+
+.web-hosting-073-global-network:before {
+  content: "";
+}
+
+.web-hosting-074-sitemap:before {
+  content: "";
+}
+
+.web-hosting-075-startup:before {
+  content: "";
+}
+
+.web-hosting-076-page-speed:before {
+  content: "";
+}
+
+.web-hosting-077-network-server:before {
+  content: "";
+}
+
+.web-hosting-078-speed-test:before {
+  content: "";
+}
+
+.web-hosting-079-data-synchronization:before {
+  content: "";
+}
+
+.web-hosting-080-map-location:before {
+  content: "";
+}
+
+.web-hosting-081-web-traffic:before {
+  content: "";
+}
+
+.web-hosting-082-password-code:before {
+  content: "";
+}
+
+.web-hosting-083-cloud-computing:before {
+  content: "";
+}
+
+.web-hosting-084-web-maintenance:before {
+  content: "";
+}
+
+.web-hosting-085-web-programming:before {
+  content: "";
+}
+
+.web-hosting-086-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-087-debugging:before {
+  content: "";
+}
+
+.web-hosting-088-web-traffic:before {
+  content: "";
+}
+
+.web-hosting-089-data-storage:before {
+  content: "";
+}
+
+.web-hosting-090-web-hosting:before {
+  content: "";
+}
+
+.web-hosting-091-cloud-hosting:before {
+  content: "";
+}
+
+.web-hosting-092-security-shield:before {
+  content: "";
+}
+
+.web-hosting-093-maintenance:before {
+  content: "";
+}
+
+.web-hosting-094-server-control:before {
+  content: "";
+}
+
+.web-hosting-095-cyber-security:before {
+  content: "";
+}
+
+.web-hosting-096-seo-and-web:before {
+  content: "";
+}
+
+.web-hosting-097-server:before {
+  content: "";
+}
+
+.web-hosting-098-hotspot:before {
+  content: "";
+}
+
+.web-hosting-099-cloud-network:before {
+  content: "";
+}
+
+.web-hosting-100-virus:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "professions-icon";
+  src: url("professions/font/Flaticon.eot");
+  src: url("professions/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("professions/font/Flaticon.woff2") format("woff2"), url("professions/font/Flaticon.woff") format("woff"), url("professions/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" professions-"]:before,
+[class^=professions-]:before {
+  font-family: "professions-icon";
+}
+
+.professions-001-constructor:before {
+  content: "";
+}
+
+.professions-002-royal-guard:before {
+  content: "";
+}
+
+.professions-003-cop:before {
+  content: "";
+}
+
+.professions-004-cyclist:before {
+  content: "";
+}
+
+.professions-005-pilot:before {
+  content: "";
+}
+
+.professions-006-doctor:before {
+  content: "";
+}
+
+.professions-007-phone-operator:before {
+  content: "";
+}
+
+.professions-008-clown:before {
+  content: "";
+}
+
+.professions-009-chef:before {
+  content: "";
+}
+
+.professions-010-manager:before {
+  content: "";
+}
+
+.professions-011-barber:before {
+  content: "";
+}
+
+.professions-012-farmer:before {
+  content: "";
+}
+
+.professions-013-chef:before {
+  content: "";
+}
+
+.professions-014-arab-man:before {
+  content: "";
+}
+
+.professions-015-nun:before {
+  content: "";
+}
+
+.professions-016-magician:before {
+  content: "";
+}
+
+.professions-017-cop:before {
+  content: "";
+}
+
+.professions-018-muslim:before {
+  content: "";
+}
+
+.professions-019-arab-woman:before {
+  content: "";
+}
+
+.professions-020-athlete:before {
+  content: "";
+}
+
+.professions-021-clerk:before {
+  content: "";
+}
+
+.professions-022-surgeon:before {
+  content: "";
+}
+
+.professions-023-spy:before {
+  content: "";
+}
+
+.professions-024-diver:before {
+  content: "";
+}
+
+.professions-025-fireman:before {
+  content: "";
+}
+
+.professions-026-driver:before {
+  content: "";
+}
+
+.professions-027-phone-operator:before {
+  content: "";
+}
+
+.professions-028-teacher:before {
+  content: "";
+}
+
+.professions-029-astronaut:before {
+  content: "";
+}
+
+.professions-030-air-hostess:before {
+  content: "";
+}
+
+.professions-031-magician:before {
+  content: "";
+}
+
+.professions-032-farmer:before {
+  content: "";
+}
+
+.professions-033-athlete:before {
+  content: "";
+}
+
+.professions-034-thief:before {
+  content: "";
+}
+
+.professions-035-nun:before {
+  content: "";
+}
+
+.professions-036-priest:before {
+  content: "";
+}
+
+.professions-037-miner:before {
+  content: "";
+}
+
+.professions-038-graduate:before {
+  content: "";
+}
+
+.professions-039-scientist:before {
+  content: "";
+}
+
+.professions-040-flight-attendant:before {
+  content: "";
+}
+
+.professions-041-female-doctor:before {
+  content: "";
+}
+
+.professions-042-spy:before {
+  content: "";
+}
+
+.professions-043-driver:before {
+  content: "";
+}
+
+.professions-044-surgeon:before {
+  content: "";
+}
+
+.professions-045-professional-profile:before {
+  content: "";
+}
+
+.professions-046-welder:before {
+  content: "";
+}
+
+.professions-047-news-reporter:before {
+  content: "";
+}
+
+.professions-048-businesswoman:before {
+  content: "";
+}
+
+.professions-049-nurse:before {
+  content: "";
+}
+
+.professions-050-phone-operator:before {
+  content: "";
+}
+
+.professions-051-attorney:before {
+  content: "";
+}
+
+.professions-052-manager:before {
+  content: "";
+}
+
+.professions-053-administrator:before {
+  content: "";
+}
+
+.professions-054-administrator:before {
+  content: "";
+}
+
+.professions-055-accountant:before {
+  content: "";
+}
+
+.professions-056-employee:before {
+  content: "";
+}
+
+.professions-057-air-hostess:before {
+  content: "";
+}
+
+.professions-058-pilot:before {
+  content: "";
+}
+
+.professions-059-queen:before {
+  content: "";
+}
+
+.professions-060-waiter:before {
+  content: "";
+}
+
+.professions-061-air-hostess:before {
+  content: "";
+}
+
+.professions-062-cooker:before {
+  content: "";
+}
+
+.professions-063-teacher:before {
+  content: "";
+}
+
+.professions-064-delivery-boy:before {
+  content: "";
+}
+
+.professions-065-professional-profile:before {
+  content: "";
+}
+
+.professions-066-driver:before {
+  content: "";
+}
+
+.professions-067-taxi-driver:before {
+  content: "";
+}
+
+.professions-068-attorney:before {
+  content: "";
+}
+
+.professions-069-prisoner:before {
+  content: "";
+}
+
+.professions-070-sportsman:before {
+  content: "";
+}
+
+.professions-071-air-hostess:before {
+  content: "";
+}
+
+.professions-072-stewardess:before {
+  content: "";
+}
+
+.professions-073-celebrity:before {
+  content: "";
+}
+
+.professions-074-actress:before {
+  content: "";
+}
+
+.professions-075-phone-operator:before {
+  content: "";
+}
+
+.professions-076-fireman:before {
+  content: "";
+}
+
+.professions-077-spy:before {
+  content: "";
+}
+
+.professions-078-cop:before {
+  content: "";
+}
+
+.professions-079-air-hostess:before {
+  content: "";
+}
+
+.professions-080-farmer:before {
+  content: "";
+}
+
+.professions-081-waiter:before {
+  content: "";
+}
+
+.professions-082-baseball-player:before {
+  content: "";
+}
+
+.professions-083-athletic:before {
+  content: "";
+}
+
+.professions-084-phone-operator:before {
+  content: "";
+}
+
+.professions-085-salesman:before {
+  content: "";
+}
+
+.professions-086-soldier:before {
+  content: "";
+}
+
+.professions-087-bellboy:before {
+  content: "";
+}
+
+.professions-088-waiter:before {
+  content: "";
+}
+
+.professions-089-welder:before {
+  content: "";
+}
+
+.professions-090-park-ranger:before {
+  content: "";
+}
+
+.professions-091-sportsman:before {
+  content: "";
+}
+
+.professions-092-welder:before {
+  content: "";
+}
+
+.professions-093-employer:before {
+  content: "";
+}
+
+.professions-094-professor:before {
+  content: "";
+}
+
+.professions-095-professor:before {
+  content: "";
+}
+
+.professions-096-businesswoman:before {
+  content: "";
+}
+
+.professions-097-coach:before {
+  content: "";
+}
+
+.professions-098-receptionist:before {
+  content: "";
+}
+
+.professions-099-personal-assistant:before {
+  content: "";
+}
+
+.professions-100-stewardess:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "design-and-development";
+  src: url("design-and-development/font/Flaticon.eot");
+  src: url("design-and-development/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("design-and-development/font/Flaticon.woff2") format("woff2"), url("design-and-development/font/Flaticon.woff") format("woff"), url("design-and-development/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" design-and-development-"]:before,
+[class^=design-and-development-]:before {
+  font-family: "design-and-development";
+}
+
+.design-and-development-001-graphic-file:before {
+  content: "";
+}
+
+.design-and-development-002-heart:before {
+  content: "";
+}
+
+.design-and-development-003-documents:before {
+  content: "";
+}
+
+.design-and-development-004-lifebelt:before {
+  content: "";
+}
+
+.design-and-development-005-list:before {
+  content: "";
+}
+
+.design-and-development-006-overlap:before {
+  content: "";
+}
+
+.design-and-development-007-telescope:before {
+  content: "";
+}
+
+.design-and-development-008-graphic-tablet:before {
+  content: "";
+}
+
+.design-and-development-009-page-layout:before {
+  content: "";
+}
+
+.design-and-development-010-chat:before {
+  content: "";
+}
+
+.design-and-development-011-mobile:before {
+  content: "";
+}
+
+.design-and-development-012-seo-and-web:before {
+  content: "";
+}
+
+.design-and-development-013-media-player:before {
+  content: "";
+}
+
+.design-and-development-014-edit-tools:before {
+  content: "";
+}
+
+.design-and-development-015-sitemap:before {
+  content: "";
+}
+
+.design-and-development-016-web-design:before {
+  content: "";
+}
+
+.design-and-development-017-blog-template:before {
+  content: "";
+}
+
+.design-and-development-018-graphic-tool:before {
+  content: "";
+}
+
+.design-and-development-019-cube:before {
+  content: "";
+}
+
+.design-and-development-020-video-player:before {
+  content: "";
+}
+
+.design-and-development-021-projection-screen:before {
+  content: "";
+}
+
+.design-and-development-022-hierarchical-structure:before {
+  content: "";
+}
+
+.design-and-development-023-paint-tool:before {
+  content: "";
+}
+
+.design-and-development-024-chain:before {
+  content: "";
+}
+
+.design-and-development-025-settings:before {
+  content: "";
+}
+
+.design-and-development-026-cloud-download:before {
+  content: "";
+}
+
+.design-and-development-027-paper-printer:before {
+  content: "";
+}
+
+.design-and-development-028-configuration:before {
+  content: "";
+}
+
+.design-and-development-029-desk-lamp:before {
+  content: "";
+}
+
+.design-and-development-030-page-layout:before {
+  content: "";
+}
+
+.design-and-development-031-floppy:before {
+  content: "";
+}
+
+.design-and-development-032-camera:before {
+  content: "";
+}
+
+.design-and-development-033-laptop:before {
+  content: "";
+}
+
+.design-and-development-034-gearwheel:before {
+  content: "";
+}
+
+.design-and-development-035-magnifier:before {
+  content: "";
+}
+
+.design-and-development-036-homepage:before {
+  content: "";
+}
+
+.design-and-development-037-flag:before {
+  content: "";
+}
+
+.design-and-development-038-paint-brush:before {
+  content: "";
+}
+
+.design-and-development-039-light-bulb:before {
+  content: "";
+}
+
+.design-and-development-040-shooting-target:before {
+  content: "";
+}
+
+.design-and-development-041-toggle:before {
+  content: "";
+}
+
+.design-and-development-042-equalizer:before {
+  content: "";
+}
+
+.design-and-development-043-crop-tool:before {
+  content: "";
+}
+
+.design-and-development-044-briefcase:before {
+  content: "";
+}
+
+.design-and-development-045-cloud-network:before {
+  content: "";
+}
+
+.design-and-development-046-mobile-phone:before {
+  content: "";
+}
+
+.design-and-development-047-bezier-tool:before {
+  content: "";
+}
+
+.design-and-development-048-text-tool:before {
+  content: "";
+}
+
+.design-and-development-049-compact-disk:before {
+  content: "";
+}
+
+.design-and-development-050-headphone:before {
+  content: "";
+}
+
+.design-and-development-051-alignment:before {
+  content: "";
+}
+
+.design-and-development-052-trophy:before {
+  content: "";
+}
+
+.design-and-development-053-battery-level:before {
+  content: "";
+}
+
+.design-and-development-054-calendar:before {
+  content: "";
+}
+
+.design-and-development-055-web-design:before {
+  content: "";
+}
+
+.design-and-development-056-sale-tag:before {
+  content: "";
+}
+
+.design-and-development-057-dustbin:before {
+  content: "";
+}
+
+.design-and-development-058-cyber-security:before {
+  content: "";
+}
+
+.design-and-development-059-pen-tool:before {
+  content: "";
+}
+
+.design-and-development-060-commerce-and-shopping:before {
+  content: "";
+}
+
+.design-and-development-061-picture:before {
+  content: "";
+}
+
+.design-and-development-062-layer:before {
+  content: "";
+}
+
+.design-and-development-063-exclamation-mark:before {
+  content: "";
+}
+
+.design-and-development-064-volume-mute:before {
+  content: "";
+}
+
+.design-and-development-065-book:before {
+  content: "";
+}
+
+.design-and-development-066-server-check:before {
+  content: "";
+}
+
+.design-and-development-067-eye:before {
+  content: "";
+}
+
+.design-and-development-068-newspaper:before {
+  content: "";
+}
+
+.design-and-development-069-global-network:before {
+  content: "";
+}
+
+.design-and-development-070-cinema:before {
+  content: "";
+}
+
+.design-and-development-071-user:before {
+  content: "";
+}
+
+.design-and-development-072-eraser-tool:before {
+  content: "";
+}
+
+.design-and-development-073-square-calendar:before {
+  content: "";
+}
+
+.design-and-development-074-expand:before {
+  content: "";
+}
+
+.design-and-development-075-shield:before {
+  content: "";
+}
+
+.design-and-development-076-alignment:before {
+  content: "";
+}
+
+.design-and-development-077-bezier-tool:before {
+  content: "";
+}
+
+.design-and-development-078-web-design:before {
+  content: "";
+}
+
+.design-and-development-079-cloud-server:before {
+  content: "";
+}
+
+.design-and-development-080-left-alignment:before {
+  content: "";
+}
+
+.design-and-development-081-sitemap:before {
+  content: "";
+}
+
+.design-and-development-082-3ds:before {
+  content: "";
+}
+
+.design-and-development-083-video-games:before {
+  content: "";
+}
+
+.design-and-development-084-electric-current:before {
+  content: "";
+}
+
+.design-and-development-085-wireless-internet:before {
+  content: "";
+}
+
+.design-and-development-086-shop:before {
+  content: "";
+}
+
+.design-and-development-087-bank:before {
+  content: "";
+}
+
+.design-and-development-088-web-development:before {
+  content: "";
+}
+
+.design-and-development-089-bugs:before {
+  content: "";
+}
+
+.design-and-development-090-web-security:before {
+  content: "";
+}
+
+.design-and-development-091-font-style:before {
+  content: "";
+}
+
+.design-and-development-092-bar-graph:before {
+  content: "";
+}
+
+.design-and-development-093-rocket-launch:before {
+  content: "";
+}
+
+.design-and-development-094-thumb-up:before {
+  content: "";
+}
+
+.design-and-development-095-speedometer:before {
+  content: "";
+}
+
+.design-and-development-096-chatting:before {
+  content: "";
+}
+
+.design-and-development-097-sitemap:before {
+  content: "";
+}
+
+.design-and-development-098-key:before {
+  content: "";
+}
+
+.design-and-development-099-ship-anchor:before {
+  content: "";
+}
+
+.design-and-development-100-puzzle:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "real-estate";
+  src: url("real-estate/font/Flaticon.eot");
+  src: url("real-estate/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("real-estate/font/Flaticon.woff2") format("woff2"), url("real-estate/font/Flaticon.woff") format("woff"), url("real-estate/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" real-estate-"]:before,
+[class^=real-estate-]:before {
+  font-family: "real-estate";
+}
+
+.real-estate-001-real-estate:before {
+  content: "";
+}
+
+.real-estate-002-blueprint:before {
+  content: "";
+}
+
+.real-estate-003-barrier:before {
+  content: "";
+}
+
+.real-estate-004-real-estate:before {
+  content: "";
+}
+
+.real-estate-005-graph-report:before {
+  content: "";
+}
+
+.real-estate-006-house:before {
+  content: "";
+}
+
+.real-estate-007-signpost:before {
+  content: "";
+}
+
+.real-estate-008-house-value:before {
+  content: "";
+}
+
+.real-estate-009-house-value:before {
+  content: "";
+}
+
+.real-estate-010-bed:before {
+  content: "";
+}
+
+.real-estate-011-real-estate:before {
+  content: "";
+}
+
+.real-estate-012-real-estate:before {
+  content: "";
+}
+
+.real-estate-013-relocation:before {
+  content: "";
+}
+
+.real-estate-014-water-supply:before {
+  content: "";
+}
+
+.real-estate-015-house-value:before {
+  content: "";
+}
+
+.real-estate-016-real-estate:before {
+  content: "";
+}
+
+.real-estate-017-real-estate:before {
+  content: "";
+}
+
+.real-estate-018-blueprint:before {
+  content: "";
+}
+
+.real-estate-019-real-estate:before {
+  content: "";
+}
+
+.real-estate-020-wallet:before {
+  content: "";
+}
+
+.real-estate-021-house-value:before {
+  content: "";
+}
+
+.real-estate-022-blueprint:before {
+  content: "";
+}
+
+.real-estate-023-home-address:before {
+  content: "";
+}
+
+.real-estate-024-real:before {
+  content: "";
+}
+
+.real-estate-025-shower-head:before {
+  content: "";
+}
+
+.real-estate-026-window-frame:before {
+  content: "";
+}
+
+.real-estate-027-padlock:before {
+  content: "";
+}
+
+.real-estate-028-for-sale:before {
+  content: "";
+}
+
+.real-estate-029-house-key:before {
+  content: "";
+}
+
+.real-estate-030-city-building:before {
+  content: "";
+}
+
+.real-estate-031-fax-machine:before {
+  content: "";
+}
+
+.real-estate-032-house-value:before {
+  content: "";
+}
+
+.real-estate-033-sale-sign:before {
+  content: "";
+}
+
+.real-estate-034-foreclosure:before {
+  content: "";
+}
+
+.real-estate-035-sweet-home:before {
+  content: "";
+}
+
+.real-estate-036-real-estate:before {
+  content: "";
+}
+
+.real-estate-037-sold:before {
+  content: "";
+}
+
+.real-estate-038-sold:before {
+  content: "";
+}
+
+.real-estate-039-hotel:before {
+  content: "";
+}
+
+.real-estate-040-bid:before {
+  content: "";
+}
+
+.real-estate-041-green-house:before {
+  content: "";
+}
+
+.real-estate-042-bed:before {
+  content: "";
+}
+
+.real-estate-043-sofa:before {
+  content: "";
+}
+
+.real-estate-044-pen-and-paper:before {
+  content: "";
+}
+
+.real-estate-045-paint-roller:before {
+  content: "";
+}
+
+.real-estate-046-homepage:before {
+  content: "";
+}
+
+.real-estate-047-piggy-bank:before {
+  content: "";
+}
+
+.real-estate-048-house-value:before {
+  content: "";
+}
+
+.real-estate-049-house-value:before {
+  content: "";
+}
+
+.real-estate-050-sale-sign:before {
+  content: "";
+}
+
+.real-estate-051-bank:before {
+  content: "";
+}
+
+.real-estate-052-bricks-wall:before {
+  content: "";
+}
+
+.real-estate-053-paintbrush:before {
+  content: "";
+}
+
+.real-estate-054-cash:before {
+  content: "";
+}
+
+.real-estate-055-carport:before {
+  content: "";
+}
+
+.real-estate-056-parking-sign:before {
+  content: "";
+}
+
+.real-estate-057-house-plan:before {
+  content: "";
+}
+
+.real-estate-058-church:before {
+  content: "";
+}
+
+.real-estate-059-house:before {
+  content: "";
+}
+
+.real-estate-060-led-bulb:before {
+  content: "";
+}
+
+.real-estate-061-house-for-sale:before {
+  content: "";
+}
+
+.real-estate-062-library:before {
+  content: "";
+}
+
+.real-estate-063-home-security:before {
+  content: "";
+}
+
+.real-estate-064-map-location:before {
+  content: "";
+}
+
+.real-estate-065-door-key:before {
+  content: "";
+}
+
+.real-estate-066-real-estate:before {
+  content: "";
+}
+
+.real-estate-067-sale-report:before {
+  content: "";
+}
+
+.real-estate-068-cctv-camera:before {
+  content: "";
+}
+
+.real-estate-069-real-estate:before {
+  content: "";
+}
+
+.real-estate-070-real-estate:before {
+  content: "";
+}
+
+.real-estate-071-home-address:before {
+  content: "";
+}
+
+.real-estate-072-for-rent:before {
+  content: "";
+}
+
+.real-estate-073-shopping-mall:before {
+  content: "";
+}
+
+.real-estate-074-magnifier:before {
+  content: "";
+}
+
+.real-estate-075-fireplace:before {
+  content: "";
+}
+
+.real-estate-076-for-sale:before {
+  content: "";
+}
+
+.real-estate-077-list-search:before {
+  content: "";
+}
+
+.real-estate-078-house:before {
+  content: "";
+}
+
+.real-estate-079-for-rent:before {
+  content: "";
+}
+
+.real-estate-080-house-key:before {
+  content: "";
+}
+
+.real-estate-081-real-estate:before {
+  content: "";
+}
+
+.real-estate-082-house-for-sale:before {
+  content: "";
+}
+
+.real-estate-083-relocation:before {
+  content: "";
+}
+
+.real-estate-084-home-security:before {
+  content: "";
+}
+
+.real-estate-085-supermarket:before {
+  content: "";
+}
+
+.real-estate-086-villa:before {
+  content: "";
+}
+
+.real-estate-087-real-estate:before {
+  content: "";
+}
+
+.real-estate-088-signboard:before {
+  content: "";
+}
+
+.real-estate-089-house-key:before {
+  content: "";
+}
+
+.real-estate-090-bathtub:before {
+  content: "";
+}
+
+.real-estate-091-house-key:before {
+  content: "";
+}
+
+.real-estate-092-home-security:before {
+  content: "";
+}
+
+.real-estate-093-bathtub:before {
+  content: "";
+}
+
+.real-estate-094-picket-fence:before {
+  content: "";
+}
+
+.real-estate-095-door-hanger:before {
+  content: "";
+}
+
+.real-estate-096-house-value:before {
+  content: "";
+}
+
+.real-estate-097-calculator-tool:before {
+  content: "";
+}
+
+.real-estate-098-concrete-truck:before {
+  content: "";
+}
+
+.real-estate-099-skyline:before {
+  content: "";
+}
+
+.real-estate-100-elevator:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "science-and-fiction";
+  src: url("science-and-fiction/font/Flaticon.eot");
+  src: url("science-and-fiction/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("science-and-fiction/font/Flaticon.woff2") format("woff2"), url("science-and-fiction/font/Flaticon.woff") format("woff"), url("science-and-fiction/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" science-and-fiction-"]:before,
+[class^=science-and-fiction-]:before {
+  font-family: "science-and-fiction";
+}
+
+.science-and-fiction-001-hard-drive:before {
+  content: "";
+}
+
+.science-and-fiction-002-physics:before {
+  content: "";
+}
+
+.science-and-fiction-003-bomb:before {
+  content: "";
+}
+
+.science-and-fiction-004-cpu-tower:before {
+  content: "";
+}
+
+.science-and-fiction-005-headphone:before {
+  content: "";
+}
+
+.science-and-fiction-006-lamp:before {
+  content: "";
+}
+
+.science-and-fiction-007-balance:before {
+  content: "";
+}
+
+.science-and-fiction-008-telephone:before {
+  content: "";
+}
+
+.science-and-fiction-009-geometry:before {
+  content: "";
+}
+
+.science-and-fiction-010-light-bulb:before {
+  content: "";
+}
+
+.science-and-fiction-011-alarm-clock:before {
+  content: "";
+}
+
+.science-and-fiction-012-television:before {
+  content: "";
+}
+
+.science-and-fiction-013-molecule:before {
+  content: "";
+}
+
+.science-and-fiction-014-laptop:before {
+  content: "";
+}
+
+.science-and-fiction-015-beaker:before {
+  content: "";
+}
+
+.science-and-fiction-016-electric-current:before {
+  content: "";
+}
+
+.science-and-fiction-017-floppy-disc:before {
+  content: "";
+}
+
+.science-and-fiction-018-gas-mask:before {
+  content: "";
+}
+
+.science-and-fiction-019-radio:before {
+  content: "";
+}
+
+.science-and-fiction-020-usb-cable:before {
+  content: "";
+}
+
+.science-and-fiction-021-satellite:before {
+  content: "";
+}
+
+.science-and-fiction-022-microprocessor:before {
+  content: "";
+}
+
+.science-and-fiction-023-rx:before {
+  content: "";
+}
+
+.science-and-fiction-024-erlenmeyer:before {
+  content: "";
+}
+
+.science-and-fiction-025-healthy-food:before {
+  content: "";
+}
+
+.science-and-fiction-026-atom:before {
+  content: "";
+}
+
+.science-and-fiction-027-inkwell:before {
+  content: "";
+}
+
+.science-and-fiction-028-books:before {
+  content: "";
+}
+
+.science-and-fiction-029-light-bulb:before {
+  content: "";
+}
+
+.science-and-fiction-030-dna-strand:before {
+  content: "";
+}
+
+.science-and-fiction-031-certificate:before {
+  content: "";
+}
+
+.science-and-fiction-032-erlenmeyer:before {
+  content: "";
+}
+
+.science-and-fiction-033-test-tubes:before {
+  content: "";
+}
+
+.science-and-fiction-034-clock:before {
+  content: "";
+}
+
+.science-and-fiction-035-hourglass:before {
+  content: "";
+}
+
+.science-and-fiction-036-satellite:before {
+  content: "";
+}
+
+.science-and-fiction-037-computer-mouse:before {
+  content: "";
+}
+
+.science-and-fiction-038-chemical-bond:before {
+  content: "";
+}
+
+.science-and-fiction-039-memory-card:before {
+  content: "";
+}
+
+.science-and-fiction-040-chemistry-class:before {
+  content: "";
+}
+
+.science-and-fiction-041-botany:before {
+  content: "";
+}
+
+.science-and-fiction-042-magnet:before {
+  content: "";
+}
+
+.science-and-fiction-043-syringe:before {
+  content: "";
+}
+
+.science-and-fiction-044-molecules:before {
+  content: "";
+}
+
+.science-and-fiction-045-observatory:before {
+  content: "";
+}
+
+.science-and-fiction-046-geometric-instrument:before {
+  content: "";
+}
+
+.science-and-fiction-047-microscope:before {
+  content: "";
+}
+
+.science-and-fiction-048-gender-symbol:before {
+  content: "";
+}
+
+.science-and-fiction-049-thermometer:before {
+  content: "";
+}
+
+.science-and-fiction-050-test-tube:before {
+  content: "";
+}
+
+.science-and-fiction-051-orbit:before {
+  content: "";
+}
+
+.science-and-fiction-052-equation:before {
+  content: "";
+}
+
+.science-and-fiction-053-light-bulb:before {
+  content: "";
+}
+
+.science-and-fiction-054-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-055-chemical-bond:before {
+  content: "";
+}
+
+.science-and-fiction-056-question-mark:before {
+  content: "";
+}
+
+.science-and-fiction-057-gender-symbol:before {
+  content: "";
+}
+
+.science-and-fiction-058-telescope:before {
+  content: "";
+}
+
+.science-and-fiction-059-molecular-structure:before {
+  content: "";
+}
+
+.science-and-fiction-060-mathematics:before {
+  content: "";
+}
+
+.science-and-fiction-061-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-062-solar-system:before {
+  content: "";
+}
+
+.science-and-fiction-063-chemical-bond:before {
+  content: "";
+}
+
+.science-and-fiction-064-ufo:before {
+  content: "";
+}
+
+.science-and-fiction-065-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-066-microscope:before {
+  content: "";
+}
+
+.science-and-fiction-067-erlenmeyer:before {
+  content: "";
+}
+
+.science-and-fiction-068-toxic:before {
+  content: "";
+}
+
+.science-and-fiction-069-radioactive:before {
+  content: "";
+}
+
+.science-and-fiction-070-florence-flask:before {
+  content: "";
+}
+
+.science-and-fiction-071-biochemistry:before {
+  content: "";
+}
+
+.science-and-fiction-072-telescope:before {
+  content: "";
+}
+
+.science-and-fiction-073-heartbeat:before {
+  content: "";
+}
+
+.science-and-fiction-074-electrocardiography:before {
+  content: "";
+}
+
+.science-and-fiction-075-physics:before {
+  content: "";
+}
+
+.science-and-fiction-076-volumetric-flask:before {
+  content: "";
+}
+
+.science-and-fiction-077-molecules:before {
+  content: "";
+}
+
+.science-and-fiction-078-books:before {
+  content: "";
+}
+
+.science-and-fiction-079-beaker:before {
+  content: "";
+}
+
+.science-and-fiction-080-pipette:before {
+  content: "";
+}
+
+.science-and-fiction-081-equation:before {
+  content: "";
+}
+
+.science-and-fiction-082-botany:before {
+  content: "";
+}
+
+.science-and-fiction-083-sperms:before {
+  content: "";
+}
+
+.science-and-fiction-084-sperm:before {
+  content: "";
+}
+
+.science-and-fiction-085-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-086-magnifying-glass:before {
+  content: "";
+}
+
+.science-and-fiction-087-dna-strand:before {
+  content: "";
+}
+
+.science-and-fiction-088-syringe:before {
+  content: "";
+}
+
+.science-and-fiction-089-checklist:before {
+  content: "";
+}
+
+.science-and-fiction-090-medicine:before {
+  content: "";
+}
+
+.science-and-fiction-091-chemistry-class:before {
+  content: "";
+}
+
+.science-and-fiction-092-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-093-chemistry:before {
+  content: "";
+}
+
+.science-and-fiction-094-chemical-analysis:before {
+  content: "";
+}
+
+.science-and-fiction-095-globe:before {
+  content: "";
+}
+
+.science-and-fiction-096-geometric-shapes:before {
+  content: "";
+}
+
+.science-and-fiction-097-calculator:before {
+  content: "";
+}
+
+.science-and-fiction-098-equation:before {
+  content: "";
+}
+
+.science-and-fiction-099-compass:before {
+  content: "";
+}
+
+.science-and-fiction-100-ufo:before {
+  content: "";
+}
+
+@font-face {
+  font-family: "seo-and-marketing";
+  src: url("seo-and-marketing/font/Flaticon.eot");
+  src: url("seo-and-marketing/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("seo-and-marketing/font/Flaticon.woff2") format("woff2"), url("seo-and-marketing/font/Flaticon.woff") format("woff"), url("seo-and-marketing/font/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" seo-and-marketing-"]:before,
+[class^=seo-and-marketing-]:before {
+  font-family: "seo-and-marketing";
+}
+
+.seo-and-marketing-001-cloud:before {
+  content: "";
+}
+
+.seo-and-marketing-002-cloud-computing:before {
+  content: "";
+}
+
+.seo-and-marketing-003-video-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-004-email-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-005-eye:before {
+  content: "";
+}
+
+.seo-and-marketing-006-presentation:before {
+  content: "";
+}
+
+.seo-and-marketing-007-usb:before {
+  content: "";
+}
+
+.seo-and-marketing-008-compact-disc:before {
+  content: "";
+}
+
+.seo-and-marketing-009-networking:before {
+  content: "";
+}
+
+.seo-and-marketing-010-web-page:before {
+  content: "";
+}
+
+.seo-and-marketing-011-data-transfer:before {
+  content: "";
+}
+
+.seo-and-marketing-012-missile:before {
+  content: "";
+}
+
+.seo-and-marketing-013-cogwheel:before {
+  content: "";
+}
+
+.seo-and-marketing-014-briefcase:before {
+  content: "";
+}
+
+.seo-and-marketing-015-qr-code:before {
+  content: "";
+}
+
+.seo-and-marketing-016-mobile-banking:before {
+  content: "";
+}
+
+.seo-and-marketing-017-web-design:before {
+  content: "";
+}
+
+.seo-and-marketing-018-feedback:before {
+  content: "";
+}
+
+.seo-and-marketing-019-email:before {
+  content: "";
+}
+
+.seo-and-marketing-020-web-security:before {
+  content: "";
+}
+
+.seo-and-marketing-021-folder-management:before {
+  content: "";
+}
+
+.seo-and-marketing-022-seo:before {
+  content: "";
+}
+
+.seo-and-marketing-023-networking:before {
+  content: "";
+}
+
+.seo-and-marketing-024-ppc:before {
+  content: "";
+}
+
+.seo-and-marketing-025-web-analytics:before {
+  content: "";
+}
+
+.seo-and-marketing-026-cloud-storage:before {
+  content: "";
+}
+
+.seo-and-marketing-027-www:before {
+  content: "";
+}
+
+.seo-and-marketing-028-compass:before {
+  content: "";
+}
+
+.seo-and-marketing-029-calculator:before {
+  content: "";
+}
+
+.seo-and-marketing-030-online-music:before {
+  content: "";
+}
+
+.seo-and-marketing-031-web-analysis:before {
+  content: "";
+}
+
+.seo-and-marketing-032-analytics:before {
+  content: "";
+}
+
+.seo-and-marketing-033-inbox-mail:before {
+  content: "";
+}
+
+.seo-and-marketing-034-financial:before {
+  content: "";
+}
+
+.seo-and-marketing-035-cyber-security:before {
+  content: "";
+}
+
+.seo-and-marketing-036-data-analytics:before {
+  content: "";
+}
+
+.seo-and-marketing-037-dollar-coin:before {
+  content: "";
+}
+
+.seo-and-marketing-038-location-pointer:before {
+  content: "";
+}
+
+.seo-and-marketing-039-mobile-cloud:before {
+  content: "";
+}
+
+.seo-and-marketing-040-cloud-data:before {
+  content: "";
+}
+
+.seo-and-marketing-041-web-design:before {
+  content: "";
+}
+
+.seo-and-marketing-042-computer-settings:before {
+  content: "";
+}
+
+.seo-and-marketing-043-helpline:before {
+  content: "";
+}
+
+.seo-and-marketing-044-video-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-045-dartboard:before {
+  content: "";
+}
+
+.seo-and-marketing-046-eye:before {
+  content: "";
+}
+
+.seo-and-marketing-047-cloud-data:before {
+  content: "";
+}
+
+.seo-and-marketing-048-compact-disk:before {
+  content: "";
+}
+
+.seo-and-marketing-049-workflow:before {
+  content: "";
+}
+
+.seo-and-marketing-050-message:before {
+  content: "";
+}
+
+.seo-and-marketing-051-business-report:before {
+  content: "";
+}
+
+.seo-and-marketing-052-cyber-security:before {
+  content: "";
+}
+
+.seo-and-marketing-053-video-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-054-presentation:before {
+  content: "";
+}
+
+.seo-and-marketing-055-hourglass:before {
+  content: "";
+}
+
+.seo-and-marketing-056-web-design:before {
+  content: "";
+}
+
+.seo-and-marketing-057-video-search:before {
+  content: "";
+}
+
+.seo-and-marketing-058-linked:before {
+  content: "";
+}
+
+.seo-and-marketing-059-statistics:before {
+  content: "";
+}
+
+.seo-and-marketing-060-data-searching:before {
+  content: "";
+}
+
+.seo-and-marketing-061-software-development:before {
+  content: "";
+}
+
+.seo-and-marketing-062-monitoring:before {
+  content: "";
+}
+
+.seo-and-marketing-063-badge:before {
+  content: "";
+}
+
+.seo-and-marketing-064-report:before {
+  content: "";
+}
+
+.seo-and-marketing-065-technical-support:before {
+  content: "";
+}
+
+.seo-and-marketing-066-email-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-067-padlock:before {
+  content: "";
+}
+
+.seo-and-marketing-068-package-box:before {
+  content: "";
+}
+
+.seo-and-marketing-069-data-analysis:before {
+  content: "";
+}
+
+.seo-and-marketing-070-clip:before {
+  content: "";
+}
+
+.seo-and-marketing-071-billboard:before {
+  content: "";
+}
+
+.seo-and-marketing-072-business-report:before {
+  content: "";
+}
+
+.seo-and-marketing-073-floppy-disk:before {
+  content: "";
+}
+
+.seo-and-marketing-074-direct-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-075-chatting:before {
+  content: "";
+}
+
+.seo-and-marketing-076-trophy:before {
+  content: "";
+}
+
+.seo-and-marketing-077-lifebelt:before {
+  content: "";
+}
+
+.seo-and-marketing-078-video-marketing:before {
+  content: "";
+}
+
+.seo-and-marketing-079-video-camera:before {
+  content: "";
+}
+
+.sio {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=flaticon.css.map */

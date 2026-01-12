@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "ShoppingIcon";
+  src: url("shopping/font/Flaticon.eot");
+  src: url("shopping/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("shopping/font/Flaticon.woff2") format("woff2"),
+       url("shopping/font/Flaticon.woff") format("woff"),
+       url("shopping/font/Flaticon.ttf") format("truetype"),
+       url("shopping/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "ShoppingIcon";
+    src: url("shopping/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" shopping-icon-"]:before,
+[class^=shopping-icon-]:before {
+  display: inline-block;
+  font-family: "ShoppingIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.shopping-icon-001-shopping:before { content: "\f100"; }
+.shopping-icon-002-thinking:before { content: "\f101"; }
+.shopping-icon-003-address-book:before { content: "\f102"; }
+.shopping-icon-004-shopping-basket:before { content: "\f103"; }
+.shopping-icon-005-ribbon-badge:before { content: "\f104"; }
+.shopping-icon-006-cardboard-box:before { content: "\f105"; }
+.shopping-icon-007-barcode-scanner:before { content: "\f106"; }
+.shopping-icon-008-marketing:before { content: "\f107"; }
+.shopping-icon-009-atm-machine:before { content: "\f108"; }
+.shopping-icon-010-downloading-data:before { content: "\f109"; }
+.shopping-icon-011-shopping-bag:before { content: "\f10a"; }
+.shopping-icon-012-customer-satisfaction:before { content: "\f10b"; }
+.shopping-icon-013-map-location:before { content: "\f10c"; }
+.shopping-icon-014-call-made:before { content: "\f10d"; }
+.shopping-icon-015-shopping-bag:before { content: "\f10e"; }
+.shopping-icon-016-new-product:before { content: "\f10f"; }
+.shopping-icon-017-money:before { content: "\f110"; }
+.shopping-icon-018-open-sign:before { content: "\f111"; }
+.shopping-icon-019-gift-box:before { content: "\f112"; }
+.shopping-icon-020-luggage-cart:before { content: "\f113"; }
+.shopping-icon-021-wallet:before { content: "\f114"; }
+.shopping-icon-022-heart-shape:before { content: "\f115"; }
+.shopping-icon-023-shopping-mall:before { content: "\f116"; }
+.shopping-icon-024-store:before { content: "\f117"; }
+.shopping-icon-025-delivery-van:before { content: "\f118"; }
+.shopping-icon-026-money-bag:before { content: "\f119"; }
+.shopping-icon-027-female-footwear:before { content: "\f11a"; }
+.shopping-icon-028-24-hours:before { content: "\f11b"; }
+.shopping-icon-029-t-shirt:before { content: "\f11c"; }
+.shopping-icon-030-call-center:before { content: "\f11d"; }
+.shopping-icon-031-percentage:before { content: "\f11e"; }
+.shopping-icon-032-evening-dress:before { content: "\f11f"; }
+.shopping-icon-033-wrist-watch:before { content: "\f120"; }
+.shopping-icon-034-payment-gateway:before { content: "\f121"; }
+.shopping-icon-035-computer-monitor:before { content: "\f122"; }
+.shopping-icon-036-days:before { content: "\f123"; }
+.shopping-icon-037-balloons:before { content: "\f124"; }
+.shopping-icon-038-dollar-coin:before { content: "\f125"; }
+.shopping-icon-039-shopping-cart:before { content: "\f126"; }
+.shopping-icon-040-clothes-hanger:before { content: "\f127"; }
+.shopping-icon-041-airplane:before { content: "\f128"; }
+.shopping-icon-042-security-shield:before { content: "\f129"; }
+.shopping-icon-043-padlock:before { content: "\f12a"; }
+.shopping-icon-044-sale-tag:before { content: "\f12b"; }
+.shopping-icon-045-open-sign:before { content: "\f12c"; }
+.shopping-icon-046-hotline:before { content: "\f12d"; }
+.shopping-icon-047-announcement:before { content: "\f12e"; }
+.shopping-icon-048-giftbox:before { content: "\f12f"; }
+.shopping-icon-049-sticker:before { content: "\f130"; }
+.shopping-icon-050-shopping-bag:before { content: "\f131"; }
+.shopping-icon-051-piggy-bank:before { content: "\f132"; }
+.shopping-icon-052-shopping-cart:before { content: "\f133"; }
+.shopping-icon-053-twenty-four-hours:before { content: "\f134"; }
+.shopping-icon-054-sale-tag:before { content: "\f135"; }
+.shopping-icon-055-directional-arrows:before { content: "\f136"; }
+.shopping-icon-056-online-shopping:before { content: "\f137"; }
+.shopping-icon-057-sale-tag:before { content: "\f138"; }
+.shopping-icon-058-ticket:before { content: "\f139"; }
+.shopping-icon-059-eyeglasses:before { content: "\f13a"; }
+.shopping-icon-060-smart-washing-machine:before { content: "\f13b"; }
+.shopping-icon-061-desk-lamp:before { content: "\f13c"; }
+.shopping-icon-062-mens-clothing:before { content: "\f13d"; }
+.shopping-icon-063-smartphone:before { content: "\f13e"; }
+.shopping-icon-064-photo-camera:before { content: "\f13f"; }
+.shopping-icon-065-wifi-router:before { content: "\f140"; }
+.shopping-icon-066-computer-mouse:before { content: "\f141"; }
+.shopping-icon-067-ecommerce:before { content: "\f142"; }
+.shopping-icon-068-calendar:before { content: "\f143"; }
+.shopping-icon-069-sneaker:before { content: "\f144"; }
+.shopping-icon-070-mixer-blender:before { content: "\f145"; }
+.shopping-icon-071-clapperboard:before { content: "\f146"; }
+.shopping-icon-072-flowers:before { content: "\f147"; }
+.shopping-icon-073-couch:before { content: "\f148"; }
+.shopping-icon-074-wallet:before { content: "\f149"; }
+.shopping-icon-075-banknotes:before { content: "\f14a"; }
+.shopping-icon-076-shopping-cart:before { content: "\f14b"; }
+.shopping-icon-077-qr-code:before { content: "\f14c"; }
+.shopping-icon-078-map-location:before { content: "\f14d"; }
+.shopping-icon-079-briefcase:before { content: "\f14e"; }
+.shopping-icon-080-idea-bulb:before { content: "\f14f"; }
+.shopping-icon-081-ribbon-badge:before { content: "\f150"; }
+.shopping-icon-082-vase:before { content: "\f151"; }
+.shopping-icon-083-piano:before { content: "\f152"; }
+.shopping-icon-084-money-bag:before { content: "\f153"; }
+.shopping-icon-085-fast-delivery:before { content: "\f154"; }
+.shopping-icon-086-business-and-finance:before { content: "\f155"; }
+.shopping-icon-087-price-tag:before { content: "\f156"; }
+.shopping-icon-088-cash-register:before { content: "\f157"; }
+.shopping-icon-089-earrings:before { content: "\f158"; }
+.shopping-icon-090-map-point:before { content: "\f159"; }
+.shopping-icon-091-checklist:before { content: "\f15a"; }
+.shopping-icon-092-invoice:before { content: "\f15b"; }
+.shopping-icon-093-online-shopping:before { content: "\f15c"; }
+.shopping-icon-094-dial-pad:before { content: "\f15d"; }
+.shopping-icon-095-radio-transmitter:before { content: "\f15e"; }
+.shopping-icon-096-diamond-ring:before { content: "\f15f"; }
+.shopping-icon-097-mobile-shopping:before { content: "\f160"; }
+.shopping-icon-098-qr-code-scan:before { content: "\f161"; }
+.shopping-icon-099-support:before { content: "\f162"; }
+
+$font-Flaticon-001-shopping: "\f100";
+$font-Flaticon-002-thinking: "\f101";
+$font-Flaticon-003-address-book: "\f102";
+$font-Flaticon-004-shopping-basket: "\f103";
+$font-Flaticon-005-ribbon-badge: "\f104";
+$font-Flaticon-006-cardboard-box: "\f105";
+$font-Flaticon-007-barcode-scanner: "\f106";
+$font-Flaticon-008-marketing: "\f107";
+$font-Flaticon-009-atm-machine: "\f108";
+$font-Flaticon-010-downloading-data: "\f109";
+$font-Flaticon-011-shopping-bag: "\f10a";
+$font-Flaticon-012-customer-satisfaction: "\f10b";
+$font-Flaticon-013-map-location: "\f10c";
+$font-Flaticon-014-call-made: "\f10d";
+$font-Flaticon-015-shopping-bag: "\f10e";
+$font-Flaticon-016-new-product: "\f10f";
+$font-Flaticon-017-money: "\f110";
+$font-Flaticon-018-open-sign: "\f111";
+$font-Flaticon-019-gift-box: "\f112";
+$font-Flaticon-020-luggage-cart: "\f113";
+$font-Flaticon-021-wallet: "\f114";
+$font-Flaticon-022-heart-shape: "\f115";
+$font-Flaticon-023-shopping-mall: "\f116";
+$font-Flaticon-024-store: "\f117";
+$font-Flaticon-025-delivery-van: "\f118";
+$font-Flaticon-026-money-bag: "\f119";
+$font-Flaticon-027-female-footwear: "\f11a";
+$font-Flaticon-028-24-hours: "\f11b";
+$font-Flaticon-029-t-shirt: "\f11c";
+$font-Flaticon-030-call-center: "\f11d";
+$font-Flaticon-031-percentage: "\f11e";
+$font-Flaticon-032-evening-dress: "\f11f";
+$font-Flaticon-033-wrist-watch: "\f120";
+$font-Flaticon-034-payment-gateway: "\f121";
+$font-Flaticon-035-computer-monitor: "\f122";
+$font-Flaticon-036-days: "\f123";
+$font-Flaticon-037-balloons: "\f124";
+$font-Flaticon-038-dollar-coin: "\f125";
+$font-Flaticon-039-shopping-cart: "\f126";
+$font-Flaticon-040-clothes-hanger: "\f127";
+$font-Flaticon-041-airplane: "\f128";
+$font-Flaticon-042-security-shield: "\f129";
+$font-Flaticon-043-padlock: "\f12a";
+$font-Flaticon-044-sale-tag: "\f12b";
+$font-Flaticon-045-open-sign: "\f12c";
+$font-Flaticon-046-hotline: "\f12d";
+$font-Flaticon-047-announcement: "\f12e";
+$font-Flaticon-048-giftbox: "\f12f";
+$font-Flaticon-049-sticker: "\f130";
+$font-Flaticon-050-shopping-bag: "\f131";
+$font-Flaticon-051-piggy-bank: "\f132";
+$font-Flaticon-052-shopping-cart: "\f133";
+$font-Flaticon-053-twenty-four-hours: "\f134";
+$font-Flaticon-054-sale-tag: "\f135";
+$font-Flaticon-055-directional-arrows: "\f136";
+$font-Flaticon-056-online-shopping: "\f137";
+$font-Flaticon-057-sale-tag: "\f138";
+$font-Flaticon-058-ticket: "\f139";
+$font-Flaticon-059-eyeglasses: "\f13a";
+$font-Flaticon-060-smart-washing-machine: "\f13b";
+$font-Flaticon-061-desk-lamp: "\f13c";
+$font-Flaticon-062-mens-clothing: "\f13d";
+$font-Flaticon-063-smartphone: "\f13e";
+$font-Flaticon-064-photo-camera: "\f13f";
+$font-Flaticon-065-wifi-router: "\f140";
+$font-Flaticon-066-computer-mouse: "\f141";
+$font-Flaticon-067-ecommerce: "\f142";
+$font-Flaticon-068-calendar: "\f143";
+$font-Flaticon-069-sneaker: "\f144";
+$font-Flaticon-070-mixer-blender: "\f145";
+$font-Flaticon-071-clapperboard: "\f146";
+$font-Flaticon-072-flowers: "\f147";
+$font-Flaticon-073-couch: "\f148";
+$font-Flaticon-074-wallet: "\f149";
+$font-Flaticon-075-banknotes: "\f14a";
+$font-Flaticon-076-shopping-cart: "\f14b";
+$font-Flaticon-077-qr-code: "\f14c";
+$font-Flaticon-078-map-location: "\f14d";
+$font-Flaticon-079-briefcase: "\f14e";
+$font-Flaticon-080-idea-bulb: "\f14f";
+$font-Flaticon-081-ribbon-badge: "\f150";
+$font-Flaticon-082-vase: "\f151";
+$font-Flaticon-083-piano: "\f152";
+$font-Flaticon-084-money-bag: "\f153";
+$font-Flaticon-085-fast-delivery: "\f154";
+$font-Flaticon-086-business-and-finance: "\f155";
+$font-Flaticon-087-price-tag: "\f156";
+$font-Flaticon-088-cash-register: "\f157";
+$font-Flaticon-089-earrings: "\f158";
+$font-Flaticon-090-map-point: "\f159";
+$font-Flaticon-091-checklist: "\f15a";
+$font-Flaticon-092-invoice: "\f15b";
+$font-Flaticon-093-online-shopping: "\f15c";
+$font-Flaticon-094-dial-pad: "\f15d";
+$font-Flaticon-095-radio-transmitter: "\f15e";
+$font-Flaticon-096-diamond-ring: "\f15f";
+$font-Flaticon-097-mobile-shopping: "\f160";
+$font-Flaticon-098-qr-code-scan: "\f161";
+$font-Flaticon-099-support: "\f162";

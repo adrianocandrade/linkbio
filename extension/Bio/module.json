@@ -1,0 +1,13 @@
+{
+    "name": "Bio",
+    "alias": "bio",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Bio\\Providers\\BioServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

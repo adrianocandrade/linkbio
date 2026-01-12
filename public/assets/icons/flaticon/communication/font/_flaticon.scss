@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "communication";
+  src: url("communication/font/Flaticon.eot");
+  src: url("communication/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("communication/font/Flaticon.woff2") format("woff2"),
+       url("communication/font/Flaticon.woff") format("woff"),
+       url("communication/font/Flaticon.ttf") format("truetype"),
+       url("communication/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "communication";
+    src: url("communication/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" communication-"]:before,
+[class^=communication-]:before {
+  font-family: "communication";
+}
+
+.communication-001-vintage-tv:before { content: "\f100"; }
+.communication-002-sms:before { content: "\f101"; }
+.communication-003-newspaper:before { content: "\f102"; }
+.communication-004-walkie-talkie:before { content: "\f103"; }
+.communication-005-loudspeaker:before { content: "\f104"; }
+.communication-006-24-hours-support:before { content: "\f105"; }
+.communication-007-headhunting:before { content: "\f106"; }
+.communication-008-loudspeaker:before { content: "\f107"; }
+.communication-009-thumbs-up:before { content: "\f108"; }
+.communication-010-phonebook:before { content: "\f109"; }
+.communication-011-customer-support:before { content: "\f10a"; }
+.communication-012-telephone-receiver:before { content: "\f10b"; }
+.communication-013-wireless-internet:before { content: "\f10c"; }
+.communication-014-apps:before { content: "\f10d"; }
+.communication-015-chatting:before { content: "\f10e"; }
+.communication-016-megaphone:before { content: "\f10f"; }
+.communication-017-voice-microphone:before { content: "\f110"; }
+.communication-018-microphone:before { content: "\f111"; }
+.communication-019-earth-globe:before { content: "\f112"; }
+.communication-020-wifi-signal:before { content: "\f113"; }
+.communication-021-satellite-dish:before { content: "\f114"; }
+.communication-022-contact-book:before { content: "\f115"; }
+.communication-023-battery-status:before { content: "\f116"; }
+.communication-024-voice-microphone:before { content: "\f117"; }
+.communication-025-volume:before { content: "\f118"; }
+.communication-026-outgoing-email:before { content: "\f119"; }
+.communication-027-diagonal-arrows:before { content: "\f11a"; }
+.communication-028-talk:before { content: "\f11b"; }
+.communication-029-people-network:before { content: "\f11c"; }
+.communication-030-share:before { content: "\f11d"; }
+.communication-031-speech-bubble:before { content: "\f11e"; }
+.communication-032-telephone-receiver:before { content: "\f11f"; }
+.communication-033-love-message:before { content: "\f120"; }
+.communication-034-joystick:before { content: "\f121"; }
+.communication-035-received-message:before { content: "\f122"; }
+.communication-036-unread-message:before { content: "\f123"; }
+.communication-037-webcam:before { content: "\f124"; }
+.communication-038-missed-call:before { content: "\f125"; }
+.communication-039-telephone-call:before { content: "\f126"; }
+.communication-040-world-news:before { content: "\f127"; }
+.communication-041-landline:before { content: "\f128"; }
+.communication-042-id-card:before { content: "\f129"; }
+.communication-043-audio-message:before { content: "\f12a"; }
+.communication-044-newspaper:before { content: "\f12b"; }
+.communication-045-landline:before { content: "\f12c"; }
+.communication-046-radio-transmitter:before { content: "\f12d"; }
+.communication-047-usb-flash-drive:before { content: "\f12e"; }
+.communication-048-phonebook:before { content: "\f12f"; }
+.communication-049-bidirectional:before { content: "\f130"; }
+.communication-050-chatting:before { content: "\f131"; }
+.communication-051-bullhorn:before { content: "\f132"; }
+.communication-052-sms:before { content: "\f133"; }
+.communication-053-space-satellite:before { content: "\f134"; }
+.communication-054-calls:before { content: "\f135"; }
+.communication-055-letter:before { content: "\f136"; }
+.communication-056-compass-tool:before { content: "\f137"; }
+.communication-057-wireless-internet:before { content: "\f138"; }
+.communication-058-sms:before { content: "\f139"; }
+.communication-059-open-mail:before { content: "\f13a"; }
+.communication-060-internet:before { content: "\f13b"; }
+.communication-061-diary:before { content: "\f13c"; }
+.communication-062-space-satellite:before { content: "\f13d"; }
+.communication-063-chatting:before { content: "\f13e"; }
+.communication-064-unread-message:before { content: "\f13f"; }
+.communication-065-gps:before { content: "\f140"; }
+.communication-066-wireless-internet:before { content: "\f141"; }
+.communication-067-wifi-signal:before { content: "\f142"; }
+.communication-068-gps-navigation:before { content: "\f143"; }
+.communication-069-shared-folder:before { content: "\f144"; }
+.communication-070-map-pin:before { content: "\f145"; }
+.communication-071-finger-pointing:before { content: "\f146"; }
+.communication-072-satellite-dish:before { content: "\f147"; }
+.communication-073-web-administrator:before { content: "\f148"; }
+.communication-074-loudspeaker:before { content: "\f149"; }
+.communication-075-landline:before { content: "\f14a"; }
+.communication-076-social-network:before { content: "\f14b"; }
+.communication-077-humanpictos:before { content: "\f14c"; }
+.communication-078-submit:before { content: "\f14d"; }
+.communication-079-media-player:before { content: "\f14e"; }
+.communication-080-paper-plane:before { content: "\f14f"; }
+.communication-081-yes-or-no:before { content: "\f150"; }
+.communication-082-cloud-network:before { content: "\f151"; }
+.communication-083-business-report:before { content: "\f152"; }
+.communication-084-wifi-router:before { content: "\f153"; }
+.communication-085-laptop:before { content: "\f154"; }
+.communication-086-tweet:before { content: "\f155"; }
+.communication-087-wireless-internet:before { content: "\f156"; }
+.communication-088-mail-inbox:before { content: "\f157"; }
+.communication-089-outgoing-email:before { content: "\f158"; }
+.communication-090-love-message:before { content: "\f159"; }
+.communication-091-cloud-network:before { content: "\f15a"; }
+.communication-092-documents:before { content: "\f15b"; }
+.communication-093-internet:before { content: "\f15c"; }
+.communication-094-microphone:before { content: "\f15d"; }
+.communication-095-network:before { content: "\f15e"; }
+.communication-096-faq:before { content: "\f15f"; }
+.communication-097-frequently-asked-questions:before { content: "\f160"; }
+.communication-098-customer-service-agent:before { content: "\f161"; }
+.communication-099-customer-service-agent:before { content: "\f162"; }
+.communication-100-customer-feedback:before { content: "\f163"; }
+
+$font-communication-001-vintage-tv: "\f100";
+$font-communication-002-sms: "\f101";
+$font-communication-003-newspaper: "\f102";
+$font-communication-004-walkie-talkie: "\f103";
+$font-communication-005-loudspeaker: "\f104";
+$font-communication-006-24-hours-support: "\f105";
+$font-communication-007-headhunting: "\f106";
+$font-communication-008-loudspeaker: "\f107";
+$font-communication-009-thumbs-up: "\f108";
+$font-communication-010-phonebook: "\f109";
+$font-communication-011-customer-support: "\f10a";
+$font-communication-012-telephone-receiver: "\f10b";
+$font-communication-013-wireless-internet: "\f10c";
+$font-communication-014-apps: "\f10d";
+$font-communication-015-chatting: "\f10e";
+$font-communication-016-megaphone: "\f10f";
+$font-communication-017-voice-microphone: "\f110";
+$font-communication-018-microphone: "\f111";
+$font-communication-019-earth-globe: "\f112";
+$font-communication-020-wifi-signal: "\f113";
+$font-communication-021-satellite-dish: "\f114";
+$font-communication-022-contact-book: "\f115";
+$font-communication-023-battery-status: "\f116";
+$font-communication-024-voice-microphone: "\f117";
+$font-communication-025-volume: "\f118";
+$font-communication-026-outgoing-email: "\f119";
+$font-communication-027-diagonal-arrows: "\f11a";
+$font-communication-028-talk: "\f11b";
+$font-communication-029-people-network: "\f11c";
+$font-communication-030-share: "\f11d";
+$font-communication-031-speech-bubble: "\f11e";
+$font-communication-032-telephone-receiver: "\f11f";
+$font-communication-033-love-message: "\f120";
+$font-communication-034-joystick: "\f121";
+$font-communication-035-received-message: "\f122";
+$font-communication-036-unread-message: "\f123";
+$font-communication-037-webcam: "\f124";
+$font-communication-038-missed-call: "\f125";
+$font-communication-039-telephone-call: "\f126";
+$font-communication-040-world-news: "\f127";
+$font-communication-041-landline: "\f128";
+$font-communication-042-id-card: "\f129";
+$font-communication-043-audio-message: "\f12a";
+$font-communication-044-newspaper: "\f12b";
+$font-communication-045-landline: "\f12c";
+$font-communication-046-radio-transmitter: "\f12d";
+$font-communication-047-usb-flash-drive: "\f12e";
+$font-communication-048-phonebook: "\f12f";
+$font-communication-049-bidirectional: "\f130";
+$font-communication-050-chatting: "\f131";
+$font-communication-051-bullhorn: "\f132";
+$font-communication-052-sms: "\f133";
+$font-communication-053-space-satellite: "\f134";
+$font-communication-054-calls: "\f135";
+$font-communication-055-letter: "\f136";
+$font-communication-056-compass-tool: "\f137";
+$font-communication-057-wireless-internet: "\f138";
+$font-communication-058-sms: "\f139";
+$font-communication-059-open-mail: "\f13a";
+$font-communication-060-internet: "\f13b";
+$font-communication-061-diary: "\f13c";
+$font-communication-062-space-satellite: "\f13d";
+$font-communication-063-chatting: "\f13e";
+$font-communication-064-unread-message: "\f13f";
+$font-communication-065-gps: "\f140";
+$font-communication-066-wireless-internet: "\f141";
+$font-communication-067-wifi-signal: "\f142";
+$font-communication-068-gps-navigation: "\f143";
+$font-communication-069-shared-folder: "\f144";
+$font-communication-070-map-pin: "\f145";
+$font-communication-071-finger-pointing: "\f146";
+$font-communication-072-satellite-dish: "\f147";
+$font-communication-073-web-administrator: "\f148";
+$font-communication-074-loudspeaker: "\f149";
+$font-communication-075-landline: "\f14a";
+$font-communication-076-social-network: "\f14b";
+$font-communication-077-humanpictos: "\f14c";
+$font-communication-078-submit: "\f14d";
+$font-communication-079-media-player: "\f14e";
+$font-communication-080-paper-plane: "\f14f";
+$font-communication-081-yes-or-no: "\f150";
+$font-communication-082-cloud-network: "\f151";
+$font-communication-083-business-report: "\f152";
+$font-communication-084-wifi-router: "\f153";
+$font-communication-085-laptop: "\f154";
+$font-communication-086-tweet: "\f155";
+$font-communication-087-wireless-internet: "\f156";
+$font-communication-088-mail-inbox: "\f157";
+$font-communication-089-outgoing-email: "\f158";
+$font-communication-090-love-message: "\f159";
+$font-communication-091-cloud-network: "\f15a";
+$font-communication-092-documents: "\f15b";
+$font-communication-093-internet: "\f15c";
+$font-communication-094-microphone: "\f15d";
+$font-communication-095-network: "\f15e";
+$font-communication-096-faq: "\f15f";
+$font-communication-097-frequently-asked-questions: "\f160";
+$font-communication-098-customer-service-agent: "\f161";
+$font-communication-099-customer-service-agent: "\f162";
+$font-communication-100-customer-feedback: "\f163";

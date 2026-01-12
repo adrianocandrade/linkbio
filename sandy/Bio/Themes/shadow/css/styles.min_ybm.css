@@ -1,0 +1,133 @@
+.context-body{
+    background: transparent;
+    position: relative;
+}
+
+.context-body::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: {button_background};
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    opacity: 0.2;
+}
+.bio-courses-card-v1 .price.text-sticker, .product-card-v2 .star-rating{
+    background: transparent;
+    position: relative;
+    z-index: 10;
+}
+.bio-courses-card-v1 .price.text-sticker::before, .product-card-v2 .star-rating::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: {button_background};
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button){
+    color: {button_text_color} !important;
+}
+.context .context-links .links .link .link-container, .yetti-links-v2{
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+}
+.context .context-links .links .link .content-container .content p, .context .context-links .links .link .icon, .yetti-links-v2 span, .yetti-links-v2 svg{
+    stroke: {button_text_color} !important;
+    color: {button_text_color} !important;
+}
+.social-links .social-link{
+    background: {button_background} !important;
+}
+.social-links .social-link i{
+    color: {button_text_color} !important;
+}
+.bio-menu-container{
+    position: relative;
+}
+.bio-courses-card-v1::after{
+ content: initial !important;
+}
+.highlights .highlight .thumbnail{
+  padding: 5px;
+  background: {button_background};
+}
+.highlights .highlight:not(.add)::before{
+ content: initial !important;
+}
+.multi-image-container .inner-image, .element-video .element-single-video, .product-card-v2, .bio-courses-card-v1, .social-links .social-link, .context-body, .context .context-links .links .link .link-container, .bio-body.radius-round .list-container, .sandy-dialog-modal .connect-social a, #app-sandy-mix.is-bio .bio-dark, .bio-branding-mobile, .highlights .highlight .thumbnail,.avatar-thumb .avatar-container .thumb, .element-list .list-container, #button-body, .yetti-links-v2, .sandy-compact-embed, .booking-card-1{
+    box-shadow: rgb(38 50 56 / 16%) 0px 8px 16px, rgb(0 0 0 / 30%) 0px 4px 5px -4px, rgb(255 255 255 / 50%) 0px 2px 5px inset, rgb(0 0 0 / 20%) 0px -1px 3px inset !important;
+}
+.element-video .element-single-video{
+  padding: 5px;
+  background: {button_background};
+}
+.product-card-v2, .bio-courses-card-v1, .booking-card-1, .sandy-compact-embed{
+    position: relative;
+    box-shadow: none;
+    background: {button_background} !important;
+}
+.bio-menu-container::before {
+    opacity: 0.3;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: {button_background};
+    z-index: -1;
+}
+.two-burger-icon::before, .two-burger-icon::after {
+    background: {button_text_color};
+}
+.bio-menu .bio-menu-info .bio-name-text, .product-card-v2 .product-type {
+    color: {button_text_color};
+}
+
+.sandy-dialog-modal .connect-social a{
+    background: {button_background};
+}
+
+.sandy-dialog-modal .connect-social a i, .sandy-dialog-modal .connect-social a h3{
+    color: {button_text_color};
+}
+.sandy-dialog.bio-social-modal{
+    border: 0;
+}
+.sandy-dialog.bio-social-modal::before{
+    opacity: 0.3;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: {button_background};
+    z-index: -1;
+    border-radius: inherit;
+}
+.avatar-thumb .avatar-container .thumb{
+    background: {button_background} !important;
+}
+.context-head{
+    border-radius: 0 0 15px 15px;
+    background: transparent;
+    position: relative;
+}
+
+body.is-dark .context .context-head{
+    background: transparent;
+}
+.element-list .list-container{
+    background: {button_background} !important;
+}
+.element-list .list-container .list-title, .element-list .list-container .list-desc{
+    color: {button_text_color} !important;
+}

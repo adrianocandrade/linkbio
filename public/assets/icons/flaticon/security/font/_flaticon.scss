@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "SecurityIcon";
+  src: url("security/font/Flaticon.eot");
+  src: url("security/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("security/font/Flaticon.woff2") format("woff2"),
+       url("security/font/Flaticon.woff") format("woff"),
+       url("security/font/Flaticon.ttf") format("truetype"),
+       url("security/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "SecurityIcon";
+    src: url("security/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" security-icon-"]:before,
+[class^=security-icon-]:before {
+  font-family: "SecurityIcon";
+}
+
+.security-icon-001-gears:before { content: "\f100"; }
+.security-icon-002-radar:before { content: "\f101"; }
+.security-icon-003-binocular:before { content: "\f102"; }
+.security-icon-004-attention:before { content: "\f103"; }
+.security-icon-005-lock:before { content: "\f104"; }
+.security-icon-006-envelope:before { content: "\f105"; }
+.security-icon-007-website:before { content: "\f106"; }
+.security-icon-008-danger-sign:before { content: "\f107"; }
+.security-icon-009-shared-folder:before { content: "\f108"; }
+.security-icon-010-bug:before { content: "\f109"; }
+.security-icon-011-cloud-download:before { content: "\f10a"; }
+.security-icon-012-safe-box:before { content: "\f10b"; }
+.security-icon-013-warning:before { content: "\f10c"; }
+.security-icon-014-switch:before { content: "\f10d"; }
+.security-icon-015-handcuffs:before { content: "\f10e"; }
+.security-icon-016-spyware:before { content: "\f10f"; }
+.security-icon-017-cds:before { content: "\f110"; }
+.security-icon-018-compact-disc:before { content: "\f111"; }
+.security-icon-019-bug:before { content: "\f112"; }
+.security-icon-020-danger:before { content: "\f113"; }
+.security-icon-021-biometric-identification:before { content: "\f114"; }
+.security-icon-022-ethernet:before { content: "\f115"; }
+.security-icon-023-web-crawler:before { content: "\f116"; }
+.security-icon-024-star:before { content: "\f117"; }
+.security-icon-025-hash:before { content: "\f118"; }
+.security-icon-026-password-code:before { content: "\f119"; }
+.security-icon-027-spam-alert:before { content: "\f11a"; }
+.security-icon-028-umbrella:before { content: "\f11b"; }
+.security-icon-029-spanner:before { content: "\f11c"; }
+.security-icon-030-lock:before { content: "\f11d"; }
+.security-icon-031-siren:before { content: "\f11e"; }
+.security-icon-032-hacking:before { content: "\f11f"; }
+.security-icon-033-firewall:before { content: "\f120"; }
+.security-icon-034-key:before { content: "\f121"; }
+.security-icon-035-shield:before { content: "\f122"; }
+.security-icon-036-sign-in:before { content: "\f123"; }
+.security-icon-037-customer-support:before { content: "\f124"; }
+.security-icon-038-danger:before { content: "\f125"; }
+.security-icon-039-danger-sign:before { content: "\f126"; }
+.security-icon-040-binocular:before { content: "\f127"; }
+.security-icon-041-dynamite:before { content: "\f128"; }
+.security-icon-042-thunder-bolt:before { content: "\f129"; }
+.security-icon-043-server:before { content: "\f12a"; }
+.security-icon-044-gear:before { content: "\f12b"; }
+.security-icon-045-keyboard-key:before { content: "\f12c"; }
+.security-icon-046-key:before { content: "\f12d"; }
+.security-icon-047-ethernet:before { content: "\f12e"; }
+.security-icon-048-internet-security:before { content: "\f12f"; }
+.security-icon-049-alert:before { content: "\f130"; }
+.security-icon-050-cyber-security:before { content: "\f131"; }
+.security-icon-051-telephone:before { content: "\f132"; }
+.security-icon-052-id-card:before { content: "\f133"; }
+.security-icon-053-exclamation-mark:before { content: "\f134"; }
+.security-icon-054-safety-glasses:before { content: "\f135"; }
+.security-icon-055-search-bar:before { content: "\f136"; }
+.security-icon-056-video-camera:before { content: "\f137"; }
+.security-icon-057-wrench:before { content: "\f138"; }
+.security-icon-058-internet-security:before { content: "\f139"; }
+.security-icon-059-data-center:before { content: "\f13a"; }
+.security-icon-060-telecommunication:before { content: "\f13b"; }
+.security-icon-061-server:before { content: "\f13c"; }
+.security-icon-062-add-to-cart:before { content: "\f13d"; }
+.security-icon-063-private-account:before { content: "\f13e"; }
+.security-icon-064-global-network:before { content: "\f13f"; }
+.security-icon-065-data-encryption:before { content: "\f140"; }
+.security-icon-066-data-encryption:before { content: "\f141"; }
+.security-icon-067-prohibited:before { content: "\f142"; }
+.security-icon-068-lifebuoy:before { content: "\f143"; }
+.security-icon-069-vinyl-record:before { content: "\f144"; }
+.security-icon-070-virus:before { content: "\f145"; }
+.security-icon-071-bullhorn:before { content: "\f146"; }
+.security-icon-072-cleaning:before { content: "\f147"; }
+.security-icon-073-internet-security:before { content: "\f148"; }
+.security-icon-074-cctv-camera:before { content: "\f149"; }
+.security-icon-075-internet-security:before { content: "\f14a"; }
+.security-icon-076-memory-card:before { content: "\f14b"; }
+.security-icon-077-webcam:before { content: "\f14c"; }
+.security-icon-078-shield:before { content: "\f14d"; }
+.security-icon-079-unprotected:before { content: "\f14e"; }
+.security-icon-080-cloud-network:before { content: "\f14f"; }
+.security-icon-081-pistol:before { content: "\f150"; }
+.security-icon-082-padlock:before { content: "\f151"; }
+.security-icon-083-computer-bug:before { content: "\f152"; }
+.security-icon-084-internet-security:before { content: "\f153"; }
+.security-icon-085-traffic-cone:before { content: "\f154"; }
+.security-icon-086-fire-extinguisher:before { content: "\f155"; }
+.security-icon-087-cctv-camera:before { content: "\f156"; }
+.security-icon-088-security-officer:before { content: "\f157"; }
+.security-icon-089-poison:before { content: "\f158"; }
+.security-icon-090-login:before { content: "\f159"; }
+.security-icon-091-eye:before { content: "\f15a"; }
+.security-icon-092-alert-sign:before { content: "\f15b"; }
+.security-icon-093-compass:before { content: "\f15c"; }
+.security-icon-094-usb:before { content: "\f15d"; }
+.security-icon-095-arrows:before { content: "\f15e"; }
+.security-icon-096-error-page:before { content: "\f15f"; }
+.security-icon-097-refresh-button:before { content: "\f160"; }
+.security-icon-098-keyboard-key:before { content: "\f161"; }
+.security-icon-099-internet-security:before { content: "\f162"; }
+.security-icon-100-secured-network:before { content: "\f163"; }
+
+$font-security-icon-001-gears: "\f100";
+$font-security-icon-002-radar: "\f101";
+$font-security-icon-003-binocular: "\f102";
+$font-security-icon-004-attention: "\f103";
+$font-security-icon-005-lock: "\f104";
+$font-security-icon-006-envelope: "\f105";
+$font-security-icon-007-website: "\f106";
+$font-security-icon-008-danger-sign: "\f107";
+$font-security-icon-009-shared-folder: "\f108";
+$font-security-icon-010-bug: "\f109";
+$font-security-icon-011-cloud-download: "\f10a";
+$font-security-icon-012-safe-box: "\f10b";
+$font-security-icon-013-warning: "\f10c";
+$font-security-icon-014-switch: "\f10d";
+$font-security-icon-015-handcuffs: "\f10e";
+$font-security-icon-016-spyware: "\f10f";
+$font-security-icon-017-cds: "\f110";
+$font-security-icon-018-compact-disc: "\f111";
+$font-security-icon-019-bug: "\f112";
+$font-security-icon-020-danger: "\f113";
+$font-security-icon-021-biometric-identification: "\f114";
+$font-security-icon-022-ethernet: "\f115";
+$font-security-icon-023-web-crawler: "\f116";
+$font-security-icon-024-star: "\f117";
+$font-security-icon-025-hash: "\f118";
+$font-security-icon-026-password-code: "\f119";
+$font-security-icon-027-spam-alert: "\f11a";
+$font-security-icon-028-umbrella: "\f11b";
+$font-security-icon-029-spanner: "\f11c";
+$font-security-icon-030-lock: "\f11d";
+$font-security-icon-031-siren: "\f11e";
+$font-security-icon-032-hacking: "\f11f";
+$font-security-icon-033-firewall: "\f120";
+$font-security-icon-034-key: "\f121";
+$font-security-icon-035-shield: "\f122";
+$font-security-icon-036-sign-in: "\f123";
+$font-security-icon-037-customer-support: "\f124";
+$font-security-icon-038-danger: "\f125";
+$font-security-icon-039-danger-sign: "\f126";
+$font-security-icon-040-binocular: "\f127";
+$font-security-icon-041-dynamite: "\f128";
+$font-security-icon-042-thunder-bolt: "\f129";
+$font-security-icon-043-server: "\f12a";
+$font-security-icon-044-gear: "\f12b";
+$font-security-icon-045-keyboard-key: "\f12c";
+$font-security-icon-046-key: "\f12d";
+$font-security-icon-047-ethernet: "\f12e";
+$font-security-icon-048-internet-security: "\f12f";
+$font-security-icon-049-alert: "\f130";
+$font-security-icon-050-cyber-security: "\f131";
+$font-security-icon-051-telephone: "\f132";
+$font-security-icon-052-id-card: "\f133";
+$font-security-icon-053-exclamation-mark: "\f134";
+$font-security-icon-054-safety-glasses: "\f135";
+$font-security-icon-055-search-bar: "\f136";
+$font-security-icon-056-video-camera: "\f137";
+$font-security-icon-057-wrench: "\f138";
+$font-security-icon-058-internet-security: "\f139";
+$font-security-icon-059-data-center: "\f13a";
+$font-security-icon-060-telecommunication: "\f13b";
+$font-security-icon-061-server: "\f13c";
+$font-security-icon-062-add-to-cart: "\f13d";
+$font-security-icon-063-private-account: "\f13e";
+$font-security-icon-064-global-network: "\f13f";
+$font-security-icon-065-data-encryption: "\f140";
+$font-security-icon-066-data-encryption: "\f141";
+$font-security-icon-067-prohibited: "\f142";
+$font-security-icon-068-lifebuoy: "\f143";
+$font-security-icon-069-vinyl-record: "\f144";
+$font-security-icon-070-virus: "\f145";
+$font-security-icon-071-bullhorn: "\f146";
+$font-security-icon-072-cleaning: "\f147";
+$font-security-icon-073-internet-security: "\f148";
+$font-security-icon-074-cctv-camera: "\f149";
+$font-security-icon-075-internet-security: "\f14a";
+$font-security-icon-076-memory-card: "\f14b";
+$font-security-icon-077-webcam: "\f14c";
+$font-security-icon-078-shield: "\f14d";
+$font-security-icon-079-unprotected: "\f14e";
+$font-security-icon-080-cloud-network: "\f14f";
+$font-security-icon-081-pistol: "\f150";
+$font-security-icon-082-padlock: "\f151";
+$font-security-icon-083-computer-bug: "\f152";
+$font-security-icon-084-internet-security: "\f153";
+$font-security-icon-085-traffic-cone: "\f154";
+$font-security-icon-086-fire-extinguisher: "\f155";
+$font-security-icon-087-cctv-camera: "\f156";
+$font-security-icon-088-security-officer: "\f157";
+$font-security-icon-089-poison: "\f158";
+$font-security-icon-090-login: "\f159";
+$font-security-icon-091-eye: "\f15a";
+$font-security-icon-092-alert-sign: "\f15b";
+$font-security-icon-093-compass: "\f15c";
+$font-security-icon-094-usb: "\f15d";
+$font-security-icon-095-arrows: "\f15e";
+$font-security-icon-096-error-page: "\f15f";
+$font-security-icon-097-refresh-button: "\f160";
+$font-security-icon-098-keyboard-key: "\f161";
+$font-security-icon-099-internet-security: "\f162";
+$font-security-icon-100-secured-network: "\f163";

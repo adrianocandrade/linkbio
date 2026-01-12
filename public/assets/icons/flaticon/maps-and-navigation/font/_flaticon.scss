@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "MapsAndNavigation";
+  src: url("maps-and-navigation/font/Flaticon.eot");
+  src: url("maps-and-navigation/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("maps-and-navigation/font/Flaticon.woff2") format("woff2"),
+       url("maps-and-navigation/font/Flaticon.woff") format("woff"),
+       url("maps-and-navigation/font/Flaticon.ttf") format("truetype"),
+       url("maps-and-navigation/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MapsAndNavigation";
+    src: url("maps-and-navigation/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" maps-and-navigation-"]:before,
+[class^=maps-and-navigation-]:before {
+  font-family: "MapsAndNavigation";
+}
+
+.maps-and-navigation-001-pointing-arrow:before { content: "\f100"; }
+.maps-and-navigation-002-road-map:before { content: "\f101"; }
+.maps-and-navigation-003-walkie-talkie:before { content: "\f102"; }
+.maps-and-navigation-004-location-pin:before { content: "\f103"; }
+.maps-and-navigation-005-traffic-lights:before { content: "\f104"; }
+.maps-and-navigation-006-gps-phone:before { content: "\f105"; }
+.maps-and-navigation-007-flag:before { content: "\f106"; }
+.maps-and-navigation-008-map-pin:before { content: "\f107"; }
+.maps-and-navigation-009-satellite:before { content: "\f108"; }
+.maps-and-navigation-010-flag:before { content: "\f109"; }
+.maps-and-navigation-011-arrow:before { content: "\f10a"; }
+.maps-and-navigation-012-compass:before { content: "\f10b"; }
+.maps-and-navigation-013-road-map:before { content: "\f10c"; }
+.maps-and-navigation-014-earth:before { content: "\f10d"; }
+.maps-and-navigation-015-mountains:before { content: "\f10e"; }
+.maps-and-navigation-016-joystick:before { content: "\f10f"; }
+.maps-and-navigation-017-maps-and-location:before { content: "\f110"; }
+.maps-and-navigation-018-road:before { content: "\f111"; }
+.maps-and-navigation-019-directional-arrows:before { content: "\f112"; }
+.maps-and-navigation-020-compass:before { content: "\f113"; }
+.maps-and-navigation-021-traffic-cone:before { content: "\f114"; }
+.maps-and-navigation-022-location-pin:before { content: "\f115"; }
+.maps-and-navigation-023-arrows:before { content: "\f116"; }
+.maps-and-navigation-024-road-map:before { content: "\f117"; }
+.maps-and-navigation-025-resize-option:before { content: "\f118"; }
+.maps-and-navigation-026-wireless-connectivity:before { content: "\f119"; }
+.maps-and-navigation-027-ship-wheel:before { content: "\f11a"; }
+.maps-and-navigation-028-worldwide:before { content: "\f11b"; }
+.maps-and-navigation-029-signpost:before { content: "\f11c"; }
+.maps-and-navigation-030-location-pin:before { content: "\f11d"; }
+.maps-and-navigation-031-airplane:before { content: "\f11e"; }
+.maps-and-navigation-032-sphere:before { content: "\f11f"; }
+.maps-and-navigation-033-search-location:before { content: "\f120"; }
+.maps-and-navigation-034-fuel-pump:before { content: "\f121"; }
+.maps-and-navigation-035-location-pointer:before { content: "\f122"; }
+.maps-and-navigation-036-road-map:before { content: "\f123"; }
+.maps-and-navigation-037-speech-bubbles:before { content: "\f124"; }
+.maps-and-navigation-038-directional-arrows:before { content: "\f125"; }
+.maps-and-navigation-039-directional-arrow:before { content: "\f126"; }
+.maps-and-navigation-040-expand-arrows:before { content: "\f127"; }
+.maps-and-navigation-041-location-pin:before { content: "\f128"; }
+.maps-and-navigation-042-bank:before { content: "\f129"; }
+.maps-and-navigation-043-anchor:before { content: "\f12a"; }
+.maps-and-navigation-044-location-pin:before { content: "\f12b"; }
+.maps-and-navigation-045-flag:before { content: "\f12c"; }
+.maps-and-navigation-046-directional-arrows:before { content: "\f12d"; }
+.maps-and-navigation-047-global-search:before { content: "\f12e"; }
+.maps-and-navigation-048-map-location:before { content: "\f12f"; }
+.maps-and-navigation-049-home:before { content: "\f130"; }
+.maps-and-navigation-050-geography:before { content: "\f131"; }
+.maps-and-navigation-051-navigation:before { content: "\f132"; }
+.maps-and-navigation-052-open-eye:before { content: "\f133"; }
+.maps-and-navigation-053-directions:before { content: "\f134"; }
+.maps-and-navigation-054-search-location:before { content: "\f135"; }
+.maps-and-navigation-055-measure-distance:before { content: "\f136"; }
+.maps-and-navigation-056-flag:before { content: "\f137"; }
+.maps-and-navigation-057-parking-sign:before { content: "\f138"; }
+.maps-and-navigation-058-ship-wheel:before { content: "\f139"; }
+.maps-and-navigation-059-volume-adjustment:before { content: "\f13a"; }
+.maps-and-navigation-060-castle:before { content: "\f13b"; }
+.maps-and-navigation-061-satellite-dish:before { content: "\f13c"; }
+.maps-and-navigation-062-satellite:before { content: "\f13d"; }
+.maps-and-navigation-063-location-pointer:before { content: "\f13e"; }
+.maps-and-navigation-064-measure-distance:before { content: "\f13f"; }
+.maps-and-navigation-065-measure-distance:before { content: "\f140"; }
+.maps-and-navigation-066-church:before { content: "\f141"; }
+.maps-and-navigation-067-map-pin:before { content: "\f142"; }
+.maps-and-navigation-068-location-pointer:before { content: "\f143"; }
+.maps-and-navigation-069-compass-flower:before { content: "\f144"; }
+.maps-and-navigation-070-push-pin:before { content: "\f145"; }
+.maps-and-navigation-071-rating:before { content: "\f146"; }
+.maps-and-navigation-072-gps-navigation:before { content: "\f147"; }
+.maps-and-navigation-073-flag:before { content: "\f148"; }
+.maps-and-navigation-074-user:before { content: "\f149"; }
+.maps-and-navigation-075-train:before { content: "\f14a"; }
+.maps-and-navigation-076-house:before { content: "\f14b"; }
+.maps-and-navigation-077-walkie-talkie:before { content: "\f14c"; }
+.maps-and-navigation-078-landscape:before { content: "\f14d"; }
+.maps-and-navigation-079-satellite-dish:before { content: "\f14e"; }
+.maps-and-navigation-080-user:before { content: "\f14f"; }
+.maps-and-navigation-081-radar-sonar:before { content: "\f150"; }
+.maps-and-navigation-082-location-pin:before { content: "\f151"; }
+.maps-and-navigation-083-city-building:before { content: "\f152"; }
+.maps-and-navigation-084-signal-tower:before { content: "\f153"; }
+.maps-and-navigation-085-crossroads:before { content: "\f154"; }
+.maps-and-navigation-086-church:before { content: "\f155"; }
+.maps-and-navigation-087-gps-navigation:before { content: "\f156"; }
+.maps-and-navigation-088-navigator:before { content: "\f157"; }
+.maps-and-navigation-089-wifi-connection:before { content: "\f158"; }
+.maps-and-navigation-090-compass:before { content: "\f159"; }
+.maps-and-navigation-091-egypt:before { content: "\f15a"; }
+.maps-and-navigation-092-ship:before { content: "\f15b"; }
+.maps-and-navigation-093-location-pin:before { content: "\f15c"; }
+.maps-and-navigation-094-christmas-tree:before { content: "\f15d"; }
+.maps-and-navigation-095-gps-navigation:before { content: "\f15e"; }
+.maps-and-navigation-096-bookmark:before { content: "\f15f"; }
+.maps-and-navigation-097-map:before { content: "\f160"; }
+.maps-and-navigation-098-guidepost:before { content: "\f161"; }
+.maps-and-navigation-099-star:before { content: "\f162"; }
+.maps-and-navigation-100-health-clinic:before { content: "\f163"; }
+
+$font-maps-and-navigation-001-pointing-arrow: "\f100";
+$font-maps-and-navigation-002-road-map: "\f101";
+$font-maps-and-navigation-003-walkie-talkie: "\f102";
+$font-maps-and-navigation-004-location-pin: "\f103";
+$font-maps-and-navigation-005-traffic-lights: "\f104";
+$font-maps-and-navigation-006-gps-phone: "\f105";
+$font-maps-and-navigation-007-flag: "\f106";
+$font-maps-and-navigation-008-map-pin: "\f107";
+$font-maps-and-navigation-009-satellite: "\f108";
+$font-maps-and-navigation-010-flag: "\f109";
+$font-maps-and-navigation-011-arrow: "\f10a";
+$font-maps-and-navigation-012-compass: "\f10b";
+$font-maps-and-navigation-013-road-map: "\f10c";
+$font-maps-and-navigation-014-earth: "\f10d";
+$font-maps-and-navigation-015-mountains: "\f10e";
+$font-maps-and-navigation-016-joystick: "\f10f";
+$font-maps-and-navigation-017-maps-and-location: "\f110";
+$font-maps-and-navigation-018-road: "\f111";
+$font-maps-and-navigation-019-directional-arrows: "\f112";
+$font-maps-and-navigation-020-compass: "\f113";
+$font-maps-and-navigation-021-traffic-cone: "\f114";
+$font-maps-and-navigation-022-location-pin: "\f115";
+$font-maps-and-navigation-023-arrows: "\f116";
+$font-maps-and-navigation-024-road-map: "\f117";
+$font-maps-and-navigation-025-resize-option: "\f118";
+$font-maps-and-navigation-026-wireless-connectivity: "\f119";
+$font-maps-and-navigation-027-ship-wheel: "\f11a";
+$font-maps-and-navigation-028-worldwide: "\f11b";
+$font-maps-and-navigation-029-signpost: "\f11c";
+$font-maps-and-navigation-030-location-pin: "\f11d";
+$font-maps-and-navigation-031-airplane: "\f11e";
+$font-maps-and-navigation-032-sphere: "\f11f";
+$font-maps-and-navigation-033-search-location: "\f120";
+$font-maps-and-navigation-034-fuel-pump: "\f121";
+$font-maps-and-navigation-035-location-pointer: "\f122";
+$font-maps-and-navigation-036-road-map: "\f123";
+$font-maps-and-navigation-037-speech-bubbles: "\f124";
+$font-maps-and-navigation-038-directional-arrows: "\f125";
+$font-maps-and-navigation-039-directional-arrow: "\f126";
+$font-maps-and-navigation-040-expand-arrows: "\f127";
+$font-maps-and-navigation-041-location-pin: "\f128";
+$font-maps-and-navigation-042-bank: "\f129";
+$font-maps-and-navigation-043-anchor: "\f12a";
+$font-maps-and-navigation-044-location-pin: "\f12b";
+$font-maps-and-navigation-045-flag: "\f12c";
+$font-maps-and-navigation-046-directional-arrows: "\f12d";
+$font-maps-and-navigation-047-global-search: "\f12e";
+$font-maps-and-navigation-048-map-location: "\f12f";
+$font-maps-and-navigation-049-home: "\f130";
+$font-maps-and-navigation-050-geography: "\f131";
+$font-maps-and-navigation-051-navigation: "\f132";
+$font-maps-and-navigation-052-open-eye: "\f133";
+$font-maps-and-navigation-053-directions: "\f134";
+$font-maps-and-navigation-054-search-location: "\f135";
+$font-maps-and-navigation-055-measure-distance: "\f136";
+$font-maps-and-navigation-056-flag: "\f137";
+$font-maps-and-navigation-057-parking-sign: "\f138";
+$font-maps-and-navigation-058-ship-wheel: "\f139";
+$font-maps-and-navigation-059-volume-adjustment: "\f13a";
+$font-maps-and-navigation-060-castle: "\f13b";
+$font-maps-and-navigation-061-satellite-dish: "\f13c";
+$font-maps-and-navigation-062-satellite: "\f13d";
+$font-maps-and-navigation-063-location-pointer: "\f13e";
+$font-maps-and-navigation-064-measure-distance: "\f13f";
+$font-maps-and-navigation-065-measure-distance: "\f140";
+$font-maps-and-navigation-066-church: "\f141";
+$font-maps-and-navigation-067-map-pin: "\f142";
+$font-maps-and-navigation-068-location-pointer: "\f143";
+$font-maps-and-navigation-069-compass-flower: "\f144";
+$font-maps-and-navigation-070-push-pin: "\f145";
+$font-maps-and-navigation-071-rating: "\f146";
+$font-maps-and-navigation-072-gps-navigation: "\f147";
+$font-maps-and-navigation-073-flag: "\f148";
+$font-maps-and-navigation-074-user: "\f149";
+$font-maps-and-navigation-075-train: "\f14a";
+$font-maps-and-navigation-076-house: "\f14b";
+$font-maps-and-navigation-077-walkie-talkie: "\f14c";
+$font-maps-and-navigation-078-landscape: "\f14d";
+$font-maps-and-navigation-079-satellite-dish: "\f14e";
+$font-maps-and-navigation-080-user: "\f14f";
+$font-maps-and-navigation-081-radar-sonar: "\f150";
+$font-maps-and-navigation-082-location-pin: "\f151";
+$font-maps-and-navigation-083-city-building: "\f152";
+$font-maps-and-navigation-084-signal-tower: "\f153";
+$font-maps-and-navigation-085-crossroads: "\f154";
+$font-maps-and-navigation-086-church: "\f155";
+$font-maps-and-navigation-087-gps-navigation: "\f156";
+$font-maps-and-navigation-088-navigator: "\f157";
+$font-maps-and-navigation-089-wifi-connection: "\f158";
+$font-maps-and-navigation-090-compass: "\f159";
+$font-maps-and-navigation-091-egypt: "\f15a";
+$font-maps-and-navigation-092-ship: "\f15b";
+$font-maps-and-navigation-093-location-pin: "\f15c";
+$font-maps-and-navigation-094-christmas-tree: "\f15d";
+$font-maps-and-navigation-095-gps-navigation: "\f15e";
+$font-maps-and-navigation-096-bookmark: "\f15f";
+$font-maps-and-navigation-097-map: "\f160";
+$font-maps-and-navigation-098-guidepost: "\f161";
+$font-maps-and-navigation-099-star: "\f162";
+$font-maps-and-navigation-100-health-clinic: "\f163";

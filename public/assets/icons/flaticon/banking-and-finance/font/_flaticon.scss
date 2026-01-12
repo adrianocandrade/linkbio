@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "BankingFinanceFlaticon";
+  src: url("banking-and-finance/font/Flaticon.eot");
+  src: url("banking-and-finance/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("banking-and-finance/font/Flaticon.woff2") format("woff2"),
+       url("banking-and-finance/font/Flaticon.woff") format("woff"),
+       url("banking-and-finance/font/Flaticon.ttf") format("truetype"),
+       url("banking-and-finance/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("banking-and-finance/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" banking-finance-flaticon-"]:before,
+[class^=banking-finance-flaticon-]:before {
+    display: inline-block;
+  font-family: "BankingFinanceFlaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.banking-finance-flaticon-001-growth-graph:before { content: "\f100"; }
+.banking-finance-flaticon-002-cloud-banking:before { content: "\f101"; }
+.banking-finance-flaticon-003-line-chart:before { content: "\f102"; }
+.banking-finance-flaticon-004-business-presentation:before { content: "\f103"; }
+.banking-finance-flaticon-005-security-shield:before { content: "\f104"; }
+.banking-finance-flaticon-006-currency-exchange:before { content: "\f105"; }
+.banking-finance-flaticon-007-calculation:before { content: "\f106"; }
+.banking-finance-flaticon-008-piggy-bank:before { content: "\f107"; }
+.banking-finance-flaticon-009-online-banking:before { content: "\f108"; }
+.banking-finance-flaticon-010-debt:before { content: "\f109"; }
+.banking-finance-flaticon-011-bid:before { content: "\f10a"; }
+.banking-finance-flaticon-012-online-banking:before { content: "\f10b"; }
+.banking-finance-flaticon-013-coin-stack:before { content: "\f10c"; }
+.banking-finance-flaticon-014-donut-chart:before { content: "\f10d"; }
+.banking-finance-flaticon-015-analysis:before { content: "\f10e"; }
+.banking-finance-flaticon-016-accounting-book:before { content: "\f10f"; }
+.banking-finance-flaticon-017-graphical-report:before { content: "\f110"; }
+.banking-finance-flaticon-018-business-and-finance:before { content: "\f111"; }
+.banking-finance-flaticon-019-business-and-finance:before { content: "\f112"; }
+.banking-finance-flaticon-020-decision-making:before { content: "\f113"; }
+.banking-finance-flaticon-021-money-flow:before { content: "\f114"; }
+.banking-finance-flaticon-022-business-and-finance:before { content: "\f115"; }
+.banking-finance-flaticon-023-graphical-report:before { content: "\f116"; }
+.banking-finance-flaticon-024-mobile-payment:before { content: "\f117"; }
+.banking-finance-flaticon-025-business-and-finance:before { content: "\f118"; }
+.banking-finance-flaticon-026-dollar-coin:before { content: "\f119"; }
+.banking-finance-flaticon-027-greek-pillars:before { content: "\f11a"; }
+.banking-finance-flaticon-028-locked:before { content: "\f11b"; }
+.banking-finance-flaticon-029-online-business:before { content: "\f11c"; }
+.banking-finance-flaticon-030-printer:before { content: "\f11d"; }
+.banking-finance-flaticon-031-gold-ingot:before { content: "\f11e"; }
+.banking-finance-flaticon-032-newspaper:before { content: "\f11f"; }
+.banking-finance-flaticon-033-piggy-bank:before { content: "\f120"; }
+.banking-finance-flaticon-034-network:before { content: "\f121"; }
+.banking-finance-flaticon-035-briefcase:before { content: "\f122"; }
+.banking-finance-flaticon-036-network:before { content: "\f123"; }
+.banking-finance-flaticon-037-loudspeaker:before { content: "\f124"; }
+.banking-finance-flaticon-038-income:before { content: "\f125"; }
+.banking-finance-flaticon-039-dollar-sack:before { content: "\f126"; }
+.banking-finance-flaticon-040-location-pin:before { content: "\f127"; }
+.banking-finance-flaticon-041-ufo:before { content: "\f128"; }
+.banking-finance-flaticon-042-line-chart:before { content: "\f129"; }
+.banking-finance-flaticon-043-delivery-box:before { content: "\f12a"; }
+.banking-finance-flaticon-044-banking-system:before { content: "\f12b"; }
+.banking-finance-flaticon-045-barcode-scanner:before { content: "\f12c"; }
+.banking-finance-flaticon-046-safe-box:before { content: "\f12d"; }
+.banking-finance-flaticon-047-padlock:before { content: "\f12e"; }
+.banking-finance-flaticon-048-traffic-lights:before { content: "\f12f"; }
+.banking-finance-flaticon-049-key-of-success:before { content: "\f130"; }
+.banking-finance-flaticon-050-abacus:before { content: "\f131"; }
+.banking-finance-flaticon-051-income:before { content: "\f132"; }
+.banking-finance-flaticon-052-line-graph:before { content: "\f133"; }
+.banking-finance-flaticon-053-lockers:before { content: "\f134"; }
+.banking-finance-flaticon-054-money-transfer:before { content: "\f135"; }
+.banking-finance-flaticon-055-business-report:before { content: "\f136"; }
+.banking-finance-flaticon-056-magnet-tool:before { content: "\f137"; }
+.banking-finance-flaticon-057-loan:before { content: "\f138"; }
+.banking-finance-flaticon-058-bar-chart:before { content: "\f139"; }
+.banking-finance-flaticon-059-business-and-finance:before { content: "\f13a"; }
+.banking-finance-flaticon-060-erlenmeyer:before { content: "\f13b"; }
+.banking-finance-flaticon-061-chat:before { content: "\f13c"; }
+.banking-finance-flaticon-062-secure-payment:before { content: "\f13d"; }
+.banking-finance-flaticon-063-calculation:before { content: "\f13e"; }
+.banking-finance-flaticon-064-online-banking:before { content: "\f13f"; }
+.banking-finance-flaticon-065-padlock:before { content: "\f140"; }
+.banking-finance-flaticon-066-graphical-report:before { content: "\f141"; }
+.banking-finance-flaticon-067-pot-plant:before { content: "\f142"; }
+.banking-finance-flaticon-068-location-pin:before { content: "\f143"; }
+.banking-finance-flaticon-069-business-and-finance:before { content: "\f144"; }
+.banking-finance-flaticon-070-briefcase:before { content: "\f145"; }
+.banking-finance-flaticon-071-open-umbrella:before { content: "\f146"; }
+.banking-finance-flaticon-072-business-presentation:before { content: "\f147"; }
+.banking-finance-flaticon-073-padlock:before { content: "\f148"; }
+.banking-finance-flaticon-074-dollar-symbol:before { content: "\f149"; }
+.banking-finance-flaticon-075-joystick:before { content: "\f14a"; }
+.banking-finance-flaticon-076-euro-sign:before { content: "\f14b"; }
+.banking-finance-flaticon-077-pen-and-paper:before { content: "\f14c"; }
+.banking-finance-flaticon-078-piggy-bank:before { content: "\f14d"; }
+.banking-finance-flaticon-079-business-suit:before { content: "\f14e"; }
+.banking-finance-flaticon-080-growth-graph:before { content: "\f14f"; }
+.banking-finance-flaticon-081-telephone-call:before { content: "\f150"; }
+.banking-finance-flaticon-082-id-card:before { content: "\f151"; }
+.banking-finance-flaticon-083-graphical-presentation:before { content: "\f152"; }
+.banking-finance-flaticon-084-rook:before { content: "\f153"; }
+.banking-finance-flaticon-085-cash-flow:before { content: "\f154"; }
+.banking-finance-flaticon-086-businesswoman:before { content: "\f155"; }
+.banking-finance-flaticon-087-goal:before { content: "\f156"; }
+.banking-finance-flaticon-088-online-banking:before { content: "\f157"; }
+.banking-finance-flaticon-089-airplane:before { content: "\f158"; }
+.banking-finance-flaticon-090-wallet:before { content: "\f159"; }
+.banking-finance-flaticon-091-pie-chart:before { content: "\f15a"; }
+.banking-finance-flaticon-092-bank:before { content: "\f15b"; }
+.banking-finance-flaticon-093-dollar-coin:before { content: "\f15c"; }
+.banking-finance-flaticon-094-online-banking:before { content: "\f15d"; }
+.banking-finance-flaticon-095-business-and-finance:before { content: "\f15e"; }
+.banking-finance-flaticon-096-percentage:before { content: "\f15f"; }
+.banking-finance-flaticon-097-information-sign:before { content: "\f160"; }
+.banking-finance-flaticon-098-business-idea:before { content: "\f161"; }
+.banking-finance-flaticon-099-man-avatar:before { content: "\f162"; }
+.banking-finance-flaticon-100-wristwatch:before { content: "\f163"; }
+
+$font-banking-finance-flaticon-001-growth-graph: "\f100";
+$font-banking-finance-flaticon-002-cloud-banking: "\f101";
+$font-banking-finance-flaticon-003-line-chart: "\f102";
+$font-banking-finance-flaticon-004-business-presentation: "\f103";
+$font-banking-finance-flaticon-005-security-shield: "\f104";
+$font-banking-finance-flaticon-006-currency-exchange: "\f105";
+$font-banking-finance-flaticon-007-calculation: "\f106";
+$font-banking-finance-flaticon-008-piggy-bank: "\f107";
+$font-banking-finance-flaticon-009-online-banking: "\f108";
+$font-banking-finance-flaticon-010-debt: "\f109";
+$font-banking-finance-flaticon-011-bid: "\f10a";
+$font-banking-finance-flaticon-012-online-banking: "\f10b";
+$font-banking-finance-flaticon-013-coin-stack: "\f10c";
+$font-banking-finance-flaticon-014-donut-chart: "\f10d";
+$font-banking-finance-flaticon-015-analysis: "\f10e";
+$font-banking-finance-flaticon-016-accounting-book: "\f10f";
+$font-banking-finance-flaticon-017-graphical-report: "\f110";
+$font-banking-finance-flaticon-018-business-and-finance: "\f111";
+$font-banking-finance-flaticon-019-business-and-finance: "\f112";
+$font-banking-finance-flaticon-020-decision-making: "\f113";
+$font-banking-finance-flaticon-021-money-flow: "\f114";
+$font-banking-finance-flaticon-022-business-and-finance: "\f115";
+$font-banking-finance-flaticon-023-graphical-report: "\f116";
+$font-banking-finance-flaticon-024-mobile-payment: "\f117";
+$font-banking-finance-flaticon-025-business-and-finance: "\f118";
+$font-banking-finance-flaticon-026-dollar-coin: "\f119";
+$font-banking-finance-flaticon-027-greek-pillars: "\f11a";
+$font-banking-finance-flaticon-028-locked: "\f11b";
+$font-banking-finance-flaticon-029-online-business: "\f11c";
+$font-banking-finance-flaticon-030-printer: "\f11d";
+$font-banking-finance-flaticon-031-gold-ingot: "\f11e";
+$font-banking-finance-flaticon-032-newspaper: "\f11f";
+$font-banking-finance-flaticon-033-piggy-bank: "\f120";
+$font-banking-finance-flaticon-034-network: "\f121";
+$font-banking-finance-flaticon-035-briefcase: "\f122";
+$font-banking-finance-flaticon-036-network: "\f123";
+$font-banking-finance-flaticon-037-loudspeaker: "\f124";
+$font-banking-finance-flaticon-038-income: "\f125";
+$font-banking-finance-flaticon-039-dollar-sack: "\f126";
+$font-banking-finance-flaticon-040-location-pin: "\f127";
+$font-banking-finance-flaticon-041-ufo: "\f128";
+$font-banking-finance-flaticon-042-line-chart: "\f129";
+$font-banking-finance-flaticon-043-delivery-box: "\f12a";
+$font-banking-finance-flaticon-044-banking-system: "\f12b";
+$font-banking-finance-flaticon-045-barcode-scanner: "\f12c";
+$font-banking-finance-flaticon-046-safe-box: "\f12d";
+$font-banking-finance-flaticon-047-padlock: "\f12e";
+$font-banking-finance-flaticon-048-traffic-lights: "\f12f";
+$font-banking-finance-flaticon-049-key-of-success: "\f130";
+$font-banking-finance-flaticon-050-abacus: "\f131";
+$font-banking-finance-flaticon-051-income: "\f132";
+$font-banking-finance-flaticon-052-line-graph: "\f133";
+$font-banking-finance-flaticon-053-lockers: "\f134";
+$font-banking-finance-flaticon-054-money-transfer: "\f135";
+$font-banking-finance-flaticon-055-business-report: "\f136";
+$font-banking-finance-flaticon-056-magnet-tool: "\f137";
+$font-banking-finance-flaticon-057-loan: "\f138";
+$font-banking-finance-flaticon-058-bar-chart: "\f139";
+$font-banking-finance-flaticon-059-business-and-finance: "\f13a";
+$font-banking-finance-flaticon-060-erlenmeyer: "\f13b";
+$font-banking-finance-flaticon-061-chat: "\f13c";
+$font-banking-finance-flaticon-062-secure-payment: "\f13d";
+$font-banking-finance-flaticon-063-calculation: "\f13e";
+$font-banking-finance-flaticon-064-online-banking: "\f13f";
+$font-banking-finance-flaticon-065-padlock: "\f140";
+$font-banking-finance-flaticon-066-graphical-report: "\f141";
+$font-banking-finance-flaticon-067-pot-plant: "\f142";
+$font-banking-finance-flaticon-068-location-pin: "\f143";
+$font-banking-finance-flaticon-069-business-and-finance: "\f144";
+$font-banking-finance-flaticon-070-briefcase: "\f145";
+$font-banking-finance-flaticon-071-open-umbrella: "\f146";
+$font-banking-finance-flaticon-072-business-presentation: "\f147";
+$font-banking-finance-flaticon-073-padlock: "\f148";
+$font-banking-finance-flaticon-074-dollar-symbol: "\f149";
+$font-banking-finance-flaticon-075-joystick: "\f14a";
+$font-banking-finance-flaticon-076-euro-sign: "\f14b";
+$font-banking-finance-flaticon-077-pen-and-paper: "\f14c";
+$font-banking-finance-flaticon-078-piggy-bank: "\f14d";
+$font-banking-finance-flaticon-079-business-suit: "\f14e";
+$font-banking-finance-flaticon-080-growth-graph: "\f14f";
+$font-banking-finance-flaticon-081-telephone-call: "\f150";
+$font-banking-finance-flaticon-082-id-card: "\f151";
+$font-banking-finance-flaticon-083-graphical-presentation: "\f152";
+$font-banking-finance-flaticon-084-rook: "\f153";
+$font-banking-finance-flaticon-085-cash-flow: "\f154";
+$font-banking-finance-flaticon-086-businesswoman: "\f155";
+$font-banking-finance-flaticon-087-goal: "\f156";
+$font-banking-finance-flaticon-088-online-banking: "\f157";
+$font-banking-finance-flaticon-089-airplane: "\f158";
+$font-banking-finance-flaticon-090-wallet: "\f159";
+$font-banking-finance-flaticon-091-pie-chart: "\f15a";
+$font-banking-finance-flaticon-092-bank: "\f15b";
+$font-banking-finance-flaticon-093-dollar-coin: "\f15c";
+$font-banking-finance-flaticon-094-online-banking: "\f15d";
+$font-banking-finance-flaticon-095-business-and-finance: "\f15e";
+$font-banking-finance-flaticon-096-percentage: "\f15f";
+$font-banking-finance-flaticon-097-information-sign: "\f160";
+$font-banking-finance-flaticon-098-business-idea: "\f161";
+$font-banking-finance-flaticon-099-man-avatar: "\f162";
+$font-banking-finance-flaticon-100-wristwatch: "\f163";

@@ -1,0 +1,74 @@
+/* Rain Theme Styles */
+
+.bio-wrap {
+    background-color: #7B68EE;
+    /* Rain effect via bg */
+    background-image: 
+        linear-gradient(to bottom, rgba(255,255,255,0.2) 2px, transparent 2px),
+        linear-gradient(to bottom, rgba(255,255,255,0.15) 3px, transparent 3px);
+    background-size: 20px 40px, 30px 60px;
+    background-position: 0 0, 10px 10px;
+    color: #FFF;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: #FFFFFF !important;
+    color: #483D8B !important;
+    border: none !important;
+    box-shadow: 4px 4px 0 rgba(72, 61, 139, 0.3) !important;
+    border-radius: 0 !important;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: #483D8B !important;
+    stroke: #483D8B !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translate(-2px, -2px);
+    background: #F0F8FF !important;
+    box-shadow: 6px 6px 0 rgba(72, 61, 139, 0.4) !important;
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 3px solid #FFF;
+    background: #7B68EE !important;
+    box-shadow: 4px 4px 0 rgba(72, 61, 139, 0.3);
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: #FFF !important;
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background-color: #242038 !important;
+}

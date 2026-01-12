@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "SpaceAndAircraft";
+  src: url("space-and-aircraft/font/Flaticon.eot");
+  src: url("space-and-aircraft/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("space-and-aircraft/font/Flaticon.woff2") format("woff2"),
+       url("space-and-aircraft/font/Flaticon.woff") format("woff"),
+       url("space-and-aircraft/font/Flaticon.ttf") format("truetype"),
+       url("space-and-aircraft/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "SpaceAndAircraft";
+    src: url("space-and-aircraft/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" space-and-aircraft-"]:before,
+[class^=space-and-aircraft-]:before {
+  font-family: "SpaceAndAircraft";
+}
+
+.space-and-aircraft-001-ufo:before { content: "\f100"; }
+.space-and-aircraft-002-aeroplane:before { content: "\f101"; }
+.space-and-aircraft-003-night:before { content: "\f102"; }
+.space-and-aircraft-004-space:before { content: "\f103"; }
+.space-and-aircraft-005-earth:before { content: "\f104"; }
+.space-and-aircraft-006-rocket:before { content: "\f105"; }
+.space-and-aircraft-007-zeppelin:before { content: "\f106"; }
+.space-and-aircraft-008-moon-phase:before { content: "\f107"; }
+.space-and-aircraft-009-helicopter:before { content: "\f108"; }
+.space-and-aircraft-010-ufo:before { content: "\f109"; }
+.space-and-aircraft-011-rocket:before { content: "\f10a"; }
+.space-and-aircraft-012-alien:before { content: "\f10b"; }
+.space-and-aircraft-013-full-moon:before { content: "\f10c"; }
+.space-and-aircraft-014-aeroplane:before { content: "\f10d"; }
+.space-and-aircraft-015-jupiter:before { content: "\f10e"; }
+.space-and-aircraft-016-rocket:before { content: "\f10f"; }
+.space-and-aircraft-017-ufo:before { content: "\f110"; }
+.space-and-aircraft-018-rocket:before { content: "\f111"; }
+.space-and-aircraft-019-rocket:before { content: "\f112"; }
+.space-and-aircraft-020-satellite-dish:before { content: "\f113"; }
+.space-and-aircraft-021-rocket:before { content: "\f114"; }
+.space-and-aircraft-022-startup:before { content: "\f115"; }
+.space-and-aircraft-023-zeppelin:before { content: "\f116"; }
+.space-and-aircraft-024-astronaut:before { content: "\f117"; }
+.space-and-aircraft-025-alien:before { content: "\f118"; }
+.space-and-aircraft-026-mission:before { content: "\f119"; }
+.space-and-aircraft-027-rocket:before { content: "\f11a"; }
+.space-and-aircraft-028-full-moon:before { content: "\f11b"; }
+.space-and-aircraft-029-earth:before { content: "\f11c"; }
+.space-and-aircraft-030-sun:before { content: "\f11d"; }
+.space-and-aircraft-031-solar-system:before { content: "\f11e"; }
+.space-and-aircraft-032-alien:before { content: "\f11f"; }
+.space-and-aircraft-033-observatory:before { content: "\f120"; }
+.space-and-aircraft-034-alien:before { content: "\f121"; }
+.space-and-aircraft-035-telescope:before { content: "\f122"; }
+.space-and-aircraft-036-sputnik:before { content: "\f123"; }
+.space-and-aircraft-037-saturn:before { content: "\f124"; }
+.space-and-aircraft-038-satellite-dish:before { content: "\f125"; }
+.space-and-aircraft-039-satellite-dish:before { content: "\f126"; }
+.space-and-aircraft-040-aeroplane:before { content: "\f127"; }
+.space-and-aircraft-041-aeroplane:before { content: "\f128"; }
+.space-and-aircraft-042-astronaut:before { content: "\f129"; }
+.space-and-aircraft-043-magnet:before { content: "\f12a"; }
+.space-and-aircraft-044-solar-system:before { content: "\f12b"; }
+.space-and-aircraft-045-hot-air-balloon:before { content: "\f12c"; }
+.space-and-aircraft-046-nuclear:before { content: "\f12d"; }
+.space-and-aircraft-047-astronauts:before { content: "\f12e"; }
+.space-and-aircraft-048-meteorite:before { content: "\f12f"; }
+.space-and-aircraft-049-telescope:before { content: "\f130"; }
+.space-and-aircraft-050-rocket:before { content: "\f131"; }
+.space-and-aircraft-051-alien:before { content: "\f132"; }
+.space-and-aircraft-052-balloon:before { content: "\f133"; }
+.space-and-aircraft-053-spaceship:before { content: "\f134"; }
+.space-and-aircraft-054-aeroplane:before { content: "\f135"; }
+.space-and-aircraft-055-observatory:before { content: "\f136"; }
+.space-and-aircraft-056-asteroid:before { content: "\f137"; }
+.space-and-aircraft-057-pistol:before { content: "\f138"; }
+.space-and-aircraft-058-astrophysics:before { content: "\f139"; }
+.space-and-aircraft-059-spaceship:before { content: "\f13a"; }
+.space-and-aircraft-060-rocket:before { content: "\f13b"; }
+.space-and-aircraft-061-full-moon:before { content: "\f13c"; }
+.space-and-aircraft-062-ufo:before { content: "\f13d"; }
+.space-and-aircraft-063-telescope:before { content: "\f13e"; }
+.space-and-aircraft-064-rocket:before { content: "\f13f"; }
+.space-and-aircraft-065-hot-air-balloon:before { content: "\f140"; }
+.space-and-aircraft-066-ufo:before { content: "\f141"; }
+.space-and-aircraft-067-mars:before { content: "\f142"; }
+.space-and-aircraft-068-jupiter:before { content: "\f143"; }
+.space-and-aircraft-069-shooting-star:before { content: "\f144"; }
+.space-and-aircraft-070-satellite-dish:before { content: "\f145"; }
+.space-and-aircraft-071-ufo:before { content: "\f146"; }
+.space-and-aircraft-072-satellite-dish:before { content: "\f147"; }
+.space-and-aircraft-073-galaxy:before { content: "\f148"; }
+.space-and-aircraft-074-ufo:before { content: "\f149"; }
+.space-and-aircraft-075-astronaut:before { content: "\f14a"; }
+.space-and-aircraft-076-rocket:before { content: "\f14b"; }
+.space-and-aircraft-077-aeroplane:before { content: "\f14c"; }
+.space-and-aircraft-078-full-moon:before { content: "\f14d"; }
+.space-and-aircraft-079-satellite-dish:before { content: "\f14e"; }
+
+$font-space-and-aircraft-001-ufo: "\f100";
+$font-space-and-aircraft-002-aeroplane: "\f101";
+$font-space-and-aircraft-003-night: "\f102";
+$font-space-and-aircraft-004-space: "\f103";
+$font-space-and-aircraft-005-earth: "\f104";
+$font-space-and-aircraft-006-rocket: "\f105";
+$font-space-and-aircraft-007-zeppelin: "\f106";
+$font-space-and-aircraft-008-moon-phase: "\f107";
+$font-space-and-aircraft-009-helicopter: "\f108";
+$font-space-and-aircraft-010-ufo: "\f109";
+$font-space-and-aircraft-011-rocket: "\f10a";
+$font-space-and-aircraft-012-alien: "\f10b";
+$font-space-and-aircraft-013-full-moon: "\f10c";
+$font-space-and-aircraft-014-aeroplane: "\f10d";
+$font-space-and-aircraft-015-jupiter: "\f10e";
+$font-space-and-aircraft-016-rocket: "\f10f";
+$font-space-and-aircraft-017-ufo: "\f110";
+$font-space-and-aircraft-018-rocket: "\f111";
+$font-space-and-aircraft-019-rocket: "\f112";
+$font-space-and-aircraft-020-satellite-dish: "\f113";
+$font-space-and-aircraft-021-rocket: "\f114";
+$font-space-and-aircraft-022-startup: "\f115";
+$font-space-and-aircraft-023-zeppelin: "\f116";
+$font-space-and-aircraft-024-astronaut: "\f117";
+$font-space-and-aircraft-025-alien: "\f118";
+$font-space-and-aircraft-026-mission: "\f119";
+$font-space-and-aircraft-027-rocket: "\f11a";
+$font-space-and-aircraft-028-full-moon: "\f11b";
+$font-space-and-aircraft-029-earth: "\f11c";
+$font-space-and-aircraft-030-sun: "\f11d";
+$font-space-and-aircraft-031-solar-system: "\f11e";
+$font-space-and-aircraft-032-alien: "\f11f";
+$font-space-and-aircraft-033-observatory: "\f120";
+$font-space-and-aircraft-034-alien: "\f121";
+$font-space-and-aircraft-035-telescope: "\f122";
+$font-space-and-aircraft-036-sputnik: "\f123";
+$font-space-and-aircraft-037-saturn: "\f124";
+$font-space-and-aircraft-038-satellite-dish: "\f125";
+$font-space-and-aircraft-039-satellite-dish: "\f126";
+$font-space-and-aircraft-040-aeroplane: "\f127";
+$font-space-and-aircraft-041-aeroplane: "\f128";
+$font-space-and-aircraft-042-astronaut: "\f129";
+$font-space-and-aircraft-043-magnet: "\f12a";
+$font-space-and-aircraft-044-solar-system: "\f12b";
+$font-space-and-aircraft-045-hot-air-balloon: "\f12c";
+$font-space-and-aircraft-046-nuclear: "\f12d";
+$font-space-and-aircraft-047-astronauts: "\f12e";
+$font-space-and-aircraft-048-meteorite: "\f12f";
+$font-space-and-aircraft-049-telescope: "\f130";
+$font-space-and-aircraft-050-rocket: "\f131";
+$font-space-and-aircraft-051-alien: "\f132";
+$font-space-and-aircraft-052-balloon: "\f133";
+$font-space-and-aircraft-053-spaceship: "\f134";
+$font-space-and-aircraft-054-aeroplane: "\f135";
+$font-space-and-aircraft-055-observatory: "\f136";
+$font-space-and-aircraft-056-asteroid: "\f137";
+$font-space-and-aircraft-057-pistol: "\f138";
+$font-space-and-aircraft-058-astrophysics: "\f139";
+$font-space-and-aircraft-059-spaceship: "\f13a";
+$font-space-and-aircraft-060-rocket: "\f13b";
+$font-space-and-aircraft-061-full-moon: "\f13c";
+$font-space-and-aircraft-062-ufo: "\f13d";
+$font-space-and-aircraft-063-telescope: "\f13e";
+$font-space-and-aircraft-064-rocket: "\f13f";
+$font-space-and-aircraft-065-hot-air-balloon: "\f140";
+$font-space-and-aircraft-066-ufo: "\f141";
+$font-space-and-aircraft-067-mars: "\f142";
+$font-space-and-aircraft-068-jupiter: "\f143";
+$font-space-and-aircraft-069-shooting-star: "\f144";
+$font-space-and-aircraft-070-satellite-dish: "\f145";
+$font-space-and-aircraft-071-ufo: "\f146";
+$font-space-and-aircraft-072-satellite-dish: "\f147";
+$font-space-and-aircraft-073-galaxy: "\f148";
+$font-space-and-aircraft-074-ufo: "\f149";
+$font-space-and-aircraft-075-astronaut: "\f14a";
+$font-space-and-aircraft-076-rocket: "\f14b";
+$font-space-and-aircraft-077-aeroplane: "\f14c";
+$font-space-and-aircraft-078-full-moon: "\f14d";
+$font-space-and-aircraft-079-satellite-dish: "\f14e";

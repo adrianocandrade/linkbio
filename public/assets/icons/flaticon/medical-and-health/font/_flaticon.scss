@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "medical-and-health";
+  src: url("medical-and-health/font/Flaticon.eot");
+  src: url("medical-and-health/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("medical-and-health/font/Flaticon.woff2") format("woff2"),
+       url("medical-and-health/font/Flaticon.woff") format("woff"),
+       url("medical-and-health/font/Flaticon.ttf") format("truetype"),
+       url("medical-and-health/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "medical-and-health";
+    src: url("medical-and-health/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" medical-and-health-icon-"]:before,
+[class^=medical-and-health-icon-]:before {
+  font-family: "medical-and-health";
+}
+
+.medical-and-health-icon-001-appointment-book:before { content: "\f100"; }
+.medical-and-health-icon-002-bathroom-scale:before { content: "\f101"; }
+.medical-and-health-icon-003-medicine-jar:before { content: "\f102"; }
+.medical-and-health-icon-004-capsules:before { content: "\f103"; }
+.medical-and-health-icon-005-blood-donation:before { content: "\f104"; }
+.medical-and-health-icon-006-test-tubes:before { content: "\f105"; }
+.medical-and-health-icon-007-intravenous-saline-drip:before { content: "\f106"; }
+.medical-and-health-icon-008-pills:before { content: "\f107"; }
+.medical-and-health-icon-009-microscope:before { content: "\f108"; }
+.medical-and-health-icon-010-psychology:before { content: "\f109"; }
+.medical-and-health-icon-011-arm-muscle:before { content: "\f10a"; }
+.medical-and-health-icon-012-medical-report:before { content: "\f10b"; }
+.medical-and-health-icon-013-microscope:before { content: "\f10c"; }
+.medical-and-health-icon-014-eye:before { content: "\f10d"; }
+.medical-and-health-icon-015-science-research:before { content: "\f10e"; }
+.medical-and-health-icon-016-health-care:before { content: "\f10f"; }
+.medical-and-health-icon-017-blood-sample:before { content: "\f110"; }
+.medical-and-health-icon-018-ears:before { content: "\f111"; }
+.medical-and-health-icon-019-tooth:before { content: "\f112"; }
+.medical-and-health-icon-020-capsules:before { content: "\f113"; }
+.medical-and-health-icon-021-erlenmeyer:before { content: "\f114"; }
+.medical-and-health-icon-022-human-bones:before { content: "\f115"; }
+.medical-and-health-icon-023-appointment-book:before { content: "\f116"; }
+.medical-and-health-icon-024-first-aid-kit:before { content: "\f117"; }
+.medical-and-health-icon-025-rubber-gloves:before { content: "\f118"; }
+.medical-and-health-icon-026-breast-cancer:before { content: "\f119"; }
+.medical-and-health-icon-027-bandage:before { content: "\f11a"; }
+.medical-and-health-icon-028-medicine:before { content: "\f11b"; }
+.medical-and-health-icon-029-apple-fruit:before { content: "\f11c"; }
+.medical-and-health-icon-030-sperms:before { content: "\f11d"; }
+.medical-and-health-icon-031-ambulance:before { content: "\f11e"; }
+.medical-and-health-icon-032-chemical-bond:before { content: "\f11f"; }
+.medical-and-health-icon-033-broccoli:before { content: "\f120"; }
+.medical-and-health-icon-034-pills:before { content: "\f121"; }
+.medical-and-health-icon-035-liver-organ:before { content: "\f122"; }
+.medical-and-health-icon-036-electrocardiogram:before { content: "\f123"; }
+.medical-and-health-icon-037-medical-shield:before { content: "\f124"; }
+.medical-and-health-icon-038-reflex-hammer:before { content: "\f125"; }
+.medical-and-health-icon-039-pills:before { content: "\f126"; }
+.medical-and-health-icon-040-blood-donation:before { content: "\f127"; }
+.medical-and-health-icon-041-hospital-phone:before { content: "\f128"; }
+.medical-and-health-icon-042-injury:before { content: "\f129"; }
+.medical-and-health-icon-043-ambulance-lights:before { content: "\f12a"; }
+.medical-and-health-icon-044-capsules:before { content: "\f12b"; }
+.medical-and-health-icon-045-toothbrush:before { content: "\f12c"; }
+.medical-and-health-icon-046-human-brain:before { content: "\f12d"; }
+.medical-and-health-icon-047-injured-knee:before { content: "\f12e"; }
+.medical-and-health-icon-048-breast:before { content: "\f12f"; }
+.medical-and-health-icon-049-dental-drill:before { content: "\f130"; }
+.medical-and-health-icon-050-skull:before { content: "\f131"; }
+.medical-and-health-icon-051-ampoule:before { content: "\f132"; }
+.medical-and-health-icon-052-honey-jar:before { content: "\f133"; }
+.medical-and-health-icon-053-medical-sign:before { content: "\f134"; }
+.medical-and-health-icon-054-intravenous-saline-drip:before { content: "\f135"; }
+.medical-and-health-icon-055-stethoscope:before { content: "\f136"; }
+.medical-and-health-icon-056-intravenous-saline-drip:before { content: "\f137"; }
+.medical-and-health-icon-057-bandage:before { content: "\f138"; }
+.medical-and-health-icon-058-hospital-bed:before { content: "\f139"; }
+.medical-and-health-icon-059-medical-stretcher:before { content: "\f13a"; }
+.medical-and-health-icon-060-ecg-monitor:before { content: "\f13b"; }
+.medical-and-health-icon-061-blood-pressure-meter:before { content: "\f13c"; }
+.medical-and-health-icon-062-crutch:before { content: "\f13d"; }
+.medical-and-health-icon-063-medical-prescription:before { content: "\f13e"; }
+.medical-and-health-icon-064-ecg-monitor:before { content: "\f13f"; }
+.medical-and-health-icon-065-medicine-dropper:before { content: "\f140"; }
+.medical-and-health-icon-066-hospital-building:before { content: "\f141"; }
+.medical-and-health-icon-067-heartbeat:before { content: "\f142"; }
+.medical-and-health-icon-068-volumetric-flask:before { content: "\f143"; }
+.medical-and-health-icon-069-ambulance:before { content: "\f144"; }
+.medical-and-health-icon-070-nurse:before { content: "\f145"; }
+.medical-and-health-icon-071-medicine-jar:before { content: "\f146"; }
+.medical-and-health-icon-072-tooth:before { content: "\f147"; }
+.medical-and-health-icon-073-dentist-tools:before { content: "\f148"; }
+.medical-and-health-icon-074-first-aid-kit:before { content: "\f149"; }
+.medical-and-health-icon-075-injury:before { content: "\f14a"; }
+.medical-and-health-icon-076-weight-loss:before { content: "\f14b"; }
+.medical-and-health-icon-077-female-symbol:before { content: "\f14c"; }
+.medical-and-health-icon-078-medical-app:before { content: "\f14d"; }
+.medical-and-health-icon-079-red-cross:before { content: "\f14e"; }
+.medical-and-health-icon-080-medical-symbol:before { content: "\f14f"; }
+.medical-and-health-icon-081-stomach:before { content: "\f150"; }
+.medical-and-health-icon-082-ampoule:before { content: "\f151"; }
+.medical-and-health-icon-083-pills:before { content: "\f152"; }
+.medical-and-health-icon-084-ecg-monitor:before { content: "\f153"; }
+.medical-and-health-icon-085-medical-symbol:before { content: "\f154"; }
+.medical-and-health-icon-086-herbal-treatment:before { content: "\f155"; }
+.medical-and-health-icon-087-map-pin:before { content: "\f156"; }
+.medical-and-health-icon-088-bonnet:before { content: "\f157"; }
+.medical-and-health-icon-089-dumbbell:before { content: "\f158"; }
+.medical-and-health-icon-090-chemical-bond:before { content: "\f159"; }
+.medical-and-health-icon-091-human-lungs:before { content: "\f15a"; }
+.medical-and-health-icon-092-syringe:before { content: "\f15b"; }
+.medical-and-health-icon-093-first-aid-kit:before { content: "\f15c"; }
+.medical-and-health-icon-094-vagina:before { content: "\f15d"; }
+.medical-and-health-icon-095-toothpaste:before { content: "\f15e"; }
+.medical-and-health-icon-096-erlenmeyer:before { content: "\f15f"; }
+.medical-and-health-icon-097-cherries:before { content: "\f160"; }
+.medical-and-health-icon-098-capsule:before { content: "\f161"; }
+.medical-and-health-icon-099-first-aid-bag:before { content: "\f162"; }
+.medical-and-health-icon-100-nasal-aspirator:before { content: "\f163"; }
+
+$font-medical-and-health-icon-001-appointment-book: "\f100";
+$font-medical-and-health-icon-002-bathroom-scale: "\f101";
+$font-medical-and-health-icon-003-medicine-jar: "\f102";
+$font-medical-and-health-icon-004-capsules: "\f103";
+$font-medical-and-health-icon-005-blood-donation: "\f104";
+$font-medical-and-health-icon-006-test-tubes: "\f105";
+$font-medical-and-health-icon-007-intravenous-saline-drip: "\f106";
+$font-medical-and-health-icon-008-pills: "\f107";
+$font-medical-and-health-icon-009-microscope: "\f108";
+$font-medical-and-health-icon-010-psychology: "\f109";
+$font-medical-and-health-icon-011-arm-muscle: "\f10a";
+$font-medical-and-health-icon-012-medical-report: "\f10b";
+$font-medical-and-health-icon-013-microscope: "\f10c";
+$font-medical-and-health-icon-014-eye: "\f10d";
+$font-medical-and-health-icon-015-science-research: "\f10e";
+$font-medical-and-health-icon-016-health-care: "\f10f";
+$font-medical-and-health-icon-017-blood-sample: "\f110";
+$font-medical-and-health-icon-018-ears: "\f111";
+$font-medical-and-health-icon-019-tooth: "\f112";
+$font-medical-and-health-icon-020-capsules: "\f113";
+$font-medical-and-health-icon-021-erlenmeyer: "\f114";
+$font-medical-and-health-icon-022-human-bones: "\f115";
+$font-medical-and-health-icon-023-appointment-book: "\f116";
+$font-medical-and-health-icon-024-first-aid-kit: "\f117";
+$font-medical-and-health-icon-025-rubber-gloves: "\f118";
+$font-medical-and-health-icon-026-breast-cancer: "\f119";
+$font-medical-and-health-icon-027-bandage: "\f11a";
+$font-medical-and-health-icon-028-medicine: "\f11b";
+$font-medical-and-health-icon-029-apple-fruit: "\f11c";
+$font-medical-and-health-icon-030-sperms: "\f11d";
+$font-medical-and-health-icon-031-ambulance: "\f11e";
+$font-medical-and-health-icon-032-chemical-bond: "\f11f";
+$font-medical-and-health-icon-033-broccoli: "\f120";
+$font-medical-and-health-icon-034-pills: "\f121";
+$font-medical-and-health-icon-035-liver-organ: "\f122";
+$font-medical-and-health-icon-036-electrocardiogram: "\f123";
+$font-medical-and-health-icon-037-medical-shield: "\f124";
+$font-medical-and-health-icon-038-reflex-hammer: "\f125";
+$font-medical-and-health-icon-039-pills: "\f126";
+$font-medical-and-health-icon-040-blood-donation: "\f127";
+$font-medical-and-health-icon-041-hospital-phone: "\f128";
+$font-medical-and-health-icon-042-injury: "\f129";
+$font-medical-and-health-icon-043-ambulance-lights: "\f12a";
+$font-medical-and-health-icon-044-capsules: "\f12b";
+$font-medical-and-health-icon-045-toothbrush: "\f12c";
+$font-medical-and-health-icon-046-human-brain: "\f12d";
+$font-medical-and-health-icon-047-injured-knee: "\f12e";
+$font-medical-and-health-icon-048-breast: "\f12f";
+$font-medical-and-health-icon-049-dental-drill: "\f130";
+$font-medical-and-health-icon-050-skull: "\f131";
+$font-medical-and-health-icon-051-ampoule: "\f132";
+$font-medical-and-health-icon-052-honey-jar: "\f133";
+$font-medical-and-health-icon-053-medical-sign: "\f134";
+$font-medical-and-health-icon-054-intravenous-saline-drip: "\f135";
+$font-medical-and-health-icon-055-stethoscope: "\f136";
+$font-medical-and-health-icon-056-intravenous-saline-drip: "\f137";
+$font-medical-and-health-icon-057-bandage: "\f138";
+$font-medical-and-health-icon-058-hospital-bed: "\f139";
+$font-medical-and-health-icon-059-medical-stretcher: "\f13a";
+$font-medical-and-health-icon-060-ecg-monitor: "\f13b";
+$font-medical-and-health-icon-061-blood-pressure-meter: "\f13c";
+$font-medical-and-health-icon-062-crutch: "\f13d";
+$font-medical-and-health-icon-063-medical-prescription: "\f13e";
+$font-medical-and-health-icon-064-ecg-monitor: "\f13f";
+$font-medical-and-health-icon-065-medicine-dropper: "\f140";
+$font-medical-and-health-icon-066-hospital-building: "\f141";
+$font-medical-and-health-icon-067-heartbeat: "\f142";
+$font-medical-and-health-icon-068-volumetric-flask: "\f143";
+$font-medical-and-health-icon-069-ambulance: "\f144";
+$font-medical-and-health-icon-070-nurse: "\f145";
+$font-medical-and-health-icon-071-medicine-jar: "\f146";
+$font-medical-and-health-icon-072-tooth: "\f147";
+$font-medical-and-health-icon-073-dentist-tools: "\f148";
+$font-medical-and-health-icon-074-first-aid-kit: "\f149";
+$font-medical-and-health-icon-075-injury: "\f14a";
+$font-medical-and-health-icon-076-weight-loss: "\f14b";
+$font-medical-and-health-icon-077-female-symbol: "\f14c";
+$font-medical-and-health-icon-078-medical-app: "\f14d";
+$font-medical-and-health-icon-079-red-cross: "\f14e";
+$font-medical-and-health-icon-080-medical-symbol: "\f14f";
+$font-medical-and-health-icon-081-stomach: "\f150";
+$font-medical-and-health-icon-082-ampoule: "\f151";
+$font-medical-and-health-icon-083-pills: "\f152";
+$font-medical-and-health-icon-084-ecg-monitor: "\f153";
+$font-medical-and-health-icon-085-medical-symbol: "\f154";
+$font-medical-and-health-icon-086-herbal-treatment: "\f155";
+$font-medical-and-health-icon-087-map-pin: "\f156";
+$font-medical-and-health-icon-088-bonnet: "\f157";
+$font-medical-and-health-icon-089-dumbbell: "\f158";
+$font-medical-and-health-icon-090-chemical-bond: "\f159";
+$font-medical-and-health-icon-091-human-lungs: "\f15a";
+$font-medical-and-health-icon-092-syringe: "\f15b";
+$font-medical-and-health-icon-093-first-aid-kit: "\f15c";
+$font-medical-and-health-icon-094-vagina: "\f15d";
+$font-medical-and-health-icon-095-toothpaste: "\f15e";
+$font-medical-and-health-icon-096-erlenmeyer: "\f15f";
+$font-medical-and-health-icon-097-cherries: "\f160";
+$font-medical-and-health-icon-098-capsule: "\f161";
+$font-medical-and-health-icon-099-first-aid-bag: "\f162";
+$font-medical-and-health-icon-100-nasal-aspirator: "\f163";

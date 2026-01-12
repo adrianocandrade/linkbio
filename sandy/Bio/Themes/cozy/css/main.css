@@ -1,0 +1,69 @@
+/* Cozy Theme Styles */
+
+.bio-wrap {
+    background: linear-gradient(180deg, #FFFDE7 0%, #FFF9C4 100%);
+    color: #5D4037;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+    border: 1px solid #FFE082 !important;
+    box-shadow: 0 2px 4px rgba(93, 64, 55, 0.05) !important;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(93, 64, 55, 0.1) !important;
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 3px solid #FFE082;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    background: {button_background} !important;
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background: linear-gradient(180deg, #3E2723 0%, #5D4037 100%) !important;
+}
+body.is-dark .bio-name-text, body.is-dark .bio-username-text, body.is-dark .bio-des {
+    color: #FFF !important;
+}

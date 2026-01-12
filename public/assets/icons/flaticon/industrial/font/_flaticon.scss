@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "IndustrialIcon";
+  src: url("industrial/font/Flaticon.eot");
+  src: url("industrial/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("industrial/font/Flaticon.woff2") format("woff2"),
+       url("industrial/font/Flaticon.woff") format("woff"),
+       url("industrial/font/Flaticon.ttf") format("truetype"),
+       url("industrial/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "IndustrialIcon";
+    src: url("industrial/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" industrial-icon-"]:before,
+[class^=industrial-icon-]:before {
+  font-family: "IndustrialIcon";
+}
+
+.industrial-icon-001-ecology:before { content: "\f100"; }
+.industrial-icon-002-nuclear-plant:before { content: "\f101"; }
+.industrial-icon-003-lifebuoy:before { content: "\f102"; }
+.industrial-icon-004-shipping-and-delivery:before { content: "\f103"; }
+.industrial-icon-005-excavator:before { content: "\f104"; }
+.industrial-icon-006-hammer:before { content: "\f105"; }
+.industrial-icon-007-construction-worker:before { content: "\f106"; }
+.industrial-icon-008-mine-cart:before { content: "\f107"; }
+.industrial-icon-009-tunnel:before { content: "\f108"; }
+.industrial-icon-010-cogwheel:before { content: "\f109"; }
+.industrial-icon-011-mining:before { content: "\f10a"; }
+.industrial-icon-012-spade:before { content: "\f10b"; }
+.industrial-icon-013-factory:before { content: "\f10c"; }
+.industrial-icon-014-tractor:before { content: "\f10d"; }
+.industrial-icon-015-cargo-truck:before { content: "\f10e"; }
+.industrial-icon-016-electric-outlet:before { content: "\f10f"; }
+.industrial-icon-017-industrial-scale:before { content: "\f110"; }
+.industrial-icon-018-electric-tower:before { content: "\f111"; }
+.industrial-icon-019-car-battery:before { content: "\f112"; }
+.industrial-icon-020-forklift:before { content: "\f113"; }
+.industrial-icon-021-jackhammer:before { content: "\f114"; }
+.industrial-icon-022-warehouse:before { content: "\f115"; }
+.industrial-icon-023-earth-globe:before { content: "\f116"; }
+.industrial-icon-024-petrol-can:before { content: "\f117"; }
+.industrial-icon-025-cooling-tower:before { content: "\f118"; }
+.industrial-icon-026-bridge:before { content: "\f119"; }
+.industrial-icon-027-voltmeter:before { content: "\f11a"; }
+.industrial-icon-028-hazard-sign:before { content: "\f11b"; }
+.industrial-icon-029-labor-man:before { content: "\f11c"; }
+.industrial-icon-030-light-bulb:before { content: "\f11d"; }
+.industrial-icon-031-battery:before { content: "\f11e"; }
+.industrial-icon-032-led-light:before { content: "\f11f"; }
+.industrial-icon-033-robotic-arm:before { content: "\f120"; }
+.industrial-icon-034-industrial-robot:before { content: "\f121"; }
+.industrial-icon-035-greenhouse:before { content: "\f122"; }
+.industrial-icon-036-alert-sign:before { content: "\f123"; }
+.industrial-icon-037-tape-measure:before { content: "\f124"; }
+.industrial-icon-038-car:before { content: "\f125"; }
+.industrial-icon-039-uniforms:before { content: "\f126"; }
+.industrial-icon-040-lifting:before { content: "\f127"; }
+.industrial-icon-041-spanner:before { content: "\f128"; }
+.industrial-icon-042-construction-drill:before { content: "\f129"; }
+.industrial-icon-043-compass:before { content: "\f12a"; }
+.industrial-icon-044-wall:before { content: "\f12b"; }
+.industrial-icon-045-helmet:before { content: "\f12c"; }
+.industrial-icon-046-pump-jack:before { content: "\f12d"; }
+.industrial-icon-047-hand-saw:before { content: "\f12e"; }
+.industrial-icon-048-water-pump:before { content: "\f12f"; }
+.industrial-icon-049-engineer:before { content: "\f130"; }
+.industrial-icon-050-dump-truck:before { content: "\f131"; }
+.industrial-icon-051-painter-roller:before { content: "\f132"; }
+.industrial-icon-052-manufacturing:before { content: "\f133"; }
+.industrial-icon-053-industry:before { content: "\f134"; }
+.industrial-icon-054-droplet:before { content: "\f135"; }
+.industrial-icon-055-fire-flame:before { content: "\f136"; }
+.industrial-icon-056-jerrycan:before { content: "\f137"; }
+.industrial-icon-057-green-energy:before { content: "\f138"; }
+.industrial-icon-058-water-drop:before { content: "\f139"; }
+.industrial-icon-059-saw-machine:before { content: "\f13a"; }
+.industrial-icon-060-headphones:before { content: "\f13b"; }
+.industrial-icon-061-gas-cylinder:before { content: "\f13c"; }
+.industrial-icon-062-fire-extinguisher:before { content: "\f13d"; }
+.industrial-icon-063-hard-hat:before { content: "\f13e"; }
+.industrial-icon-064-power-plug:before { content: "\f13f"; }
+.industrial-icon-065-oil-well:before { content: "\f140"; }
+.industrial-icon-066-traffic-cone:before { content: "\f141"; }
+.industrial-icon-067-first-aid-kit:before { content: "\f142"; }
+.industrial-icon-068-battery:before { content: "\f143"; }
+.industrial-icon-069-pump-jack:before { content: "\f144"; }
+.industrial-icon-070-drill-tool:before { content: "\f145"; }
+.industrial-icon-071-under-construction:before { content: "\f146"; }
+.industrial-icon-072-torch:before { content: "\f147"; }
+.industrial-icon-073-flag:before { content: "\f148"; }
+.industrial-icon-074-paint-roller:before { content: "\f149"; }
+.industrial-icon-075-siren:before { content: "\f14a"; }
+.industrial-icon-076-vest-buoy:before { content: "\f14b"; }
+.industrial-icon-077-compass:before { content: "\f14c"; }
+.industrial-icon-078-pressure-gauge:before { content: "\f14d"; }
+.industrial-icon-079-factory:before { content: "\f14e"; }
+.industrial-icon-080-whistle:before { content: "\f14f"; }
+.industrial-icon-081-co2-cloud:before { content: "\f150"; }
+.industrial-icon-082-business-and-finance:before { content: "\f151"; }
+.industrial-icon-083-water-tap:before { content: "\f152"; }
+.industrial-icon-084-natural-gas:before { content: "\f153"; }
+.industrial-icon-085-oil-barrel:before { content: "\f154"; }
+.industrial-icon-086-cogwheels:before { content: "\f155"; }
+.industrial-icon-087-factory:before { content: "\f156"; }
+.industrial-icon-088-thunderbolt:before { content: "\f157"; }
+.industrial-icon-089-oil-derrick:before { content: "\f158"; }
+.industrial-icon-090-mine-cart:before { content: "\f159"; }
+.industrial-icon-091-power-plug:before { content: "\f15a"; }
+.industrial-icon-092-oil-truck:before { content: "\f15b"; }
+.industrial-icon-093-oil-refinery:before { content: "\f15c"; }
+.industrial-icon-094-business-and-finance:before { content: "\f15d"; }
+.industrial-icon-095-train:before { content: "\f15e"; }
+.industrial-icon-096-petrol-pump:before { content: "\f15f"; }
+.industrial-icon-097-oil-valve:before { content: "\f160"; }
+.industrial-icon-098-hard-hat:before { content: "\f161"; }
+.industrial-icon-099-fuel-station:before { content: "\f162"; }
+.industrial-icon-100-oil-derrick:before { content: "\f163"; }
+
+$font-industrial-icon-001-ecology: "\f100";
+$font-industrial-icon-002-nuclear-plant: "\f101";
+$font-industrial-icon-003-lifebuoy: "\f102";
+$font-industrial-icon-004-shipping-and-delivery: "\f103";
+$font-industrial-icon-005-excavator: "\f104";
+$font-industrial-icon-006-hammer: "\f105";
+$font-industrial-icon-007-construction-worker: "\f106";
+$font-industrial-icon-008-mine-cart: "\f107";
+$font-industrial-icon-009-tunnel: "\f108";
+$font-industrial-icon-010-cogwheel: "\f109";
+$font-industrial-icon-011-mining: "\f10a";
+$font-industrial-icon-012-spade: "\f10b";
+$font-industrial-icon-013-factory: "\f10c";
+$font-industrial-icon-014-tractor: "\f10d";
+$font-industrial-icon-015-cargo-truck: "\f10e";
+$font-industrial-icon-016-electric-outlet: "\f10f";
+$font-industrial-icon-017-industrial-scale: "\f110";
+$font-industrial-icon-018-electric-tower: "\f111";
+$font-industrial-icon-019-car-battery: "\f112";
+$font-industrial-icon-020-forklift: "\f113";
+$font-industrial-icon-021-jackhammer: "\f114";
+$font-industrial-icon-022-warehouse: "\f115";
+$font-industrial-icon-023-earth-globe: "\f116";
+$font-industrial-icon-024-petrol-can: "\f117";
+$font-industrial-icon-025-cooling-tower: "\f118";
+$font-industrial-icon-026-bridge: "\f119";
+$font-industrial-icon-027-voltmeter: "\f11a";
+$font-industrial-icon-028-hazard-sign: "\f11b";
+$font-industrial-icon-029-labor-man: "\f11c";
+$font-industrial-icon-030-light-bulb: "\f11d";
+$font-industrial-icon-031-battery: "\f11e";
+$font-industrial-icon-032-led-light: "\f11f";
+$font-industrial-icon-033-robotic-arm: "\f120";
+$font-industrial-icon-034-industrial-robot: "\f121";
+$font-industrial-icon-035-greenhouse: "\f122";
+$font-industrial-icon-036-alert-sign: "\f123";
+$font-industrial-icon-037-tape-measure: "\f124";
+$font-industrial-icon-038-car: "\f125";
+$font-industrial-icon-039-uniforms: "\f126";
+$font-industrial-icon-040-lifting: "\f127";
+$font-industrial-icon-041-spanner: "\f128";
+$font-industrial-icon-042-construction-drill: "\f129";
+$font-industrial-icon-043-compass: "\f12a";
+$font-industrial-icon-044-wall: "\f12b";
+$font-industrial-icon-045-helmet: "\f12c";
+$font-industrial-icon-046-pump-jack: "\f12d";
+$font-industrial-icon-047-hand-saw: "\f12e";
+$font-industrial-icon-048-water-pump: "\f12f";
+$font-industrial-icon-049-engineer: "\f130";
+$font-industrial-icon-050-dump-truck: "\f131";
+$font-industrial-icon-051-painter-roller: "\f132";
+$font-industrial-icon-052-manufacturing: "\f133";
+$font-industrial-icon-053-industry: "\f134";
+$font-industrial-icon-054-droplet: "\f135";
+$font-industrial-icon-055-fire-flame: "\f136";
+$font-industrial-icon-056-jerrycan: "\f137";
+$font-industrial-icon-057-green-energy: "\f138";
+$font-industrial-icon-058-water-drop: "\f139";
+$font-industrial-icon-059-saw-machine: "\f13a";
+$font-industrial-icon-060-headphones: "\f13b";
+$font-industrial-icon-061-gas-cylinder: "\f13c";
+$font-industrial-icon-062-fire-extinguisher: "\f13d";
+$font-industrial-icon-063-hard-hat: "\f13e";
+$font-industrial-icon-064-power-plug: "\f13f";
+$font-industrial-icon-065-oil-well: "\f140";
+$font-industrial-icon-066-traffic-cone: "\f141";
+$font-industrial-icon-067-first-aid-kit: "\f142";
+$font-industrial-icon-068-battery: "\f143";
+$font-industrial-icon-069-pump-jack: "\f144";
+$font-industrial-icon-070-drill-tool: "\f145";
+$font-industrial-icon-071-under-construction: "\f146";
+$font-industrial-icon-072-torch: "\f147";
+$font-industrial-icon-073-flag: "\f148";
+$font-industrial-icon-074-paint-roller: "\f149";
+$font-industrial-icon-075-siren: "\f14a";
+$font-industrial-icon-076-vest-buoy: "\f14b";
+$font-industrial-icon-077-compass: "\f14c";
+$font-industrial-icon-078-pressure-gauge: "\f14d";
+$font-industrial-icon-079-factory: "\f14e";
+$font-industrial-icon-080-whistle: "\f14f";
+$font-industrial-icon-081-co2-cloud: "\f150";
+$font-industrial-icon-082-business-and-finance: "\f151";
+$font-industrial-icon-083-water-tap: "\f152";
+$font-industrial-icon-084-natural-gas: "\f153";
+$font-industrial-icon-085-oil-barrel: "\f154";
+$font-industrial-icon-086-cogwheels: "\f155";
+$font-industrial-icon-087-factory: "\f156";
+$font-industrial-icon-088-thunderbolt: "\f157";
+$font-industrial-icon-089-oil-derrick: "\f158";
+$font-industrial-icon-090-mine-cart: "\f159";
+$font-industrial-icon-091-power-plug: "\f15a";
+$font-industrial-icon-092-oil-truck: "\f15b";
+$font-industrial-icon-093-oil-refinery: "\f15c";
+$font-industrial-icon-094-business-and-finance: "\f15d";
+$font-industrial-icon-095-train: "\f15e";
+$font-industrial-icon-096-petrol-pump: "\f15f";
+$font-industrial-icon-097-oil-valve: "\f160";
+$font-industrial-icon-098-hard-hat: "\f161";
+$font-industrial-icon-099-fuel-station: "\f162";
+$font-industrial-icon-100-oil-derrick: "\f163";

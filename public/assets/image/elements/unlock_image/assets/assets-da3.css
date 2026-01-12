@@ -1,0 +1,67 @@
+.unlocked-image img{
+    height: 100%;
+    object-fit: contain;
+}
+.message{
+    position: relative;
+    background: #fff;
+    padding: 22px;
+    border-radius: 19px;
+    background: #F4F5F6;
+}
+.message .title{
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+.the-link{
+    background: #F4F5F6;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-input textarea, .form-input input{
+    border-radius: 20px;
+    background: #f5f7fc;
+    resize: none;
+}
+.element-context-body{
+    border-radius: 0 !important;
+    background: transparent !important;
+    position: relative;
+    display: flex;
+}
+.element-context-body .message{
+    padding: 20px 32px;
+    border-radius: 15px;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container{
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title-container i{
+    margin-right: auto;
+}
+.title-container i{
+    font-size: 30px;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .element-context-body .message {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    }
+}

@@ -1,0 +1,143 @@
+.message{
+    position: relative;
+    padding: 22px;
+    border-radius: 19px;
+    background: #F4F5F6;
+}
+
+body.is-dark .message {
+    background: #404040;
+}
+.message .title{
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+.the-link{
+    background: #F4F5F6;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-input textarea, .form-input input{
+    border-radius: 20px;
+    background: #f5f7fc;
+    resize: none;
+}
+.element-context-body{
+    border-radius: 0 !important;
+    background: transparent !important;
+    position: relative;
+    display: flex;
+}
+.element-context-body .message{
+    padding: 32px 32px;
+    border-radius: 15px;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container{
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-container i{
+    margin-right: auto;
+}
+.title-container i{
+    font-size: 30px;
+}
+.context-body{
+    height: initial;
+    border-radius: 20px;
+}
+#app-sandy-mix #content, #app-sandy-mix.is-bio{
+    overflow: initial !important;
+}
+.skill-bars{
+  padding: 25px 30px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #000;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-line .text{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+@media(max-width: 768px){
+    .progress-line .text{
+        font-size: 10px
+    }
+    .skill-bars .bar .info span{
+        font-size: 14px
+    }
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}

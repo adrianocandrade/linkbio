@@ -1,0 +1,12 @@
+{
+    "name": "Mix",
+    "alias": "mix",
+    "type": "internal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

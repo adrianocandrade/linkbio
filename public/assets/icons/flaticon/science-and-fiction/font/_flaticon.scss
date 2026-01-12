@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "science-and-fiction";
+  src: url("science-and-fiction/font/Flaticon.eot");
+  src: url("science-and-fiction/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("science-and-fiction/font/Flaticon.woff2") format("woff2"),
+       url("science-and-fiction/font/Flaticon.woff") format("woff"),
+       url("science-and-fiction/font/Flaticon.ttf") format("truetype"),
+       url("science-and-fiction/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "science-and-fiction";
+    src: url("science-and-fiction/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" science-and-fiction-"]:before,
+[class^=science-and-fiction-]:before {
+  font-family: "science-and-fiction";
+}
+
+.science-and-fiction-001-hard-drive:before { content: "\f100"; }
+.science-and-fiction-002-physics:before { content: "\f101"; }
+.science-and-fiction-003-bomb:before { content: "\f102"; }
+.science-and-fiction-004-cpu-tower:before { content: "\f103"; }
+.science-and-fiction-005-headphone:before { content: "\f104"; }
+.science-and-fiction-006-lamp:before { content: "\f105"; }
+.science-and-fiction-007-balance:before { content: "\f106"; }
+.science-and-fiction-008-telephone:before { content: "\f107"; }
+.science-and-fiction-009-geometry:before { content: "\f108"; }
+.science-and-fiction-010-light-bulb:before { content: "\f109"; }
+.science-and-fiction-011-alarm-clock:before { content: "\f10a"; }
+.science-and-fiction-012-television:before { content: "\f10b"; }
+.science-and-fiction-013-molecule:before { content: "\f10c"; }
+.science-and-fiction-014-laptop:before { content: "\f10d"; }
+.science-and-fiction-015-beaker:before { content: "\f10e"; }
+.science-and-fiction-016-electric-current:before { content: "\f10f"; }
+.science-and-fiction-017-floppy-disc:before { content: "\f110"; }
+.science-and-fiction-018-gas-mask:before { content: "\f111"; }
+.science-and-fiction-019-radio:before { content: "\f112"; }
+.science-and-fiction-020-usb-cable:before { content: "\f113"; }
+.science-and-fiction-021-satellite:before { content: "\f114"; }
+.science-and-fiction-022-microprocessor:before { content: "\f115"; }
+.science-and-fiction-023-rx:before { content: "\f116"; }
+.science-and-fiction-024-erlenmeyer:before { content: "\f117"; }
+.science-and-fiction-025-healthy-food:before { content: "\f118"; }
+.science-and-fiction-026-atom:before { content: "\f119"; }
+.science-and-fiction-027-inkwell:before { content: "\f11a"; }
+.science-and-fiction-028-books:before { content: "\f11b"; }
+.science-and-fiction-029-light-bulb:before { content: "\f11c"; }
+.science-and-fiction-030-dna-strand:before { content: "\f11d"; }
+.science-and-fiction-031-certificate:before { content: "\f11e"; }
+.science-and-fiction-032-erlenmeyer:before { content: "\f11f"; }
+.science-and-fiction-033-test-tubes:before { content: "\f120"; }
+.science-and-fiction-034-clock:before { content: "\f121"; }
+.science-and-fiction-035-hourglass:before { content: "\f122"; }
+.science-and-fiction-036-satellite:before { content: "\f123"; }
+.science-and-fiction-037-computer-mouse:before { content: "\f124"; }
+.science-and-fiction-038-chemical-bond:before { content: "\f125"; }
+.science-and-fiction-039-memory-card:before { content: "\f126"; }
+.science-and-fiction-040-chemistry-class:before { content: "\f127"; }
+.science-and-fiction-041-botany:before { content: "\f128"; }
+.science-and-fiction-042-magnet:before { content: "\f129"; }
+.science-and-fiction-043-syringe:before { content: "\f12a"; }
+.science-and-fiction-044-molecules:before { content: "\f12b"; }
+.science-and-fiction-045-observatory:before { content: "\f12c"; }
+.science-and-fiction-046-geometric-instrument:before { content: "\f12d"; }
+.science-and-fiction-047-microscope:before { content: "\f12e"; }
+.science-and-fiction-048-gender-symbol:before { content: "\f12f"; }
+.science-and-fiction-049-thermometer:before { content: "\f130"; }
+.science-and-fiction-050-test-tube:before { content: "\f131"; }
+.science-and-fiction-051-orbit:before { content: "\f132"; }
+.science-and-fiction-052-equation:before { content: "\f133"; }
+.science-and-fiction-053-light-bulb:before { content: "\f134"; }
+.science-and-fiction-054-chemistry:before { content: "\f135"; }
+.science-and-fiction-055-chemical-bond:before { content: "\f136"; }
+.science-and-fiction-056-question-mark:before { content: "\f137"; }
+.science-and-fiction-057-gender-symbol:before { content: "\f138"; }
+.science-and-fiction-058-telescope:before { content: "\f139"; }
+.science-and-fiction-059-molecular-structure:before { content: "\f13a"; }
+.science-and-fiction-060-mathematics:before { content: "\f13b"; }
+.science-and-fiction-061-chemistry:before { content: "\f13c"; }
+.science-and-fiction-062-solar-system:before { content: "\f13d"; }
+.science-and-fiction-063-chemical-bond:before { content: "\f13e"; }
+.science-and-fiction-064-ufo:before { content: "\f13f"; }
+.science-and-fiction-065-chemistry:before { content: "\f140"; }
+.science-and-fiction-066-microscope:before { content: "\f141"; }
+.science-and-fiction-067-erlenmeyer:before { content: "\f142"; }
+.science-and-fiction-068-toxic:before { content: "\f143"; }
+.science-and-fiction-069-radioactive:before { content: "\f144"; }
+.science-and-fiction-070-florence-flask:before { content: "\f145"; }
+.science-and-fiction-071-biochemistry:before { content: "\f146"; }
+.science-and-fiction-072-telescope:before { content: "\f147"; }
+.science-and-fiction-073-heartbeat:before { content: "\f148"; }
+.science-and-fiction-074-electrocardiography:before { content: "\f149"; }
+.science-and-fiction-075-physics:before { content: "\f14a"; }
+.science-and-fiction-076-volumetric-flask:before { content: "\f14b"; }
+.science-and-fiction-077-molecules:before { content: "\f14c"; }
+.science-and-fiction-078-books:before { content: "\f14d"; }
+.science-and-fiction-079-beaker:before { content: "\f14e"; }
+.science-and-fiction-080-pipette:before { content: "\f14f"; }
+.science-and-fiction-081-equation:before { content: "\f150"; }
+.science-and-fiction-082-botany:before { content: "\f151"; }
+.science-and-fiction-083-sperms:before { content: "\f152"; }
+.science-and-fiction-084-sperm:before { content: "\f153"; }
+.science-and-fiction-085-chemistry:before { content: "\f154"; }
+.science-and-fiction-086-magnifying-glass:before { content: "\f155"; }
+.science-and-fiction-087-dna-strand:before { content: "\f156"; }
+.science-and-fiction-088-syringe:before { content: "\f157"; }
+.science-and-fiction-089-checklist:before { content: "\f158"; }
+.science-and-fiction-090-medicine:before { content: "\f159"; }
+.science-and-fiction-091-chemistry-class:before { content: "\f15a"; }
+.science-and-fiction-092-chemistry:before { content: "\f15b"; }
+.science-and-fiction-093-chemistry:before { content: "\f15c"; }
+.science-and-fiction-094-chemical-analysis:before { content: "\f15d"; }
+.science-and-fiction-095-globe:before { content: "\f15e"; }
+.science-and-fiction-096-geometric-shapes:before { content: "\f15f"; }
+.science-and-fiction-097-calculator:before { content: "\f160"; }
+.science-and-fiction-098-equation:before { content: "\f161"; }
+.science-and-fiction-099-compass:before { content: "\f162"; }
+.science-and-fiction-100-ufo:before { content: "\f163"; }
+
+$font-science-and-fiction-001-hard-drive: "\f100";
+$font-science-and-fiction-002-physics: "\f101";
+$font-science-and-fiction-003-bomb: "\f102";
+$font-science-and-fiction-004-cpu-tower: "\f103";
+$font-science-and-fiction-005-headphone: "\f104";
+$font-science-and-fiction-006-lamp: "\f105";
+$font-science-and-fiction-007-balance: "\f106";
+$font-science-and-fiction-008-telephone: "\f107";
+$font-science-and-fiction-009-geometry: "\f108";
+$font-science-and-fiction-010-light-bulb: "\f109";
+$font-science-and-fiction-011-alarm-clock: "\f10a";
+$font-science-and-fiction-012-television: "\f10b";
+$font-science-and-fiction-013-molecule: "\f10c";
+$font-science-and-fiction-014-laptop: "\f10d";
+$font-science-and-fiction-015-beaker: "\f10e";
+$font-science-and-fiction-016-electric-current: "\f10f";
+$font-science-and-fiction-017-floppy-disc: "\f110";
+$font-science-and-fiction-018-gas-mask: "\f111";
+$font-science-and-fiction-019-radio: "\f112";
+$font-science-and-fiction-020-usb-cable: "\f113";
+$font-science-and-fiction-021-satellite: "\f114";
+$font-science-and-fiction-022-microprocessor: "\f115";
+$font-science-and-fiction-023-rx: "\f116";
+$font-science-and-fiction-024-erlenmeyer: "\f117";
+$font-science-and-fiction-025-healthy-food: "\f118";
+$font-science-and-fiction-026-atom: "\f119";
+$font-science-and-fiction-027-inkwell: "\f11a";
+$font-science-and-fiction-028-books: "\f11b";
+$font-science-and-fiction-029-light-bulb: "\f11c";
+$font-science-and-fiction-030-dna-strand: "\f11d";
+$font-science-and-fiction-031-certificate: "\f11e";
+$font-science-and-fiction-032-erlenmeyer: "\f11f";
+$font-science-and-fiction-033-test-tubes: "\f120";
+$font-science-and-fiction-034-clock: "\f121";
+$font-science-and-fiction-035-hourglass: "\f122";
+$font-science-and-fiction-036-satellite: "\f123";
+$font-science-and-fiction-037-computer-mouse: "\f124";
+$font-science-and-fiction-038-chemical-bond: "\f125";
+$font-science-and-fiction-039-memory-card: "\f126";
+$font-science-and-fiction-040-chemistry-class: "\f127";
+$font-science-and-fiction-041-botany: "\f128";
+$font-science-and-fiction-042-magnet: "\f129";
+$font-science-and-fiction-043-syringe: "\f12a";
+$font-science-and-fiction-044-molecules: "\f12b";
+$font-science-and-fiction-045-observatory: "\f12c";
+$font-science-and-fiction-046-geometric-instrument: "\f12d";
+$font-science-and-fiction-047-microscope: "\f12e";
+$font-science-and-fiction-048-gender-symbol: "\f12f";
+$font-science-and-fiction-049-thermometer: "\f130";
+$font-science-and-fiction-050-test-tube: "\f131";
+$font-science-and-fiction-051-orbit: "\f132";
+$font-science-and-fiction-052-equation: "\f133";
+$font-science-and-fiction-053-light-bulb: "\f134";
+$font-science-and-fiction-054-chemistry: "\f135";
+$font-science-and-fiction-055-chemical-bond: "\f136";
+$font-science-and-fiction-056-question-mark: "\f137";
+$font-science-and-fiction-057-gender-symbol: "\f138";
+$font-science-and-fiction-058-telescope: "\f139";
+$font-science-and-fiction-059-molecular-structure: "\f13a";
+$font-science-and-fiction-060-mathematics: "\f13b";
+$font-science-and-fiction-061-chemistry: "\f13c";
+$font-science-and-fiction-062-solar-system: "\f13d";
+$font-science-and-fiction-063-chemical-bond: "\f13e";
+$font-science-and-fiction-064-ufo: "\f13f";
+$font-science-and-fiction-065-chemistry: "\f140";
+$font-science-and-fiction-066-microscope: "\f141";
+$font-science-and-fiction-067-erlenmeyer: "\f142";
+$font-science-and-fiction-068-toxic: "\f143";
+$font-science-and-fiction-069-radioactive: "\f144";
+$font-science-and-fiction-070-florence-flask: "\f145";
+$font-science-and-fiction-071-biochemistry: "\f146";
+$font-science-and-fiction-072-telescope: "\f147";
+$font-science-and-fiction-073-heartbeat: "\f148";
+$font-science-and-fiction-074-electrocardiography: "\f149";
+$font-science-and-fiction-075-physics: "\f14a";
+$font-science-and-fiction-076-volumetric-flask: "\f14b";
+$font-science-and-fiction-077-molecules: "\f14c";
+$font-science-and-fiction-078-books: "\f14d";
+$font-science-and-fiction-079-beaker: "\f14e";
+$font-science-and-fiction-080-pipette: "\f14f";
+$font-science-and-fiction-081-equation: "\f150";
+$font-science-and-fiction-082-botany: "\f151";
+$font-science-and-fiction-083-sperms: "\f152";
+$font-science-and-fiction-084-sperm: "\f153";
+$font-science-and-fiction-085-chemistry: "\f154";
+$font-science-and-fiction-086-magnifying-glass: "\f155";
+$font-science-and-fiction-087-dna-strand: "\f156";
+$font-science-and-fiction-088-syringe: "\f157";
+$font-science-and-fiction-089-checklist: "\f158";
+$font-science-and-fiction-090-medicine: "\f159";
+$font-science-and-fiction-091-chemistry-class: "\f15a";
+$font-science-and-fiction-092-chemistry: "\f15b";
+$font-science-and-fiction-093-chemistry: "\f15c";
+$font-science-and-fiction-094-chemical-analysis: "\f15d";
+$font-science-and-fiction-095-globe: "\f15e";
+$font-science-and-fiction-096-geometric-shapes: "\f15f";
+$font-science-and-fiction-097-calculator: "\f160";
+$font-science-and-fiction-098-equation: "\f161";
+$font-science-and-fiction-099-compass: "\f162";
+$font-science-and-fiction-100-ufo: "\f163";

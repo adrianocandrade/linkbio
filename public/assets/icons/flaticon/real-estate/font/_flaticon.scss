@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "real-estate";
+  src: url("real-estate/font/Flaticon.eot");
+  src: url("real-estate/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("real-estate/font/Flaticon.woff2") format("woff2"),
+       url("real-estate/font/Flaticon.woff") format("woff"),
+       url("real-estate/font/Flaticon.ttf") format("truetype"),
+       url("real-estate/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "real-estate";
+    src: url("real-estate/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" real-estate-"]:before,
+[class^=real-estate-]:before {
+  font-family: "real-estate";
+}
+
+.real-estate-001-real-estate:before { content: "\f100"; }
+.real-estate-002-blueprint:before { content: "\f101"; }
+.real-estate-003-barrier:before { content: "\f102"; }
+.real-estate-004-real-estate:before { content: "\f103"; }
+.real-estate-005-graph-report:before { content: "\f104"; }
+.real-estate-006-house:before { content: "\f105"; }
+.real-estate-007-signpost:before { content: "\f106"; }
+.real-estate-008-house-value:before { content: "\f107"; }
+.real-estate-009-house-value:before { content: "\f108"; }
+.real-estate-010-bed:before { content: "\f109"; }
+.real-estate-011-real-estate:before { content: "\f10a"; }
+.real-estate-012-real-estate:before { content: "\f10b"; }
+.real-estate-013-relocation:before { content: "\f10c"; }
+.real-estate-014-water-supply:before { content: "\f10d"; }
+.real-estate-015-house-value:before { content: "\f10e"; }
+.real-estate-016-real-estate:before { content: "\f10f"; }
+.real-estate-017-real-estate:before { content: "\f110"; }
+.real-estate-018-blueprint:before { content: "\f111"; }
+.real-estate-019-real-estate:before { content: "\f112"; }
+.real-estate-020-wallet:before { content: "\f113"; }
+.real-estate-021-house-value:before { content: "\f114"; }
+.real-estate-022-blueprint:before { content: "\f115"; }
+.real-estate-023-home-address:before { content: "\f116"; }
+.real-estate-024-real:before { content: "\f117"; }
+.real-estate-025-shower-head:before { content: "\f118"; }
+.real-estate-026-window-frame:before { content: "\f119"; }
+.real-estate-027-padlock:before { content: "\f11a"; }
+.real-estate-028-for-sale:before { content: "\f11b"; }
+.real-estate-029-house-key:before { content: "\f11c"; }
+.real-estate-030-city-building:before { content: "\f11d"; }
+.real-estate-031-fax-machine:before { content: "\f11e"; }
+.real-estate-032-house-value:before { content: "\f11f"; }
+.real-estate-033-sale-sign:before { content: "\f120"; }
+.real-estate-034-foreclosure:before { content: "\f121"; }
+.real-estate-035-sweet-home:before { content: "\f122"; }
+.real-estate-036-real-estate:before { content: "\f123"; }
+.real-estate-037-sold:before { content: "\f124"; }
+.real-estate-038-sold:before { content: "\f125"; }
+.real-estate-039-hotel:before { content: "\f126"; }
+.real-estate-040-bid:before { content: "\f127"; }
+.real-estate-041-green-house:before { content: "\f128"; }
+.real-estate-042-bed:before { content: "\f129"; }
+.real-estate-043-sofa:before { content: "\f12a"; }
+.real-estate-044-pen-and-paper:before { content: "\f12b"; }
+.real-estate-045-paint-roller:before { content: "\f12c"; }
+.real-estate-046-homepage:before { content: "\f12d"; }
+.real-estate-047-piggy-bank:before { content: "\f12e"; }
+.real-estate-048-house-value:before { content: "\f12f"; }
+.real-estate-049-house-value:before { content: "\f130"; }
+.real-estate-050-sale-sign:before { content: "\f131"; }
+.real-estate-051-bank:before { content: "\f132"; }
+.real-estate-052-bricks-wall:before { content: "\f133"; }
+.real-estate-053-paintbrush:before { content: "\f134"; }
+.real-estate-054-cash:before { content: "\f135"; }
+.real-estate-055-carport:before { content: "\f136"; }
+.real-estate-056-parking-sign:before { content: "\f137"; }
+.real-estate-057-house-plan:before { content: "\f138"; }
+.real-estate-058-church:before { content: "\f139"; }
+.real-estate-059-house:before { content: "\f13a"; }
+.real-estate-060-led-bulb:before { content: "\f13b"; }
+.real-estate-061-house-for-sale:before { content: "\f13c"; }
+.real-estate-062-library:before { content: "\f13d"; }
+.real-estate-063-home-security:before { content: "\f13e"; }
+.real-estate-064-map-location:before { content: "\f13f"; }
+.real-estate-065-door-key:before { content: "\f140"; }
+.real-estate-066-real-estate:before { content: "\f141"; }
+.real-estate-067-sale-report:before { content: "\f142"; }
+.real-estate-068-cctv-camera:before { content: "\f143"; }
+.real-estate-069-real-estate:before { content: "\f144"; }
+.real-estate-070-real-estate:before { content: "\f145"; }
+.real-estate-071-home-address:before { content: "\f146"; }
+.real-estate-072-for-rent:before { content: "\f147"; }
+.real-estate-073-shopping-mall:before { content: "\f148"; }
+.real-estate-074-magnifier:before { content: "\f149"; }
+.real-estate-075-fireplace:before { content: "\f14a"; }
+.real-estate-076-for-sale:before { content: "\f14b"; }
+.real-estate-077-list-search:before { content: "\f14c"; }
+.real-estate-078-house:before { content: "\f14d"; }
+.real-estate-079-for-rent:before { content: "\f14e"; }
+.real-estate-080-house-key:before { content: "\f14f"; }
+.real-estate-081-real-estate:before { content: "\f150"; }
+.real-estate-082-house-for-sale:before { content: "\f151"; }
+.real-estate-083-relocation:before { content: "\f152"; }
+.real-estate-084-home-security:before { content: "\f153"; }
+.real-estate-085-supermarket:before { content: "\f154"; }
+.real-estate-086-villa:before { content: "\f155"; }
+.real-estate-087-real-estate:before { content: "\f156"; }
+.real-estate-088-signboard:before { content: "\f157"; }
+.real-estate-089-house-key:before { content: "\f158"; }
+.real-estate-090-bathtub:before { content: "\f159"; }
+.real-estate-091-house-key:before { content: "\f15a"; }
+.real-estate-092-home-security:before { content: "\f15b"; }
+.real-estate-093-bathtub:before { content: "\f15c"; }
+.real-estate-094-picket-fence:before { content: "\f15d"; }
+.real-estate-095-door-hanger:before { content: "\f15e"; }
+.real-estate-096-house-value:before { content: "\f15f"; }
+.real-estate-097-calculator-tool:before { content: "\f160"; }
+.real-estate-098-concrete-truck:before { content: "\f161"; }
+.real-estate-099-skyline:before { content: "\f162"; }
+.real-estate-100-elevator:before { content: "\f163"; }
+
+$font-real-estate-001-real-estate: "\f100";
+$font-real-estate-002-blueprint: "\f101";
+$font-real-estate-003-barrier: "\f102";
+$font-real-estate-004-real-estate: "\f103";
+$font-real-estate-005-graph-report: "\f104";
+$font-real-estate-006-house: "\f105";
+$font-real-estate-007-signpost: "\f106";
+$font-real-estate-008-house-value: "\f107";
+$font-real-estate-009-house-value: "\f108";
+$font-real-estate-010-bed: "\f109";
+$font-real-estate-011-real-estate: "\f10a";
+$font-real-estate-012-real-estate: "\f10b";
+$font-real-estate-013-relocation: "\f10c";
+$font-real-estate-014-water-supply: "\f10d";
+$font-real-estate-015-house-value: "\f10e";
+$font-real-estate-016-real-estate: "\f10f";
+$font-real-estate-017-real-estate: "\f110";
+$font-real-estate-018-blueprint: "\f111";
+$font-real-estate-019-real-estate: "\f112";
+$font-real-estate-020-wallet: "\f113";
+$font-real-estate-021-house-value: "\f114";
+$font-real-estate-022-blueprint: "\f115";
+$font-real-estate-023-home-address: "\f116";
+$font-real-estate-024-real: "\f117";
+$font-real-estate-025-shower-head: "\f118";
+$font-real-estate-026-window-frame: "\f119";
+$font-real-estate-027-padlock: "\f11a";
+$font-real-estate-028-for-sale: "\f11b";
+$font-real-estate-029-house-key: "\f11c";
+$font-real-estate-030-city-building: "\f11d";
+$font-real-estate-031-fax-machine: "\f11e";
+$font-real-estate-032-house-value: "\f11f";
+$font-real-estate-033-sale-sign: "\f120";
+$font-real-estate-034-foreclosure: "\f121";
+$font-real-estate-035-sweet-home: "\f122";
+$font-real-estate-036-real-estate: "\f123";
+$font-real-estate-037-sold: "\f124";
+$font-real-estate-038-sold: "\f125";
+$font-real-estate-039-hotel: "\f126";
+$font-real-estate-040-bid: "\f127";
+$font-real-estate-041-green-house: "\f128";
+$font-real-estate-042-bed: "\f129";
+$font-real-estate-043-sofa: "\f12a";
+$font-real-estate-044-pen-and-paper: "\f12b";
+$font-real-estate-045-paint-roller: "\f12c";
+$font-real-estate-046-homepage: "\f12d";
+$font-real-estate-047-piggy-bank: "\f12e";
+$font-real-estate-048-house-value: "\f12f";
+$font-real-estate-049-house-value: "\f130";
+$font-real-estate-050-sale-sign: "\f131";
+$font-real-estate-051-bank: "\f132";
+$font-real-estate-052-bricks-wall: "\f133";
+$font-real-estate-053-paintbrush: "\f134";
+$font-real-estate-054-cash: "\f135";
+$font-real-estate-055-carport: "\f136";
+$font-real-estate-056-parking-sign: "\f137";
+$font-real-estate-057-house-plan: "\f138";
+$font-real-estate-058-church: "\f139";
+$font-real-estate-059-house: "\f13a";
+$font-real-estate-060-led-bulb: "\f13b";
+$font-real-estate-061-house-for-sale: "\f13c";
+$font-real-estate-062-library: "\f13d";
+$font-real-estate-063-home-security: "\f13e";
+$font-real-estate-064-map-location: "\f13f";
+$font-real-estate-065-door-key: "\f140";
+$font-real-estate-066-real-estate: "\f141";
+$font-real-estate-067-sale-report: "\f142";
+$font-real-estate-068-cctv-camera: "\f143";
+$font-real-estate-069-real-estate: "\f144";
+$font-real-estate-070-real-estate: "\f145";
+$font-real-estate-071-home-address: "\f146";
+$font-real-estate-072-for-rent: "\f147";
+$font-real-estate-073-shopping-mall: "\f148";
+$font-real-estate-074-magnifier: "\f149";
+$font-real-estate-075-fireplace: "\f14a";
+$font-real-estate-076-for-sale: "\f14b";
+$font-real-estate-077-list-search: "\f14c";
+$font-real-estate-078-house: "\f14d";
+$font-real-estate-079-for-rent: "\f14e";
+$font-real-estate-080-house-key: "\f14f";
+$font-real-estate-081-real-estate: "\f150";
+$font-real-estate-082-house-for-sale: "\f151";
+$font-real-estate-083-relocation: "\f152";
+$font-real-estate-084-home-security: "\f153";
+$font-real-estate-085-supermarket: "\f154";
+$font-real-estate-086-villa: "\f155";
+$font-real-estate-087-real-estate: "\f156";
+$font-real-estate-088-signboard: "\f157";
+$font-real-estate-089-house-key: "\f158";
+$font-real-estate-090-bathtub: "\f159";
+$font-real-estate-091-house-key: "\f15a";
+$font-real-estate-092-home-security: "\f15b";
+$font-real-estate-093-bathtub: "\f15c";
+$font-real-estate-094-picket-fence: "\f15d";
+$font-real-estate-095-door-hanger: "\f15e";
+$font-real-estate-096-house-value: "\f15f";
+$font-real-estate-097-calculator-tool: "\f160";
+$font-real-estate-098-concrete-truck: "\f161";
+$font-real-estate-099-skyline: "\f162";
+$font-real-estate-100-elevator: "\f163";

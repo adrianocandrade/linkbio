@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "database-and-storage";
+  src: url("database-and-storage/font/Flaticon.eot");
+  src: url("database-and-storage/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("database-and-storage/font/Flaticon.woff2") format("woff2"),
+       url("database-and-storage/font/Flaticon.woff") format("woff"),
+       url("database-and-storage/font/Flaticon.ttf") format("truetype"),
+       url("database-and-storage/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "database-and-storage";
+    src: url("database-and-storage/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" database-and-storage-"]:before,
+[class^=database-and-storage-]:before {
+  font-family: "database-and-storage";
+}
+
+.database-and-storage-001-speedometer:before { content: "\f100"; }
+.database-and-storage-002-server:before { content: "\f101"; }
+.database-and-storage-003-cloud-sync:before { content: "\f102"; }
+.database-and-storage-004-internet:before { content: "\f103"; }
+.database-and-storage-005-web-filter:before { content: "\f104"; }
+.database-and-storage-006-web-development:before { content: "\f105"; }
+.database-and-storage-007-cloud-database:before { content: "\f106"; }
+.database-and-storage-008-web-programming:before { content: "\f107"; }
+.database-and-storage-009-data-synchronization:before { content: "\f108"; }
+.database-and-storage-010-microprocessor:before { content: "\f109"; }
+.database-and-storage-011-sitemap:before { content: "\f10a"; }
+.database-and-storage-012-webpages:before { content: "\f10b"; }
+.database-and-storage-013-cloud-sync:before { content: "\f10c"; }
+.database-and-storage-014-global-communication:before { content: "\f10d"; }
+.database-and-storage-015-network:before { content: "\f10e"; }
+.database-and-storage-016-filtering:before { content: "\f10f"; }
+.database-and-storage-017-data-transfer:before { content: "\f110"; }
+.database-and-storage-018-sitemap:before { content: "\f111"; }
+.database-and-storage-019-hosting-server:before { content: "\f112"; }
+.database-and-storage-020-data-analysis:before { content: "\f113"; }
+.database-and-storage-021-cloud-network:before { content: "\f114"; }
+.database-and-storage-022-cloud-server:before { content: "\f115"; }
+.database-and-storage-023-cloud-network:before { content: "\f116"; }
+.database-and-storage-024-search-file:before { content: "\f117"; }
+.database-and-storage-025-cloud-sync:before { content: "\f118"; }
+.database-and-storage-026-server:before { content: "\f119"; }
+.database-and-storage-027-shared-folder:before { content: "\f11a"; }
+.database-and-storage-028-icloud:before { content: "\f11b"; }
+.database-and-storage-029-network-server:before { content: "\f11c"; }
+.database-and-storage-030-cloud-storage:before { content: "\f11d"; }
+.database-and-storage-031-web-programming:before { content: "\f11e"; }
+.database-and-storage-032-internet:before { content: "\f11f"; }
+.database-and-storage-033-cloud-network:before { content: "\f120"; }
+.database-and-storage-034-sitemap:before { content: "\f121"; }
+.database-and-storage-035-file-download:before { content: "\f122"; }
+.database-and-storage-036-database-storage:before { content: "\f123"; }
+.database-and-storage-037-cloud-computing:before { content: "\f124"; }
+.database-and-storage-038-business-and-commerce:before { content: "\f125"; }
+.database-and-storage-039-log-in:before { content: "\f126"; }
+.database-and-storage-040-web-storage:before { content: "\f127"; }
+.database-and-storage-041-file-upload:before { content: "\f128"; }
+.database-and-storage-042-web-hosting:before { content: "\f129"; }
+.database-and-storage-043-data-network:before { content: "\f12a"; }
+.database-and-storage-044-web-coding:before { content: "\f12b"; }
+.database-and-storage-045-microprocessor:before { content: "\f12c"; }
+.database-and-storage-046-web-analysis:before { content: "\f12d"; }
+.database-and-storage-047-web-filter:before { content: "\f12e"; }
+.database-and-storage-048-backup:before { content: "\f12f"; }
+.database-and-storage-049-padlock:before { content: "\f130"; }
+.database-and-storage-050-sql-server:before { content: "\f131"; }
+.database-and-storage-051-mail-online:before { content: "\f132"; }
+.database-and-storage-052-web-hosting:before { content: "\f133"; }
+.database-and-storage-053-add-user:before { content: "\f134"; }
+.database-and-storage-054-downward-arrow:before { content: "\f135"; }
+.database-and-storage-055-security-shield:before { content: "\f136"; }
+.database-and-storage-056-resize-expand:before { content: "\f137"; }
+.database-and-storage-057-server-storage:before { content: "\f138"; }
+.database-and-storage-058-puzzle-piece:before { content: "\f139"; }
+.database-and-storage-059-data-collection:before { content: "\f13a"; }
+.database-and-storage-060-share:before { content: "\f13b"; }
+.database-and-storage-061-page-layout:before { content: "\f13c"; }
+.database-and-storage-062-secure-data:before { content: "\f13d"; }
+.database-and-storage-063-page-layout:before { content: "\f13e"; }
+.database-and-storage-064-backup:before { content: "\f13f"; }
+.database-and-storage-065-ad-block:before { content: "\f140"; }
+.database-and-storage-066-cloud-network:before { content: "\f141"; }
+.database-and-storage-067-client-server:before { content: "\f142"; }
+.database-and-storage-068-data-encryption:before { content: "\f143"; }
+.database-and-storage-069-wireless-network:before { content: "\f144"; }
+.database-and-storage-070-error-404:before { content: "\f145"; }
+.database-and-storage-071-web-programming:before { content: "\f146"; }
+.database-and-storage-072-data-cable:before { content: "\f147"; }
+.database-and-storage-073-cloud-network:before { content: "\f148"; }
+.database-and-storage-074-data-network:before { content: "\f149"; }
+.database-and-storage-075-cloud-storage:before { content: "\f14a"; }
+.database-and-storage-076-backup:before { content: "\f14b"; }
+.database-and-storage-077-hosting-server:before { content: "\f14c"; }
+.database-and-storage-078-network-server:before { content: "\f14d"; }
+.database-and-storage-079-data-network:before { content: "\f14e"; }
+.database-and-storage-080-cloud-computing:before { content: "\f14f"; }
+.database-and-storage-081-cloud-storage:before { content: "\f150"; }
+.database-and-storage-082-social-network:before { content: "\f151"; }
+.database-and-storage-083-sitemap:before { content: "\f152"; }
+.database-and-storage-084-network:before { content: "\f153"; }
+.database-and-storage-085-web-mail:before { content: "\f154"; }
+.database-and-storage-086-development:before { content: "\f155"; }
+.database-and-storage-087-search-engine-optimization:before { content: "\f156"; }
+.database-and-storage-088-data-security:before { content: "\f157"; }
+.database-and-storage-089-network:before { content: "\f158"; }
+.database-and-storage-090-mobile-analytics:before { content: "\f159"; }
+.database-and-storage-091-cloud-network:before { content: "\f15a"; }
+.database-and-storage-092-wireless-internet:before { content: "\f15b"; }
+.database-and-storage-093-wireless-internet:before { content: "\f15c"; }
+.database-and-storage-094-cloud-hosting:before { content: "\f15d"; }
+.database-and-storage-095-cloud-database:before { content: "\f15e"; }
+.database-and-storage-096-space-satellite:before { content: "\f15f"; }
+.database-and-storage-097-signal-tower:before { content: "\f160"; }
+.database-and-storage-098-technology:before { content: "\f161"; }
+.database-and-storage-099-cloud-hosting:before { content: "\f162"; }
+.database-and-storage-100-hosting-server:before { content: "\f163"; }
+
+$font-database-and-storage-001-speedometer: "\f100";
+$font-database-and-storage-002-server: "\f101";
+$font-database-and-storage-003-cloud-sync: "\f102";
+$font-database-and-storage-004-internet: "\f103";
+$font-database-and-storage-005-web-filter: "\f104";
+$font-database-and-storage-006-web-development: "\f105";
+$font-database-and-storage-007-cloud-database: "\f106";
+$font-database-and-storage-008-web-programming: "\f107";
+$font-database-and-storage-009-data-synchronization: "\f108";
+$font-database-and-storage-010-microprocessor: "\f109";
+$font-database-and-storage-011-sitemap: "\f10a";
+$font-database-and-storage-012-webpages: "\f10b";
+$font-database-and-storage-013-cloud-sync: "\f10c";
+$font-database-and-storage-014-global-communication: "\f10d";
+$font-database-and-storage-015-network: "\f10e";
+$font-database-and-storage-016-filtering: "\f10f";
+$font-database-and-storage-017-data-transfer: "\f110";
+$font-database-and-storage-018-sitemap: "\f111";
+$font-database-and-storage-019-hosting-server: "\f112";
+$font-database-and-storage-020-data-analysis: "\f113";
+$font-database-and-storage-021-cloud-network: "\f114";
+$font-database-and-storage-022-cloud-server: "\f115";
+$font-database-and-storage-023-cloud-network: "\f116";
+$font-database-and-storage-024-search-file: "\f117";
+$font-database-and-storage-025-cloud-sync: "\f118";
+$font-database-and-storage-026-server: "\f119";
+$font-database-and-storage-027-shared-folder: "\f11a";
+$font-database-and-storage-028-icloud: "\f11b";
+$font-database-and-storage-029-network-server: "\f11c";
+$font-database-and-storage-030-cloud-storage: "\f11d";
+$font-database-and-storage-031-web-programming: "\f11e";
+$font-database-and-storage-032-internet: "\f11f";
+$font-database-and-storage-033-cloud-network: "\f120";
+$font-database-and-storage-034-sitemap: "\f121";
+$font-database-and-storage-035-file-download: "\f122";
+$font-database-and-storage-036-database-storage: "\f123";
+$font-database-and-storage-037-cloud-computing: "\f124";
+$font-database-and-storage-038-business-and-commerce: "\f125";
+$font-database-and-storage-039-log-in: "\f126";
+$font-database-and-storage-040-web-storage: "\f127";
+$font-database-and-storage-041-file-upload: "\f128";
+$font-database-and-storage-042-web-hosting: "\f129";
+$font-database-and-storage-043-data-network: "\f12a";
+$font-database-and-storage-044-web-coding: "\f12b";
+$font-database-and-storage-045-microprocessor: "\f12c";
+$font-database-and-storage-046-web-analysis: "\f12d";
+$font-database-and-storage-047-web-filter: "\f12e";
+$font-database-and-storage-048-backup: "\f12f";
+$font-database-and-storage-049-padlock: "\f130";
+$font-database-and-storage-050-sql-server: "\f131";
+$font-database-and-storage-051-mail-online: "\f132";
+$font-database-and-storage-052-web-hosting: "\f133";
+$font-database-and-storage-053-add-user: "\f134";
+$font-database-and-storage-054-downward-arrow: "\f135";
+$font-database-and-storage-055-security-shield: "\f136";
+$font-database-and-storage-056-resize-expand: "\f137";
+$font-database-and-storage-057-server-storage: "\f138";
+$font-database-and-storage-058-puzzle-piece: "\f139";
+$font-database-and-storage-059-data-collection: "\f13a";
+$font-database-and-storage-060-share: "\f13b";
+$font-database-and-storage-061-page-layout: "\f13c";
+$font-database-and-storage-062-secure-data: "\f13d";
+$font-database-and-storage-063-page-layout: "\f13e";
+$font-database-and-storage-064-backup: "\f13f";
+$font-database-and-storage-065-ad-block: "\f140";
+$font-database-and-storage-066-cloud-network: "\f141";
+$font-database-and-storage-067-client-server: "\f142";
+$font-database-and-storage-068-data-encryption: "\f143";
+$font-database-and-storage-069-wireless-network: "\f144";
+$font-database-and-storage-070-error-404: "\f145";
+$font-database-and-storage-071-web-programming: "\f146";
+$font-database-and-storage-072-data-cable: "\f147";
+$font-database-and-storage-073-cloud-network: "\f148";
+$font-database-and-storage-074-data-network: "\f149";
+$font-database-and-storage-075-cloud-storage: "\f14a";
+$font-database-and-storage-076-backup: "\f14b";
+$font-database-and-storage-077-hosting-server: "\f14c";
+$font-database-and-storage-078-network-server: "\f14d";
+$font-database-and-storage-079-data-network: "\f14e";
+$font-database-and-storage-080-cloud-computing: "\f14f";
+$font-database-and-storage-081-cloud-storage: "\f150";
+$font-database-and-storage-082-social-network: "\f151";
+$font-database-and-storage-083-sitemap: "\f152";
+$font-database-and-storage-084-network: "\f153";
+$font-database-and-storage-085-web-mail: "\f154";
+$font-database-and-storage-086-development: "\f155";
+$font-database-and-storage-087-search-engine-optimization: "\f156";
+$font-database-and-storage-088-data-security: "\f157";
+$font-database-and-storage-089-network: "\f158";
+$font-database-and-storage-090-mobile-analytics: "\f159";
+$font-database-and-storage-091-cloud-network: "\f15a";
+$font-database-and-storage-092-wireless-internet: "\f15b";
+$font-database-and-storage-093-wireless-internet: "\f15c";
+$font-database-and-storage-094-cloud-hosting: "\f15d";
+$font-database-and-storage-095-cloud-database: "\f15e";
+$font-database-and-storage-096-space-satellite: "\f15f";
+$font-database-and-storage-097-signal-tower: "\f160";
+$font-database-and-storage-098-technology: "\f161";
+$font-database-and-storage-099-cloud-hosting: "\f162";
+$font-database-and-storage-100-hosting-server: "\f163";

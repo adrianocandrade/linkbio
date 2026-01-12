@@ -1,0 +1,14 @@
+/*#app-sandy-mix #content{
+    background: transparent !important;
+}
+#app-sandy-mix.is-bio{
+    background: #000 !important;
+}*/
+.element-context-body{
+    border-radius: 0 !important;
+    background: transparent !important;
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}

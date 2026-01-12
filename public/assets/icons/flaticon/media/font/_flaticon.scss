@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "MediaIcon";
+  src: url("media/font/Flaticon.eot");
+  src: url("media/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("media/font/Flaticon.woff2") format("woff2"),
+       url("media/font/Flaticon.woff") format("woff"),
+       url("media/font/Flaticon.ttf") format("truetype"),
+       url("media/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MediaIcon";
+    src: url("media/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" media-icon-"]:before,
+[class^=media-icon-]:before {
+  display: inline-block;
+  font-family: "MediaIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.media-icon-001-letter:before { content: "\f100"; }
+.media-icon-002-radio-transmitter:before { content: "\f101"; }
+.media-icon-003-cpu-tower:before { content: "\f102"; }
+.media-icon-004-landline:before { content: "\f103"; }
+.media-icon-005-computer-monitor:before { content: "\f104"; }
+.media-icon-006-cloud-storage:before { content: "\f105"; }
+.media-icon-007-earth:before { content: "\f106"; }
+.media-icon-008-old-movie-camera:before { content: "\f107"; }
+.media-icon-009-newspaper:before { content: "\f108"; }
+.media-icon-010-microphone:before { content: "\f109"; }
+.media-icon-011-tweet:before { content: "\f10a"; }
+.media-icon-012-internet:before { content: "\f10b"; }
+.media-icon-013-woofer:before { content: "\f10c"; }
+.media-icon-014-monitor:before { content: "\f10d"; }
+.media-icon-015-paper-printer:before { content: "\f10e"; }
+.media-icon-016-keyboard:before { content: "\f10f"; }
+.media-icon-017-dustbin:before { content: "\f110"; }
+.media-icon-018-padlock:before { content: "\f111"; }
+.media-icon-019-usb:before { content: "\f112"; }
+.media-icon-020-cloud-uploading:before { content: "\f113"; }
+.media-icon-021-cloud-download:before { content: "\f114"; }
+.media-icon-022-newspaper:before { content: "\f115"; }
+.media-icon-023-magnifying-glass:before { content: "\f116"; }
+.media-icon-024-smartphone:before { content: "\f117"; }
+.media-icon-025-floppy-disk:before { content: "\f118"; }
+.media-icon-026-manual-book:before { content: "\f119"; }
+.media-icon-027-star-shape:before { content: "\f11a"; }
+.media-icon-028-bookmarking:before { content: "\f11b"; }
+.media-icon-029-radio-transmitter:before { content: "\f11c"; }
+.media-icon-030-pen-and-paper:before { content: "\f11d"; }
+.media-icon-031-media-player:before { content: "\f11e"; }
+.media-icon-032-chatting:before { content: "\f11f"; }
+.media-icon-033-computing:before { content: "\f120"; }
+.media-icon-034-compass:before { content: "\f121"; }
+.media-icon-035-wifi-signal:before { content: "\f122"; }
+.media-icon-036-telephone-call:before { content: "\f123"; }
+.media-icon-037-wifi-signal:before { content: "\f124"; }
+.media-icon-038-smiley:before { content: "\f125"; }
+.media-icon-039-group:before { content: "\f126"; }
+.media-icon-040-smile-emoticon:before { content: "\f127"; }
+.media-icon-041-on-air:before { content: "\f128"; }
+.media-icon-042-gearwheel:before { content: "\f129"; }
+.media-icon-043-wall-clock:before { content: "\f12a"; }
+.media-icon-044-good-feedback:before { content: "\f12b"; }
+.media-icon-045-clapperboard:before { content: "\f12c"; }
+.media-icon-046-heart-shape:before { content: "\f12d"; }
+.media-icon-047-social-network:before { content: "\f12e"; }
+.media-icon-048-megaphone:before { content: "\f12f"; }
+.media-icon-049-good-feedback:before { content: "\f130"; }
+.media-icon-050-radio-transmitter:before { content: "\f131"; }
+.media-icon-051-cloud-hosting:before { content: "\f132"; }
+.media-icon-052-loudspeaker:before { content: "\f133"; }
+.media-icon-053-sms:before { content: "\f134"; }
+.media-icon-054-volume:before { content: "\f135"; }
+.media-icon-055-film-strip:before { content: "\f136"; }
+.media-icon-056-map-pin:before { content: "\f137"; }
+.media-icon-057-vintage-tv:before { content: "\f138"; }
+.media-icon-058-unread-message:before { content: "\f139"; }
+.media-icon-059-chatting:before { content: "\f13a"; }
+.media-icon-060-data-cable:before { content: "\f13b"; }
+.media-icon-061-website:before { content: "\f13c"; }
+.media-icon-062-digital-camera:before { content: "\f13d"; }
+.media-icon-063-simcard:before { content: "\f13e"; }
+.media-icon-064-target-audience:before { content: "\f13f"; }
+.media-icon-065-video-camera:before { content: "\f140"; }
+.media-icon-066-film-negatives:before { content: "\f141"; }
+.media-icon-067-bidirectional:before { content: "\f142"; }
+.media-icon-068-finger-control:before { content: "\f143"; }
+.media-icon-069-van:before { content: "\f144"; }
+.media-icon-070-file-download:before { content: "\f145"; }
+.media-icon-071-billboard:before { content: "\f146"; }
+.media-icon-072-scissor:before { content: "\f147"; }
+.media-icon-073-address-book:before { content: "\f148"; }
+.media-icon-074-outgoing-email:before { content: "\f149"; }
+.media-icon-075-open-mail:before { content: "\f14a"; }
+.media-icon-076-house:before { content: "\f14b"; }
+.media-icon-077-avi:before { content: "\f14c"; }
+.media-icon-078-charging-battery:before { content: "\f14d"; }
+.media-icon-079-thumbtack:before { content: "\f14e"; }
+.media-icon-080-mail-inbox:before { content: "\f14f"; }
+.media-icon-081-telephone-symbol:before { content: "\f150"; }
+.media-icon-082-compact-disk:before { content: "\f151"; }
+.media-icon-083-vintage-tv:before { content: "\f152"; }
+.media-icon-084-musical-note:before { content: "\f153"; }
+.media-icon-085-wifi-signal:before { content: "\f154"; }
+.media-icon-086-voice-microphone:before { content: "\f155"; }
+.media-icon-087-remote-control:before { content: "\f156"; }
+.media-icon-088-ipod-music:before { content: "\f157"; }
+.media-icon-089-joystick:before { content: "\f158"; }
+.media-icon-090-radio-transmitter:before { content: "\f159"; }
+.media-icon-091-headphone:before { content: "\f15a"; }
+.media-icon-092-on-air:before { content: "\f15b"; }
+.media-icon-093-vintage-tv:before { content: "\f15c"; }
+.media-icon-094-megaphone:before { content: "\f15d"; }
+.media-icon-095-share:before { content: "\f15e"; }
+.media-icon-096-subwoofer:before { content: "\f15f"; }
+.media-icon-097-wifi-signal:before { content: "\f160"; }
+.media-icon-098-space-satellite:before { content: "\f161"; }
+.media-icon-099-mp3-player:before { content: "\f162"; }
+.media-icon-100-post:before { content: "\f163"; }
+
+$font-media-icon-001-letter: "\f100";
+$font-media-icon-002-radio-transmitter: "\f101";
+$font-media-icon-003-cpu-tower: "\f102";
+$font-media-icon-004-landline: "\f103";
+$font-media-icon-005-computer-monitor: "\f104";
+$font-media-icon-006-cloud-storage: "\f105";
+$font-media-icon-007-earth: "\f106";
+$font-media-icon-008-old-movie-camera: "\f107";
+$font-media-icon-009-newspaper: "\f108";
+$font-media-icon-010-microphone: "\f109";
+$font-media-icon-011-tweet: "\f10a";
+$font-media-icon-012-internet: "\f10b";
+$font-media-icon-013-woofer: "\f10c";
+$font-media-icon-014-monitor: "\f10d";
+$font-media-icon-015-paper-printer: "\f10e";
+$font-media-icon-016-keyboard: "\f10f";
+$font-media-icon-017-dustbin: "\f110";
+$font-media-icon-018-padlock: "\f111";
+$font-media-icon-019-usb: "\f112";
+$font-media-icon-020-cloud-uploading: "\f113";
+$font-media-icon-021-cloud-download: "\f114";
+$font-media-icon-022-newspaper: "\f115";
+$font-media-icon-023-magnifying-glass: "\f116";
+$font-media-icon-024-smartphone: "\f117";
+$font-media-icon-025-floppy-disk: "\f118";
+$font-media-icon-026-manual-book: "\f119";
+$font-media-icon-027-star-shape: "\f11a";
+$font-media-icon-028-bookmarking: "\f11b";
+$font-media-icon-029-radio-transmitter: "\f11c";
+$font-media-icon-030-pen-and-paper: "\f11d";
+$font-media-icon-031-media-player: "\f11e";
+$font-media-icon-032-chatting: "\f11f";
+$font-media-icon-033-computing: "\f120";
+$font-media-icon-034-compass: "\f121";
+$font-media-icon-035-wifi-signal: "\f122";
+$font-media-icon-036-telephone-call: "\f123";
+$font-media-icon-037-wifi-signal: "\f124";
+$font-media-icon-038-smiley: "\f125";
+$font-media-icon-039-group: "\f126";
+$font-media-icon-040-smile-emoticon: "\f127";
+$font-media-icon-041-on-air: "\f128";
+$font-media-icon-042-gearwheel: "\f129";
+$font-media-icon-043-wall-clock: "\f12a";
+$font-media-icon-044-good-feedback: "\f12b";
+$font-media-icon-045-clapperboard: "\f12c";
+$font-media-icon-046-heart-shape: "\f12d";
+$font-media-icon-047-social-network: "\f12e";
+$font-media-icon-048-megaphone: "\f12f";
+$font-media-icon-049-good-feedback: "\f130";
+$font-media-icon-050-radio-transmitter: "\f131";
+$font-media-icon-051-cloud-hosting: "\f132";
+$font-media-icon-052-loudspeaker: "\f133";
+$font-media-icon-053-sms: "\f134";
+$font-media-icon-054-volume: "\f135";
+$font-media-icon-055-film-strip: "\f136";
+$font-media-icon-056-map-pin: "\f137";
+$font-media-icon-057-vintage-tv: "\f138";
+$font-media-icon-058-unread-message: "\f139";
+$font-media-icon-059-chatting: "\f13a";
+$font-media-icon-060-data-cable: "\f13b";
+$font-media-icon-061-website: "\f13c";
+$font-media-icon-062-digital-camera: "\f13d";
+$font-media-icon-063-simcard: "\f13e";
+$font-media-icon-064-target-audience: "\f13f";
+$font-media-icon-065-video-camera: "\f140";
+$font-media-icon-066-film-negatives: "\f141";
+$font-media-icon-067-bidirectional: "\f142";
+$font-media-icon-068-finger-control: "\f143";
+$font-media-icon-069-van: "\f144";
+$font-media-icon-070-file-download: "\f145";
+$font-media-icon-071-billboard: "\f146";
+$font-media-icon-072-scissor: "\f147";
+$font-media-icon-073-address-book: "\f148";
+$font-media-icon-074-outgoing-email: "\f149";
+$font-media-icon-075-open-mail: "\f14a";
+$font-media-icon-076-house: "\f14b";
+$font-media-icon-077-avi: "\f14c";
+$font-media-icon-078-charging-battery: "\f14d";
+$font-media-icon-079-thumbtack: "\f14e";
+$font-media-icon-080-mail-inbox: "\f14f";
+$font-media-icon-081-telephone-symbol: "\f150";
+$font-media-icon-082-compact-disk: "\f151";
+$font-media-icon-083-vintage-tv: "\f152";
+$font-media-icon-084-musical-note: "\f153";
+$font-media-icon-085-wifi-signal: "\f154";
+$font-media-icon-086-voice-microphone: "\f155";
+$font-media-icon-087-remote-control: "\f156";
+$font-media-icon-088-ipod-music: "\f157";
+$font-media-icon-089-joystick: "\f158";
+$font-media-icon-090-radio-transmitter: "\f159";
+$font-media-icon-091-headphone: "\f15a";
+$font-media-icon-092-on-air: "\f15b";
+$font-media-icon-093-vintage-tv: "\f15c";
+$font-media-icon-094-megaphone: "\f15d";
+$font-media-icon-095-share: "\f15e";
+$font-media-icon-096-subwoofer: "\f15f";
+$font-media-icon-097-wifi-signal: "\f160";
+$font-media-icon-098-space-satellite: "\f161";
+$font-media-icon-099-mp3-player: "\f162";
+$font-media-icon-100-post: "\f163";

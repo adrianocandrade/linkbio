@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "MusicIcon";
+  src: url("music/font/Flaticon.eot");
+  src: url("music/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("music/font/Flaticon.woff2") format("woff2"),
+       url("music/font/Flaticon.woff") format("woff"),
+       url("music/font/Flaticon.ttf") format("truetype"),
+       url("music/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MusicIcon";
+    src: url("music/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" music-icon-"]:before,
+[class^=music-icon-]:before {
+  display: inline-block;
+  font-family: "MusicIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.music-icon-001-equalizer:before { content: "\f100"; }
+.music-icon-002-woofer:before { content: "\f101"; }
+.music-icon-003-guitar:before { content: "\f102"; }
+.music-icon-004-darbuka:before { content: "\f103"; }
+.music-icon-005-woofer:before { content: "\f104"; }
+.music-icon-006-online-video:before { content: "\f105"; }
+.music-icon-007-megaphone:before { content: "\f106"; }
+.music-icon-008-music-player:before { content: "\f107"; }
+.music-icon-009-voice-microphone:before { content: "\f108"; }
+.music-icon-010-piano:before { content: "\f109"; }
+.music-icon-011-music-file:before { content: "\f10a"; }
+.music-icon-012-sheet-music:before { content: "\f10b"; }
+.music-icon-013-music-note:before { content: "\f10c"; }
+.music-icon-014-compact-disc:before { content: "\f10d"; }
+.music-icon-015-jack-cable:before { content: "\f10e"; }
+.music-icon-016-gramophone:before { content: "\f10f"; }
+.music-icon-017-trumpet:before { content: "\f110"; }
+.music-icon-018-equalizer:before { content: "\f111"; }
+.music-icon-019-multimedia-controls:before { content: "\f112"; }
+.music-icon-020-music-folder:before { content: "\f113"; }
+.music-icon-021-clapperboard:before { content: "\f114"; }
+.music-icon-022-saxophone:before { content: "\f115"; }
+.music-icon-023-video-camera:before { content: "\f116"; }
+.music-icon-024-compact-disc:before { content: "\f117"; }
+.music-icon-025-cassette:before { content: "\f118"; }
+.music-icon-026-guitar:before { content: "\f119"; }
+.music-icon-027-headphone:before { content: "\f11a"; }
+.music-icon-028-microphone:before { content: "\f11b"; }
+.music-icon-029-guitar:before { content: "\f11c"; }
+.music-icon-030-piano-keyboard:before { content: "\f11d"; }
+.music-icon-031-speaker:before { content: "\f11e"; }
+.music-icon-032-usb:before { content: "\f11f"; }
+.music-icon-033-bell:before { content: "\f120"; }
+.music-icon-034-film-strip:before { content: "\f121"; }
+.music-icon-035-piano-keyboard:before { content: "\f122"; }
+.music-icon-036-maracas:before { content: "\f123"; }
+.music-icon-037-video-camera:before { content: "\f124"; }
+.music-icon-038-loud-speaker:before { content: "\f125"; }
+.music-icon-039-earbud:before { content: "\f126"; }
+.music-icon-040-maracas:before { content: "\f127"; }
+.music-icon-041-conga:before { content: "\f128"; }
+.music-icon-042-saxophone:before { content: "\f129"; }
+.music-icon-043-play-button:before { content: "\f12a"; }
+.music-icon-044-radio:before { content: "\f12b"; }
+.music-icon-045-headphones:before { content: "\f12c"; }
+.music-icon-046-radio:before { content: "\f12d"; }
+.music-icon-047-darbuka:before { content: "\f12e"; }
+.music-icon-048-tape-recorder:before { content: "\f12f"; }
+.music-icon-049-camcorder:before { content: "\f130"; }
+.music-icon-050-bagpipes:before { content: "\f131"; }
+.music-icon-051-tambourine:before { content: "\f132"; }
+.music-icon-052-music-player:before { content: "\f133"; }
+.music-icon-053-harp:before { content: "\f134"; }
+.music-icon-054-film-reel:before { content: "\f135"; }
+.music-icon-055-music:before { content: "\f136"; }
+.music-icon-056-radio:before { content: "\f137"; }
+.music-icon-057-tape-recorder:before { content: "\f138"; }
+.music-icon-058-download:before { content: "\f139"; }
+.music-icon-059-guitar:before { content: "\f13a"; }
+.music-icon-060-drumstick:before { content: "\f13b"; }
+.music-icon-061-harp:before { content: "\f13c"; }
+.music-icon-062-maracas:before { content: "\f13d"; }
+.music-icon-063-french-horn:before { content: "\f13e"; }
+.music-icon-064-television:before { content: "\f13f"; }
+.music-icon-065-trumpet:before { content: "\f140"; }
+.music-icon-066-drumstick:before { content: "\f141"; }
+.music-icon-067-conga:before { content: "\f142"; }
+.music-icon-068-music-tape:before { content: "\f143"; }
+.music-icon-069-remote-control:before { content: "\f144"; }
+.music-icon-070-music:before { content: "\f145"; }
+.music-icon-071-ipod:before { content: "\f146"; }
+.music-icon-072-radio:before { content: "\f147"; }
+.music-icon-073-maracas:before { content: "\f148"; }
+.music-icon-074-piano:before { content: "\f149"; }
+.music-icon-075-musical-note:before { content: "\f14a"; }
+.music-icon-076-music:before { content: "\f14b"; }
+.music-icon-077-music-player:before { content: "\f14c"; }
+.music-icon-078-ipod:before { content: "\f14d"; }
+.music-icon-079-piano-keyboard:before { content: "\f14e"; }
+.music-icon-080-speaker:before { content: "\f14f"; }
+.music-icon-081-jack-connector:before { content: "\f150"; }
+.music-icon-082-ipod:before { content: "\f151"; }
+.music-icon-083-vinyl:before { content: "\f152"; }
+.music-icon-084-music-cloud:before { content: "\f153"; }
+.music-icon-085-ipod:before { content: "\f154"; }
+.music-icon-086-microphone:before { content: "\f155"; }
+.music-icon-087-mute:before { content: "\f156"; }
+.music-icon-088-sitar:before { content: "\f157"; }
+.music-icon-089-handsfree:before { content: "\f158"; }
+.music-icon-090-orchestra:before { content: "\f159"; }
+.music-icon-091-xylophone:before { content: "\f15a"; }
+.music-icon-092-headphones:before { content: "\f15b"; }
+.music-icon-093-accordion:before { content: "\f15c"; }
+.music-icon-094-memory-card:before { content: "\f15d"; }
+.music-icon-095-radio:before { content: "\f15e"; }
+.music-icon-096-television:before { content: "\f15f"; }
+
+$font-music-icon-001-equalizer: "\f100";
+$font-music-icon-002-woofer: "\f101";
+$font-music-icon-003-guitar: "\f102";
+$font-music-icon-004-darbuka: "\f103";
+$font-music-icon-005-woofer: "\f104";
+$font-music-icon-006-online-video: "\f105";
+$font-music-icon-007-megaphone: "\f106";
+$font-music-icon-008-music-player: "\f107";
+$font-music-icon-009-voice-microphone: "\f108";
+$font-music-icon-010-piano: "\f109";
+$font-music-icon-011-music-file: "\f10a";
+$font-music-icon-012-sheet-music: "\f10b";
+$font-music-icon-013-music-note: "\f10c";
+$font-music-icon-014-compact-disc: "\f10d";
+$font-music-icon-015-jack-cable: "\f10e";
+$font-music-icon-016-gramophone: "\f10f";
+$font-music-icon-017-trumpet: "\f110";
+$font-music-icon-018-equalizer: "\f111";
+$font-music-icon-019-multimedia-controls: "\f112";
+$font-music-icon-020-music-folder: "\f113";
+$font-music-icon-021-clapperboard: "\f114";
+$font-music-icon-022-saxophone: "\f115";
+$font-music-icon-023-video-camera: "\f116";
+$font-music-icon-024-compact-disc: "\f117";
+$font-music-icon-025-cassette: "\f118";
+$font-music-icon-026-guitar: "\f119";
+$font-music-icon-027-headphone: "\f11a";
+$font-music-icon-028-microphone: "\f11b";
+$font-music-icon-029-guitar: "\f11c";
+$font-music-icon-030-piano-keyboard: "\f11d";
+$font-music-icon-031-speaker: "\f11e";
+$font-music-icon-032-usb: "\f11f";
+$font-music-icon-033-bell: "\f120";
+$font-music-icon-034-film-strip: "\f121";
+$font-music-icon-035-piano-keyboard: "\f122";
+$font-music-icon-036-maracas: "\f123";
+$font-music-icon-037-video-camera: "\f124";
+$font-music-icon-038-loud-speaker: "\f125";
+$font-music-icon-039-earbud: "\f126";
+$font-music-icon-040-maracas: "\f127";
+$font-music-icon-041-conga: "\f128";
+$font-music-icon-042-saxophone: "\f129";
+$font-music-icon-043-play-button: "\f12a";
+$font-music-icon-044-radio: "\f12b";
+$font-music-icon-045-headphones: "\f12c";
+$font-music-icon-046-radio: "\f12d";
+$font-music-icon-047-darbuka: "\f12e";
+$font-music-icon-048-tape-recorder: "\f12f";
+$font-music-icon-049-camcorder: "\f130";
+$font-music-icon-050-bagpipes: "\f131";
+$font-music-icon-051-tambourine: "\f132";
+$font-music-icon-052-music-player: "\f133";
+$font-music-icon-053-harp: "\f134";
+$font-music-icon-054-film-reel: "\f135";
+$font-music-icon-055-music: "\f136";
+$font-music-icon-056-radio: "\f137";
+$font-music-icon-057-tape-recorder: "\f138";
+$font-music-icon-058-download: "\f139";
+$font-music-icon-059-guitar: "\f13a";
+$font-music-icon-060-drumstick: "\f13b";
+$font-music-icon-061-harp: "\f13c";
+$font-music-icon-062-maracas: "\f13d";
+$font-music-icon-063-french-horn: "\f13e";
+$font-music-icon-064-television: "\f13f";
+$font-music-icon-065-trumpet: "\f140";
+$font-music-icon-066-drumstick: "\f141";
+$font-music-icon-067-conga: "\f142";
+$font-music-icon-068-music-tape: "\f143";
+$font-music-icon-069-remote-control: "\f144";
+$font-music-icon-070-music: "\f145";
+$font-music-icon-071-ipod: "\f146";
+$font-music-icon-072-radio: "\f147";
+$font-music-icon-073-maracas: "\f148";
+$font-music-icon-074-piano: "\f149";
+$font-music-icon-075-musical-note: "\f14a";
+$font-music-icon-076-music: "\f14b";
+$font-music-icon-077-music-player: "\f14c";
+$font-music-icon-078-ipod: "\f14d";
+$font-music-icon-079-piano-keyboard: "\f14e";
+$font-music-icon-080-speaker: "\f14f";
+$font-music-icon-081-jack-connector: "\f150";
+$font-music-icon-082-ipod: "\f151";
+$font-music-icon-083-vinyl: "\f152";
+$font-music-icon-084-music-cloud: "\f153";
+$font-music-icon-085-ipod: "\f154";
+$font-music-icon-086-microphone: "\f155";
+$font-music-icon-087-mute: "\f156";
+$font-music-icon-088-sitar: "\f157";
+$font-music-icon-089-handsfree: "\f158";
+$font-music-icon-090-orchestra: "\f159";
+$font-music-icon-091-xylophone: "\f15a";
+$font-music-icon-092-headphones: "\f15b";
+$font-music-icon-093-accordion: "\f15c";
+$font-music-icon-094-memory-card: "\f15d";
+$font-music-icon-095-radio: "\f15e";
+$font-music-icon-096-television: "\f15f";

@@ -1,0 +1,72 @@
+.admin-menu{
+  width: 200px;
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  background: #fff;
+  .main-menu{
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    .sub-header{
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        display: block;
+        margin-bottom: 10px;
+        color: #448eef;
+        span{
+          padding: 7px;
+          padding-left: 5px;
+          display: block;
+          transition: all 0.2s ease;
+        }
+
+        &:first-child{
+          span{
+            padding-top: 0;
+          }
+        }
+    }
+
+    .menu-items{
+      position: relative;
+      display: block;
+      margin-bottom: 10px;
+      .menu-item{
+          color: #3E4B5B;
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-align: center;
+          align-items: center;
+          position: relative;
+          font-size: 12px;
+
+          .icon{
+            font-size: 16px;
+            padding: 7px 10px 7px 0;
+            width: 40px;
+            color: #0073ff;
+          }
+          span{
+            padding: 7px;
+            display: block;
+            flex: 1;
+            transition: all 0.2s ease;
+            font-size: 12px;
+            color: #3e4b5b;
+          }
+          .icon + span{
+            padding-left: 0;
+          }
+      }
+    }
+  }
+}
+#app-sandy-admin{
+  background: #fff;
+  #content{
+    //padding-left: 14em;
+  }
+}

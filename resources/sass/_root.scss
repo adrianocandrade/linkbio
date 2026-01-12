@@ -1,0 +1,26 @@
+:root{
+    --sandy-secondary: #5b586e;
+    --sandy-light: #f4f5f7;
+    --sandy-white: #fff;
+    --sandy-dark: #222032;
+
+    
+    --sandy-gray-100: rgba(243,244,246,1);
+    --sandy-gray-200: #dde1ec;
+    --sandy-gray-300: #b3b1c3;
+    --sandy-black: #000;
+
+	--bio-card-primary-color: #000;
+	--bio-card-secondary-color: #000;
+
+	--bio-card-border-color: #000;
+}
+
+body.is-dark{
+    --sandy-white: #222032;
+    --sandy-secondary: #807d96;
+    --sandy-light: #2a283b;
+    --sandy-dark: #dde1ec;
+    --sandy-gray-200: #353246;
+    --sandy-gray-300: #5b586e;
+}

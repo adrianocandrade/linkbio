@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "internet-icon";
+  src: url("internet/font/Flaticon.eot");
+  src: url("internet/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("internet/font/Flaticon.woff2") format("woff2"),
+       url("internet/font/Flaticon.woff") format("woff"),
+       url("internet/font/Flaticon.ttf") format("truetype"),
+       url("internet/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "internet-icon";
+    src: url("internet/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" internet-"]:before,
+[class^=internet-]:before {
+  font-family: "internet-icon";
+}
+
+.internet-001-sniper:before { content: "\f100"; }
+.internet-002-file-download:before { content: "\f101"; }
+.internet-003-share:before { content: "\f102"; }
+.internet-004-warning-sign:before { content: "\f103"; }
+.internet-005-hierarchical-structure:before { content: "\f104"; }
+.internet-006-data-exchange:before { content: "\f105"; }
+.internet-007-chat:before { content: "\f106"; }
+.internet-008-shared-folder:before { content: "\f107"; }
+.internet-009-cloud-download:before { content: "\f108"; }
+.internet-010-web-hosting:before { content: "\f109"; }
+.internet-011-pattern-lock:before { content: "\f10a"; }
+.internet-012-web-development:before { content: "\f10b"; }
+.internet-013-wall-clock:before { content: "\f10c"; }
+.internet-014-light-bulb:before { content: "\f10d"; }
+.internet-015-gps-phone:before { content: "\f10e"; }
+.internet-016-world-wide-web:before { content: "\f10f"; }
+.internet-017-map-location:before { content: "\f110"; }
+.internet-018-wireless-internet:before { content: "\f111"; }
+.internet-019-wireless-connection:before { content: "\f112"; }
+.internet-020-telephone-call:before { content: "\f113"; }
+.internet-021-equalizer-controller:before { content: "\f114"; }
+.internet-022-vision:before { content: "\f115"; }
+.internet-023-shopping-basket:before { content: "\f116"; }
+.internet-024-pin-code:before { content: "\f117"; }
+.internet-025-internet-video:before { content: "\f118"; }
+.internet-026-hosting-server:before { content: "\f119"; }
+.internet-027-open-email:before { content: "\f11a"; }
+.internet-028-chatting:before { content: "\f11b"; }
+.internet-029-flag-symbol:before { content: "\f11c"; }
+.internet-030-photo-camera:before { content: "\f11d"; }
+.internet-031-secure-data:before { content: "\f11e"; }
+.internet-032-earth-globe:before { content: "\f11f"; }
+.internet-033-chatting:before { content: "\f120"; }
+.internet-034-connected-user:before { content: "\f121"; }
+.internet-035-server-storage:before { content: "\f122"; }
+.internet-036-microphone:before { content: "\f123"; }
+.internet-037-wireless-internet:before { content: "\f124"; }
+.internet-038-cloud-computing:before { content: "\f125"; }
+.internet-039-mobile-network:before { content: "\f126"; }
+.internet-040-volume:before { content: "\f127"; }
+.internet-041-hierarchical-structure:before { content: "\f128"; }
+.internet-042-house:before { content: "\f129"; }
+.internet-043-internet-connection:before { content: "\f12a"; }
+.internet-044-server-storage:before { content: "\f12b"; }
+.internet-045-arroba-sign:before { content: "\f12c"; }
+.internet-046-landline:before { content: "\f12d"; }
+.internet-047-wifi-connection:before { content: "\f12e"; }
+.internet-048-puzzle-piece:before { content: "\f12f"; }
+.internet-049-address-book:before { content: "\f130"; }
+.internet-050-headphone:before { content: "\f131"; }
+.internet-051-tools:before { content: "\f132"; }
+.internet-052-pencil:before { content: "\f133"; }
+.internet-053-group-users:before { content: "\f134"; }
+.internet-054-satellite-dish:before { content: "\f135"; }
+.internet-055-network-user:before { content: "\f136"; }
+.internet-056-usb:before { content: "\f137"; }
+.internet-057-ethernet:before { content: "\f138"; }
+.internet-058-bidirectional:before { content: "\f139"; }
+.internet-059-webcam:before { content: "\f13a"; }
+.internet-060-telephone-receiver:before { content: "\f13b"; }
+.internet-061-padlock:before { content: "\f13c"; }
+.internet-062-lock:before { content: "\f13d"; }
+.internet-063-banned:before { content: "\f13e"; }
+.internet-064-warning-sign:before { content: "\f13f"; }
+.internet-065-hosting-server:before { content: "\f140"; }
+.internet-066-web-hosting:before { content: "\f141"; }
+.internet-067-space-satellite:before { content: "\f142"; }
+.internet-068-internet-video:before { content: "\f143"; }
+.internet-069-web-development:before { content: "\f144"; }
+.internet-070-volume:before { content: "\f145"; }
+.internet-071-computer-bug:before { content: "\f146"; }
+.internet-072-computer-networking:before { content: "\f147"; }
+.internet-073-data-security:before { content: "\f148"; }
+.internet-074-bar-chart:before { content: "\f149"; }
+.internet-075-server-storage:before { content: "\f14a"; }
+.internet-076-search-engine:before { content: "\f14b"; }
+.internet-077-good-feedback:before { content: "\f14c"; }
+.internet-078-thumbs-down:before { content: "\f14d"; }
+.internet-079-wifi-signal:before { content: "\f14e"; }
+.internet-080-sim-card:before { content: "\f14f"; }
+.internet-081-laptop:before { content: "\f150"; }
+.internet-082-cloud-download:before { content: "\f151"; }
+.internet-083-usb-flash-drive:before { content: "\f152"; }
+.internet-084-telephone-receiver:before { content: "\f153"; }
+.internet-085-dustbin:before { content: "\f154"; }
+.internet-086-wireless-internet:before { content: "\f155"; }
+.internet-087-wireless-internet:before { content: "\f156"; }
+.internet-088-up-and-down-arrows:before { content: "\f157"; }
+.internet-089-woofer:before { content: "\f158"; }
+.internet-090-cloud-uploading:before { content: "\f159"; }
+.internet-091-shopping-basket:before { content: "\f15a"; }
+.internet-092-share:before { content: "\f15b"; }
+.internet-093-hourglass:before { content: "\f15c"; }
+.internet-094-shopping-cart:before { content: "\f15d"; }
+.internet-095-key:before { content: "\f15e"; }
+.internet-096-world-wide-web:before { content: "\f15f"; }
+.internet-097-file-folder:before { content: "\f160"; }
+.internet-098-sitemap:before { content: "\f161"; }
+.internet-099-computer-mouse:before { content: "\f162"; }
+.internet-100-online-communication:before { content: "\f163"; }
+
+$font-internet-001-sniper: "\f100";
+$font-internet-002-file-download: "\f101";
+$font-internet-003-share: "\f102";
+$font-internet-004-warning-sign: "\f103";
+$font-internet-005-hierarchical-structure: "\f104";
+$font-internet-006-data-exchange: "\f105";
+$font-internet-007-chat: "\f106";
+$font-internet-008-shared-folder: "\f107";
+$font-internet-009-cloud-download: "\f108";
+$font-internet-010-web-hosting: "\f109";
+$font-internet-011-pattern-lock: "\f10a";
+$font-internet-012-web-development: "\f10b";
+$font-internet-013-wall-clock: "\f10c";
+$font-internet-014-light-bulb: "\f10d";
+$font-internet-015-gps-phone: "\f10e";
+$font-internet-016-world-wide-web: "\f10f";
+$font-internet-017-map-location: "\f110";
+$font-internet-018-wireless-internet: "\f111";
+$font-internet-019-wireless-connection: "\f112";
+$font-internet-020-telephone-call: "\f113";
+$font-internet-021-equalizer-controller: "\f114";
+$font-internet-022-vision: "\f115";
+$font-internet-023-shopping-basket: "\f116";
+$font-internet-024-pin-code: "\f117";
+$font-internet-025-internet-video: "\f118";
+$font-internet-026-hosting-server: "\f119";
+$font-internet-027-open-email: "\f11a";
+$font-internet-028-chatting: "\f11b";
+$font-internet-029-flag-symbol: "\f11c";
+$font-internet-030-photo-camera: "\f11d";
+$font-internet-031-secure-data: "\f11e";
+$font-internet-032-earth-globe: "\f11f";
+$font-internet-033-chatting: "\f120";
+$font-internet-034-connected-user: "\f121";
+$font-internet-035-server-storage: "\f122";
+$font-internet-036-microphone: "\f123";
+$font-internet-037-wireless-internet: "\f124";
+$font-internet-038-cloud-computing: "\f125";
+$font-internet-039-mobile-network: "\f126";
+$font-internet-040-volume: "\f127";
+$font-internet-041-hierarchical-structure: "\f128";
+$font-internet-042-house: "\f129";
+$font-internet-043-internet-connection: "\f12a";
+$font-internet-044-server-storage: "\f12b";
+$font-internet-045-arroba-sign: "\f12c";
+$font-internet-046-landline: "\f12d";
+$font-internet-047-wifi-connection: "\f12e";
+$font-internet-048-puzzle-piece: "\f12f";
+$font-internet-049-address-book: "\f130";
+$font-internet-050-headphone: "\f131";
+$font-internet-051-tools: "\f132";
+$font-internet-052-pencil: "\f133";
+$font-internet-053-group-users: "\f134";
+$font-internet-054-satellite-dish: "\f135";
+$font-internet-055-network-user: "\f136";
+$font-internet-056-usb: "\f137";
+$font-internet-057-ethernet: "\f138";
+$font-internet-058-bidirectional: "\f139";
+$font-internet-059-webcam: "\f13a";
+$font-internet-060-telephone-receiver: "\f13b";
+$font-internet-061-padlock: "\f13c";
+$font-internet-062-lock: "\f13d";
+$font-internet-063-banned: "\f13e";
+$font-internet-064-warning-sign: "\f13f";
+$font-internet-065-hosting-server: "\f140";
+$font-internet-066-web-hosting: "\f141";
+$font-internet-067-space-satellite: "\f142";
+$font-internet-068-internet-video: "\f143";
+$font-internet-069-web-development: "\f144";
+$font-internet-070-volume: "\f145";
+$font-internet-071-computer-bug: "\f146";
+$font-internet-072-computer-networking: "\f147";
+$font-internet-073-data-security: "\f148";
+$font-internet-074-bar-chart: "\f149";
+$font-internet-075-server-storage: "\f14a";
+$font-internet-076-search-engine: "\f14b";
+$font-internet-077-good-feedback: "\f14c";
+$font-internet-078-thumbs-down: "\f14d";
+$font-internet-079-wifi-signal: "\f14e";
+$font-internet-080-sim-card: "\f14f";
+$font-internet-081-laptop: "\f150";
+$font-internet-082-cloud-download: "\f151";
+$font-internet-083-usb-flash-drive: "\f152";
+$font-internet-084-telephone-receiver: "\f153";
+$font-internet-085-dustbin: "\f154";
+$font-internet-086-wireless-internet: "\f155";
+$font-internet-087-wireless-internet: "\f156";
+$font-internet-088-up-and-down-arrows: "\f157";
+$font-internet-089-woofer: "\f158";
+$font-internet-090-cloud-uploading: "\f159";
+$font-internet-091-shopping-basket: "\f15a";
+$font-internet-092-share: "\f15b";
+$font-internet-093-hourglass: "\f15c";
+$font-internet-094-shopping-cart: "\f15d";
+$font-internet-095-key: "\f15e";
+$font-internet-096-world-wide-web: "\f15f";
+$font-internet-097-file-folder: "\f160";
+$font-internet-098-sitemap: "\f161";
+$font-internet-099-computer-mouse: "\f162";
+$font-internet-100-online-communication: "\f163";

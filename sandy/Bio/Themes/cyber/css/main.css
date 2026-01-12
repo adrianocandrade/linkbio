@@ -1,0 +1,80 @@
+/* Cyber Theme Styles */
+
+.bio-wrap {
+    background-color: #050505;
+    background-image: linear-gradient(0deg, transparent 24%, rgba(0, 243, 255, .05) 25%, rgba(0, 243, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 243, 255, .05) 75%, rgba(0, 243, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 243, 255, .05) 25%, rgba(0, 243, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 243, 255, .05) 75%, rgba(0, 243, 255, .05) 76%, transparent 77%, transparent);
+    background-size: 50px 50px;
+    color: #00F3FF;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+    border: 1px solid #00F3FF !important;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.2), inset 0 0 20px rgba(0, 243, 255, 0.1) !important;
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px) !important;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.4), inset 0 0 30px rgba(0, 243, 255, 0.2) !important;
+    text-shadow: 0 0 8px rgba(0, 243, 255, 0.8);
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 2px solid #00F3FF;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+    border-radius: 10px; /* Squircle */
+    background: {button_background} !important;
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+    text-shadow: 0 0 5px rgba(0, 243, 255, 0.5);
+    font-family: 'Share Tech Mono', monospace;
+}
+.bio-name-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background-color: #000 !important;
+}

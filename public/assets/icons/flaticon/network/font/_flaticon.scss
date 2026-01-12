@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "NetworkIcon";
+  src: url("network/font/Flaticon.eot");
+  src: url("network/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("network/font/Flaticon.woff2") format("woff2"),
+       url("network/font/Flaticon.woff") format("woff"),
+       url("network/font/Flaticon.ttf") format("truetype"),
+       url("network/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "NetworkIcon";
+    src: url("network/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class*=" network-icon-"]:before,
+[class^=network-icon-]:before {
+  display: inline-block;
+  font-family: "NetworkIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.network-icon-001-wireless-internet:before { content: "\f100"; }
+.network-icon-002-hard-disk:before { content: "\f101"; }
+.network-icon-003-desktop-computer:before { content: "\f102"; }
+.network-icon-004-shared-folder:before { content: "\f103"; }
+.network-icon-005-client-server:before { content: "\f104"; }
+.network-icon-006-satellite-dish:before { content: "\f105"; }
+.network-icon-007-computer-networks:before { content: "\f106"; }
+.network-icon-008-cyber-security:before { content: "\f107"; }
+.network-icon-009-home-network:before { content: "\f108"; }
+.network-icon-010-secure-data:before { content: "\f109"; }
+.network-icon-011-server:before { content: "\f10a"; }
+.network-icon-012-webcam:before { content: "\f10b"; }
+.network-icon-013-global-network:before { content: "\f10c"; }
+.network-icon-014-floppy-disk:before { content: "\f10d"; }
+.network-icon-015-power-plug:before { content: "\f10e"; }
+.network-icon-016-pencil-tool:before { content: "\f10f"; }
+.network-icon-017-cloud-network:before { content: "\f110"; }
+.network-icon-018-cyber-security:before { content: "\f111"; }
+.network-icon-019-web-analytics:before { content: "\f112"; }
+.network-icon-020-chatting:before { content: "\f113"; }
+.network-icon-021-cloud-hosting:before { content: "\f114"; }
+.network-icon-022-mobile-network:before { content: "\f115"; }
+.network-icon-023-cloud-storage:before { content: "\f116"; }
+.network-icon-024-music-disk:before { content: "\f117"; }
+.network-icon-025-microphone:before { content: "\f118"; }
+.network-icon-026-cloud-connection:before { content: "\f119"; }
+.network-icon-027-mobile-network:before { content: "\f11a"; }
+.network-icon-028-data-network:before { content: "\f11b"; }
+.network-icon-029-network-server:before { content: "\f11c"; }
+.network-icon-030-web-development:before { content: "\f11d"; }
+.network-icon-031-phone-call:before { content: "\f11e"; }
+.network-icon-032-equalizer-controller:before { content: "\f11f"; }
+.network-icon-033-delete-folder:before { content: "\f120"; }
+.network-icon-034-cloud-sharing:before { content: "\f121"; }
+.network-icon-035-wireless-internet:before { content: "\f122"; }
+.network-icon-036-wireless-connectivity:before { content: "\f123"; }
+.network-icon-037-binary-codes:before { content: "\f124"; }
+.network-icon-038-internet-security:before { content: "\f125"; }
+.network-icon-039-file-download:before { content: "\f126"; }
+.network-icon-040-secure-data:before { content: "\f127"; }
+.network-icon-041-cloud-storage:before { content: "\f128"; }
+.network-icon-042-up-and-down-arrows:before { content: "\f129"; }
+.network-icon-043-data-management:before { content: "\f12a"; }
+.network-icon-044-synchronization:before { content: "\f12b"; }
+.network-icon-045-thunder-bolt:before { content: "\f12c"; }
+.network-icon-046-exclamation-mark:before { content: "\f12d"; }
+.network-icon-047-cloud-download:before { content: "\f12e"; }
+.network-icon-048-ethernet:before { content: "\f12f"; }
+.network-icon-049-power-switch:before { content: "\f130"; }
+.network-icon-050-cloud-uploading:before { content: "\f131"; }
+.network-icon-051-newspaper:before { content: "\f132"; }
+.network-icon-052-space-satellite:before { content: "\f133"; }
+.network-icon-053-network-server:before { content: "\f134"; }
+.network-icon-054-satellite-dish:before { content: "\f135"; }
+.network-icon-055-bell:before { content: "\f136"; }
+.network-icon-056-chain:before { content: "\f137"; }
+.network-icon-057-computer-monitor:before { content: "\f138"; }
+.network-icon-058-received-message:before { content: "\f139"; }
+.network-icon-059-bidirectional:before { content: "\f13a"; }
+.network-icon-060-wireless-internet:before { content: "\f13b"; }
+.network-icon-061-data-network:before { content: "\f13c"; }
+.network-icon-062-outgoing-email:before { content: "\f13d"; }
+.network-icon-063-compass:before { content: "\f13e"; }
+.network-icon-064-network-server:before { content: "\f13f"; }
+.network-icon-065-web-mail:before { content: "\f140"; }
+.network-icon-066-talk:before { content: "\f141"; }
+.network-icon-067-chatting:before { content: "\f142"; }
+.network-icon-068-house:before { content: "\f143"; }
+.network-icon-069-users:before { content: "\f144"; }
+.network-icon-070-signal-tower:before { content: "\f145"; }
+.network-icon-071-thumbtack:before { content: "\f146"; }
+.network-icon-072-cloud-hosting:before { content: "\f147"; }
+.network-icon-073-speed-test:before { content: "\f148"; }
+.network-icon-074-client-server:before { content: "\f149"; }
+.network-icon-075-people-network:before { content: "\f14a"; }
+.network-icon-076-network-server:before { content: "\f14b"; }
+.network-icon-077-web-hosting:before { content: "\f14c"; }
+.network-icon-078-global-network:before { content: "\f14d"; }
+.network-icon-079-network-server:before { content: "\f14e"; }
+.network-icon-080-web-hosting:before { content: "\f14f"; }
+.network-icon-081-affiliate-marketing:before { content: "\f150"; }
+.network-icon-082-hotspot:before { content: "\f151"; }
+.network-icon-083-data-network:before { content: "\f152"; }
+.network-icon-084-wireless-network:before { content: "\f153"; }
+.network-icon-085-mobile-network:before { content: "\f154"; }
+.network-icon-086-web-administrator:before { content: "\f155"; }
+.network-icon-087-client-server:before { content: "\f156"; }
+.network-icon-088-network:before { content: "\f157"; }
+.network-icon-089-cloud-hosting:before { content: "\f158"; }
+.network-icon-090-world-wide-web:before { content: "\f159"; }
+.network-icon-091-network:before { content: "\f15a"; }
+.network-icon-092-cloud-network:before { content: "\f15b"; }
+.network-icon-093-web-hosting:before { content: "\f15c"; }
+.network-icon-094-network:before { content: "\f15d"; }
+.network-icon-095-social-network:before { content: "\f15e"; }
+.network-icon-096-cloud-network:before { content: "\f15f"; }
+.network-icon-097-social-network:before { content: "\f160"; }
+.network-icon-098-global-network:before { content: "\f161"; }
+.network-icon-099-online-community:before { content: "\f162"; }
+.network-icon-100-cloud-network:before { content: "\f163"; }
+
+$font-network-icon-001-wireless-internet: "\f100";
+$font-network-icon-002-hard-disk: "\f101";
+$font-network-icon-003-desktop-computer: "\f102";
+$font-network-icon-004-shared-folder: "\f103";
+$font-network-icon-005-client-server: "\f104";
+$font-network-icon-006-satellite-dish: "\f105";
+$font-network-icon-007-computer-networks: "\f106";
+$font-network-icon-008-cyber-security: "\f107";
+$font-network-icon-009-home-network: "\f108";
+$font-network-icon-010-secure-data: "\f109";
+$font-network-icon-011-server: "\f10a";
+$font-network-icon-012-webcam: "\f10b";
+$font-network-icon-013-global-network: "\f10c";
+$font-network-icon-014-floppy-disk: "\f10d";
+$font-network-icon-015-power-plug: "\f10e";
+$font-network-icon-016-pencil-tool: "\f10f";
+$font-network-icon-017-cloud-network: "\f110";
+$font-network-icon-018-cyber-security: "\f111";
+$font-network-icon-019-web-analytics: "\f112";
+$font-network-icon-020-chatting: "\f113";
+$font-network-icon-021-cloud-hosting: "\f114";
+$font-network-icon-022-mobile-network: "\f115";
+$font-network-icon-023-cloud-storage: "\f116";
+$font-network-icon-024-music-disk: "\f117";
+$font-network-icon-025-microphone: "\f118";
+$font-network-icon-026-cloud-connection: "\f119";
+$font-network-icon-027-mobile-network: "\f11a";
+$font-network-icon-028-data-network: "\f11b";
+$font-network-icon-029-network-server: "\f11c";
+$font-network-icon-030-web-development: "\f11d";
+$font-network-icon-031-phone-call: "\f11e";
+$font-network-icon-032-equalizer-controller: "\f11f";
+$font-network-icon-033-delete-folder: "\f120";
+$font-network-icon-034-cloud-sharing: "\f121";
+$font-network-icon-035-wireless-internet: "\f122";
+$font-network-icon-036-wireless-connectivity: "\f123";
+$font-network-icon-037-binary-codes: "\f124";
+$font-network-icon-038-internet-security: "\f125";
+$font-network-icon-039-file-download: "\f126";
+$font-network-icon-040-secure-data: "\f127";
+$font-network-icon-041-cloud-storage: "\f128";
+$font-network-icon-042-up-and-down-arrows: "\f129";
+$font-network-icon-043-data-management: "\f12a";
+$font-network-icon-044-synchronization: "\f12b";
+$font-network-icon-045-thunder-bolt: "\f12c";
+$font-network-icon-046-exclamation-mark: "\f12d";
+$font-network-icon-047-cloud-download: "\f12e";
+$font-network-icon-048-ethernet: "\f12f";
+$font-network-icon-049-power-switch: "\f130";
+$font-network-icon-050-cloud-uploading: "\f131";
+$font-network-icon-051-newspaper: "\f132";
+$font-network-icon-052-space-satellite: "\f133";
+$font-network-icon-053-network-server: "\f134";
+$font-network-icon-054-satellite-dish: "\f135";
+$font-network-icon-055-bell: "\f136";
+$font-network-icon-056-chain: "\f137";
+$font-network-icon-057-computer-monitor: "\f138";
+$font-network-icon-058-received-message: "\f139";
+$font-network-icon-059-bidirectional: "\f13a";
+$font-network-icon-060-wireless-internet: "\f13b";
+$font-network-icon-061-data-network: "\f13c";
+$font-network-icon-062-outgoing-email: "\f13d";
+$font-network-icon-063-compass: "\f13e";
+$font-network-icon-064-network-server: "\f13f";
+$font-network-icon-065-web-mail: "\f140";
+$font-network-icon-066-talk: "\f141";
+$font-network-icon-067-chatting: "\f142";
+$font-network-icon-068-house: "\f143";
+$font-network-icon-069-users: "\f144";
+$font-network-icon-070-signal-tower: "\f145";
+$font-network-icon-071-thumbtack: "\f146";
+$font-network-icon-072-cloud-hosting: "\f147";
+$font-network-icon-073-speed-test: "\f148";
+$font-network-icon-074-client-server: "\f149";
+$font-network-icon-075-people-network: "\f14a";
+$font-network-icon-076-network-server: "\f14b";
+$font-network-icon-077-web-hosting: "\f14c";
+$font-network-icon-078-global-network: "\f14d";
+$font-network-icon-079-network-server: "\f14e";
+$font-network-icon-080-web-hosting: "\f14f";
+$font-network-icon-081-affiliate-marketing: "\f150";
+$font-network-icon-082-hotspot: "\f151";
+$font-network-icon-083-data-network: "\f152";
+$font-network-icon-084-wireless-network: "\f153";
+$font-network-icon-085-mobile-network: "\f154";
+$font-network-icon-086-web-administrator: "\f155";
+$font-network-icon-087-client-server: "\f156";
+$font-network-icon-088-network: "\f157";
+$font-network-icon-089-cloud-hosting: "\f158";
+$font-network-icon-090-world-wide-web: "\f159";
+$font-network-icon-091-network: "\f15a";
+$font-network-icon-092-cloud-network: "\f15b";
+$font-network-icon-093-web-hosting: "\f15c";
+$font-network-icon-094-network: "\f15d";
+$font-network-icon-095-social-network: "\f15e";
+$font-network-icon-096-cloud-network: "\f15f";
+$font-network-icon-097-social-network: "\f160";
+$font-network-icon-098-global-network: "\f161";
+$font-network-icon-099-online-community: "\f162";
+$font-network-icon-100-cloud-network: "\f163";

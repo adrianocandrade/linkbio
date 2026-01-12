@@ -1,0 +1,73 @@
+/* Spray Theme Styles */
+
+.bio-wrap {
+    background-color: #121212;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 4px 4px;
+    color: #FFF;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: #FFE600 !important;
+    color: #000 !important;
+    border: 2px solid #FFE600 !important;
+    box-shadow: 5px 5px 0px #FFF !important;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: #000 !important;
+    stroke: #000 !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translate(-2px, -2px);
+    background: #FFF !important;
+    box-shadow: 7px 7px 0px #FFE600 !important;
+    color: #000 !important;
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 3px solid #FFE600;
+    box-shadow: 3px 3px 0 #FFF;
+    background: #000 !important;
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: #FFF !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background-color: #000 !important;
+}

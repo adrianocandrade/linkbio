@@ -1,0 +1,69 @@
+/* Mint Theme Styles */
+
+.bio-wrap {
+    background-color: #A7FFEB;
+    color: #004D40;
+}
+
+/* Standardized Element Coverage */
+.context-body {
+    background: transparent;
+    position: relative;
+}
+
+/* Text Colors for Cards */
+.bio-courses-card-v1 .course-detials *, .product-card-v2 *, .sandy-compact-embed *, .booking-card-1 *:not(.button) {
+    color: {button_text_color} !important;
+}
+
+/* Main Buttons/Cards Background & Color */
+.context .context-links .links .link .link-container, 
+.yetti-links-v2, 
+.social-links .social-link,
+.element-list .list-container,
+.product-card-v2, 
+.bio-courses-card-v1, 
+.booking-card-1, 
+.sandy-compact-embed,
+.element-video .element-single-video {
+    background: {button_background} !important;
+    color: {button_text_color} !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0, 77, 64, 0.2) !important;
+}
+
+/* Icons/Text inside buttons */
+.context .context-links .links .link .content-container .content p, 
+.context .context-links .links .link .icon, 
+.yetti-links-v2 span, 
+.yetti-links-v2 svg,
+.social-links .social-link i {
+    color: {button_text_color} !important;
+    stroke: {button_text_color} !important;
+}
+
+/* Hover Effects */
+.context .context-links .links .link:hover,
+.social-links .social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 77, 64, 0.3) !important;
+}
+
+/* Profile */
+.avatar-thumb .avatar-container .thumb {
+    border: 4px solid #004D40;
+    box-shadow: 0 4px 10px rgba(0, 77, 64, 0.2);
+    background: {button_background} !important;
+}
+
+.bio-name-text, .bio-username-text, .bio-des {
+    color: {text_color} !important;
+}
+
+/* Dark Mode Override */
+body.is-dark .bio-wrap {
+    background-color: #00251a !important;
+}
+body.is-dark .bio-name-text, body.is-dark .bio-username-text, body.is-dark .bio-des {
+    color: #A7FFEB !important;
+}

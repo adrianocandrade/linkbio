@@ -1,0 +1,8 @@
+{
+    "Mix": true,
+    "Admin": true,
+    "Bio": true,
+    "Index": true,
+    "Docs": true,
+    "Install": true
+}
