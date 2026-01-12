@@ -164,14 +164,14 @@ class Visitor extends BaseVisitor
 
         // Loop Visitors
         foreach ($visitors as $item) {
-            $id = $item->user;
-            $id = user('username', $id);
+            $id = $item->slug;
             $id = (string) $id;
             if (!empty($id) && !array_key_exists($id, $returned)) {
                 $returned[$id] = [
                     'visits' => 0,
                     'unique' => 0,
-                    'user' => $item->user
+                    'user' => $item->user,
+                    'slug' => $item->slug,
                 ];
             }
 

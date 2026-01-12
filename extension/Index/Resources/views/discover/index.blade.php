@@ -24,7 +24,7 @@
         
         @foreach ($pages as $items)
         <div class="creator-card">
-            <a href="{{ bio_url(ao($items, 'user')) }}" target="_blank">
+            <a href="{{ bio_url(ao($items, 'slug')) }}" target="_blank">
                 <div class="creator-card-overlay"></div>
                 <div class="creator-card-thumb">
                     <span></span>
