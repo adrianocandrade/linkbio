@@ -165,13 +165,23 @@ class Visitor extends BaseVisitor
         // Loop Visitors
         foreach ($visitors as $item) {
             $id = $item->slug;
+
+             if (empty($id)) {
+                 if ($item->workspace_id) {
+                     $ws = \App\Models\Workspace::find($item->workspace_id);
+                     if ($ws) $id = $ws->slug;
+                 } else {
+                     $id = user('username', $item->user);
+                 }
+            }
+
             $id = (string) $id;
             if (!empty($id) && !array_key_exists($id, $returned)) {
                 $returned[$id] = [
                     'visits' => 0,
                     'unique' => 0,
                     'user' => $item->user,
-                    'slug' => $item->slug,
+                    'slug' => $id,
                 ];
             }
 
