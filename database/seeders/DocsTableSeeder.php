@@ -33,7 +33,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>O <strong>Meulinkbio</strong> é a ferramenta definitiva para conectar sua audiência a todo o seu conteúdo com apenas um link. Ideal para biografias de redes sociais como Instagram, TikTok e Twitter.</p><p>Com ele, você cria uma página personalizada ("landing page") onde pode agrupar:</p><ul><li>Links para seus outros perfis sociais</li><li>Produtos da sua loja</li><li>Agendamento de serviços</li><li>Vídeos, músicas e muito mais</li></ul>']
+                'subdes' => 'Entenda o que é a plataforma e como ela pode ajudar na sua bio.',
+                'content' => '<p>O <strong>Meulinkbio</strong> é a ferramenta definitiva para conectar sua audiência a todo o seu conteúdo com apenas um link. Ideal para biografias de redes sociais como Instagram, TikTok e Twitter.</p><p>Com ele, você cria uma página personalizada ("landing page") onde pode agrupar:</p><ul><li>Links para seus outros perfis sociais</li><li>Produtos da sua loja</li><li>Agendamento de serviços</li><li>Vídeos, músicas e muito mais</li></ul>'
             ]
         ]);
 
@@ -43,7 +44,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 2,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Criar sua página é simples e rápido:</p><ol><li>Faça login no seu painel.</li><li>Clique no botão <strong>"Criar Página"</strong>.</li><li>Escolha um nome (URL) único para sua página (ex: <code>meulinkbio.com/seunome</code>).</li><li>Você será redirecionado para o editor visual onde poderá adicionar blocos e personalizar o design.</li></ol>']
+                'subdes' => ' passo a passo para lançar sua página no ar.',
+                'content' => '<p>Criar sua página é simples e rápido:</p><ol><li>Faça login no seu painel.</li><li>Clique no botão <strong>"Criar Página"</strong>.</li><li>Escolha um nome (URL) único para sua página (ex: <code>meulinkbio.com/seunome</code>).</li><li>Você será redirecionado para o editor visual onde poderá adicionar blocos e personalizar o design.</li></ol>'
             ]
         ]);
 
@@ -65,7 +67,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Para alterar suas informações pessoais:</p><ol><li>Clique na sua foto de perfil no canto superior direito.</li><li>Vá em <strong>"Minha Conta"</strong>.</li><li>Aqui você pode alterar seu nome, e-mail e fazer o upload de uma nova foto de avatar.</li></ol>']
+                'subdes' => 'Como alterar nome, email e foto de perfil.',
+                'content' => '<p>Para alterar suas informações pessoais:</p><ol><li>Clique na sua foto de perfil no canto superior direito.</li><li>Vá em <strong>"Minha Conta"</strong>.</li><li>Aqui você pode alterar seu nome, e-mail e fazer o upload de uma nova foto de avatar.</li></ol>'
             ]
         ]);
 
@@ -75,7 +78,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 2,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Proteja sua conta ativando a Autenticação de Dois Fatores:</p><ul><li>Nas configurações da conta, navegue até a aba <strong>Segurança</strong>.</li><li>Ative a opção 2FA.</li><li>Escaneie o QR Code usando um aplicativo como Google Authenticator ou Authy.</li><li>Insira o código gerado para confirmar.</li></ul>']
+                'subdes' => 'Proteja sua conta com uma camada extra de segurança.',
+                'content' => '<p>Proteja sua conta ativando a Autenticação de Dois Fatores:</p><ul><li>Nas configurações da conta, navegue até a aba <strong>Segurança</strong>.</li><li>Ative a opção 2FA.</li><li>Escaneie o QR Code usando um aplicativo como Google Authenticator ou Authy.</li><li>Insira o código gerado para confirmar.</li></ul>'
             ]
         ]);
 
@@ -85,7 +89,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 3,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Lamentamos ver você partir. Se decidir excluir sua conta permanentemente:</p><div class="alert alert-danger"><strong>Atenção:</strong> Esta ação é irreversível. Todos os seus dados, páginas e links serão apagados.</div><ol><li>Acesse <strong>Minha Conta</strong>.</li><li>Role até o final da página.</li><li>Clique no botão vermelho <strong>"Excluir Conta"</strong>.</li><li>Será necessário confirmar sua senha para prosseguir com a exclusão.</li></ol>']
+                'subdes' => 'Procedimento para encerramento definitivo da conta.',
+                'content' => '<p>Lamentamos ver você partir. Se decidir excluir sua conta permanentemente:</p><div class="alert alert-danger"><strong>Atenção:</strong> Esta ação é irreversível. Todos os seus dados, páginas e links serão apagados.</div><ol><li>Acesse <strong>Minha Conta</strong>.</li><li>Role até o final da página.</li><li>Clique no botão vermelho <strong>"Excluir Conta"</strong>.</li><li>Será necessário confirmar sua senha para prosseguir com a exclusão.</li></ol>'
             ]
         ]);
 
@@ -107,7 +112,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Sua página é construída através de "Blocos". Cada bloco tem uma função específica:</p>
+                'subdes' => 'Conheça todos os tipos de blocos disponíveis para sua página.',
+                'content' => '<p>Sua página é construída através de "Blocos". Cada bloco tem uma função específica:</p>
                 <ul>
                     <li><strong>Link:</strong> Botões simples para redirecionar usuários.</li>
                     <li><strong>Texto:</strong> Títulos, parágrafos ou descrições.</li>
@@ -116,7 +122,7 @@ class DocsTableSeeder extends Seeder
                     <li><strong>Slider:</strong> Carrossel de imagens rotativas.</li>
                     <li><strong>Listas:</strong> Listas de itens com ícones.</li>
                     <li><strong>Embed:</strong> Conteúdo de terceiros (Spotify, SoundCloud, Tweets, Maps).</li>
-                </ul>']
+                </ul>'
             ]
         ]);
 
@@ -138,12 +144,13 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Transforme sua bio em um e-commerce:</p>
+                'subdes' => 'Primeiros passos para ativar o e-commerce na sua bio.',
+                'content' => '<p>Transforme sua bio em um e-commerce:</p>
                 <ol>
                     <li>No editor, adicione o bloco <strong>"Loja"</strong> (Shop).</li>
                     <li>Configure os métodos de pagamento (PayPal, Stripe, etc) nas configurações do bloco.</li>
                     <li>Defina a moeda e as opções de envio, se aplicável.</li>
-                </ol>']
+                </ol>'
             ]
         ]);
 
@@ -153,7 +160,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 2,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Para vender produtos físicos ou digitais:</p>
+                'subdes' => 'Cadastrando produtos físicos e digitais.',
+                'content' => '<p>Para vender produtos físicos ou digitais:</p>
                 <ol>
                     <li>Dentro do bloco da Loja, clique em <strong>"Adicionar Item"</strong>.</li>
                     <li>Preencha o <strong>Nome</strong> e <strong>Preço</strong> do produto.</li>
@@ -162,7 +170,7 @@ class DocsTableSeeder extends Seeder
                     <li>Se for um produto digital, você pode fazer upload do arquivo que o cliente receberá após a compra.</li>
                     <li>Salve as alterações.</li>
                 </ol>
-                <p>O produto aparecerá instantaneamente na sua página!</p>']
+                <p>O produto aparecerá instantaneamente na sua página!</p>'
             ]
         ]);
 
@@ -184,7 +192,8 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Ideal para salões de beleza, consultores, barbearias e profissionais liberais.</p>
+                'subdes' => 'Configure dias, horários e serviços para seus clientes.',
+                'content' => '<p>Ideal para salões de beleza, consultores, barbearias e profissionais liberais.</p>
                 <h3>Passo 1: Adicionar o Bloco</h3>
                 <p>No editor da página, selecione o bloco <strong>"Booking"</strong> ou <strong>"Agendamento"</strong>.</p>
                 
@@ -200,7 +209,7 @@ class DocsTableSeeder extends Seeder
                 </ul>
                 
                 <h3>Passo 4: Gestão</h3>
-                <p>Você receberá notificações por e-mail quando um cliente agendar um horário. Você pode visualizar e gerenciar sua agenda diretamente pelo painel.</p>']
+                <p>Você receberá notificações por e-mail quando um cliente agendar um horário. Você pode visualizar e gerenciar sua agenda diretamente pelo painel.</p>'
             ]
         ]);
 
@@ -222,13 +231,14 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Monetize seu conhecimento:</p>
+                'subdes' => 'Crie, hospede aulas e venda seu conhecimento.',
+                'content' => '<p>Monetize seu conhecimento:</p>
                 <ol>
                     <li>Adicione o bloco <strong>"Curso"</strong>.</li>
                     <li>Crie o curso definindo NOME e PREÇO.</li>
                     <li>Adicione módulos e aulas. Você pode inserir vídeos (Youtube/Vimeo) ou textos como conteúdo da aula.</li>
                     <li>Os alunos compram o acesso e podem assistir ao conteúdo diretamente na sua página, em uma área restrita.</li>
-                </ol>']
+                </ol>'
             ]
         ]);
         
@@ -250,13 +260,14 @@ class DocsTableSeeder extends Seeder
             'status' => 1,
             'position' => 1,
             'content' => [
-                ['type' => 'text', 'data' => '<p>Vá até a aba "Design" para transformar o visual da sua página.</p>
+                'subdes' => 'Deixe sua página com a sua cara.',
+                'content' => '<p>Vá até a aba "Design" para transformar o visual da sua página.</p>
                 <ul>
                     <li><strong>Temas Prontos:</strong> Escolha entre diversas opções profissionais pré-configuradas.</li>
                     <li><strong>Fundo Personalizado:</strong> Use cores sólidas, gradientes, imagens ou até vídeos de fundo.</li>
                     <li><strong>Fontes:</strong> Escolha a tipografia que melhor representa sua marca.</li>
                     <li><strong>Botões:</strong> Personalize o formato (arredondado, quadrado) e as cores dos seus botões de link.</li>
-                </ul>']
+                </ul>'
             ]
         ]);
 
