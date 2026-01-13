@@ -154,6 +154,13 @@ class BlogController extends Controller{
         $slug = md5(microtime());
 
         // Validate image
+        \Illuminate\Support\Facades\Log::info("Uploading Blog Image: ", [
+            'original_name' => $request->{$input}->getClientOriginalName(),
+            'mime_type' => $request->{$input}->getMimeType(),
+            'client_mime' => $request->{$input}->getClientMimeType(),
+            'extension' => $request->{$input}->getClientOriginalExtension(),
+        ]);
+
         $request->validate([
             $input => 'required|mimes:jpeg,jpg,png,gif,svg,webp|max:2048',
         ]);
