@@ -16,25 +16,36 @@ Route::prefix('admin')->middleware(['auth', 'is_admin'])->name('admin-')->group(
 
     // Temporary fix for users without default workspace
     Route::get('fix-workspaces', function(){
+        // 1. Fix existing workspaces with missing slugs
+        $brokenWorkspaces = \App\Models\Workspace::whereNull('slug')->orWhere('slug', '')->get();
+        $fixedCount = 0;
+        foreach($brokenWorkspaces as $ws){
+             $user = \App\User::find($ws->user_id);
+             if($user){
+                 $ws->slug = $user->username; 
+                 $ws->save();
+                 $fixedCount++;
+             }
+        }
+
+        // 2. Create missing workspaces
         $users = \App\User::all();
-        $count = 0;
+        $createdCount = 0;
         foreach($users as $user){
-            // Check if user has any workspace
             $hasWorkspace = \App\Models\Workspace::where('user_id', $user->id)->exists();
             
             if(!$hasWorkspace){
-                // Create Default Workspace
                 \App\Models\Workspace::create([
                     'user_id' => $user->id,
                     'name' => 'My Workspace',
-                    'slug' => $user->username, // Use username as initial slug
+                    'slug' => $user->username, 
                     'is_default' => 1,
                     'status' => 1
                 ]);
-                $count++;
+                $createdCount++;
             }
         }
-        return "Fixed {$count} users without workspaces. Please logout and login again.";
+        return "Fixed slugs for {$fixedCount} workspaces. Created {$createdCount} new workspaces. Please logout and login again.";
     })->name('fix-workspaces');
 
     // Users
