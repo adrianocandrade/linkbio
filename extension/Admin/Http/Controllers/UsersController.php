@@ -120,6 +120,7 @@ class UsersController extends Controller{
         $workspace = \App\Models\Workspace::create([
             'user_id' => $create->id,
             'name' => 'My Workspace',
+            'slug' => $create->username,
             'is_default' => 1,
             'status' => 1
         ]);

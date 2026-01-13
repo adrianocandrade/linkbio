@@ -27,13 +27,14 @@ Route::prefix('admin')->middleware(['auth', 'is_admin'])->name('admin-')->group(
                 \App\Models\Workspace::create([
                     'user_id' => $user->id,
                     'name' => 'My Workspace',
+                    'slug' => $user->username, // Use username as initial slug
                     'is_default' => 1,
                     'status' => 1
                 ]);
                 $count++;
             }
         }
-        return "Fixed {$count} users without workspaces.";
+        return "Fixed {$count} users without workspaces. Please logout and login again.";
     })->name('fix-workspaces');
 
     // Users
