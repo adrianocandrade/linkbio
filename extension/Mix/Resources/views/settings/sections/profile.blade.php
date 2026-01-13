@@ -42,20 +42,20 @@
 			<div class="side-info">
 				@
 			</div>
-			<input type="text" name="username" placeholder="{{ __('Input a username') }}" class="is-alt-input bg-white" value="{{ $user->username }}">
+			<input type="text" name="username" placeholder="{{ __('Input a username') }}" class="is-alt-input bg-white" value="{{ Auth::user()->username }}">
 			</div>
 		</div>
 		<div class="form-input mb-7">
 			<label>{{ __('Name') }}</label>
-			<input type="text" name="name" class="bg-w-" value="{{ $user->name }}">
+			<input type="text" name="name" class="bg-w-" value="{{ Auth::user()->name }}">
 		</div>
 		<div class="form-input mb-7">
 			<label>{{ __('Email') }}</label>
-			<input type="email" name="email" class="bg-w-" value="{{ $user->email }}">
+			<input type="email" name="email" class="bg-w-" value="{{ Auth::user()->email }}">
 		</div>
 		<div class="form-input">
 			<label>{{ __('Bio') }}</label>
-			<textarea rows="4" name="bio" class="bg-w-">{{ $user->bio }}</textarea>
+			<textarea rows="4" name="bio" class="bg-w-">{{ Auth::user()->bio }}</textarea>
 		</div>
 
 		<button class="sandy-expandable-btn px-10 mt-5"><span>{{ __('Save') }}</span></button>
