@@ -32,3 +32,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Discover Route Attribution:** Fixed issue where visits to workspace pages were being merged with the main user account. System now explicitly attributes visits to the correct workspace ID.
 - **Discover Route Display:** Updated logic to display the specific Name, Avatar, and Slug of the workspace/page instead of defaulting to the main user's profile.
 - **Visitor Tracking:** Updated `MySession` model to ensure `slug` is always saved during visitor creation, with fallbacks for legacy data.
+
+## [1.0.4] - 2026-01-13
+
+### Added
+
+- **Booking Days Translation:** Wrapped day names ('Mon', 'Tue', etc.) in `__()` translation helper in `sandy/Blocks/booking/Helper/Time.php`.
+- **Portuguese Translations:** Added Portuguese translations for booking days (Seg, Ter, Qua, Qui, Sex, Sáb, Dom) and contact form texts (Send Message, Message, etc.) to `resources/lang/portugues.json`.
+
+### Fixed
+
+- **Profile Sync to Workspace:** Modified `SettingsController@post` to sync profile updates (name, username) to the default workspace, ensuring data consistency between `users` and `workspaces` tables.
+- **WhatsApp/Contact Form Layout:**
+  - Added `z-index: 50` to `.auth-go-back` and `.bio-dark` buttons to prevent `bio-background` from blocking clicks.
+  - Added `padding: 20px` to `.half-short` dialogs to prevent content from sticking to edges.
+- **SEO Workspace Integration:** Modified `user_seo_tags()` helper function in `app/Helpers/Glob.php` to fetch SEO data (title, description, OpenGraph image) from workspace instead of user, ensuring workspace-specific SEO settings are displayed on public pages.

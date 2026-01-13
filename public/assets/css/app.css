@@ -12668,6 +12668,7 @@ body.is-dark #app-sandy-mix.is-bio .bio-menu .bio-menu-container {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   cursor: pointer;
   font-size: 20px;
+  z-index: 50;
 }
 
 #app-sandy-mix.is-bio .bio-dark i {
@@ -13616,6 +13617,7 @@ body.is-dark .sandy-dialog-modal .sandy-dialog {
   position: fixed;
   max-height: calc(100vh - 111px);
   height: initial;
+  padding: 20px;
 }
 
 .sandy-dialog-modal .half-short.t-300px {
@@ -24280,6 +24282,8 @@ body.is-dark .product-card-v2 .star-rating {
   max-width: 568px;
   width: 100%;
   padding: 0px 15px;
+  position: relative;
+  z-index: 50;
 }
 
 .auth-go-back .auth-go-back-a {

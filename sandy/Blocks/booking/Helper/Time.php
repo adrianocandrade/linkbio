@@ -293,7 +293,7 @@ class Time{
 
     public function get_days_array(){
 
-        return [1 => 'Mon', 2 => 'Tue', 3 => 'Wed', 4 => "Thu", 5 => 'Fri', 6 =>'Sat', 7 => 'Sun'];
+        return [1 => __('Mon'), 2 => __('Tue'), 3 => __('Wed'), 4 => __("Thu"), 5 => __('Fri'), 6 => __('Sat'), 7 => __('Sun')];
     }
 
     public function get(){

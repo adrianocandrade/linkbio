@@ -847,18 +847,37 @@ if (!function_exists('user_seo_tags')) {
         $favicon_icon = avatar($user->id);
         $block_seo = false;
 
-        // Check if it's in plan
-        if (plan('settings.seo', $user->id) && ao($user->seo, 'enable')) {
-            $page_name = !empty(ao($user->seo, 'page_name')) ? ao($user->seo, 'page_name') : $page_name;
-            $page_description = !empty(ao($user->seo, 'page_description')) ? ao($user->seo, 'page_description') : $page_description;
+        // Try to get workspace from View shared data (set by middleware/trait in public pages)
+        $workspace = null;
+        try {
+            $workspace = \Illuminate\Support\Facades\View::shared('workspace');
+        } catch (\Exception $e) {
+            // Workspace might not be available, continue with user data
+        }
 
-            if (!empty($image = ao($user->seo, 'opengraph_image'))) {
-                if(mediaExists('media/bio/seo', $image)){
-                    $favicon_icon = gs('media/bio/seo', $image);
+        // If no workspace from View, try to get default workspace
+        if (!$workspace) {
+            $workspace = \App\Models\Workspace::where('user_id', $user->id)
+                ->where('is_default', 1)
+                ->first();
+        }
+
+        // Check if it's in plan and fetch SEO from workspace (not user)
+        if (plan('settings.seo', $user->id)) {
+            $seoData = $workspace ? $workspace->seo : $user->seo;
+            
+            if (ao($seoData, 'enable')) {
+                $page_name = !empty(ao($seoData, 'page_name')) ? ao($seoData, 'page_name') : $page_name;
+                $page_description = !empty(ao($seoData, 'page_description')) ? ao($seoData, 'page_description') : $page_description;
+
+                if (!empty($image = ao($seoData, 'opengraph_image'))) {
+                    if(mediaExists('media/bio/seo', $image)){
+                        $favicon_icon = gs('media/bio/seo', $image);
+                    }
                 }
-            }
 
-            $block_seo = ao($user->seo, 'block_engine');
+                $block_seo = ao($seoData, 'block_engine');
+            }
         }
 
         $defaults = [
