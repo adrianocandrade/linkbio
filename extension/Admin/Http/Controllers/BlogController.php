@@ -162,7 +162,17 @@ class BlogController extends Controller{
         ]);
 
         $request->validate([
-            $input => 'required|mimetypes:image/jpeg,image/png,image/gif,image/webp,image/svg+xml|max:2048',
+            $input => [
+                'required',
+                'file',
+                'max:2048',
+                function ($attribute, $value, $fail) {
+                    $allowedMimes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/svg+xml', 'image/avif'];
+                    if (!in_array($value->getMimeType(), $allowedMimes)) {
+                        $fail('The '.$attribute.' must be a valid image (jpeg, png, gif, webp, svg, avif). Detected: ' . $value->getMimeType());
+                    }
+                },
+            ],
         ]);
 
         // If is new or remove image if exists
