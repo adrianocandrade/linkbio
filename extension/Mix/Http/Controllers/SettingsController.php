@@ -275,7 +275,9 @@ class SettingsController extends Controller{
 
         }
 
-        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path, 'account' => \App\User::find(auth()->id())->fresh()]);
+        // Fetch user directly from DB to bypass any overlay/caching
+        $account = \DB::table('users')->where('id', auth()->id())->first();
+        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path, 'account' => $account]);
     }
 
     public function seo(){
@@ -540,6 +542,19 @@ class SettingsController extends Controller{
             $edit->bio = $request->bio;
 
             $edit->save();
+            
+            // IMPORTANT: Also update the default workspace to keep data in sync
+            // This ensures the workspace overlay shows the correct data
+            $defaultWorkspace = \App\Models\Workspace::where('user_id', $edit->id)
+                ->where('is_default', 1)
+                ->first();
+            
+            if ($defaultWorkspace) {
+                $defaultWorkspace->name = $request->name;
+                $defaultWorkspace->slug = $username;
+                // Note: workspaces don't have a 'bio' column, so we only sync name and slug
+                $defaultWorkspace->save();
+            }
 
             return back()->with('success', __('Saved Successfully'));
         }
