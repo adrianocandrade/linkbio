@@ -47,6 +47,6 @@
             <h4><?= $services ?> <?= __('Services') ?></h4>
             <span class="font-bold <?= $available ? 'text-green-600' : 'text-red-600' ?>"><?= $available ? __('Available today') : __('Not available') ?></span>
         </div>
-        <button type="button" class="button rounded-lg h-10"><?= __('Book Now') ?></button>
+        <button type="button" class="button rounded-lg h-10 pl-2 pr-2"><?= __('Book Now') ?></button>
     </div>
 </div>
