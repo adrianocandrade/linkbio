@@ -27,30 +27,26 @@ class BlockController extends Controller{
 
 
     public function edit_block_get($id){
-        $workspaceId = session('active_workspace_id');
-        
-        // ✅ Segurança: Validar workspace da sessão
-        if ($workspaceId) {
-            $workspace = \App\Models\Workspace::where('id', $workspaceId)
+        // Find block by ID and User
+        $block = YettiBlock::where('user', $this->user->id)
+            ->where('id', $id)
+            ->first();
+
+        if (!$block) {
+            abort(404);
+        }
+
+        // Validate workspace context if block belongs to one
+        if ($block->workspace_id) {
+             $workspace = \App\Models\Workspace::where('id', $block->workspace_id)
                 ->where('user_id', $this->user->id)
                 ->where('status', 1)
                 ->first();
-            
-            if (!$workspace) {
-                abort(404);
-            }
-        } else {
-            abort(404);
+                
+             if (!$workspace) {
+                 abort(404);
+             }
         }
-        
-        if (!$block = YettiBlock::where('user', $this->user->id)
-            ->where('id', $id)
-            ->where('workspace_id', $workspaceId)
-            ->first()) {
-            abort(404);
-        }
-
-
 
         return view('mix::blocks.edit-block', ['block' => $block]);
     }
