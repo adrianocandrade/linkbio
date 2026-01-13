@@ -116,6 +116,14 @@ class UsersController extends Controller{
 
         $create = User::create($array);
 
+        // Create Default Workspace
+        $workspace = \App\Models\Workspace::create([
+            'user_id' => $create->id,
+            'name' => 'My Workspace',
+            'is_default' => 1,
+            'status' => 1
+        ]);
+
         // Send welcome mail
         event(new NewUser($create));
 

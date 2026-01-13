@@ -13,6 +13,29 @@
 
 Route::prefix('admin')->middleware(['auth', 'is_admin'])->name('admin-')->group(function(){
     Route::get('/', 'AdminController@index')->name('dashboard');
+
+    // Temporary fix for users without default workspace
+    Route::get('fix-workspaces', function(){
+        $users = \App\User::all();
+        $count = 0;
+        foreach($users as $user){
+            // Check if user has any workspace
+            $hasWorkspace = \App\Models\Workspace::where('user_id', $user->id)->exists();
+            
+            if(!$hasWorkspace){
+                // Create Default Workspace
+                \App\Models\Workspace::create([
+                    'user_id' => $user->id,
+                    'name' => 'My Workspace',
+                    'is_default' => 1,
+                    'status' => 1
+                ]);
+                $count++;
+            }
+        }
+        return "Fixed {$count} users without workspaces.";
+    })->name('fix-workspaces');
+
     // Users
     Route::prefix('users')->group(function(){
         // All Users
