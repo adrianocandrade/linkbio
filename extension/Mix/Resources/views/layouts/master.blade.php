@@ -239,6 +239,17 @@
     </div>
     <!-- Tosts -->
     
+    @if (session()->has('admin_impersonator'))
+    <a href="{{ route('return-to-admin') }}" app-sandy-prevent="" class="text-sticker secondary-box cursor-pointer fixed bottom-10 md:bottom-0 right-0 box border rounded-xl w-auto px-6 h-12 flex items-center justify-center z-50 mb-10 mr-10 bg-red-600 border-red-700 shadow-lg">
+        <div class="text-white flex items-center gap-2 font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+          </svg>
+          {{ __('Back to Admin') }}
+        </div>
+      </a>
+    @endif
+
     @if (is_admin(user('id')))
     <a href="{{ route('admin-dashboard') }}" app-sandy-prevent="" class="text-sticker secondary-box cursor-pointer fixed bottom-10 md:bottom-0 right-0 box border rounded-xl w-26 h-12 flex items-center justify-center z-40 mb-10 mr-10 bg-gray-100">
         <div class="mr-4 text-slate-600 dark:text-slate-200 flex items-center gap-2">

@@ -238,3 +238,7 @@ Route::prefix('admin')->middleware(['auth', 'is_admin'])->name('admin-')->group(
         Route::post('post', 'SettingsController@post')->name('settings-post');
     });
 });
+
+Route::get('admin/return-to-admin', 'Users\LoginAsController@returnToAdmin')
+    ->middleware('auth')
+    ->name('return-to-admin');

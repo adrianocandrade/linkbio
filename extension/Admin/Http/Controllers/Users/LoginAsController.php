@@ -17,9 +17,26 @@ class LoginAsController extends Controller{
             abort(404);
         }
 
+        // Store admin session
+        session(['admin_impersonator' => \Auth::id()]);
+
         \Auth::login($user);
 
 
         return redirect()->route('user-mix')->with('success', __('Logged in successfully'));
+    }
+    public function returnToAdmin(){
+        if(session()->has('admin_impersonator')){
+            $adminId = session('admin_impersonator');
+            $admin = User::find($adminId);
+
+            if($admin){
+                \Auth::login($admin);
+                session()->forget('admin_impersonator');
+                return redirect()->route('admin-dashboard')->with('success', __('Welcome back Admin'));
+            }
+        }
+        
+        return redirect('/')->with('error', __('Action unauthorized'));
     }
 }
