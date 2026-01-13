@@ -275,7 +275,7 @@ class SettingsController extends Controller{
 
         }
 
-        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path, 'account' => \App\User::find(auth()->id())]);
+        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path, 'account' => \App\User::find(auth()->id())->fresh()]);
     }
 
     public function seo(){
@@ -445,7 +445,7 @@ class SettingsController extends Controller{
     }
 
     public function post($type, Request $request){
-        $edit = User::find($this->user->id);
+        $edit = User::find($this->user->id)->fresh();
         
         // Get active workspace for workspace-specific settings
         $workspaceId = session('active_workspace_id');
