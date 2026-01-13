@@ -37,7 +37,7 @@ Route::prefix('admin')->middleware(['auth', 'is_admin'])->name('admin-')->group(
             if(!$hasWorkspace){
                 \App\Models\Workspace::create([
                     'user_id' => $user->id,
-                    'name' => 'My Workspace',
+                    'name' => $user->username,
                     'slug' => $user->username, 
                     'is_default' => 1,
                     'status' => 1

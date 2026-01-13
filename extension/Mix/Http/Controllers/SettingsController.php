@@ -275,7 +275,7 @@ class SettingsController extends Controller{
 
         }
 
-        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path]);
+        return view('mix::settings.sections.profile', ['qrcode' => $qr, 'qrpath' => $path, 'account' => \App\User::find(auth()->id())]);
     }
 
     public function seo(){
