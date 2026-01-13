@@ -32,7 +32,7 @@
     @foreach ($pages as $page)
         <url>
             <loc>{{ route('index-page-single', ['uri' => $page->location]) }}</loc>
-            <lastmod>{{ $page->updated_at->tz('UTC')->toAtomString() }}</lastmod>
+            <lastmod>{{ $page->updated_at ? $page->updated_at->tz('UTC')->toAtomString() : ($page->created_at ? $page->created_at->tz('UTC')->toAtomString() : date('c')) }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.7</priority>
         </url>
@@ -42,7 +42,7 @@
     @foreach ($blogs as $blog)
         <url>
             <loc>{{ route('index-blog-single', ['uri' => $blog->location]) }}</loc>
-            <lastmod>{{ $blog->updated_at->tz('UTC')->toAtomString() }}</lastmod>
+            <lastmod>{{ $blog->updated_at ? $blog->updated_at->tz('UTC')->toAtomString() : ($blog->created_at ? $blog->created_at->tz('UTC')->toAtomString() : date('c')) }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
@@ -52,9 +52,10 @@
     @foreach ($users as $user)
         <url>
             <loc>{{ url($user->username) }}</loc>
-            <lastmod>{{ $user->updated_at->tz('UTC')->toAtomString() }}</lastmod>
+            <lastmod>{{ $user->updated_at ? $user->updated_at->tz('UTC')->toAtomString() : ($user->created_at ? $user->created_at->tz('UTC')->toAtomString() : date('c')) }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.6</priority>
         </url>
     @endforeach
+
 </urlset>
