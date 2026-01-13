@@ -13,6 +13,7 @@
 
 
 Route::get('/', 'IndexController@index')->name('index-home');
+Route::get('sitemap.xml', 'SitemapController@index')->name('sitemap');
 
 Route::prefix('index')->name('index-')->group(function() {
     Route::post('switch-lang', 'IndexController@switchLocale')->name('switch-lang');
