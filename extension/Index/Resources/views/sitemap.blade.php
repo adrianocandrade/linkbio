@@ -58,4 +58,29 @@
         </url>
     @endforeach
 
+    <!-- Pages Docs (Static Index) -->
+    <url>
+        <loc>{{ route('docs-index') }}</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Docs Categories -->
+    @foreach ($docCategories as $category)
+        <url>
+            <loc>{{ route('docs-guides', ['id' => $category->id]) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    @endforeach
+
+    <!-- Docs Guides -->
+    @foreach ($docGuides as $guide)
+        <url>
+            <loc>{{ route('docs-guide', ['slug' => $guide->slug]) }}</loc>
+            <lastmod>{{ $guide->updated_at ? $guide->updated_at->tz('UTC')->toAtomString() : ($guide->created_at ? $guide->created_at->tz('UTC')->toAtomString() : date('c')) }}</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    @endforeach
 </urlset>
