@@ -56,7 +56,7 @@ class PwaController extends Controller{
 
         if (!empty($app_icon = $request->app_icon)) {
             $request->validate([
-                'app_icon' => 'image|mimes:png,webp,svg|max:2048',
+                'app_icon' => 'image|mimes:jpeg,jpg,png,webp,svg|max:2048',
             ]);
 
             if (!empty($previous_image = ao($edit->pwa, 'app_icon'))) {
