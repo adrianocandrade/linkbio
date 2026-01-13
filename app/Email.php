@@ -40,7 +40,7 @@ class Email{
                 
                 $message->to(ao($mail, 'to'));
                 $message->subject(ao($mail, 'subject'));
-                $message->setBody(ao($mail, 'body'), 'text/html');
+                $message->html(ao($mail, 'body'));
             });
 
             return $send;

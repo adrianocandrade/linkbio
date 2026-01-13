@@ -3,7 +3,7 @@
     <!-- Static Pages -->
     <url>
         <loc>{{ url('/') }}</loc>
-        <lastmod>{{ date('Y-m-d') }}</lastmod>
+        <lastmod>{{ now()->format('Y-m-d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
