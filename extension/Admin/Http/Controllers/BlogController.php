@@ -162,7 +162,7 @@ class BlogController extends Controller{
         ]);
 
         $request->validate([
-            $input => 'required|mimes:jpeg,jpg,png,gif,svg,webp|max:2048',
+            $input => 'required|mimetypes:image/jpeg,image/png,image/gif,image/webp,image/svg+xml|max:2048',
         ]);
 
         // If is new or remove image if exists
