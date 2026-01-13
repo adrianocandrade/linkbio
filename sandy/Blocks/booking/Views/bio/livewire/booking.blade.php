@@ -53,7 +53,13 @@
                     <div class="flex flex-col">
 
                         <div class="book-service-name truncate">{{ $item->name }}</div>
-                        <div class="text-xs font-bold">{!! $sandy->price($item->price) !!} + <span>{{ $item->duration }}</span>
+                        <div class="text-xs font-bold">
+                            @if(user('booking.hide_prices', $user_id))
+                                {{ __('Budget on-site') }}
+                            @else
+                                {!! $sandy->price($item->price) !!}
+                            @endif
+                             + <span>{{ $item->duration }}</span>
                             {{ __('min') }}</div>
                     </div>
                 </div>

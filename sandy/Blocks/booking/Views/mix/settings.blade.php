@@ -133,6 +133,17 @@
                     </select>
                 </div>
 
+                <div class="form-input mb-7">
+                    <label class="sandy-big-checkbox">
+                        <input type="checkbox" name="settings[hide_prices]" value="1" 
+                               {{ ao($user->booking, 'hide_prices') ? 'checked' : '' }}>
+                        <div class="sandy-checkbox-inner">
+                            <span>{{ __('Hide service prices') }}</span>
+                        </div>
+                    </label>
+                    <small class="text-gray-500 block mt-2">{{ __('When enabled, prices will be hidden and "Budget on-site" will be displayed instead') }}</small>
+                </div>
+
                 <p class="font-9 italic mt-3">{{ __('Save before moving to the next section or progress wont be recorded.') }}</p>
             </div>
         </div>
