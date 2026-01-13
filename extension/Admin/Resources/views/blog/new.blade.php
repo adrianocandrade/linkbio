@@ -32,6 +32,18 @@
 
   app.utils.tinymce();
   app.utils.changeInput();
+
+  jQuery('input[name="name"]').on('input', function() {
+    var title = jQuery(this).val();
+    var slug = title.toString().toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+    jQuery('input[name="location"]').val(slug);
+  });
 </script>
 @stop
 @section('content')
