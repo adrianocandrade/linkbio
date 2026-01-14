@@ -506,6 +506,30 @@ class Time{
     public function check_time($time_val, $date){
         $status = false;
 
+        // ✅ NOVO: Validar se o horário está no passado
+        $now = \Carbon\Carbon::now();
+        $bookingDate = \Carbon\Carbon::parse($date);
+        
+        // Se a data de agendamento é hoje
+        if ($bookingDate->isToday()) {
+            // Extrair o horário inicial do slot (formato: "540-600" em minutos)
+            $timeSlot = explode('-', $time_val);
+            $startTimeMinutes = (int) $timeSlot[0];
+            
+            // Converter minutos atuais desde meia-noite
+            $currentMinutes = ($now->hour * 60) + $now->minute;
+            
+            // Se o horário inicial do slot já passou, marcar como indisponível
+            if ($startTimeMinutes <= $currentMinutes) {
+                return true; // Horário no passado = indisponível
+            }
+        }
+        
+        // Se a data de agendamento é no passado, marcar como indisponível
+        if ($bookingDate->isPast() && !$bookingDate->isToday()) {
+            return true; // Data passada = indisponível
+        }
+
         // ✅ Filtrar bookings por workspace (isolamento)
         $appointments = Booking::where('user', $this->salon->id)
             ->where('date', $date)

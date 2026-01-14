@@ -47,3 +47,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added `z-index: 50` to `.auth-go-back` and `.bio-dark` buttons to prevent `bio-background` from blocking clicks.
   - Added `padding: 20px` to `.half-short` dialogs to prevent content from sticking to edges.
 - **SEO Workspace Integration:** Modified `user_seo_tags()` helper function in `app/Helpers/Glob.php` to fetch SEO data (title, description, OpenGraph image) from workspace instead of user, ensuring workspace-specific SEO settings are displayed on public pages.
+
+## [1.0.5] - 2026-01-14
+
+### Added
+
+- **Social Links Section in Mix Dashboard:** Added a new social links management section above the highlights in the Mix dashboard (`extension/Mix/Resources/views/index.blade.php`). Features include:
+  - Grid layout displaying all available social networks (Email, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn, Telegram, Snapchat, Discord, Twitch, Pinterest, TikTok, GitHub)
+  - Visual indicators: green checkmark for configured networks, gray plus icon for unconfigured ones
+  - "Manage" button for quick access to social settings page
+  - Responsive design: 2 columns on mobile, 4 on tablet, 6 on desktop
+  - Hover effects and consistent styling with the dashboard theme
+
+### Fixed
+
+- **Booking Past Time Blocking:** Fixed issue where users could book appointments for times that have already passed. Updated `sandy/Blocks/booking/Helper/Time.php` to:
+  - Validate if selected time is in the past before checking for booking conflicts
+  - Block time slots that have passed on the current day
+  - Block all time slots for past dates
+  - Added visual feedback in `sandy/Blocks/booking/Views/bio/livewire/booking.blade.php` with tooltips for unavailable time slots

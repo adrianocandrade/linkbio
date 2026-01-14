@@ -5,6 +5,34 @@
     #content {
         padding-bottom: 0 !important;
     }
+    
+    /* Social Links Card Styles */
+    .social-link-card {
+        background: rgba(255, 255, 255, 0.5);
+        border: 2px solid #e5e7eb;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        min-height: 100px;
+    }
+
+    .social-link-card.configured {
+        background: rgba(255, 255, 255, 0.9);
+        border-color: #10b981;
+    }
+
+    .social-link-card.not-configured {
+        opacity: 0.6;
+    }
+
+    .social-link-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+    }
+    
+    .social-links-grid {
+        margin-bottom: 1rem;
+    }
 </style>
 
 <div class="main-content">
@@ -51,6 +79,41 @@
                     <div class="news-media-title px-2 pb-2 text-neutral-800">SEO settings</div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="can-divide with-divider">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="font-bold text-xl">{{ __('Social Links') }}</h2>
+            <a href="{{ route('user-mix-settings-social') }}" class="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1">
+                {{ __('Manage') }} <i class="la la-arrow-right"></i>
+            </a>
+        </div>
+        
+        <div class="social-links-grid grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            @foreach (socials() as $key => $items)
+                @php
+                    $socialValue = user('social.'.$key);
+                    $isConfigured = !empty($socialValue);
+                @endphp
+                
+                <a href="{{ route('user-mix-settings-social') }}" 
+                   class="social-link-card {{ $isConfigured ? 'configured' : 'not-configured' }} rounded-xl p-4 flex flex-col items-center justify-center transition-all hover:scale-105 relative">
+                    <div class="icon-wrapper mb-2" style="color: {{ ao($items, 'color') == 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)' ? '#c13584' : ao($items, 'color') }}">
+                        <i class="{{ ao($items, 'icon') }} text-3xl"></i>
+                    </div>
+                    <div class="social-name text-xs font-medium text-center">{{ ao($items, 'name') }}</div>
+                    @if($isConfigured)
+                        <div class="status-badge absolute top-2 right-2">
+                            <i class="la la-check-circle text-green-500 text-lg"></i>
+                        </div>
+                    @else
+                        <div class="status-badge absolute top-2 right-2 opacity-50">
+                            <i class="la la-plus-circle text-gray-400 text-lg"></i>
+                        </div>
+                    @endif
+                </a>
+            @endforeach
         </div>
     </div>
     

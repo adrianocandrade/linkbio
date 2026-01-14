@@ -186,13 +186,18 @@
 
                     <div x-ref="container" class="time-slots-flex flex overflow-x-auto gap-2 no-scrollbar" style="scrollbar-width: none;">
                         @foreach($this->times as $key => $value)
+                            @php
+                                $isDisabled = ao($value, 'check');
+                                $tooltipText = $isDisabled ? __('This time slot is not available') : '';
+                            @endphp
                             <div class="time_group my-0 pt-0" style="flex: 0 0 auto;">
                                 <div class="btn-group w-full">
-                                    <label class="sandy-big-checkbox relative is-sandy-datepicker">
+                                    <label class="sandy-big-checkbox relative is-sandy-datepicker" 
+                                           @if($isDisabled) title="{{ $tooltipText }}" @endif>
                                         <input type="radio" name="booking_time" class="sandy-input-inner" wire:model.defer="time"
                                             value="{{ ao($value, 'time_value') }}"
-                                            {{ ao($value, 'check') ? 'disabled' : '' }}>
-                                        <div class="sandy-expandable-btn m-0 time-btn rounded-full w-full {{ ao($value, 'check') ? 'disabled' : '' }}">
+                                            {{ $isDisabled ? 'disabled' : '' }}>
+                                        <div class="sandy-expandable-btn m-0 time-btn rounded-full w-full {{ $isDisabled ? 'disabled' : '' }}">
                                             <span>{{ ao($value, 'start_time') }}</span>
                                         </div>
                                     </label>
