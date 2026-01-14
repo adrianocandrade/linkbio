@@ -12,12 +12,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1rem;
+        padding: 0.75rem;
         border: 2px solid #e5e7eb;
         border-radius: 1rem;
         text-decoration: none;
         transition: all 0.3s ease;
-        min-height: 100px;
+        min-height: 80px;
         background: rgba(255, 255, 255, 0.9);
     }
 
@@ -111,14 +111,10 @@
                         @endphp
                         
                         {{-- Add Social Button --}}
-                        <div class="swiper-slide spaceBox">
-                            <a href="{{ route('user-mix-settings-social') }}" class="btn add-my-story">
-                                <div class="add-story-icon">
-                                    <i class="la la-share-alt"></i>
-                                </div>
-                                <div class="add-story-text">{{ __('Manage Social') }}</div>
-                            </a>
+                        <div class="add-new-link pl-3 sm">
+                            <a href="{{ route('user-mix-settings-social') }}" class="el-btn m-0" ><i class="sni sni-plus"></i></a>
                         </div>
+
                         
                         {{-- Display Configured Social Networks --}}
                         @foreach (socials() as $key => $items)
@@ -134,12 +130,11 @@
                             @endphp
                             
                             @if (!empty($socialValue))
-                            <div class="swiper-slide spaceBox">
-                                <a href="{{ route('user-mix-settings-social') }}" class="btn social-network-item" style="border-color: {{ ao($items, 'color') }}">
+                            <div class="add-new-link sm">
+                                <a href="{{ linker(sprintf(ao($items, 'address'), $socialValue), user('id')) }}" target="_blank" class="boxSocials px-0" alt="{{ ao($items, 'name') }}" title="{{ ao($items, 'name') }}">
                                     <div class="social-icon-wrapper" style="color: {{ ao($items, 'color') == 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)' ? '#c13584' : ao($items, 'color') }}">
-                                        <i class="{{ ao($items, 'icon') }} text-4xl"></i>
+                                        <i class="{{ ao($items, 'icon') }} text-2xl"></i>
                                     </div>
-                                    <div class="social-network-name">{{ ao($items, 'name') }}</div>
                                 </a>
                             </div>
                             @endif

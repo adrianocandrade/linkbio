@@ -73,5 +73,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Replaced large grid layout with compact horizontal swiper (similar to highlights)
   - Now shows only configured social networks
   - Added "Manage Social" button for quick access to settings
+  - Implemented compact circular icons with `boxSocials` styling for better visual consistency
+  - Reduced icon size from `text-4xl` to `text-2xl` for more proportional appearance
   - Implemented in both `extension/Mix/Resources/views/index.blade.php` and `extension/Bio/Resources/views/mix.blade.php`
   - Fixed workspace social data detection to properly show configured networks
+
+### Fixed
+
+- **Social Links URLs**: Fixed social network icons to link to actual social media profiles instead of settings page
+  - Icons now use `linker(sprintf(ao($items, 'address'), $socialValue))` to generate proper URLs
+  - Added `target="_blank"` to open links in new tab
+  - Added proper alt and title attributes for accessibility
