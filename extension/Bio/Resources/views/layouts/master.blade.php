@@ -175,14 +175,27 @@
             <p class="connect-subtitle">{{ __('You can also reach out to me through any of my social profiles') }}</p>
         </div>
         <div class="connect-social">
-            @foreach (\App\User::ordered_social($bio->id) as $key => $items)
-            @if (!empty(user("social.$key", $bio->id)))
-            <a href="{{ user('social.'.$key, $bio->id) ?? '' }}">
-                <h3>{{ ao($items, 'name') }}</h3>
-                <i class="{{ ao($items, 'icon') }}"></i>
-                {{ ao($items, 'svg') }}
-            </a>
-            @endif
+            @foreach (socials() as $key => $items)
+                @php
+                    // Check workspace social first, then fall back to user social
+                    $socialValue = null;
+                    if (isset($workspace) && $workspace) {
+                        $workspaceSocial = $workspace->social ?? [];
+                        $socialValue = $workspaceSocial[$key] ?? null;
+                    }
+                    // Fallback to user social if workspace doesn't have it
+                    if (empty($socialValue)) {
+                        $socialValue = user('social.'.$key, $bio->id);
+                    }
+                @endphp
+                
+                @if (!empty($socialValue))
+                <a href="{{ linker(sprintf(ao($items, 'address'), $socialValue), $bio->id) }}" target="_blank">
+                    <h3>{{ ao($items, 'name') }}</h3>
+                    <i class="{{ ao($items, 'icon') }}"></i>
+                    {{ ao($items, 'svg') }}
+                </a>
+                @endif
             @endforeach
         </div>
         <button type="button" class="social-modal-close hidden" data-close-popup><i class="flaticon-close"></i></button>

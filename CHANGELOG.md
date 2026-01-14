@@ -81,6 +81,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - **Social Links URLs**: Fixed social network icons to link to actual social media profiles instead of settings page
+
   - Icons now use `linker(sprintf(ao($items, 'address'), $socialValue))` to generate proper URLs
   - Added `target="_blank"` to open links in new tab
   - Added proper alt and title attributes for accessibility
+
+- **Social Modal**: Fixed social connection modal to display all configured social networks instead of just email
+  - Modal now shows all configured networks from workspace data
+  - Uses same workspace detection logic as other social features
+  - Properly generates URLs using `linker()` function
+  - File: `extension/Bio/Resources/views/layouts/master.blade.php`
