@@ -49,7 +49,11 @@ class BioController extends Controller{
             return view('bio::mix', ['socials' => $socials, 'blocks' => $blocks, 'highlights' => $highlights]);
         }
 
-        return view('bio::bio', ['blocks' => $blocks, 'highlights' => $highlights]);
+        return view('bio::bio', [
+            'blocks' => $blocks, 
+            'highlights' => $highlights,
+            'workspace' => $this->workspace
+        ]);
     }
 
     public function dark_mode(Request $request){

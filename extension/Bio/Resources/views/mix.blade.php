@@ -72,6 +72,47 @@ padding-bottom: 0 !important;
         </div>
     </div>
 </section>
+
+<section class="stories-section pl-5">
+    <!-- SOCIAL LINKS -->
+    <div class="display-stories">
+        <div class="swiper myStories">
+            <div class="swiper-wrapper wrapper-stories flex overflow-x-auto py-4">
+                <!-- MANAGE SOCIAL BUTTON -->
+                <div class="swiper-slide spaceBox">
+                    <a href="{{ route('user-mix-settings-social') }}" class="boxStories block px-0">
+                        <div class="btn add-my-story">
+                            <div class="add-story-icon">
+                                <i class="la la-share-alt"></i>
+                            </div>
+                            <div class="add-story-text">{{ __('Manage Social') }}</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- CONFIGURED SOCIAL NETWORKS -->
+                @foreach (socials() as $key => $items)
+                    @php
+                        $socialValue = $bio->social[$key] ?? null;
+                    @endphp
+                    
+                    @if (!empty($socialValue))
+                    <div class="swiper-slide spaceBox">
+                        <a href="{{ route('user-mix-settings-social') }}" class="boxStories block px-0">
+                            <div class="btn social-network-item" style="border-color: {{ ao($items, 'color') }}">
+                                <div class="social-icon-wrapper" style="color: {{ ao($items, 'color') == 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)' ? '#c13584' : ao($items, 'color') }}">
+                                    <i class="{{ ao($items, 'icon') }} text-4xl"></i>
+                                </div>
+                                <div class="social-network-name">{{ ao($items, 'name') }}</div>
+                            </div>
+                        </a>
+                    </div>
+                    @endif
+                @endforeach
+            </div>
+        </div>
+    </div>
+</section>
     
     <div class="p-5 md:p-10 rounded-t-2xl" bg-style="#f9f9fb">
         

@@ -34,6 +34,8 @@ Projeto de bio-links (SaaS) com funcionalidades de blog, documentação, e pági
 
 ---
 
+php artisan serve
+
 ## 📦 Comandos de Produção e Deploy
 
 ### Script de Atualização Automática (Recomendado)

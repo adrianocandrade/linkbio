@@ -44,12 +44,24 @@
             <div class="bio-des mt-5 font-14 mb-7 theme-text-color">
                 {{ $bio->bio }}
             </div>
-            @if (plan('settings.social', $bio->id))
+            
+            {{-- DEBUG: Check if plan allows social --}}
+            @php
+                $planAllowsSocial = plan('settings.social', $bio->id);
+                $workspaceSocial = isset($workspace) && $workspace ? ($workspace->social ?? []) : [];
+                $userSocial = $bio->social ?? [];
+            @endphp
+            
+            {{-- Always show social links section for debugging --}}
             <div class="context-social pb-5">
                 <div class="social-links">
                     @foreach (socials() as $key => $items)
-                    @if (!empty(user('social.'.$key, $bio->id)))
-                    <a class="social-link {{ $key }}" target="_blank" href="{{ linker(sprintf(ao($items, 'address'), user("social.$key", $bio->id)), $bio->id) }}">
+                    @php
+                        // Check workspace social first, then fall back to user social
+                        $socialValue = $workspaceSocial[$key] ?? $userSocial[$key] ?? null;
+                    @endphp
+                    @if (!empty($socialValue))
+                    <a class="social-link {{ $key }}" target="_blank" href="{{ linker(sprintf(ao($items, 'address'), $socialValue), $bio->id) }}">
                         <i class="{{ ao($items, 'icon') }}"></i>
                         {{ ao($items, 'svg') }}
                     </a>
@@ -57,7 +69,6 @@
                     @endforeach
                 </div>
             </div>
-            @endif
         </div>
             
         <section class="stories-section pl-5">

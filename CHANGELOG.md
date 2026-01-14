@@ -66,3 +66,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Block time slots that have passed on the current day
   - Block all time slots for past dates
   - Added visual feedback in `sandy/Blocks/booking/Views/bio/livewire/booking.blade.php` with tooltips for unavailable time slots
+
+### Changed
+
+- **Social Links UI Refactoring**: Redesigned social links section in Mix dashboard and bio editing template:
+  - Replaced large grid layout with compact horizontal swiper (similar to highlights)
+  - Now shows only configured social networks
+  - Added "Manage Social" button for quick access to settings
+  - Implemented in both `extension/Mix/Resources/views/index.blade.php` and `extension/Bio/Resources/views/mix.blade.php`
+  - Fixed workspace social data detection to properly show configured networks

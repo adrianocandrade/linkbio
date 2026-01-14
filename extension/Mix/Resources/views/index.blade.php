@@ -6,32 +6,36 @@
         padding-bottom: 0 !important;
     }
     
-    /* Social Links Card Styles */
-    .social-link-card {
-        background: rgba(255, 255, 255, 0.5);
+    /* Social Network Item Styles */
+    .social-network-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
         border: 2px solid #e5e7eb;
-        cursor: pointer;
+        border-radius: 1rem;
         text-decoration: none;
-        color: inherit;
+        transition: all 0.3s ease;
         min-height: 100px;
-    }
-
-    .social-link-card.configured {
         background: rgba(255, 255, 255, 0.9);
-        border-color: #10b981;
     }
 
-    .social-link-card.not-configured {
-        opacity: 0.6;
-    }
-
-    .social-link-card:hover {
+    .social-network-item:hover {
+        transform: scale(1.05);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         text-decoration: none;
     }
     
-    .social-links-grid {
-        margin-bottom: 1rem;
+    .social-icon-wrapper {
+        margin-bottom: 0.5rem;
+    }
+    
+    .social-network-name {
+        font-size: 0.75rem;
+        font-weight: 500;
+        text-align: center;
+        color: #374151;
     }
 </style>
 
@@ -83,38 +87,67 @@
     </div>
 
     <div class="can-divide with-divider">
-        <div class="flex justify-between items-center mb-6">
-            <h2 class="font-bold text-xl">{{ __('Social Links') }}</h2>
-            <a href="{{ route('user-mix-settings-social') }}" class="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1">
-                {{ __('Manage') }} <i class="la la-arrow-right"></i>
-            </a>
-        </div>
-        
-        <div class="social-links-grid grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
-            @foreach (socials() as $key => $items)
-                @php
-                    $socialValue = user('social.'.$key);
-                    $isConfigured = !empty($socialValue);
-                @endphp
-                
-                <a href="{{ route('user-mix-settings-social') }}" 
-                   class="social-link-card {{ $isConfigured ? 'configured' : 'not-configured' }} rounded-xl p-4 flex flex-col items-center justify-center transition-all hover:scale-105 relative">
-                    <div class="icon-wrapper mb-2" style="color: {{ ao($items, 'color') == 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)' ? '#c13584' : ao($items, 'color') }}">
-                        <i class="{{ ao($items, 'icon') }} text-3xl"></i>
+        <h2 class="font-bold text-xl mb-6">{{ __('Social Links') }}</h2>
+        <section class="stories-section pl-0">
+            <div class="display-stories">
+                <div class="swiper myStories">
+                    <div class="swiper-wrapper wrapper-stories flex overflow-x-auto py-4">
+                        @php
+                            $hasConfiguredSocial = false;
+                            foreach (socials() as $key => $items) {
+                                $socialValue = null;
+                                if (isset($active_workspace) && $active_workspace) {
+                                    $workspaceSocial = $active_workspace->social ?? [];
+                                    $socialValue = $workspaceSocial[$key] ?? null;
+                                }
+                                if (empty($socialValue)) {
+                                    $socialValue = user('social.'.$key);
+                                }
+                                if (!empty($socialValue)) {
+                                    $hasConfiguredSocial = true;
+                                    break;
+                                }
+                            }
+                        @endphp
+                        
+                        {{-- Add Social Button --}}
+                        <div class="swiper-slide spaceBox">
+                            <a href="{{ route('user-mix-settings-social') }}" class="btn add-my-story">
+                                <div class="add-story-icon">
+                                    <i class="la la-share-alt"></i>
+                                </div>
+                                <div class="add-story-text">{{ __('Manage Social') }}</div>
+                            </a>
+                        </div>
+                        
+                        {{-- Display Configured Social Networks --}}
+                        @foreach (socials() as $key => $items)
+                            @php
+                                $socialValue = null;
+                                if (isset($active_workspace) && $active_workspace) {
+                                    $workspaceSocial = $active_workspace->social ?? [];
+                                    $socialValue = $workspaceSocial[$key] ?? null;
+                                }
+                                if (empty($socialValue)) {
+                                    $socialValue = user('social.'.$key);
+                                }
+                            @endphp
+                            
+                            @if (!empty($socialValue))
+                            <div class="swiper-slide spaceBox">
+                                <a href="{{ route('user-mix-settings-social') }}" class="btn social-network-item" style="border-color: {{ ao($items, 'color') }}">
+                                    <div class="social-icon-wrapper" style="color: {{ ao($items, 'color') == 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)' ? '#c13584' : ao($items, 'color') }}">
+                                        <i class="{{ ao($items, 'icon') }} text-4xl"></i>
+                                    </div>
+                                    <div class="social-network-name">{{ ao($items, 'name') }}</div>
+                                </a>
+                            </div>
+                            @endif
+                        @endforeach
                     </div>
-                    <div class="social-name text-xs font-medium text-center">{{ ao($items, 'name') }}</div>
-                    @if($isConfigured)
-                        <div class="status-badge absolute top-2 right-2">
-                            <i class="la la-check-circle text-green-500 text-lg"></i>
-                        </div>
-                    @else
-                        <div class="status-badge absolute top-2 right-2 opacity-50">
-                            <i class="la la-plus-circle text-gray-400 text-lg"></i>
-                        </div>
-                    @endif
-                </a>
-            @endforeach
-        </div>
+                </div>
+            </div>
+        </section>
     </div>
     
     <div class="can-divide with-divider">
