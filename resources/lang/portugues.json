@@ -319,6 +319,7 @@
     "Hide service prices": "Ocultar preços dos serviços",
     "When enabled, prices will be hidden and \"Budget on-site\" will be displayed instead": "Quando ativado, os preços serão ocultados e \"Orçamento no local\" será exibido",
     "Budget on-site": "Orçamento no local",
+    "Use -1 to display \"Budget on-site\" instead of price": "Use -1 para exibir \"Orçamento no local\" ao invés do preço",
     "Branding": "Marca",
     "Break deleted.": "Intervalo excluído.",
     "Breaks & Days Off": "Intervalos e Dias de Folga",

@@ -82,8 +82,9 @@
                                 </div>
                                 <div class="form-input active always-active">
                                     <label>{{ __('Service Price') }}</label>
-                                    <input type="number" step="0.01" wire:model="services.{{ $index }}.price" min="0">
+                                    <input type="number" step="0.01" wire:model="services.{{ $index }}.price">
                                     @error("services.{$index}.price") <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
+                                    <small class="text-gray-500 block mt-1">{{ __('Use -1 to display "Budget on-site" instead of price') }}</small>
                                 </div>
                             </div>
 

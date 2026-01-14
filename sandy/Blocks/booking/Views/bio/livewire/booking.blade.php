@@ -54,7 +54,7 @@
 
                         <div class="book-service-name truncate">{{ $item->name }}</div>
                         <div class="text-xs font-bold">
-                            @if(user('booking.hide_prices', $user_id))
+                            @if($item->price == -1)
                                 {{ __('Budget on-site') }}
                             @else
                                 {!! $sandy->price($item->price) !!}
