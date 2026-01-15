@@ -1948,5 +1948,15 @@
     "Welcome Aboard 🤩": "Bem-vindo a bordo 🤩",
     "<ul><li><p>We have added some blocks to help you get started.</p></li></ul><ul><li><p>Click this to edit or any of the elements below.</p></li></ul><ul><li><p>You can drag them to reorder their position.</p></li></ul><ul><li><p>Click on the (+) icon to add more blocks.</p></li></ul><ul><li><p>Click on the blot menu to add elements.</p></li></ul><ul><li><p>Elements can be in the form of email collection, paid items, etc.</p></li></ul>": "<ul><li><p>Adicionamos alguns blocos para ajudar você a começar.</p></li></ul><ul><li><p>Clique aqui para editar ou em qualquer um dos elementos abaixo.</p></li></ul><ul><li><p>Você pode arrastá-los para reordenar a posição.</p></li></ul><ul><li><p>Clique no ícone (+) para adicionar mais blocos.</p></li></ul><ul><li><p>Clique no menu de opções para adicionar elementos.</p></li></ul><ul><li><p>Os elementos podem ser coleta de e-mail, itens pagos, etc.</p></li></ul>",
     "Click here to add a brief summary about your page to get your audience interested in what you do.": "Clique aqui para adicionar um breve resumo sobre sua página para interessar seu público pelo que você faz.",
-    "validation.captcha": "O código de verificação está incorreto."
+    "validation.captcha": "O código de verificação está incorreto.",
+    "Choose Font": "Escolher Fonte",
+    "Select from our collection of fonts": "Selecione de nossa coleção de fontes",
+    "Search fonts...": "Buscar fontes...",
+    "Handwriting": "Manuscrita",
+    "Apply Font": "Aplicar Fonte",
+    "Font selected! Click Save to apply changes.": "Fonte selecionada! Clique em Salvar para aplicar as alterações.",
+    "Browse All Fonts": "Navegar em Todas as Fontes",
+    "available": "disponíveis",
+    "Sans Serif": "Sans Serif",
+    "Serif": "Serif"
 }

@@ -378,6 +378,233 @@
         
     @livewireScripts()
     <script src="{{ gs('assets/js/livewire-sortable.js') }}"></script>
+    
+    <script>
+    window.FontSelector = {
+        fonts: [],
+        
+        // Helper to get elements freshly - handles dynamic DOM
+        getInput: function() { return document.getElementById("googleFontInput"); },
+        getList: function() { return document.getElementById("fontSuggestList"); },
+        getPreview: function() { return document.getElementById("fontPreview"); },
+    
+        lastRenderedCount: 50,
+        currentQuery: '',
+
+        init: function() {
+            var self = this;
+            
+            // Load fonts data globally once
+            try {
+                // Load from the Admin's Master Catalog (1000-fonts.php) to unify sources
+                // This file is a JSON map "FontName" => { details }, so we take array_keys
+                this.fonts = @json(array_keys(json_decode(file_get_contents(base_path('sandy/Plugins/user_util/Others/1000-fonts.php')), true)));
+            } catch (e) {
+                console.error("Could not load fonts", e);
+                this.fonts = ["Roboto", "Open Sans", "Lato", "Montserrat", "Oswald"];
+            }
+
+            // Infinite Scroll Listener - Retry attaching if list is not yet in DOM
+            var attachScroll = function() {
+                var list = self.getList();
+                if(list) {
+                    list.addEventListener('scroll', function() {
+                        if(list.scrollTop + list.clientHeight >= list.scrollHeight - 50) {
+                            self.loadMore();
+                        }
+                    });
+                } else {
+                    setTimeout(attachScroll, 1000);
+                }
+            };
+            attachScroll();
+        },
+
+        open: function() {
+            var modal = document.querySelector('[data-popup=".font-selector"]');
+            if(modal) {
+                modal.classList.add('active');
+                
+                // Initialize the list when opening if it's empty (first run for this modal instance)
+                var list = this.getList();
+                if(list && list.children.length === 0 && this.fonts.length > 0) {
+                     this.lastRenderedCount = 50;
+                     this.currentQuery = '';
+                     this.renderList(this.fonts.slice(0, 50));
+                }
+            }
+        },
+        
+        close: function() {
+            var modal = document.querySelector('[data-popup=".font-selector"]');
+            if(modal) modal.classList.remove('active');
+        },
+
+        loadMore: function() {
+            var self = this;
+            var fullList = this.fonts;
+            
+            // Allow filtering on full list if searching
+            if(this.currentQuery) {
+                fullList = this.fonts.filter(function(f) {
+                    return f.toLowerCase().includes(self.currentQuery);
+                });
+            }
+
+            if(this.lastRenderedCount >= fullList.length) return;
+
+            var nextBatch = fullList.slice(this.lastRenderedCount, this.lastRenderedCount + 50);
+            this.lastRenderedCount += 50;
+            
+            this.appendItems(nextBatch);
+        },
+
+        appendItems: function(fontList) {
+             var list = this.getList();
+             var input = this.getInput();
+             if(!list) return;
+             
+             var self = this;
+
+             fontList.forEach(function(font) {
+                var li = document.createElement("li");
+                li.textContent = font;
+                
+                li.onclick = function() { self.selectFont(font); };
+
+                if(input && input.value === font) {
+                    li.classList.add('bg-blue-50', 'font-bold');
+                }
+                
+                list.appendChild(li);
+            });
+        },
+
+        renderList: function(fontList) {
+             var list = this.getList();
+             if(!list) return;
+             
+             list.innerHTML = "";
+             this.appendItems(fontList);
+             list.classList.remove('hidden');
+        },
+
+        search: function(el) {
+            this.currentQuery = el.value.toLowerCase();
+            this.lastRenderedCount = 50; // Reset pagination
+            
+            if (!this.currentQuery) {
+                this.renderList(this.fonts.slice(0, 50));
+                return;
+            }
+            
+            var filtered = this.fonts.filter(function(f) {
+                return f.toLowerCase().includes(self.currentQuery); // Access self via closure or just use query in arrow? 'this' is safe here if function
+            }.bind(this));
+            
+            // Render first 50 of filtered results
+            this.renderList(filtered.slice(0, 50));
+        },
+
+        selectFont: function(fontName) {
+            var input = this.getInput();
+            var list = this.getList();
+            var preview = this.getPreview();
+
+            if(input) input.value = fontName;
+            
+            // Re-render highlight manually
+            if(list) {
+                var items = list.getElementsByTagName('li');
+                for(var i=0; i<items.length; i++) {
+                    items[i].classList.remove('bg-blue-50', 'font-bold');
+                    if(items[i].textContent === fontName) {
+                        items[i].classList.add('bg-blue-50', 'font-bold');
+                    }
+                }
+            }
+
+            // Update Preview
+            var fontUrl = "https://fonts.googleapis.com/css2?family=" + fontName.replace(/ /g, '+') + ":wght@300;400;600&display=swap";
+            
+            // Remove previous
+            document.querySelectorAll("link[data-google-font-preview]").forEach(function(e){ e.remove() });
+
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = fontUrl;
+            link.setAttribute("data-google-font-preview", fontName);
+            document.head.appendChild(link);
+
+            if(preview) preview.style.fontFamily = "'" + fontName + "', sans-serif";
+        },
+
+        // Support both old filter (if valid) and new logic
+        filter: function(el) {
+            // ... (keep old logic if needed, but new UI doesn't use it)
+        },
+        
+        apply: function() {
+            // TRY NEW LOGIC FIRST (Text Input)
+            var input = this.getInput();
+            if(input && input.value) {
+                var selectedFont = input.value;
+                this.applySelection(selectedFont);
+                return;
+            }
+
+            // TRY OLD LOGIC (Radio Buttons fallback)
+            var radio = document.querySelector('input[name="font_selection"]:checked');
+            if(radio) {
+                this.applySelection(radio.value);
+                return;
+            }
+            
+            alert('{{ __("Please select a font first") }}');
+        },
+
+        applySelection: function(selectedFont) {
+             // Logic to update the main font grid
+            var grid = document.getElementById('main-font-grid');
+            if(grid) {
+                var existingRadio = grid.querySelector('input[name="font"][value="' + selectedFont + '"]');
+                
+                if(!existingRadio) {
+                    // Create new card
+                    var label = document.createElement('label');
+                    label.className = 'sandy-big-radio';
+                    label.innerHTML = `
+                        <input type="radio" name="font" value="${selectedFont}" class="custom-control-input" checked>
+                        <div class="radio-select-inner font">
+                            <div class="active-dot"></div>
+                            <h1 style="font-family: '${selectedFont}', sans-serif;">${selectedFont}</h1>
+                            <p class="font-preview" style="font-family: '${selectedFont}', sans-serif;">The quick brown fox</p>
+                        </div>
+                    `;
+                    grid.appendChild(label);
+                    existingRadio = label.querySelector('input');
+                }
+                
+                // Uncheck others and check this one
+                var allRadios = grid.querySelectorAll('input[name="font"]');
+                for(var i=0; i<allRadios.length; i++) { allRadios[i].checked = false; }
+                existingRadio.checked = true;
+
+                // Auto-Save: Submit the form
+                var form = grid.closest('form');
+                if(form) {
+                    form.submit();
+                    return;
+                }
+            }
+            
+            this.close();
+        }
+    };
+    
+    // Initialize immediately
+    window.FontSelector.init();
+    </script>
 
     
     @include('include.mix-tag.mix-footer-tag')

@@ -1,7 +1,8 @@
 <?php
 
 if (!function_exists('slugify')) {
-    function slugify($string, $delimiter = '_'){
+    function slugify($string, $delimiter = '_')
+    {
         try {
             $slug = new \Ausi\SlugGenerator\SlugGenerator();
             return $slug->generate($string, ['delimiter' => $delimiter]);
@@ -11,13 +12,15 @@ if (!function_exists('slugify')) {
     }
 }
 if (!function_exists('toObject')) {
-    function toObject($array){
+    function toObject($array)
+    {
         return json_decode(json_encode($array));
     }
 }
 if (!function_exists('seed_random_number')) {
-    function seed_random_number($seed, $limit = 100){
-        
+    function seed_random_number($seed, $limit = 100)
+    {
+
         $StringSeed = $seed;
         $IntSeed = crc32($StringSeed);
         srand($IntSeed);
@@ -27,34 +30,35 @@ if (!function_exists('seed_random_number')) {
 
 
 if (!function_exists('hour2min')) {
-    function hour2min($time){
+    function hour2min($time)
+    {
         $time1 = strtotime('12:00am');
         $time2 = strtotime($time);
 
 
-        $difference = round(abs($time2 - $time1) / 3600,2);
+        $difference = round(abs($time2 - $time1) / 3600, 2);
         $hours = $difference;
-        $minutes = 0; 
-        if (strpos($hours, ':') !== false) 
-        { 
+        $minutes = 0;
+        if (strpos($hours, ':') !== false) {
             // Split hours and minutes. 
-            list($hours, $minutes) = explode(':', $hours); 
-        } 
+            list($hours, $minutes) = explode(':', $hours);
+        }
         return $hours * 60 + $minutes;
     }
 }
 
 if (!function_exists('yetti_highlight_stories')) {
-    function yetti_highlight_stories($user, $link_type = 'mix', $workspace_id = null){
-        if(!$user = \App\User::find($user)){
+    function yetti_highlight_stories($user, $link_type = 'mix', $workspace_id = null)
+    {
+        if (!$user = \App\User::find($user)) {
             return false;
         }
-        
+
         // Get workspace_id if not provided
         if ($workspace_id === null) {
             $workspace_id = session('active_workspace_id', null);
         }
-        
+
         $highlightsQuery = \App\Models\Highlight::where('user', $user->id);
         if ($workspace_id) {
             $highlightsQuery->where('workspace_id', $workspace_id);
@@ -63,7 +67,7 @@ if (!function_exists('yetti_highlight_stories')) {
 
         $link = '';
         $link_text = '';
-        
+
 
         $return = [];
 
@@ -74,11 +78,11 @@ if (!function_exists('yetti_highlight_stories')) {
                 case 'mix':
                     $link = route('user-mix-highlight-edit', $item->id);
                     $link_text = __('Edit Hightlight');
-                break;
+                    break;
                 case 'public':
                     $link = \App\Models\Highlight::elem_or_linkonly($item->id, $user->id);
                     $link_text = __('View Link');
-                break;
+                    break;
             }
             $return[] = [
                 'id' => "box-$item->id",
@@ -88,15 +92,15 @@ if (!function_exists('yetti_highlight_stories')) {
                 'lastUpdated' => strtotime($item->updated_at),
                 'items' => [
                     [
-                        'id'        => $item->id,
-                        'type'      => 'photo',
-                        'length'    => 5,
-                        'src'       => $media,
-                        'preview'   => $media,
-                        'link'      => $link,
-                        'linkText'  => $link_text,
-                        'time'      => strtotime($item->updated_at),
-                        'seen'      => false,
+                        'id' => $item->id,
+                        'type' => 'photo',
+                        'length' => 5,
+                        'src' => $media,
+                        'preview' => $media,
+                        'link' => $link,
+                        'linkText' => $link_text,
+                        'time' => strtotime($item->updated_at),
+                        'seen' => false,
                     ]
                 ]
             ];
@@ -108,7 +112,8 @@ if (!function_exists('yetti_highlight_stories')) {
 }
 
 if (!function_exists('orion')) {
-    function orion($icon, $class = ''){
+    function orion($icon, $class = '')
+    {
 
         $path = gs("assets/image/svg/orion-svg-sprite.svg#$icon");
         $svg = "<svg class=\"svg-icon orion-svg-icon $class\"><use xlink:href=\"$path\"></use></svg>";
@@ -119,7 +124,8 @@ if (!function_exists('orion')) {
 
 
 if (!function_exists('get_svg')) {
-    function get_svg($location, $icon = ''){
+    function get_svg($location, $icon = '')
+    {
         if (!mediaExists($location, $icon)) {
             return 'false';
         }
@@ -136,7 +142,8 @@ if (!function_exists('get_svg')) {
 
 
 if (!function_exists('feather')) {
-    function feather($icon, $class = ''){
+    function feather($icon, $class = '')
+    {
 
         $path = gs("assets/image/svg/feather-sprite.svg#$icon");
         $svg = "<svg class=\"svg-icon feather-svg-icon $class\"><use xlink:href=\"$path\"></use></svg>";
@@ -146,7 +153,8 @@ if (!function_exists('feather')) {
 }
 
 if (!function_exists('iconsprite')) {
-    function iconsprite($icon, $class = ''){
+    function iconsprite($icon, $class = '')
+    {
 
         $path = gs("assets/image/svg/icon-sprite-2.svg#$icon");
         $svg = "<svg class=\"svg-icon icon-sprite-2 $class\"><use xlink:href=\"$path\"></use></svg>";
@@ -156,7 +164,8 @@ if (!function_exists('iconsprite')) {
 }
 if (!function_exists('emoji')) {
 
-    function emoji($emoji, $extension = 'gif'){
+    function emoji($emoji, $extension = 'gif')
+    {
         $path = "assets/image/emoji/$emoji.$extension";
 
         return gs($path);
@@ -165,14 +174,16 @@ if (!function_exists('emoji')) {
 
 if (!function_exists('empty_section')) {
 
-    function empty_section($data = []){
+    function empty_section($data = [])
+    {
 
         return view('includes.is-empty', ['data' => $data]);
     }
 }
 
 if (!function_exists('bio_prefix')) {
-    function bio_prefix(){
+    function bio_prefix()
+    {
         $base_url = config('app.url');
 
         $return = parse($base_url, 'host') . '/@';
@@ -190,7 +201,8 @@ if (!function_exists('bio_prefix')) {
 }
 
 if (!function_exists('get_previous')) {
-    function get_previous($route){
+    function get_previous($route)
+    {
         if (url()->previous() == url()->current()) {
             return route($route);
         }
@@ -201,8 +213,9 @@ if (!function_exists('get_previous')) {
 }
 
 if (!function_exists('sandy_plural')) {
-    function sandy_plural( $amount, $singular = '', $plural = 's' ) {
-        if ( $amount === 1 ) {
+    function sandy_plural($amount, $singular = '', $plural = 's')
+    {
+        if ($amount === 1) {
             return $singular;
         }
         return $plural;
@@ -210,7 +223,8 @@ if (!function_exists('sandy_plural')) {
 }
 
 if (!function_exists('svg_i')) {
-    function svg_i($icon, $class = ''){
+    function svg_i($icon, $class = '')
+    {
 
         $path = gs("assets/image/svg/orion-svg-sprite.svg#$icon");
         $svg = "<svg class=\"svg-icon orion-svg-icon $class\"><use xlink:href=\"$path\"></use></svg>";
@@ -220,7 +234,8 @@ if (!function_exists('svg_i')) {
 }
 
 if (!function_exists('get_qrcode')) {
-    function get_qrcode($user_id){
+    function get_qrcode($user_id)
+    {
         if (!$user = \App\User::find($user_id)) {
             return false;
         }
@@ -233,7 +248,8 @@ if (!function_exists('get_qrcode')) {
 
 
 if (!function_exists('getContrastColor')) {
-    function getContrastColor($hexColor) {
+    function getContrastColor($hexColor)
+    {
 
         // hexColor RGB
         $R1 = hexdec(substr($hexColor, 1, 2));
@@ -246,26 +262,26 @@ if (!function_exists('getContrastColor')) {
         $G2BlackColor = hexdec(substr($blackColor, 3, 2));
         $B2BlackColor = hexdec(substr($blackColor, 5, 2));
 
-         // Calc contrast ratio
-         $L1 = 0.2126 * pow($R1 / 255, 2.2) +
-               0.7152 * pow($G1 / 255, 2.2) +
-               0.0722 * pow($B1 / 255, 2.2);
+        // Calc contrast ratio
+        $L1 = 0.2126 * pow($R1 / 255, 2.2) +
+            0.7152 * pow($G1 / 255, 2.2) +
+            0.0722 * pow($B1 / 255, 2.2);
 
         $L2 = 0.2126 * pow($R2BlackColor / 255, 2.2) +
-              0.7152 * pow($G2BlackColor / 255, 2.2) +
-              0.0722 * pow($B2BlackColor / 255, 2.2);
+            0.7152 * pow($G2BlackColor / 255, 2.2) +
+            0.0722 * pow($B2BlackColor / 255, 2.2);
 
         $contrastRatio = 0;
         if ($L1 > $L2) {
-            $contrastRatio = (int)(($L1 + 0.05) / ($L2 + 0.05));
+            $contrastRatio = (int) (($L1 + 0.05) / ($L2 + 0.05));
         } else {
-            $contrastRatio = (int)(($L2 + 0.05) / ($L1 + 0.05));
+            $contrastRatio = (int) (($L2 + 0.05) / ($L1 + 0.05));
         }
 
         // If contrast is more than 5, return black color
         if ($contrastRatio > 5) {
             return '#000000';
-        } else { 
+        } else {
             // if not, return white color.
             return '#FFFFFF';
         }
@@ -274,24 +290,26 @@ if (!function_exists('getContrastColor')) {
 
 
 if (!function_exists('strip_param_from_url')) {
-    function strip_param_from_url( $url, $param = []) {
+    function strip_param_from_url($url, $param = [])
+    {
         $base_url = strtok($url, '?');
         $parsed_url = parse_url($url);              // Parse it 
         $query = ao($parsed_url, 'query');              // Get the query string
-        parse_str( $query, $parameters );           // Convert Parameters into array
+        parse_str($query, $parameters);           // Convert Parameters into array
 
 
         foreach ($param as $key => $value) {
-            unset( $parameters[$value] );
+            unset($parameters[$value]);
         }
 
         $new_query = http_build_query($parameters); // Rebuilt query string
-        return $base_url.'?'.$new_query;            // Finally url is ready
+        return $base_url . '?' . $new_query;            // Finally url is ready
     }
 }
 
 if (!function_exists('sandy_cdn')) {
-    function sandy_cdn($media, $extra = []){
+    function sandy_cdn($media, $extra = [])
+    {
 
         if (config('app.FILESYSTEM') !== 'local') {
             return false;
@@ -303,7 +321,8 @@ if (!function_exists('sandy_cdn')) {
 }
 
 if (!function_exists('sandy_dev_links')) {
-    function sandy_dev_links($key = null){
+    function sandy_dev_links($key = null)
+    {
         $array = [
             'docs' => 'https://withsandy.gitbook.io/rio',
             'script' => 'https://rio-script.com',
@@ -318,9 +337,10 @@ if (!function_exists('sandy_dev_links')) {
 }
 
 if (!function_exists('search_docs')) {
-    function search_docs($query){
+    function search_docs($query)
+    {
         if (\Route::has('docs-index')) {
-            $docs = App\Models\DocsGuide::where('status', 1)->where('name', 'LIKE','%'.$query.'%')->get();
+            $docs = App\Models\DocsGuide::where('status', 1)->where('name', 'LIKE', '%' . $query . '%')->get();
             if (!$docs->isEmpty()) {
                 return route('docs-index', ['query' => $query]);
             }
@@ -331,10 +351,11 @@ if (!function_exists('search_docs')) {
     }
 }
 if (!function_exists('has_https')) {
-    function has_https(){
+    function has_https()
+    {
         if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
             return false;
-        }else{
+        } else {
             return true;
         }
 
@@ -343,7 +364,8 @@ if (!function_exists('has_https')) {
     }
 }
 if (!function_exists('app_changelog')) {
-    function app_changelog(){
+    function app_changelog()
+    {
         $changelog = [];
         if (is_array($config_log = config('sandy.version.changelog'))) {
             $changelog = $config_log;
@@ -357,13 +379,15 @@ if (!function_exists('app_changelog')) {
     }
 }
 if (!function_exists('app_version')) {
-    function app_version(){
+    function app_version()
+    {
         return config('sandy.version.current');
     }
 }
 
 if (!function_exists('truncate_html')) {
-    function truncate_html($text, $max_length) {
+    function truncate_html($text, $max_length)
+    {
 
         $text = strip_tags($text);
         return \Str::words($text, $max_length);
@@ -372,7 +396,8 @@ if (!function_exists('truncate_html')) {
 }
 
 if (!function_exists('is_admin')) {
-    function is_admin($user_id){
+    function is_admin($user_id)
+    {
         if (!$user = \App\User::where('id', $user_id)->where('role', 1)->first()) {
             return false;
         }
@@ -382,10 +407,11 @@ if (!function_exists('is_admin')) {
 }
 
 if (!function_exists('db_con')) {
-    function db_con(){
+    function db_con()
+    {
         try {
             DB::connection()->getPdo();
-            if(DB::connection()->getDatabaseName()){
+            if (DB::connection()->getDatabaseName()) {
                 return true;
             }
         } catch (\Exception $e) {
@@ -396,7 +422,8 @@ if (!function_exists('db_con')) {
     }
 }
 if (!function_exists('is_installed')) {
-    function is_installed(){
+    function is_installed()
+    {
         if (!config('app.APP_INSTALL') && config('app.SESSION_DRIVER') == 'file') {
             return false;
         }
@@ -406,7 +433,8 @@ if (!function_exists('is_installed')) {
 }
 
 if (!function_exists('addsitescheme')) {
-    function addsitescheme($url){
+    function addsitescheme($url)
+    {
         $url = strtolower($url);
         $url = addHttps($url);
 
@@ -419,7 +447,8 @@ if (!function_exists('addsitescheme')) {
 }
 
 if (!function_exists('validate_date_string')) {
-    function validate_date_string($date){
+    function validate_date_string($date)
+    {
         try {
             $date = (string) $date;
             \Carbon\Carbon::parse($date);
@@ -432,7 +461,8 @@ if (!function_exists('validate_date_string')) {
 }
 
 if (!function_exists('price_with_cur')) {
-    function price_with_cur($currency, $price, $delimiter = 1){
+    function price_with_cur($currency, $price, $delimiter = 1)
+    {
         $currency = strtoupper($currency);
         $code = \Currency::symbol($currency);
 
@@ -445,7 +475,8 @@ if (!function_exists('price_with_cur')) {
 }
 
 if (!function_exists('barba_prevent')) {
-    function barba_prevent(){
+    function barba_prevent()
+    {
         if (settings('others.spa_prevent') == 'disable') {
             return 'data-no-instant="false"';
         }
@@ -455,28 +486,30 @@ if (!function_exists('barba_prevent')) {
 }
 
 if (!function_exists('__t')) {
-    function __t($string, array $values = []){
+    function __t($string, array $values = [])
+    {
         $string = __($string, $values);
         return clean($string, 'titles');
     }
 }
 
 if (!function_exists('normal_export_to_csv')) {
-    function normal_export_to_csv(array $array, array $columns, string $name){
+    function normal_export_to_csv(array $array, array $columns, string $name)
+    {
         $slug = \Str::random(3);
         $name = slugify($name, '-');
         $date = slugify(\Carbon\Carbon::now(settings('others.timezone'))->toFormattedDateString(), '-');
         $fileName = "$name-$slug-$date.csv";
 
         $headers = array(
-            "Content-type"        => "text/csv",
+            "Content-type" => "text/csv",
             "Content-Disposition" => "attachment; filename=$fileName",
-            "Pragma"              => "no-cache",
-            "Cache-Control"       => "must-revalidate, post-check=0, pre-check=0",
-            "Expires"             => "0"
+            "Pragma" => "no-cache",
+            "Cache-Control" => "must-revalidate, post-check=0, pre-check=0",
+            "Expires" => "0"
         );
 
-        $callback = function() use($array, $columns) {
+        $callback = function () use ($array, $columns) {
             $file = fopen('php://output', 'w');
             fputcsv($file, $columns);
             foreach ($array as $key => $value) {
@@ -495,7 +528,8 @@ if (!function_exists('normal_export_to_csv')) {
 
 
 if (!function_exists('head_code')) {
-    function head_code(){
+    function head_code()
+    {
         if (!settings('headjscss.enable')) {
             return false;
         }
@@ -507,7 +541,8 @@ if (!function_exists('head_code')) {
 
 
 if (!function_exists('user_pwa')) {
-    function user_pwa($user_id){
+    function user_pwa($user_id)
+    {
         if (!$user = \App\User::find($user_id)) {
             return false;
         }
@@ -525,7 +560,8 @@ if (!function_exists('user_pwa')) {
 }
 
 if (!function_exists('user_manifest')) {
-    function user_manifest($user_id){
+    function user_manifest($user_id)
+    {
         if (!$bio = \App\User::find($user_id)) {
             return false;
         }
@@ -536,9 +572,9 @@ if (!function_exists('user_manifest')) {
 
 
 
-        $cdn = function($media, $width, $height) use($bio){
+        $cdn = function ($media, $width, $height) use ($bio) {
 
-            $return = "/cdn?photo=media/bio/pwa-app-icon/". user('pwa.app_icon', $bio->id) .'&height='. $height .'&width='. $width .'';
+            $return = "/cdn?photo=media/bio/pwa-app-icon/" . user('pwa.app_icon', $bio->id) . '&height=' . $height . '&width=' . $width . '';
             return $return;
 
             return sandy_cdn($media, ['width' => $width, 'height' => $height]);
@@ -553,41 +589,41 @@ if (!function_exists('user_manifest')) {
             'background_color' => '#ffffff',
             'theme_color' => user('pwa.theme_color', $bio->id),
             'display' => 'standalone',
-            'orientation'=> 'any',
-            'status_bar'=> 'black',
+            'orientation' => 'any',
+            'status_bar' => 'black',
 
 
             'icons' => [
                 '72x72' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '72', '72'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '72', '72'),
                     'purpose' => 'any'
                 ],
                 '96x96' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '96', '96'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '96', '96'),
                     'purpose' => 'any'
                 ],
                 '128x128' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '128', '128'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '128', '128'),
                     'purpose' => 'any'
                 ],
                 '144x144' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '144', '144'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '144', '144'),
                     'purpose' => 'any'
                 ],
                 '152x152' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '152', '152'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '152', '152'),
                     'purpose' => 'any'
                 ],
                 '192x192' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '192', '192'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '192', '192'),
                     'purpose' => 'any'
                 ],
                 '384x384' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '384', '384'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '384', '384'),
                     'purpose' => 'any'
                 ],
                 '512x512' => [
-                    'path' => $cdn('media/bio/pwa-app-icon/'. user('pwa.app_icon', $bio->id), '512', '512'),
+                    'path' => $cdn('media/bio/pwa-app-icon/' . user('pwa.app_icon', $bio->id), '512', '512'),
                     'purpose' => 'any'
                 ],
             ],
@@ -610,7 +646,7 @@ if (!function_exists('user_manifest')) {
 
         $splash = [];
         foreach (['640x1136', '750x1334', '1242x2208', '1125x2436', '828x1792', '1242x2688', '1536x2048', '1668x2224', '1668x2388', '2048x2732'] as $key => $value) {
-            if (file_exists(public_path('media/bio/pwa-splash/'. settings("pwa_splash.$value")))) {
+            if (file_exists(public_path('media/bio/pwa-splash/' . settings("pwa_splash.$value")))) {
                 $splash[$value] = url('media/bio/pwa-splash/' . settings("pwa_splash.$value"));
             }
         }
@@ -622,7 +658,8 @@ if (!function_exists('user_manifest')) {
 }
 
 if (!function_exists('array_exclude')) {
-    function array_exclude($array, Array $excludeKeys){
+    function array_exclude($array, array $excludeKeys)
+    {
         $new_array = [];
 
 
@@ -631,13 +668,14 @@ if (!function_exists('array_exclude')) {
                 $new_array[$key] = $value;
             }
         }
-        
+
         return $new_array;
     }
 }
 
 if (!function_exists('user_verified')) {
-    function user_verified($user_id){
+    function user_verified($user_id)
+    {
         if (!$user = \App\User::find($user_id)) {
             return false;
         }
@@ -656,7 +694,8 @@ if (!function_exists('user_verified')) {
 }
 
 if (!function_exists('user_ads')) {
-    function user_ads($location, $user_id = null){
+    function user_ads($location, $user_id = null)
+    {
         if ($user = \App\User::find($user_id)) {
             if (plan('settings.ads', $user->id)) {
                 return false;
@@ -666,11 +705,11 @@ if (!function_exists('user_ads')) {
         switch ($location) {
             case 'header':
                 return settings('ads.header');
-            break;
+                break;
 
             case 'footer':
                 return settings('ads.footer');
-            break;
+                break;
         }
 
         return false;
@@ -678,7 +717,8 @@ if (!function_exists('user_ads')) {
 }
 
 if (!function_exists('terms_and_privacy')) {
-    function terms_and_privacy($text = ''){
+    function terms_and_privacy($text = '')
+    {
         $website_name = config('app.name');
         $website_name = "$website_name's";
 
@@ -686,16 +726,16 @@ if (!function_exists('terms_and_privacy')) {
         $and = !empty(settings('others.terms')) && !empty(settings('others.privacy')) ? __('and') : '';
 
         // Terms
-        $terms_html = '<a href="'. settings('others.terms') .'" target="_blank" class="text-link">'. __('Terms of Service') .'</a>';
+        $terms_html = '<a href="' . settings('others.terms') . '" target="_blank" class="text-link">' . __('Terms of Service') . '</a>';
         $terms = !empty(settings('others.terms')) ? $terms_html : '';
 
         // Privacy 
-        $privacy_html = '<a href="'. settings('others.privacy') .'" target="_blank" class="text-link">'. __('Privacy Policy') .'</a>';
+        $privacy_html = '<a href="' . settings('others.privacy') . '" target="_blank" class="text-link">' . __('Privacy Policy') . '</a>';
         $privacy = !empty(settings('others.privacy')) ? $privacy_html : '';
 
 
         // Returned html
-        $html = '<div class="text-gray-400 text-center mt-5 text-center mt-5"><p class="max-w-50 mx-auto text-sm">'. __('By clicking ":text" you agree to :website_name :privacy :and :terms.', ['website_name' => $website_name, 'and' => $and, 'terms' => $terms, 'privacy' => $privacy, 'text' => $text]) .'</p> </div>';
+        $html = '<div class="text-gray-400 text-center mt-5 text-center mt-5"><p class="max-w-50 mx-auto text-sm">' . __('By clicking ":text" you agree to :website_name :privacy :and :terms.', ['website_name' => $website_name, 'and' => $and, 'terms' => $terms, 'privacy' => $privacy, 'text' => $text]) . '</p> </div>';
 
         if (!empty(settings('others.terms')) || !empty(settings('others.privacy'))) {
             return $html;
@@ -706,14 +746,15 @@ if (!function_exists('terms_and_privacy')) {
 }
 
 if (!function_exists('bio_branding_display')) {
-    function bio_branding_display($user_id){
+    function bio_branding_display($user_id)
+    {
         if (!$user = \App\User::find($user_id)) {
             return false;
         }
 
 
         if (plan('settings.branding', $user->id)) {
-            
+
             if (user('settings.remove_branding', $user->id)) {
                 return false;
             }
@@ -731,54 +772,56 @@ if (!function_exists('get_chart_data')) {
      * @param
      * @return
      */
-    function get_chart_data(Array $main_array){
-            $results = [];
-            foreach($main_array as $date_label => $data) {
-                foreach($data as $label_key => $label_value) {
-                    if(!isset($results[$label_key])) {
-                        $results[$label_key] = [];
-                    }
-                    $results[$label_key][] = $label_value;
+    function get_chart_data(array $main_array)
+    {
+        $results = [];
+        foreach ($main_array as $date_label => $data) {
+            foreach ($data as $label_key => $label_value) {
+                if (!isset($results[$label_key])) {
+                    $results[$label_key] = [];
                 }
+                $results[$label_key][] = $label_value;
             }
-            foreach($results as $key => $value) {
-                $results[$key] = '["' . implode('", "', $value) . '"]';
-            }
-            $results['labels'] = '["' . implode('", "', array_keys($main_array)) . '"]';
-            return $results;
+        }
+        foreach ($results as $key => $value) {
+            $results[$key] = '["' . implode('", "', $value) . '"]';
+        }
+        $results['labels'] = '["' . implode('", "', array_keys($main_array)) . '"]';
+        return $results;
     }
 }
 
 if (!function_exists('head_seo_tags')) {
-    function head_seo_tags(){
+    function head_seo_tags()
+    {
         $html = '';
 
         // Check if user seo is active
         if (!settings('seo.enable')) {
             return false;
         }
-        
+
         $page_name = settings('seo.page_name');
         $page_description = settings('seo.page_description');
 
         // Page title
-        $html .= '<title>'. $page_name .'</title>
+        $html .= '<title>' . $page_name . '</title>
         ';
 
         // Meta Description
-        $html .= '<meta name="description" content="'. $page_description .'" />
+        $html .= '<meta name="description" content="' . $page_description . '" />
         ';
 
         // OP
-        $html .= '<meta property="og:title" content="'. $page_name .'" />
+        $html .= '<meta property="og:title" content="' . $page_name . '" />
         ';
-        $html .= '<meta property="og:description" content="'. $page_description .'" />
+        $html .= '<meta property="og:description" content="' . $page_description . '" />
         ';
 
         // Twitter
-        $html .= '<meta property="twitter:title" content="'. $page_name .'" />
+        $html .= '<meta property="twitter:title" content="' . $page_name . '" />
         ';
-        $html .= '<meta property="twitter:description" content="'. $page_description .'" />
+        $html .= '<meta property="twitter:description" content="' . $page_description . '" />
         ';
 
         /*
@@ -803,37 +846,40 @@ if (!function_exists('head_seo_tags')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 
 if (!function_exists('tidyHTML')) {
-    function tidyHTML($buffer) {
+    function tidyHTML($buffer)
+    {
         // load our document into a DOM object
         $dom = new DOMDocument();
         // we want nice output
         $dom->preserveWhiteSpace = false;
         $dom->loadHTML($buffer);
         $dom->formatOutput = true;
-        return($dom->saveHTML());
+        return ($dom->saveHTML());
     }
 }
 
 if (!function_exists('user_seo_tags')) {
-    function user_seo_tags($user_id, $page = 'defaults'){
+    function user_seo_tags($user_id, $page = 'defaults')
+    {
         $html = '';
         $seo = [];
 
@@ -865,13 +911,13 @@ if (!function_exists('user_seo_tags')) {
         // Check if it's in plan and fetch SEO from workspace (not user)
         if (plan('settings.seo', $user->id)) {
             $seoData = $workspace ? $workspace->seo : $user->seo;
-            
+
             if (ao($seoData, 'enable')) {
                 $page_name = !empty(ao($seoData, 'page_name')) ? ao($seoData, 'page_name') : $page_name;
                 $page_description = !empty(ao($seoData, 'page_description')) ? ao($seoData, 'page_description') : $page_description;
 
                 if (!empty($image = ao($seoData, 'opengraph_image'))) {
-                    if(mediaExists('media/bio/seo', $image)){
+                    if (mediaExists('media/bio/seo', $image)) {
                         $favicon_icon = gs('media/bio/seo', $image);
                     }
                 }
@@ -881,8 +927,8 @@ if (!function_exists('user_seo_tags')) {
         }
 
         $defaults = [
-            '<title>'. $page_name .'</title>',
-            '<meta name="description" content="'. $page_description .'" />',
+            '<title>' . $page_name . '</title>',
+            '<meta name="description" content="' . $page_description . '" />',
         ];
         $seo[] = $defaults;
 
@@ -890,9 +936,9 @@ if (!function_exists('user_seo_tags')) {
         $facebook = [
             '<!-- Facebook Seo Tags -->',
             '<meta property="og:type" content="website" />',
-            '<meta property="og:url" content="'. url()->current() .'" />',
-            '<meta property="og:title" content="'. $page_name .'" />',
-            '<meta property="og:description" content="'. $page_description .'" />',
+            '<meta property="og:url" content="' . url()->current() . '" />',
+            '<meta property="og:title" content="' . $page_name . '" />',
+            '<meta property="og:description" content="' . $page_description . '" />',
         ];
         $seo[] = $facebook;
 
@@ -901,17 +947,17 @@ if (!function_exists('user_seo_tags')) {
         $twitter = [
             '<!-- Twitter Seo Tags -->',
             '<meta property="twitter:type" content="website" />',
-            '<meta property="twitter:url" content="'. url()->current() .'" />',
-            '<meta property="twitter:title" content="'. $page_name .'" />',
-            '<meta property="twitter:description" content="'. $page_description .'" />'
+            '<meta property="twitter:url" content="' . url()->current() . '" />',
+            '<meta property="twitter:title" content="' . $page_name . '" />',
+            '<meta property="twitter:description" content="' . $page_description . '" />'
         ];
         $seo[] = $twitter;
 
         // Google
         $google = [
             '<!-- Google / Search Engine Tags -->',
-            '<meta itemprop="name" content="'. $page_name .'" />',
-            '<meta itemprop="description" content="'. $page_description .'" />'
+            '<meta itemprop="name" content="' . $page_name . '" />',
+            '<meta itemprop="description" content="' . $page_description . '" />'
         ];
         $seo[] = $google;
 
@@ -921,10 +967,10 @@ if (!function_exists('user_seo_tags')) {
         // Image
         $seo[] = [
             '<!-- Images -->',
-            '<link href="'. $favicon_icon .'" rel="shortcut icon" type="image/png" />',
-            '<meta property="og:image" content="'. $favicon_icon .'" />',
-            '<meta property="twitter:image" content="'. $favicon_icon .'" />',
-            '<meta itemprop="image" content="'. $favicon_icon .'"/>'
+            '<link href="' . $favicon_icon . '" rel="shortcut icon" type="image/png" />',
+            '<meta property="og:image" content="' . $favicon_icon . '" />',
+            '<meta property="twitter:image" content="' . $favicon_icon . '" />',
+            '<meta itemprop="image" content="' . $favicon_icon . '"/>'
         ];
 
         // Block SEO
@@ -946,25 +992,27 @@ if (!function_exists('user_seo_tags')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 
 if (!function_exists('xcopy')) {
-    function xcopy($source, $dest, $permissions = 0755){
+    function xcopy($source, $dest, $permissions = 0755)
+    {
         $sourceHash = hashDirectory($source);
         // Check for symlinks
         if (is_link($source)) {
@@ -990,8 +1038,8 @@ if (!function_exists('xcopy')) {
             }
 
             // Deep copy directories
-            if($sourceHash != hashDirectory($source."/".$entry)){
-                 xcopy("$source/$entry", "$dest/$entry", $permissions);
+            if ($sourceHash != hashDirectory($source . "/" . $entry)) {
+                xcopy("$source/$entry", "$dest/$entry", $permissions);
             }
         }
 
@@ -1002,16 +1050,22 @@ if (!function_exists('xcopy')) {
 }
 
 if (!function_exists('hashDirectory')) {
-    function hashDirectory($directory){
-        if (! is_dir($directory)){ return false; }
+    function hashDirectory($directory)
+    {
+        if (!is_dir($directory)) {
+            return false;
+        }
 
         $files = array();
         $dir = dir($directory);
 
-        while (false !== ($file = $dir->read())){
+        while (false !== ($file = $dir->read())) {
             if ($file != '.' and $file != '..') {
-                if (is_dir($directory . '/' . $file)) { $files[] = hashDirectory($directory . '/' . $file); }
-                else { $files[] = md5_file($directory . '/' . $file); }
+                if (is_dir($directory . '/' . $file)) {
+                    $files[] = hashDirectory($directory . '/' . $file);
+                } else {
+                    $files[] = md5_file($directory . '/' . $file);
+                }
             }
         }
 
@@ -1039,7 +1093,8 @@ if (!function_exists('listFolderFiles')) {
 }
 
 if (!function_exists('ActivatePlan')) {
-    function ActivatePlan($user_id, $plan, $duration){
+    function ActivatePlan($user_id, $plan, $duration)
+    {
         $plan_history = new \App\Models\PlansHistory;
         $plan = \App\Models\Plan::find($plan);
         $user = \App\User::find($user_id);
@@ -1084,7 +1139,8 @@ if (!function_exists('ActivatePlan')) {
 
 
 if (!function_exists('modal_media')) {
-    function modal_media($data = [], $location = null){
+    function modal_media($data = [], $location = null)
+    {
         $media = media_or_url($data, $location);
         $type = ao($data, 'type');
 
@@ -1099,7 +1155,8 @@ if (!function_exists('modal_media')) {
 }
 
 if (!function_exists('videoOrImage')) {
-    function videoOrImage($file, $data = []){
+    function videoOrImage($file, $data = [])
+    {
 
         $attr = ao($data, 'attr');
 
@@ -1119,8 +1176,8 @@ if (!function_exists('videoOrImage')) {
 
         if (in_array($extension, $video)) {
             $html = "<video class=\"lozad video-background image sandy-upload-modal-identifier\" $attr loop=\"\" autoplay=\"\" playsinline=\"\" muted=\"\"><source $src type=\"video/mp4\"></video>";
-        }else{
-            $html = '<img '.$src.' class="bio-background-inner lozad image sandy-upload-modal-identifier" '. $attr .' alt="">';
+        } else {
+            $html = '<img ' . $src . ' class="bio-background-inner lozad image sandy-upload-modal-identifier" ' . $attr . ' alt="">';
         }
 
 
@@ -1129,37 +1186,40 @@ if (!function_exists('videoOrImage')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 
 if (!function_exists('parse')) {
-    function parse($url, $key = null){
+    function parse($url, $key = null)
+    {
         $array = parse_url($url);
-        
+
         // Serve array without error
         app('config')->set('array-parse-temp', $array);
-        $key = !empty($key) ? '.'.$key : null;
-        return app('config')->get('array-parse-temp'. $key);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('array-parse-temp' . $key);
     }
 }
 
-if(!function_exists('random_avatar')){
-    
-    function random_avatar($key = null, $type = 'adventurer'){
+if (!function_exists('random_avatar')) {
+
+    function random_avatar($key = null, $type = 'adventurer')
+    {
 
 
         return "https://api.dicebear.com/9.x/$type/svg?seed=$key";
@@ -1167,26 +1227,32 @@ if(!function_exists('random_avatar')){
 }
 
 if (!function_exists('ao')) {
-    function ao($array, $key = null){
+    function ao($array, $key = null)
+    {
 
         $array = json_decode(json_encode($array), true);
         app('config')->set('array-temp', $array);
-        $key = !empty($key) ? '.'.$key : null;
-        return app('config')->get('array-temp'. $key);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('array-temp' . $key);
     }
 }
 
 if (!function_exists('human2byte')) {
-    function human2byte($value) {
-      return preg_replace_callback('/^\s*(\d+)\s*(?:([kmgt]?)b?)?\s*$/i', function ($m) {
-        switch (strtolower($m[2])) {
-          case 't': $m[1] *= 1024;
-          case 'g': $m[1] *= 1024;
-          case 'm': $m[1] *= 1024;
-          case 'k': $m[1] *= 1024;
-        }
-        return $m[1];
-      }, $value);
+    function human2byte($value)
+    {
+        return preg_replace_callback('/^\s*(\d+)\s*(?:([kmgt]?)b?)?\s*$/i', function ($m) {
+            switch (strtolower($m[2])) {
+                case 't':
+                    $m[1] *= 1024;
+                case 'g':
+                    $m[1] *= 1024;
+                case 'm':
+                    $m[1] *= 1024;
+                case 'k':
+                    $m[1] *= 1024;
+            }
+            return $m[1];
+        }, $value);
     }
 }
 
@@ -1198,7 +1264,8 @@ if (!function_exists('nr')) {
      * @param
      * @return
      */
-    function nr($n, $nf = false, $precision = 1) {
+    function nr($n, $nf = false, $precision = 1)
+    {
         if ($nf) {
             return number_format($n);
         }
@@ -1225,11 +1292,11 @@ if (!function_exists('nr')) {
             $suffix = 'T';
         }
 
-      // Remove unecessary zeroes after decimal. "1.0" -> "1"; "1.00" -> "1"
-      // Intentionally does not affect partials, eg "1.50" -> "1.50"
-        if ( $precision > 0 ) {
-            $dotzero = '.' . str_repeat( '0', $precision );
-            $n_format = str_replace( $dotzero, '', $n_format );
+        // Remove unecessary zeroes after decimal. "1.0" -> "1"; "1.00" -> "1"
+        // Intentionally does not affect partials, eg "1.50" -> "1.50"
+        if ($precision > 0) {
+            $dotzero = '.' . str_repeat('0', $precision);
+            $n_format = str_replace($dotzero, '', $n_format);
         }
 
         return $n_format . $suffix;
@@ -1237,7 +1304,8 @@ if (!function_exists('nr')) {
 }
 
 if (!function_exists('cr')) {
-    function cr($price, $currency){
+    function cr($price, $currency)
+    {
 
     }
 }
@@ -1250,20 +1318,21 @@ if (!function_exists('logo')) {
      * @param
      * @return
      */
-    function logo(){
-      $logo = settings('logo');
-      $default = gs('assets/image/others/default-logo.png');
+    function logo()
+    {
+        $logo = settings('logo');
+        $default = gs('assets/image/others/default-logo.png');
 
-      if (empty($logo)) {
-          return $default;
-      }
+        if (empty($logo)) {
+            return $default;
+        }
 
-      if (!mediaExists('media/site/logo', $logo)) {
-        return $default;
-      }
+        if (!mediaExists('media/site/logo', $logo)) {
+            return $default;
+        }
 
-      $logo = getStorage('media/site/logo', $logo);
-      return $logo;
+        $logo = getStorage('media/site/logo', $logo);
+        return $logo;
     }
 }
 
@@ -1275,17 +1344,18 @@ if (!function_exists('mix_logo')) {
      * @param
      * @return
      */
-    function mix_logo(){
-      $logo = settings('mix_logo');
-      $default = gs('assets/image/others/mix-default-logo.png');
+    function mix_logo()
+    {
+        $logo = settings('mix_logo');
+        $default = gs('assets/image/others/mix-default-logo.png');
 
-      if (empty($logo) || !mediaExists('media/site/logo', $logo)) {
-          return $default;
-      }
+        if (empty($logo) || !mediaExists('media/site/logo', $logo)) {
+            return $default;
+        }
 
-      $logo = getStorage('media/site/logo', $logo);
+        $logo = getStorage('media/site/logo', $logo);
 
-      return $logo;
+        return $logo;
     }
 }
 
@@ -1297,47 +1367,49 @@ if (!function_exists('favicon')) {
      * @param
      * @return
      */
-    function favicon(){
-      $favicon = settings('favicon');
-      $default = gs('assets/image/others/default-favicon.png');
+    function favicon()
+    {
+        $favicon = settings('favicon');
+        $default = gs('assets/image/others/default-favicon.png');
 
-      if (empty($favicon)) {
-          return $default;
-      }
+        if (empty($favicon)) {
+            return $default;
+        }
 
-      if (!mediaExists('media/site/favicon', $favicon)) {
-        return $default;
-      }
+        if (!mediaExists('media/site/favicon', $favicon)) {
+            return $default;
+        }
 
 
-      $favicon = getStorage('media/site/favicon', $favicon);
+        $favicon = getStorage('media/site/favicon', $favicon);
 
-      return $favicon;
+        return $favicon;
     }
 }
 
 
 if (!function_exists('env_update')) {
-    function env_update($data = array()){
-        if(count($data) > 0){
+    function env_update($data = array())
+    {
+        if (count($data) > 0) {
             $env = file_get_contents(base_path() . '/.env');
             $env = explode("\n", $env);
-            foreach((array)$data as $key => $value) {
-                if($key == "_token") {
+            foreach ((array) $data as $key => $value) {
+                if ($key == "_token") {
                     continue;
                 }
                 $notfound = true;
-                foreach($env as $env_key => $env_value) {
+                foreach ($env as $env_key => $env_value) {
                     $entry = explode("=", $env_value, 2);
-                    if($entry[0] == $key){
-                        $env[$env_key] = $key . "=\"" . $value."\"";
+                    if ($entry[0] == $key) {
+                        $env[$env_key] = $key . "=\"" . $value . "\"";
                         $notfound = false;
                     } else {
                         $env[$env_key] = $env_value;
                     }
                 }
-                if($notfound) {
-                    $env[$env_key + 1] = "\n".$key . "=\"" . $value."\"";
+                if ($notfound) {
+                    $env[$env_key + 1] = "\n" . $key . "=\"" . $value . "\"";
                 }
             }
             $env = implode("\n", $env);
@@ -1352,23 +1424,25 @@ if (!function_exists('env_update')) {
 
 
 if (!function_exists('settings')) {
-    function settings($key = null){
-       $getsettings = \App\Models\Setting::all()
-       ->keyBy('key')
-       ->transform(function ($setting) {
-             $value = json_decode($setting->value, true);
-             $value = (json_last_error() === JSON_ERROR_NONE) ? $value : $setting->value;
-             return $value;
-        })->toArray();
-       app('config')->set('settings', $getsettings);
-       $key = !empty($key) ? '.'.$key : null;
-       return app('config')->get('settings'.$key);
+    function settings($key = null)
+    {
+        $getsettings = \App\Models\Setting::all()
+            ->keyBy('key')
+            ->transform(function ($setting) {
+                $value = json_decode($setting->value, true);
+                $value = (json_last_error() === JSON_ERROR_NONE) ? $value : $setting->value;
+                return $value;
+            })->toArray();
+        app('config')->set('settings', $getsettings);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('settings' . $key);
     }
 }
 
 
 if (!function_exists('settings_put')) {
-    function settings_put($key, $data = []){
+    function settings_put($key, $data = [])
+    {
 
         $settings = [];
         $settings[$key] = $data;
@@ -1381,8 +1455,8 @@ if (!function_exists('settings_put')) {
 
         $key_value = ['key' => $key, 'value' => $value];
         if (\App\Models\Setting::where('key', $key)->first()) {
-                \App\Models\Setting::where('key', $key)->update(['value' => $value]);
-        }else{
+            \App\Models\Setting::where('key', $key)->update(['value' => $value]);
+        } else {
             \App\Models\Setting::insert($key_value);
         }
     }
@@ -1396,7 +1470,8 @@ if (!function_exists('GetPlan')) {
      * @param
      * @return
      */
-    function GetPlan($key = null, $id = null){
+    function GetPlan($key = null, $id = null)
+    {
         $plan_model = new \App\Models\Plan;
         // Lets get our package
         if (!$plan = $plan_model->where('id', $id)->first()) {
@@ -1419,7 +1494,8 @@ if (!function_exists('plan')) {
      * @param
      * @return
      */
-    function plan($key = null, $user = null){
+    function plan($key = null, $user = null)
+    {
         if ($user) {
             $user = \App\User::where('id', $user)->first();
             if (!$user) {
@@ -1428,7 +1504,7 @@ if (!function_exists('plan')) {
         }
         if (Auth::check() && !$user) {
             $user = Auth::user();
-        }elseif (!Auth::check() && !$user) {
+        } elseif (!Auth::check() && !$user) {
             return false;
         }
 
@@ -1438,7 +1514,7 @@ if (!function_exists('plan')) {
         $plan_skel = [
             'name' => __('No Plan!'),
             'settings' => [
-                
+
             ]
         ];
         // Lets check for plan
@@ -1460,43 +1536,46 @@ if (!function_exists('plan')) {
         switch (ao($plan, 'price_type')) {
             case 'paid':
                 $plan['plan_due_string'] = \Carbon\Carbon::parse(ao($plan, 'plan_due'))->toFormattedDateString();
-            break;
+                break;
 
             case 'free':
                 $plan['plan_due_string'] = __('Free Forever');
-            break;
+                break;
 
             case 'trial':
                 $plan['plan_due_string'] = \Carbon\Carbon::parse(ao($plan, 'plan_due'))->toFormattedDateString();
-            break;
+                break;
         }
 
         // Plan settings
         app('config')->set('plan', $plan);
-        $key = !empty($key) ? '.'.$key : null;
-        return app('config')->get('plan'.$key);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('plan' . $key);
     }
 }
 if (!function_exists('nf')) {
-    function nf($numbers, $decimal = 2){
+    function nf($numbers, $decimal = 2)
+    {
         $return = number_format($numbers, $decimal);
         return $return;
     }
 }
 
 if (!function_exists('preg_grep_keys_values')) {
-    function preg_grep_keys_values($pattern, $input, $flags = 0) {
+    function preg_grep_keys_values($pattern, $input, $flags = 0)
+    {
         return array_merge(
-          array_intersect_key($input, array_flip(preg_grep($pattern, array_keys($input), $flags))),
-          preg_grep($pattern, $input, $flags)
-       );
+            array_intersect_key($input, array_flip(preg_grep($pattern, array_keys($input), $flags))),
+            preg_grep($pattern, $input, $flags)
+        );
     }
 }
 
 if (!function_exists('isJson')) {
-    function isJson($string) {
-       json_decode($string);
-       return json_last_error() === JSON_ERROR_NONE;
+    function isJson($string)
+    {
+        json_decode($string);
+        return json_last_error() === JSON_ERROR_NONE;
     }
 }
 
@@ -1508,7 +1587,8 @@ if (!function_exists('avatar')) {
      * @param
      * @return
      */
-    function avatar($user = null, $html = false){
+    function avatar($user = null, $html = false)
+    {
 
 
 
@@ -1518,13 +1598,13 @@ if (!function_exists('avatar')) {
             if (!$user) {
                 return false;
             }
-        }elseif (!$user && Auth::check()) {
+        } elseif (!$user && Auth::check()) {
             $user = Auth::user();
-        }else{
+        } else {
             return false;
         }
 
-        $html_avatar = function() use ($user){
+        $html_avatar = function () use ($user) {
             $type = ao($user->avatar_settings, 'type');
 
             $check = !empty(user('avatar_settings.upload', $user->id)) && mediaExists('media/bio/avatar', user('avatar_settings.upload', $user->id)) ? true : false;
@@ -1575,16 +1655,17 @@ if (!function_exists('storageFileSize')) {
      * @param
      * @return
      */
-    function storageFileSize($directory, $file){
-      $location = $directory .'/'. $file;
-      $filesystem = sandy_filesystem($location);
+    function storageFileSize($directory, $file)
+    {
+        $location = $directory . '/' . $file;
+        $filesystem = sandy_filesystem($location);
 
-      if (Storage::disk($filesystem)->exists($location)) {
+        if (Storage::disk($filesystem)->exists($location)) {
 
-          return Storage::disk($filesystem)->size($location);
-      }
+            return Storage::disk($filesystem)->size($location);
+        }
 
-      return 0;
+        return 0;
     }
 }
 
@@ -1596,18 +1677,19 @@ if (!function_exists('storageDeleteDir')) {
      * @param
      * @return
      */
-    function storageDeleteDir($directory){
-      $location = $directory;
-      $filesystem = sandy_filesystem($location);
+    function storageDeleteDir($directory)
+    {
+        $location = $directory;
+        $filesystem = sandy_filesystem($location);
 
-      if (Storage::disk($filesystem)->exists($location)) {
+        if (Storage::disk($filesystem)->exists($location)) {
 
-          Storage::disk($filesystem)->deleteDirectory($location);
+            Storage::disk($filesystem)->deleteDirectory($location);
 
-          return true;
-      }
+            return true;
+        }
 
-      return false;
+        return false;
     }
 }
 
@@ -1619,18 +1701,19 @@ if (!function_exists('storageDelete')) {
      * @param
      * @return
      */
-    function storageDelete($directory, $file = null){
-      $location = $directory .'/'. $file;
-      $filesystem = sandy_filesystem($location);
+    function storageDelete($directory, $file = null)
+    {
+        $location = $directory . '/' . $file;
+        $filesystem = sandy_filesystem($location);
 
-      if (Storage::disk($filesystem)->exists($location)) {
+        if (Storage::disk($filesystem)->exists($location)) {
 
-          Storage::disk($filesystem)->delete($location);
+            Storage::disk($filesystem)->delete($location);
 
-          return true;
-      }
+            return true;
+        }
 
-      return false;
+        return false;
     }
 }
 
@@ -1642,15 +1725,16 @@ if (!function_exists('mediaExists')) {
      * @param
      * @return
      */
-    function mediaExists($directory, $file = null){
-      $location = $directory .'/'. $file;
-      $filesystem = sandy_filesystem($location);
+    function mediaExists($directory, $file = null)
+    {
+        $location = $directory . '/' . $file;
+        $filesystem = sandy_filesystem($location);
 
-      if (Storage::disk($filesystem)->exists($location)) {
-          return true;
-      }
+        if (Storage::disk($filesystem)->exists($location)) {
+            return true;
+        }
 
-      return false;
+        return false;
     }
 }
 
@@ -1662,7 +1746,8 @@ if (!function_exists('gs')) {
      * @param
      * @return
      */
-    function gs($directory, $file = null){
+    function gs($directory, $file = null)
+    {
         if ($file == null) {
             $file = basename($directory);
             $directory = dirname($directory);
@@ -1680,7 +1765,8 @@ if (!function_exists('getStorage')) {
      * @param
      * @return
      */
-    function getStorage($directory, $file){
+    function getStorage($directory, $file)
+    {
         // App Debug
         if (config('app.debug')) {
             $pathinfo = pathinfo($file);
@@ -1691,13 +1777,13 @@ if (!function_exists('getStorage')) {
                 $file = "$file?v=$date";
             }
         }
-        
-      $location = $directory .'/'. $file;
-      $filesystem = sandy_filesystem($location);
 
-      $get = \Storage::disk($filesystem)->url($location);
+        $location = $directory . '/' . $file;
+        $filesystem = sandy_filesystem($location);
 
-      return $get;
+        $get = \Storage::disk($filesystem)->url($location);
+
+        return $get;
     }
 }
 
@@ -1709,18 +1795,19 @@ if (!function_exists('sandy_filesystem')) {
      * @param
      * @return
      */
-    function sandy_filesystem($location){
-      $filesystem = env('FILESYSTEM');
+    function sandy_filesystem($location)
+    {
+        $filesystem = env('FILESYSTEM');
 
-      if (!config('app.AWS_ASSETS')) {
-        $assets = explode('/', $location);
-        if (isset($assets[0]) && $assets[0] == 'assets') {
-            $filesystem = 'local';
+        if (!config('app.AWS_ASSETS')) {
+            $assets = explode('/', $location);
+            if (isset($assets[0]) && $assets[0] == 'assets') {
+                $filesystem = 'local';
+            }
         }
-      }
 
 
-      return $filesystem;
+        return $filesystem;
     }
 }
 
@@ -1732,13 +1819,14 @@ if (!function_exists('getStoragePutAs')) {
      * @param
      * @return
      */
-    function getStoragePutAs($directory, $file, $name){
-      $filesystem = sandy_filesystem($directory);
+    function getStoragePutAs($directory, $file, $name)
+    {
+        $filesystem = sandy_filesystem($directory);
 
-      $put = \Storage::disk($filesystem)->putFileAs($directory, $file, $name);
-      \Storage::disk($filesystem)->setVisibility($put, 'public');
+        $put = \Storage::disk($filesystem)->putFileAs($directory, $file, $name);
+        \Storage::disk($filesystem)->setVisibility($put, 'public');
 
-      return $name;
+        return $name;
     }
 }
 
@@ -1750,35 +1838,37 @@ if (!function_exists('putStorage')) {
      * @param
      * @return
      */
-    function putStorage($directory, $file){
-      $filesystem = sandy_filesystem($directory);
+    function putStorage($directory, $file)
+    {
+        $filesystem = sandy_filesystem($directory);
 
 
-      $put = \Storage::disk($filesystem)->put($directory, $file);
+        $put = \Storage::disk($filesystem)->put($directory, $file);
 
-      \Storage::disk($filesystem)->setVisibility($put, 'public');
+        \Storage::disk($filesystem)->setVisibility($put, 'public');
 
 
-      return basename($put);
+        return basename($put);
     }
 }
 
 if (!function_exists('user')) {
-    function user($key = null, $user = null){
+    function user($key = null, $user = null)
+    {
         $using_auth = false;
         $workspace = null;
-        
+
         if ($user) {
             $user = \App\User::where('id', $user)->first();
             if (!$user) {
                 return false;
             }
         }
-        
+
         if (Auth::check() && !$user) {
             $user = Auth::user();
             $using_auth = true;
-        }elseif (!Auth::check() && !$user) {
+        } elseif (!Auth::check() && !$user) {
             // In public context, try to get workspace from View shared data
             // This happens when accessing public pages via workspace slug
             try {
@@ -1789,7 +1879,7 @@ if (!function_exists('user')) {
             } catch (\Exception $e) {
                 // View might not be available, continue
             }
-            
+
             // If still no user, try to get from request attributes (set by middleware/trait)
             if (!$user) {
                 try {
@@ -1811,17 +1901,17 @@ if (!function_exists('user')) {
             $workspace = \App\Models\Workspace::find(session('active_workspace_id'));
             if ($workspace && $workspace->user_id == $user->id) {
                 $wsAttributes = $workspace->toArray();
-                
+
                 // Map slug to username
-                if(isset($wsAttributes['slug'])) {
+                if (isset($wsAttributes['slug'])) {
                     $wsAttributes['username'] = $wsAttributes['slug'];
                 }
-                
+
                 // Remove critical identity fields from workspace array to prevent overwriting user auth info
                 unset($wsAttributes['id'], $wsAttributes['email'], $wsAttributes['password'], $wsAttributes['role'], $wsAttributes['plan_id'], $wsAttributes['created_at'], $wsAttributes['updated_at'], $wsAttributes['user_id']);
 
                 // Force attributes onto the user model
-                foreach($wsAttributes as $k => $v) {
+                foreach ($wsAttributes as $k => $v) {
                     if ($v !== null) {
                         $user->{$k} = $v;
                     }
@@ -1832,17 +1922,17 @@ if (!function_exists('user')) {
         elseif (!$using_auth && $workspace && $user) {
             // Merge workspace attributes into user for public pages
             $wsAttributes = $workspace->toArray();
-            
+
             // Map slug to username
-            if(isset($wsAttributes['slug'])) {
+            if (isset($wsAttributes['slug'])) {
                 $wsAttributes['username'] = $wsAttributes['slug'];
             }
-            
+
             // Remove critical identity fields
             unset($wsAttributes['id'], $wsAttributes['user_id'], $wsAttributes['created_at'], $wsAttributes['updated_at']);
 
             // Force attributes onto the user model
-            foreach($wsAttributes as $k => $v) {
+            foreach ($wsAttributes as $k => $v) {
                 if ($v !== null) {
                     $user->{$k} = $v;
                 }
@@ -1850,13 +1940,14 @@ if (!function_exists('user')) {
         }
 
         app('config')->set('user', $user);
-        $key = !empty($key) ? '.'.$key : null;
-        return app('config')->get('user'.$key);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('user' . $key);
     }
 }
 
 if (!function_exists('get_bio_apps_content')) {
-    function get_bio_apps_content($slug, $key){
+    function get_bio_apps_content($slug, $key)
+    {
         $bio = getBioResourceFile();
 
         if (array_key_exists($slug, $bio)) {
@@ -1864,8 +1955,8 @@ if (!function_exists('get_bio_apps_content')) {
             $bio['slug'] = $slug;
             app('config')->set('bio-temp-2', $bio);
 
-            $key = !empty($key) ? '.'.$key : null;
-            return app('config')->get('bio-temp-2'.$key);
+            $key = !empty($key) ? '.' . $key : null;
+            return app('config')->get('bio-temp-2' . $key);
         }
 
         return false;
@@ -1873,7 +1964,8 @@ if (!function_exists('get_bio_apps_content')) {
 }
 
 if (!function_exists('get_bio_apps_input')) {
-    function get_bio_apps_input($slug){
+    function get_bio_apps_input($slug)
+    {
         $bio = getBioResourceFile();
 
         if (array_key_exists($slug, $bio)) {
@@ -1907,29 +1999,30 @@ if (!function_exists('get_bio_apps_input')) {
 
 
 if (!function_exists('input_html')) {
-    function input_html($type, $slug, $name, $description = '', $value = '', $extra = []){
+    function input_html($type, $slug, $name, $description = '', $value = '', $extra = [])
+    {
         $value = $value;
 
 
         $html = '<div class="form-input mb-7">';
 
-        $html .= '<label for="login-username">'. __($name) .'</label>';
+        $html .= '<label for="login-username">' . __($name) . '</label>';
 
         if ($type == 'text') {
-            $html .= '<input type="text" value="'. $value .'" name="data['. $slug .'][text]">';
+            $html .= '<input type="text" value="' . $value . '" name="data[' . $slug . '][text]">';
         }
 
         if ($type == 'textarea') {
-            $html .= '<textarea name="data['. $slug .'][textarea]" class="editor">'. $value .'</textarea>';
+            $html .= '<textarea name="data[' . $slug . '][textarea]" class="editor">' . $value . '</textarea>';
         }
 
         if ($type == 'select') {
-            $html .= '<select class="custom-select" name="data['. $slug .'][select]">';
+            $html .= '<select class="custom-select" name="data[' . $slug . '][select]">';
 
             if (!empty($extra['options'])) {
-             foreach ($extra['options'] as $option_key => $option_label) {
-                $html .= '<option value="'.$option_key.'">'.$option_label.'</option>';
-              }
+                foreach ($extra['options'] as $option_key => $option_label) {
+                    $html .= '<option value="' . $option_key . '">' . $option_label . '</option>';
+                }
             }
 
             $html .= '</select>';
@@ -1946,32 +2039,35 @@ if (!function_exists('input_html')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 
 
 if (!function_exists('getBioResourceFile')) {
-    function getBioResourceFile(){
+    function getBioResourceFile()
+    {
         return require base_path('resources') . "/bio/bio.php";
     }
 }
 
 if (!function_exists('socials')) {
-    function socials(){
+    function socials()
+    {
         $path = base_path('resources/others/socials.php');
 
         $socials = \File::get($path);
@@ -1986,7 +2082,8 @@ if (!function_exists('socials')) {
 }
 
 if (!function_exists('getOtherResourceFile')) {
-    function getOtherResourceFile($file, $dir = 'others', $file_get_contents = false){
+    function getOtherResourceFile($file, $dir = 'others', $file_get_contents = false)
+    {
         if (file_exists($include = base_path('resources') . "/$dir/$file.php")) {
             if (!$file_get_contents) {
                 return require $include;
@@ -1998,7 +2095,8 @@ if (!function_exists('getOtherResourceFile')) {
 }
 
 if (!function_exists('json_to_array')) {
-    function json_to_array($json, $reverse = false){
+    function json_to_array($json, $reverse = false)
+    {
         if (is_json($json)) {
             $array = json_decode($json, true);
 
@@ -2010,15 +2108,17 @@ if (!function_exists('json_to_array')) {
     }
 }
 if (!function_exists('is_json')) {
-    function is_json($string) {
-       json_decode($string);
-       return json_last_error() === JSON_ERROR_NONE;
+    function is_json($string)
+    {
+        json_decode($string);
+        return json_last_error() === JSON_ERROR_NONE;
     }
 }
 
 if (!function_exists('includeAppRoute')) {
-    function includeAppRoute($file){
-        foreach(scandir($path = app_path('sandy/apps')) as $dir){
+    function includeAppRoute($file)
+    {
+        foreach (scandir($path = app_path('sandy/apps')) as $dir) {
             if (file_exists($filepath = "{$path}/{$dir}/{$file}.php")) {
                 require $filepath;
             }
@@ -2027,11 +2127,12 @@ if (!function_exists('includeAppRoute')) {
 }
 
 if (!function_exists('getAllBioApps')) {
-    function getAllBioApps(){
+    function getAllBioApps()
+    {
         $configs = [];
         $dir = base_path('sandy/Segment');
 
-        foreach(scandir($path = $dir) as $dir){
+        foreach (scandir($path = $dir) as $dir) {
             if (file_exists($filepath = "{$path}/{$dir}/config.php")) {
                 if (\Elements::config($dir)) {
                     $configs[$dir] = \Elements::config($dir);
@@ -2044,7 +2145,8 @@ if (!function_exists('getAllBioApps')) {
     }
 }
 if (!function_exists('fonts')) {
-    function fonts($type = 'array'){
+    function fonts($type = 'array')
+    {
         $path = base_path('resources/others/fonts.php');
 
         $fonts = \File::get($path);
@@ -2059,11 +2161,12 @@ if (!function_exists('fonts')) {
 
         foreach ($fonts as $key => $value) {
             $variants = ao($value, 'variants');
-            $url = "https://fonts.googleapis.com/css?family=$key:$variants";
-            
+            $encodedKey = urlencode($key);
+            $url = "https://fonts.googleapis.com/css?family=$encodedKey:$variants";
+
             $html .= "<link href='$url' rel='stylesheet' type='text/css'>";
 
-            $styles .= '.'.slugify($key).'-font-preview {font-family: "'.$key.'"}';
+            $styles .= '.' . slugify($key) . '-font-preview {font-family: "' . $key . '"}';
         }
 
         if ($type == 'html') {
@@ -2075,25 +2178,28 @@ if (!function_exists('fonts')) {
     }
 }
 if (!function_exists('all_locale')) {
-    function all_locale(){
-       // Get current translation locale
-       $locale = config('app.locale');
+    function all_locale()
+    {
+        // Get current translation locale
+        $locale = config('app.locale');
 
-       // Get all translations files
-       $path = resource_path('lang');
-       // Languages array
-       $languages = \File::files($path);
+        // Get all translations files
+        $path = resource_path('lang');
+        // Languages array
+        $languages = \File::files($path);
 
-       return $languages;
+        return $languages;
     }
 }
 if (!function_exists('string_uppercase')) {
-    function string_uppercase($string){
-       return ucwords(str_replace('_', ' ', $string));
+    function string_uppercase($string)
+    {
+        return ucwords(str_replace('_', ' ', $string));
     }
 }
 if (!function_exists('userFont')) {
-    function userFont($user){
+    function userFont($user)
+    {
         $fonts = fonts();
         $html = '';
         $styles = '';
@@ -2110,7 +2216,7 @@ if (!function_exists('userFont')) {
             $variants = ao($fonts, "$font.variants");
             $url = "https://fonts.googleapis.com/css?family=$font:$variants";
             $html .= "<link href='$url' rel='stylesheet' type='text/css'>";
-            $styles .= '* {font-family: "'.$font.'", sans-serif}';
+            $styles .= '* {font-family: "' . $font . '", sans-serif}';
         }
 
         $html .= "<style> $styles </style>";
@@ -2120,24 +2226,26 @@ if (!function_exists('userFont')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 if (!function_exists('radius_and_align_class')) {
-    function radius_and_align_class($user, $type = 'radius'){
+    function radius_and_align_class($user, $type = 'radius')
+    {
         $classes = '';
 
         if (!$user = \App\User::find($user)) {
@@ -2155,7 +2263,7 @@ if (!function_exists('radius_and_align_class')) {
                     $radius = "radius-$user_radius";
                 }
                 return $radius;
-            break;
+                break;
 
             case 'align':
                 $align = 'a-center';
@@ -2164,12 +2272,13 @@ if (!function_exists('radius_and_align_class')) {
                 }
 
                 return $align;
-            break;
+                break;
         }
     }
 }
 if (!function_exists('BioColorCss')) {
-    function BioColorCss($user){
+    function BioColorCss($user)
+    {
         $styles = '';
 
         if (!$user = \App\User::find($user)) {
@@ -2199,24 +2308,26 @@ if (!function_exists('BioColorCss')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 if (!function_exists('tracking_log')) {
-    function tracking_log(){
+    function tracking_log()
+    {
         $ip = getIp(); //getIp() 102.89.2.139
 
         $agent = new \Jenssegers\Agent\Agent;
@@ -2233,7 +2344,8 @@ if (!function_exists('tracking_log')) {
 }
 
 if (!function_exists('logActivity')) {
-    function logActivity($email, $type, $message){
+    function logActivity($email, $type, $message)
+    {
         if (!$user = \App\User::where('email', $email)->first()) {
             return false;
         }
@@ -2268,7 +2380,8 @@ if (!function_exists('logActivity')) {
 }
 
 if (!function_exists('getBioBackground')) {
-    function getBioBackground($id, $type = 'user'){
+    function getBioBackground($id, $type = 'user')
+    {
         $bio = \App\User::find($id);
         $inner = '';
         $wrapper = '';
@@ -2282,25 +2395,25 @@ if (!function_exists('getBioBackground')) {
             return false;
         }
 
-        $background = function ($background, $id){
+        $background = function ($background, $id) {
             $inner = '';
             switch ($background) {
                 case 'image':
                     $image = '';
                     if (user('background_settings.image.source', $id) == 'upload') {
                         $image = getStorage('media/bio/background', user('background_settings.image.image', $id));
-                    }elseif (user('background_settings.image.source', $id) == 'url') {
+                    } elseif (user('background_settings.image.source', $id) == 'url') {
                         $image = user('background_settings.image.external_url', $id);
                     }
 
                     $inner .= "<img class='bio-background-inner' src='$image'>";
-                break;
+                    break;
 
                 case 'color':
                     $solid = user('background_settings.solid.color', $id);
 
                     $inner .= "<div style=\"background: $solid\" class=\"solid-color\"></div>";
-                break;
+                    break;
 
                 case 'video':
                     $video = '';
@@ -2308,19 +2421,19 @@ if (!function_exists('getBioBackground')) {
 
                     if ($source == 'upload') {
                         $video = getStorage('media/bio/background', user('background_settings.video.video', $id));
-                    }elseif ($source == 'url') {
+                    } elseif ($source == 'url') {
                         $video = user('background_settings.video.external_url', $id);
                     }
 
                     $inner .= "<video class=\"lozad video-background\" loop=\"\" autoplay=\"\" playsinline=\"\" muted=\"\"><source data-src=\"$video\" type=\"video/mp4\"></video>";
-                break;
+                    break;
 
                 case 'gradient':
                     $gradient1 = user('background_settings.gradient.color_1', $id);
                     $gradient2 = user('background_settings.gradient.color_2', $id);
                     $animate = user('background_settings.gradient.animate', $id);
 
-                    $hex2rgb = function($color){
+                    $hex2rgb = function ($color) {
                         $array = hex2rgb($color);
 
                         $rgb = is_array($array) ? implode(',', $array) : '#000000';
@@ -2341,7 +2454,7 @@ if (!function_exists('getBioBackground')) {
                     $class = $animate ? 'animate' : '';
 
                     $inner .= "<div style=\"background: $returnGradient\" class=\"gradient-color $class\"></div>";
-                break;
+                    break;
             }
 
             return $inner;
@@ -2361,12 +2474,13 @@ if (!function_exists('getBioBackground')) {
     }
 }
 if (!function_exists('ElementIcon')) {
-    function ElementIcon($element){
+    function ElementIcon($element)
+    {
         $html = '';
 
         if (Elements::config($element, 'thumbnail.type') == 'icon'):
-            $html .= '<div class="thumbnail h-avatar is-elem md is-video remove-before shadow-bg shadow-bg-s rounded-2xl" style="background: '.Elements::config($element, 'thumbnail.background').'; color: '. Elements::config($element, 'thumbnail.i-color') .'">
-                <i class="'. Elements::config($element, 'thumbnail.thumbnail') .'"></i>
+            $html .= '<div class="thumbnail h-avatar is-elem md is-video remove-before shadow-bg shadow-bg-s rounded-2xl" style="background: ' . Elements::config($element, 'thumbnail.background') . '; color: ' . Elements::config($element, 'thumbnail.i-color') . '">
+                <i class="' . Elements::config($element, 'thumbnail.thumbnail') . '"></i>
             </div>';
         endif;
 
@@ -2376,40 +2490,42 @@ if (!function_exists('ElementIcon')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 if (!function_exists('getPluginAdminMenus')) {
-    function getPluginAdminMenus(){
+    function getPluginAdminMenus()
+    {
         global $adminMenu;
         $html = '';
-        $getItem = function($array, $key){
+        $getItem = function ($array, $key) {
 
             app('config')->set('array-temp', $array);
-            $key = !empty($key) ? '.'.$key : null;
-            return app('config')->get('array-temp'. $key);
+            $key = !empty($key) ? '.' . $key : null;
+            return app('config')->get('array-temp' . $key);
         };
 
         if (!empty($adminMenu)) {
-            $html .= "<div class='sidebar__caption'>". __('Plugin') ."</div>";
+            $html .= "<div class='sidebar__caption'>" . __('Plugin') . "</div>";
         }
 
         if (is_array($adminMenu)) {
             foreach ($adminMenu as $key => $value) {
-               $html .= '<a class="sidebar__item" '. ao($value, 'a-attr') .' href="'. $getItem($value, 'url') .'"><div class="sidebar__icon"><i class="icon '. $getItem($value, 'icon') .'"></i></div><div class="sidebar__text">'. $getItem($value, 'name') .'</div></a>';
+                $html .= '<a class="sidebar__item" ' . ao($value, 'a-attr') . ' href="' . $getItem($value, 'url') . '"><div class="sidebar__icon"><i class="icon ' . $getItem($value, 'icon') . '"></i></div><div class="sidebar__text">' . $getItem($value, 'name') . '</div></a>';
             }
         }
 
@@ -2418,24 +2534,26 @@ if (!function_exists('getPluginAdminMenus')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 if (!function_exists('geoCountry')) {
-    function geoCountry($ip, $key = null){
+    function geoCountry($ip, $key = null)
+    {
         $database = storage_path('geoip/GeoLite2-Country.mmdb');
         $reader = new MaxMind\Db\Reader($database);
 
@@ -2447,7 +2565,8 @@ if (!function_exists('geoCountry')) {
     }
 }
 if (!function_exists('geoCity')) {
-    function geoCity($ip, $key = null){
+    function geoCity($ip, $key = null)
+    {
         $database = storage_path('geoip/GeoLite2-City.mmdb');
         $reader = new MaxMind\Db\Reader($database);
 
@@ -2457,19 +2576,20 @@ if (!function_exists('geoCity')) {
 
 
         app('config')->set('geo-temp', $items);
-        $key = !empty($key) ? '.'.$key : null;
-        return app('config')->get('geo-temp'. $key);
+        $key = !empty($key) ? '.' . $key : null;
+        return app('config')->get('geo-temp' . $key);
     }
 }
 
 if (!function_exists('getIp')) {
-    function getIp() {
+    function getIp()
+    {
 
         //return '41.210.63.255';
 
-        if(array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)) {
+        if (array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)) {
 
-            if(strpos($_SERVER['HTTP_X_FORWARDED_FOR'], ',')) {
+            if (strpos($_SERVER['HTTP_X_FORWARDED_FOR'], ',')) {
                 $ips = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
 
                 return trim(reset($ips));
@@ -2495,7 +2615,8 @@ if (!function_exists('share_to_media')) {
      * @param
      * @return
      */
-    function share_to_media($type, $name, $url){
+    function share_to_media($type, $name, $url)
+    {
         $url = $url;
 
         if ($type == 'facebook') {
@@ -2555,19 +2676,20 @@ if (!function_exists('share_to_media')) {
 }
 
 if (!function_exists('bio_url')) {
-    function bio_url($user, $type = 'full', $link = false){
+    function bio_url($user, $type = 'full', $link = false)
+    {
         // Check if $user is a workspace slug or user id/username
         $workspace = null;
         $userModel = null;
-        
+
         // Try to find workspace by slug first
         $workspace = \App\Models\Workspace::where('slug', $user)->where('status', 1)->first();
-        
+
         if ($workspace) {
             // It's a workspace slug
             $userModel = $workspace->user;
             $slug = $workspace->slug;
-            
+
             // Get Domain for workspace
             $domain = \App\Models\Domain::where('workspace_id', $workspace->id)->where('is_active', 1)->first();
             if (!$domain) {
@@ -2579,21 +2701,21 @@ if (!function_exists('bio_url')) {
             if (!$userModel = \App\User::find($user)) {
                 $userModel = \App\User::where('username', $user)->first();
             }
-            
+
             if (!$userModel) {
                 return false;
             }
-            
+
             $slug = $userModel->username;
-            
+
             // Get Domain
             $domain = \App\Models\Domain::where('user', $userModel->id)->where('is_active', 1)->first();
         }
-        
+
         if (!$userModel) {
             return false;
         }
-        
+
         $domainUrl = $domain ? "$domain->scheme://$domain->host" : '';
 
         // Get Routed url - use workspace slug if available, otherwise username
@@ -2622,15 +2744,16 @@ if (!function_exists('bio_url')) {
 }
 
 if (!function_exists('EditBlocksContent')) {
-    function EditBlocksContent($block_id){
+    function EditBlocksContent($block_id)
+    {
         $model = new \App\Models\Block;
         $elements = new \App\Models\Blockselement;
 
         $block = $model->find($block_id);
         $block['elements'] = $elements->where('block_id', $block->id)
-                            ->orderBy('position', 'ASC')
-                            ->orderBy('id', 'DESC')
-                            ->get();
+            ->orderBy('position', 'ASC')
+            ->orderBy('id', 'DESC')
+            ->get();
 
         if (!$block) {
             return false;
@@ -2651,15 +2774,16 @@ if (!function_exists('EditBlocksContent')) {
 }
 
 if (!function_exists('GetBlocksContent')) {
-    function GetBlocksContent($block_id){
+    function GetBlocksContent($block_id)
+    {
         $model = new \App\Models\Block;
         $elements = new \App\Models\Blockselement;
 
         $block = $model->find($block_id);
         $block['elements'] = $elements->where('block_id', $block->id)
-                            ->orderBy('position', 'ASC')
-                            ->orderBy('id', 'DESC')
-                            ->get();
+            ->orderBy('position', 'ASC')
+            ->orderBy('id', 'DESC')
+            ->get();
 
         if (!$block) {
             return false;
@@ -2680,15 +2804,17 @@ if (!function_exists('GetBlocksContent')) {
 }
 
 if (!function_exists('getYouTubeVideoId')) {
-    function getYouTubeVideoId($url) {
-            $regExp = "/^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((?:\w|-){11})(?:&list=(\S+))?$/";
-            preg_match($regExp, $url, $video);
-            return $video[1] ?? '';
+    function getYouTubeVideoId($url)
+    {
+        $regExp = "/^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((?:\w|-){11})(?:&list=(\S+))?$/";
+        preg_match($regExp, $url, $video);
+        return $video[1] ?? '';
     }
 }
 
 if (!function_exists('getVimeoId')) {
-    function getVimeoId($url) {
+    function getVimeoId($url)
+    {
         if (preg_match('#(?:https?://)?(?:www.)?(?:player.)?vimeo.com/(?:[a-z]*/)*([0-9]{6,11})[?]?.*#', $url, $m)) {
             return $m[1] ?? '';
         }
@@ -2697,12 +2823,13 @@ if (!function_exists('getVimeoId')) {
 }
 
 if (!function_exists('getVimeoThumb')) {
-    function getVimeoThumb($id) {
+    function getVimeoThumb($id)
+    {
         try {
             $arr_vimeo = unserialize(file_get_contents("https://vimeo.com/api/v2/video/$id.php"));
             return $arr_vimeo[0]['thumbnail_large'];
         } catch (\Exception $e) {
-            
+
         }
 
 
@@ -2712,7 +2839,8 @@ if (!function_exists('getVimeoThumb')) {
     }
 }
 if (!function_exists('getDailyMotionId')) {
-    function getDailyMotionId($url){
+    function getDailyMotionId($url)
+    {
         if (preg_match('!^.+dailymotion\.com/(video|hub)/([^_]+)[^#]*(#video=([^_&]+))?|(dai\.ly/([^_]+))!', $url, $m)) {
             if (isset($m[6])) {
                 return $m[6];
@@ -2726,23 +2854,25 @@ if (!function_exists('getDailyMotionId')) {
     }
 }
 if (!function_exists('getDailymotionThumb')) {
-    function getDailymotionThumb($id) {
+    function getDailymotionThumb($id)
+    {
         try {
-            $thumbnail_large_url = 'https://api.dailymotion.com/video/'.$id.'?fields=thumbnail_720_url'; //pass thumbnail_360_url, thumbnail_480_url, thumbnail_720_url, etc. for different sizes
+            $thumbnail_large_url = 'https://api.dailymotion.com/video/' . $id . '?fields=thumbnail_720_url'; //pass thumbnail_360_url, thumbnail_480_url, thumbnail_720_url, etc. for different sizes
             $json_thumbnail = file_get_contents($thumbnail_large_url);
             $arr_dailymotion = json_decode($json_thumbnail, TRUE);
             $thumb = $arr_dailymotion['thumbnail_720_url'];
             return $thumb;
-          } catch (\Exception $e) {
-                return false;
+        } catch (\Exception $e) {
+            return false;
 
-                // Log error
-          }  
+            // Log error
+        }
     }
 }
 
 if (!function_exists('getVideoBlocksThumbnail')) {
-    function getVideoBlocksThumbnail($stream, $video){
+    function getVideoBlocksThumbnail($stream, $video)
+    {
         switch ($stream) {
             case 'youtube':
                 $videoID = getYouTubeVideoId($video);
@@ -2753,19 +2883,19 @@ if (!function_exists('getVideoBlocksThumbnail')) {
                 // mqdefault.jpg - Medium quality
                 // hqdefault.jpg - High quality
                 // maxresdefault.jpg - Max quality
-            break;
+                break;
 
             case 'vimeo':
                 $videoID = getVimeoId($video);
 
                 return getVimeoThumb($videoID);
-            break;
+                break;
 
             case 'dailymotion':
                 $videoID = getDailyMotionId($video);
 
                 return getDailymotionThumb($videoID);
-            break;
+                break;
         }
 
         return false;
@@ -2773,28 +2903,29 @@ if (!function_exists('getVideoBlocksThumbnail')) {
 }
 
 if (!function_exists('getEmbedableLink')) {
-    function getEmbedableLink($stream = '', $video = ''){
+    function getEmbedableLink($stream = '', $video = '')
+    {
         switch ($stream) {
             case 'youtube':
-                if(preg_match('/^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((?:\w|-){11})(?:&list=(\S+))?$/', $video, $match)) {
+                if (preg_match('/^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((?:\w|-){11})(?:&list=(\S+))?$/', $video, $match)) {
                     $embed = $match[1] ?? '';
 
                     $embed = "https://www.youtube.com/embed/$embed?autoplay=1";
-                    
+
                     return $embed;
                 }
-            break;
+                break;
             case 'vimeo':
-                if(preg_match('/https:\/\/(player\.)?vimeo\.com(\/video)?\/(\d+)/', $video, $match)) {
+                if (preg_match('/https:\/\/(player\.)?vimeo\.com(\/video)?\/(\d+)/', $video, $match)) {
                     $embed = $match[3] ?? '';
 
                     $embed = "https://player.vimeo.com/video/$embed";
 
                     return $embed;
                 }
-            break;
+                break;
             case 'twitch':
-                if(preg_match('/^(?:https?:\/\/)?(?:www\.)?(?:twitch\.tv\/)(.+)$/', $video, $match)) {
+                if (preg_match('/^(?:https?:\/\/)?(?:www\.)?(?:twitch\.tv\/)(.+)$/', $video, $match)) {
                     $embed = $match[1] ?? '';
 
                     $server = $_SERVER['HTTP_HOST'];
@@ -2803,23 +2934,23 @@ if (!function_exists('getEmbedableLink')) {
 
                     return $embed;
                 }
-            break;
+                break;
             case 'soundcloud':
-                if(preg_match('/(soundcloud\.com)/', $video)) {
+                if (preg_match('/(soundcloud\.com)/', $video)) {
                     $embed = $video;
 
                     $embed = "https://w.soundcloud.com/player/?url=$embed&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true";
 
                     return $embed;
                 }
-            break;
+                break;
             case 'dailymotion':
                 $video_id = getDailyMotionId($video);
 
                 $embed = "https://www.dailymotion.com/embed/video/$video_id?autoplay=1";
 
                 return $embed;
-            break;
+                break;
         }
 
         return $video;
@@ -2827,7 +2958,8 @@ if (!function_exists('getEmbedableLink')) {
 }
 
 if (!function_exists('getUserPixel')) {
-    function getUserPixel($user){
+    function getUserPixel($user)
+    {
         $pixels = \App\Models\Pixel::user($user)->active()->get();
         $skeleton = getOtherResourceFile('pixels');
 
@@ -2860,20 +2992,23 @@ if (!function_exists('getUserPixel')) {
 }
 
 if (!function_exists('addHttps')) {
-    function addHttps($url, $scheme = 'https'){
+    function addHttps($url, $scheme = 'https')
+    {
         return parse_url($url, PHP_URL_SCHEME) === null ? "$scheme://$url" : $url;
     }
 }
 
 if (!function_exists('set_trans')) {
-    function set_trans($trans){
+    function set_trans($trans)
+    {
         session()->put('locale', $trans);
         return back();
     }
 }
 
 if (!function_exists('validate_url')) {
-    function validate_url( $url ) {
+    function validate_url($url)
+    {
 
         $path = parse_url($url, PHP_URL_PATH);
         $encoded_path = array_map('urlencode', explode('/', $path));
@@ -2884,14 +3019,15 @@ if (!function_exists('validate_url')) {
 }
 
 if (!function_exists('linker')) {
-    function linker($uri, $user){
+    function linker($uri, $user)
+    {
         $model = new \App\Models\Linker;
 
         if (!validate_url($uri)) {
             //return false;
         }
 
-        $createLinker = function($url) use ($model, $user){
+        $createLinker = function ($url) use ($model, $user) {
             $slug = \Str::random(5);
             $new = $model;
             $new->url = $url;
@@ -2903,7 +3039,7 @@ if (!function_exists('linker')) {
         };
 
 
-        $route = function($slug, $user){
+        $route = function ($slug, $user) {
             return route('linker', ['slug' => $slug]);
         };
 
@@ -2920,44 +3056,45 @@ if (!function_exists('linker')) {
 }
 
 if (!function_exists('hex2rgb')) {
-    function hex2rgb( $colour ) {
+    function hex2rgb($colour)
+    {
         $hex = str_replace("#", "", $colour);
 
-         if(strlen($hex) == 3) {
-          $r = hexdec(substr($hex,0,1).substr($hex,0,1));
-          $g = hexdec(substr($hex,1,1).substr($hex,1,1));
-          $b = hexdec(substr($hex,2,1).substr($hex,2,1));
+        if (strlen($hex) == 3) {
+            $r = hexdec(substr($hex, 0, 1) . substr($hex, 0, 1));
+            $g = hexdec(substr($hex, 1, 1) . substr($hex, 1, 1));
+            $b = hexdec(substr($hex, 2, 1) . substr($hex, 2, 1));
         } else {
-          $r = hexdec(substr($hex,0,2));
-          $g = hexdec(substr($hex,2,2));
-          $b = hexdec(substr($hex,4,2));
+            $r = hexdec(substr($hex, 0, 2));
+            $g = hexdec(substr($hex, 2, 2));
+            $b = hexdec(substr($hex, 4, 2));
         }
-        return array( 'red' => $r, 'green' => $g, 'blue' => $b );
+        return array('red' => $r, 'green' => $g, 'blue' => $b);
 
-        if ( $colour[0] == '#' ) {
-                $colour = substr( $colour, 1 );
+        if ($colour[0] == '#') {
+            $colour = substr($colour, 1);
         }
-        if ( strlen( $colour ) == 6 ) {
-                list( $r, $g, $b ) = array( $colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5] );
-        } elseif ( strlen( $colour ) == 3 ) {
-                list( $r, $g, $b ) = array( $colour[0] . $colour[0], $colour[1] . $colour[1], $colour[2] . $colour[2] );
+        if (strlen($colour) == 6) {
+            list($r, $g, $b) = array($colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5]);
+        } elseif (strlen($colour) == 3) {
+            list($r, $g, $b) = array($colour[0] . $colour[0], $colour[1] . $colour[1], $colour[2] . $colour[2]);
         } else {
-                return false;
+            return false;
         }
-        $r = hexdec( $r );
-        $g = hexdec( $g );
-        $b = hexdec( $b );
-        return array( 'red' => $r, 'green' => $g, 'blue' => $b );
+        $r = hexdec($r);
+        $g = hexdec($g);
+        $b = hexdec($b);
+        return array('red' => $r, 'green' => $g, 'blue' => $b);
     }
 }
 
 if (!function_exists('getAuthorizationHeader')) {
-    function getAuthorizationHeader(){
+    function getAuthorizationHeader()
+    {
         $headers = null;
         if (isset($_SERVER['Authorization'])) {
             $headers = trim($_SERVER["Authorization"]);
-        }
-        else if (isset($_SERVER['HTTP_AUTHORIZATION'])) { //Nginx or fast CGI
+        } else if (isset($_SERVER['HTTP_AUTHORIZATION'])) { //Nginx or fast CGI
             $headers = trim($_SERVER["HTTP_AUTHORIZATION"]);
         } elseif (function_exists('apache_request_headers')) {
             $requestHeaders = apache_request_headers();
@@ -2973,7 +3110,8 @@ if (!function_exists('getAuthorizationHeader')) {
 }
 
 if (!function_exists('getBearerToken')) {
-    function getBearerToken() {
+    function getBearerToken()
+    {
         $headers = getAuthorizationHeader();
         // HEADER: Get the access token from the header
         if (!empty($headers)) {
@@ -2986,13 +3124,15 @@ if (!function_exists('getBearerToken')) {
 }
 
 if (!function_exists('phpInput')) {
-    function phpInput(){
+    function phpInput()
+    {
         return json_decode(file_get_contents('php://input'), true);
     }
 }
 
 if (!function_exists('updateElement')) {
-    function updateElement($id, $content = [], $extra = []){
+    function updateElement($id, $content = [], $extra = [])
+    {
         $element = \App\Models\Element::find($id);
 
         // Validate element
@@ -3010,7 +3150,8 @@ if (!function_exists('updateElement')) {
 }
 
 if (!function_exists('insertElement')) {
-    function insertElement($user, $elementName, $content = [], $extra = []){
+    function insertElement($user, $elementName, $content = [], $extra = [])
+    {
         $slug = \Str::random(4);
         $user = \App\User::find($user);
         $element = new \App\Models\Element;
@@ -3022,20 +3163,20 @@ if (!function_exists('insertElement')) {
         // Validate element
         // Get workspace_id from session if available
         $workspaceId = session('active_workspace_id', null);
-        
+
         // ✅ Segurança: Validar que workspace da sessão pertence ao usuário
         if ($workspaceId) {
             $workspace = \App\Models\Workspace::where('id', $workspaceId)
                 ->where('user_id', $user->id)
                 ->where('status', 1)
                 ->first();
-            
+
             if (!$workspace) {
                 // Workspace inválida, usar default
                 $workspaceId = null;
             }
         }
-        
+
         if (!$workspaceId) {
             // Fallback: get default workspace for user
             $defaultWorkspace = \App\Models\Workspace::where('user_id', $user->id)
@@ -3077,7 +3218,8 @@ if (!function_exists('insertElement')) {
 }
 
 if (!function_exists('BioGlobal')) {
-    function BioGlobal($array = []){
+    function BioGlobal($array = [])
+    {
         foreach ($array as $key => $value) {
             $GLOBALS['BioGlobal'][$key] = $value;
         }
@@ -3087,39 +3229,41 @@ if (!function_exists('BioGlobal')) {
 }
 
 if (!function_exists('BioGlobalRetrieve')) {
-    function BioGlobalRetrieve($key = null){
+    function BioGlobalRetrieve($key = null)
+    {
         return ao($GLOBALS['BioGlobal'], $key);
     }
 }
 
 if (!function_exists('elements')) {
-    function elements($user, $workspace_id = null){
+    function elements($user, $workspace_id = null)
+    {
         $model = new \App\Models\Element;
 
         $elementsQuery = $model->where('user', $user);
-        
+
         // Use workspace_id if provided, otherwise try session
         if ($workspace_id === null) {
             $workspace_id = session('active_workspace_id', null);
-            
+
             // ✅ Segurança: Validar que workspace da sessão pertence ao usuário
             if ($workspace_id) {
                 $workspace = \App\Models\Workspace::where('id', $workspace_id)
                     ->where('user_id', $user)
                     ->where('status', 1)
                     ->first();
-                
+
                 if (!$workspace) {
                     // Workspace inválida, não filtrar (mostrar todas do usuário ou null)
                     $workspace_id = null;
                 }
             }
         }
-        
+
         if ($workspace_id) {
             $elementsQuery->where('workspace_id', $workspace_id);
         }
-        
+
         $elements = $elementsQuery->orderBy('id', 'DESC')->get();
 
         return $elements;
@@ -3127,7 +3271,8 @@ if (!function_exists('elements')) {
 }
 
 if (!function_exists('colorFromImage')) {
-    function colorFromImage($image){
+    function colorFromImage($image)
+    {
         $color = false;
 
         try {
@@ -3138,7 +3283,7 @@ if (!function_exists('colorFromImage')) {
                 $color = \League\ColorExtractor\Color::fromIntToHex($key);
             }
         } catch (\Exception $e) {
-                    
+
         }
 
         return $color;
@@ -3146,7 +3291,8 @@ if (!function_exists('colorFromImage')) {
 }
 
 if (!function_exists('elemOrLink')) {
-    function elemOrLink($id, $user){
+    function elemOrLink($id, $user)
+    {
         $blocksElem = \App\Models\Blockselement::find($id);
 
         //
@@ -3182,7 +3328,8 @@ if (!function_exists('elemOrLink')) {
 }
 
 if (!function_exists('url_query')) {
-    function url_query($to, array $params = [], array $additional = []) {
+    function url_query($to, array $params = [], array $additional = [])
+    {
         $url = url($to, $additional);
 
         $params = !empty($params) ? '?' . \Arr::query($params) : '';
@@ -3191,7 +3338,8 @@ if (!function_exists('url_query')) {
 }
 
 if (!function_exists('Ethumb')) {
-    function Ethumb($location, array $item) {
+    function Ethumb($location, array $item)
+    {
         $type = ao($item, 'type');
         $url = '';
 
@@ -3199,7 +3347,7 @@ if (!function_exists('Ethumb')) {
             case 'upload':
                 $thumb = ao($item, 'thumbnail');
                 $url = gs($location, $thumb);
-            break;
+                break;
         }
 
 
@@ -3208,7 +3356,8 @@ if (!function_exists('Ethumb')) {
 }
 
 if (!function_exists('fancy_error')) {
-    function fancy_error($method = null, $error = null) {
+    function fancy_error($method = null, $error = null)
+    {
         return view('include.payment-error', ['method' => $method, 'error' => $error]);
     }
 }
@@ -3221,7 +3370,8 @@ if (!function_exists('sandy_upload_modal')) {
      * @param
      * @return
      */
-    function sandy_upload_modal($data = [], $location = false){
+    function sandy_upload_modal($data = [], $location = false)
+    {
 
         if ($location) {
             $data['upload'] = gs($location, ao($data, 'upload'));
@@ -3239,8 +3389,9 @@ if (!function_exists('sandy_upload_modal_upload')) {
      * @param
      * @return
      */
-    function sandy_upload_modal_upload($request, $location, $file_size = '2048', $user_id = null, $update = false){
-        $upload_file = function($input) use ($request, $location, $file_size, $user_id){
+    function sandy_upload_modal_upload($request, $location, $file_size = '2048', $user_id = null, $update = false)
+    {
+        $upload_file = function ($input) use ($request, $location, $file_size, $user_id) {
 
             $validation = 'image|mimes:jpeg,png,jpg,gif,svg';
             if ($file_size) {
@@ -3273,10 +3424,10 @@ if (!function_exists('sandy_upload_modal_upload')) {
             $file = $request->file($input);
             if ($file) {
                 $originalName = $file->getClientOriginalName();
-                $sanitizedName = function_exists('sanitizeFileName') 
-                    ? sanitizeFileName($originalName) 
+                $sanitizedName = function_exists('sanitizeFileName')
+                    ? sanitizeFileName($originalName)
                     : $originalName;
-                
+
                 // Usar nome sanitizado se diferente
                 if ($sanitizedName !== $originalName && method_exists($file, 'storeAs')) {
                     // Aplicar nome sanitizado durante o upload
@@ -3324,7 +3475,8 @@ if (!function_exists('media_or_url')) {
      * @param
      * @return
      */
-    function media_or_url($data = [], $location = null, $html_media = false){
+    function media_or_url($data = [], $location = null, $html_media = false)
+    {
         $return = '';
         $type = ao($data, 'type');
 
@@ -3334,15 +3486,15 @@ if (!function_exists('media_or_url')) {
                 if (!empty($thumb) && mediaExists($location, $thumb)) {
                     $return = gs($location, $thumb);
                 }
-            break;
+                break;
 
             case 'external':
                 $return = ao($data, 'link');
-            break;
+                break;
 
             case 'solid_color':
                 $return = ao($data, 'solid_color');
-            break;
+                break;
         }
 
 
@@ -3363,17 +3515,19 @@ if (!function_exists('media_or_url')) {
 
 
 if (!function_exists('my_log')) {
-    function my_log(){
+    function my_log()
+    {
         if (file_exists(storage_path('logs/sandy.log'))) {
             $logfile = storage_path('logs/sandy.log');
-        }else{
+        } else {
             file_put_contents(storage_path('logs/sandy.log'), '"========================== START ========================"' . PHP_EOL, FILE_APPEND);
             return false;
         }
         $args = func_get_args();
         $message = array_shift($args);
 
-        if (is_array($message)) $message = implode(PHP_EOL, $message);
+        if (is_array($message))
+            $message = implode(PHP_EOL, $message);
 
         $message = "[" . date("Y/m/d h:i:s", time()) . "] " . vsprintf($message, $args) . PHP_EOL;
         file_put_contents($logfile, $message, FILE_APPEND);
@@ -3382,13 +3536,14 @@ if (!function_exists('my_log')) {
 
 
 if (!function_exists('support_conversation_messages')) {
-    function support_conversation_messages($id, $looking = 'user'){
+    function support_conversation_messages($id, $looking = 'user')
+    {
         $carbon = new \Carbon\Carbon;
 
 
         $conversation = \App\Models\SupportConversation::where('id', $id)->first();
-        $messages = \App\Models\SupportMessage::where('conversation_id', $conversation->id)->get()->groupBy(function($date) {
-          return $date->created_at->format('Y-m-d');
+        $messages = \App\Models\SupportMessage::where('conversation_id', $conversation->id)->get()->groupBy(function ($date) {
+            return $date->created_at->format('Y-m-d');
         });
 
 
@@ -3396,16 +3551,16 @@ if (!function_exists('support_conversation_messages')) {
 
 
         if ($messages->isEmpty()) {
-            return '<div class="is-empty p-20 text-center"><img src="'. gs('assets/image/others', 'empty-fld.png') .'" class="w-half m-auto" alt=""><p class="mt-10 text-lg font-bold">'. __('No messages found!') .'</p></div>';
+            return '<div class="is-empty p-20 text-center"><img src="' . gs('assets/image/others', 'empty-fld.png') . '" class="w-half m-auto" alt=""><p class="mt-10 text-lg font-bold">' . __('No messages found!') . '</p></div>';
         }
 
         foreach ($messages as $date => $items) {
             if ($carbon->parse($date)->isToday()) {
-              $date = __('Today');
-            }elseif ($carbon->parse($date)->isYesterday()) {
-              $date = __('Yesterday');
-            }else{
-              $date = $carbon->parse($date)->diffForHumans();
+                $date = __('Today');
+            } elseif ($carbon->parse($date)->isYesterday()) {
+                $date = __('Yesterday');
+            } else {
+                $date = $carbon->parse($date)->diffForHumans();
             }
 
             $html .= '<div class="divider-container"><div class="divider"><span>' . $date . '</span></div></div>';
@@ -3416,31 +3571,31 @@ if (!function_exists('support_conversation_messages')) {
                 $user_id = $item->from_id;
                 $from = $item->from == 'user' ? 'is-left' : 'is-right';
 
-                $html .= '<div class="message-item '. $from .'"><div class="message-ava"><div class="h-avatar md"><img class="object-cover" src="'. $avatar .'" alt=""></div></div><div class="message-details"><div class="message-head"><div class="message-man">'. user('name', $user_id) .'</div><div class="message-time">'. $carbon->parse($item->created_at)->diffForHumans() .'</div></div><div class="message-body">';
+                $html .= '<div class="message-item ' . $from . '"><div class="message-ava"><div class="h-avatar md"><img class="object-cover" src="' . $avatar . '" alt=""></div></div><div class="message-details"><div class="message-head"><div class="message-man">' . user('name', $user_id) . '</div><div class="message-time">' . $carbon->parse($item->created_at)->diffForHumans() . '</div></div><div class="message-body">';
 
 
                 switch ($item->type) {
                     case 'text':
-                        $html .= '<div class="message-text">'. $item->data .'<div class="message-actions hidden"></div></div>';
-                    break;
+                        $html .= '<div class="message-text">' . $item->data . '<div class="message-actions hidden"></div></div>';
+                        break;
 
                     case 'link':
-                        $html .= '<div class="files-item blue"> <div class="files-preview text-lg flex items-center justify-center"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </div><div class="files-details"> <div class="files-title caption">'. __('Shared a link') .' </div><a href="'. $item->data .'" target="_blank" class="text-link text-sm" data-hover="'. $item->data .'">'. __('Open Link') .'</a> </div></div>';
-                    break;
+                        $html .= '<div class="files-item blue"> <div class="files-preview text-lg flex items-center justify-center"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </div><div class="files-details"> <div class="files-title caption">' . __('Shared a link') . ' </div><a href="' . $item->data . '" target="_blank" class="text-link text-sm" data-hover="' . $item->data . '">' . __('Open Link') . '</a> </div></div>';
+                        break;
 
 
                     case 'image':
                         $image = gs('media/site/support', $item->data);
                         $parse = pathinfo($image);
 
-                        $html .= '<div class="image-container"> <img data-src="'. $image .'" class="lozad"> <div class="image-overlay"></div><div class="image-actions"> <div class="actions-inner"> <a href="'. $image .'" download="'. ao($parse, 'basename') .'" class="action card-shadow"> <i class="sio network-icon-047-cloud-download sligh-thick"></i> </a> <a target="_blank" class="action messaging-popup sandy-fancybox" data-fancybox="gallery" data-src="'. $image .'" href="javascript:;"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </a> </div></div></div>';
-                    break;
+                        $html .= '<div class="image-container"> <img data-src="' . $image . '" class="lozad"> <div class="image-overlay"></div><div class="image-actions"> <div class="actions-inner"> <a href="' . $image . '" download="' . ao($parse, 'basename') . '" class="action card-shadow"> <i class="sio network-icon-047-cloud-download sligh-thick"></i> </a> <a target="_blank" class="action messaging-popup sandy-fancybox" data-fancybox="gallery" data-src="' . $image . '" href="javascript:;"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </a> </div></div></div>';
+                        break;
 
                     case 'file':
                         $file = gs('media/site/support', $item->data);
                         $parse = pathinfo($file);
-                        $html .= '<div class="files-item purple"> <div class="files-preview text-lg flex items-center justify-center"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </div><div class="files-details"> <div class="files-title caption">'. __('Shared a File') .' </div><a href="'. $file .'" download="'. ao($parse, 'basename') .'" class="text-link text-sm" data-hover="'. $item->data .'">'. __('Download') .'</a> </div></div>';
-                    break;
+                        $html .= '<div class="files-item purple"> <div class="files-preview text-lg flex items-center justify-center"> <i class="sio seo-and-marketing-058-linked sligh-thick"></i> </div><div class="files-details"> <div class="files-title caption">' . __('Shared a File') . ' </div><a href="' . $file . '" download="' . ao($parse, 'basename') . '" class="text-link text-sm" data-hover="' . $item->data . '">' . __('Download') . '</a> </div></div>';
+                        break;
                 }
 
 
@@ -3456,41 +3611,45 @@ if (!function_exists('support_conversation_messages')) {
 }
 
 if (!function_exists('formatBytes')) {
-    function formatBytes($bytes, $precision = 2) {
+    function formatBytes($bytes, $precision = 2)
+    {
         $units = array('B', 'KB', 'MB', 'GB', 'TB');
-        
+
         if ($bytes <= 0) {
             return '0 B';
         }
-        
+
         $bytes = max($bytes, 0);
         $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
         $pow = min($pow, count($units) - 1);
-        
+
         $bytes /= (1 << (10 * $pow));
-        
+
         return round($bytes, $precision) . ' ' . $units[$pow];
     }
 }
 
 
 if (!function_exists('money')) {
-    function money($amount, $currency = null){
+    function money($amount, $currency = null)
+    {
         if (empty($currency)) {
             $currency = 'USD';
             if (function_exists('settings')) {
                 // Try common keys
                 $c = settings('payment.currency') ?? settings('payments.currency');
-                if ($c) $currency = $c;
+                if ($c)
+                    $currency = $c;
             }
         }
-        
+
         return price_with_cur($currency, $amount);
     }
 }
 
 if (!function_exists('getCountries')) {
-    function getCountries() {
+    function getCountries()
+    {
         return [
             "AF" => "Afghanistan",
             "AL" => "Albania",

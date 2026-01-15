@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+
+    
     <link href="{{ gs('assets/icons/flaticon/flaticon.min.css') }}" rel="stylesheet">
     <!-- App -->
     <link href="{{ gs('assets/css/app.css') . '?v=' . date('Y-m-d H:i:s') }}" rel="stylesheet">
@@ -30,6 +33,22 @@
     {!! $sandy->header_functions() !!}
     @yield('head')
     @includeIf('bio::integrations.header')
+
+    @if(user('font'))
+        @php
+            $fontName = user('font');
+            // If it's in our presets, use presets variants, otherwise default
+            $variants = isset(fonts()[$fontName]) ? (fonts()[$fontName]['variants'] ?? '400,700') : '300,400,500,600,700';
+            $url = "https://fonts.googleapis.com/css?family=" . urlencode($fontName) . ":" . $variants . "&display=swap";
+        @endphp
+        <link href="{{ $url }}" rel="stylesheet">
+        <style>
+            /* Force font on EVERYTHING to override theme's universal selector, but EXCLUDE icons */
+            *:not(i):not([class*="la"]):not([class*="fa"]):not([class*="flaticon"]):not(.material-icons) {
+                font-family: '{{ $fontName }}', sans-serif !important;
+            }
+        </style>
+    @endif
 
     @livewireStyles
 

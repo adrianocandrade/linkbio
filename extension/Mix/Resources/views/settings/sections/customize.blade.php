@@ -24,7 +24,7 @@
 		<div class="tab-title-divider"></div>
 		<div class="sandy-tab-body">
 			<div class="sandy-tabs-item">
-				
+
 				<div class="card customize rounded-2xl mb-10 relative">
 					@if (!plan('settings.customize'))
 					@include('include.no-plan')
@@ -75,12 +75,12 @@
 					</div>
 					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
 				</div>
-				
+
 				<div class="card customize rounded-2xl mb-10 relative">
 					@if (!plan('settings.customize'))
 					@include('include.no-plan')
 					@endif
-					
+
 					<div class="bio-swiper-container mt-0">
 						<div class="bio-swiper-wrapper">
 							<div class="bio-swiper-slide">
@@ -107,78 +107,78 @@
 					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
 				</div>
 
-				
-	<!-- Buttons Start -->
-	<div class="card customize rounded-2xl mb-10 relative">
-		
-		@if (!plan('settings.customize'))
-		@include('include.no-plan')
-		@endif
-		<div class="card-header">
-			<p class="title font-bold">{{ __('Theme Color') }}</p>
-			<p class="subtitle text-gray-600">{{ __('Set global theme color.') }}</p>
-		</div>
-		<div class="grid grid-cols-1 gap-4 mt-7">
-			<div>
-				<div class="form-wrap" pickr>
-					<label>{{ __('Color') }}</label>
-					<input pickr-input type="hidden" name="color[button_background]" value="{{ user('color.button_background') ?? '#000' }}">
-					<div id="button-background-color" pickr-div></div>
+
+				<!-- Buttons Start -->
+				<div class="card customize rounded-2xl mb-10 relative">
+
+					@if (!plan('settings.customize'))
+					@include('include.no-plan')
+					@endif
+					<div class="card-header">
+						<p class="title font-bold">{{ __('Theme Color') }}</p>
+						<p class="subtitle text-gray-600">{{ __('Set global theme color.') }}</p>
+					</div>
+					<div class="grid grid-cols-1 gap-4 mt-7">
+						<div>
+							<div class="form-wrap" pickr>
+								<label>{{ __('Color') }}</label>
+								<input pickr-input type="hidden" name="color[button_background]" value="{{ user('color.button_background') ?? '#000' }}">
+								<div id="button-background-color" pickr-div></div>
+							</div>
+							<p class="text-gray-400 text-xs mt-2">{{ __('Note: does not work with default theme.') }}</p>
+						</div>
+						<div class="hidden">
+							<div class="form-wrap" pickr>
+								<label>{{ __('Buttons Text Color') }}</label>
+								<input pickr-input type="hidden" name="color[button_color]" value="{{ user('color.button_color') ?? '#000' }}">
+								<div id="button-button-text-color" pickr-div></div>
+							</div>
+						</div>
+					</div>
+					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
 				</div>
-				<p class="text-gray-400 text-xs mt-2">{{ __('Note: does not work with default theme.') }}</p>
-			</div>
-			<div class="hidden">
-				<div class="form-wrap" pickr>
-					<label>{{ __('Buttons Text Color') }}</label>
-					<input pickr-input type="hidden" name="color[button_color]" value="{{ user('color.button_color') ?? '#000' }}">
-					<div id="button-button-text-color" pickr-div></div>
+				<!-- Buttons END -->
+				<!-- Branding Start -->
+				<div class="card customize rounded-2xl mb-10 relative">
+					@if (!plan('settings.branding'))
+					<div class="not-plan">
+						<div class="opacity-reduce"></div>
+					</div>
+					@endif
+					<div class="flex items-center justify-between">
+						<p>{{ __('Remove our branding') }}</p>
+						<label class="sandy-switch">
+							<input type="hidden" name="settings[remove_branding]" value="0">
+							<input class="sandy-switch-input" name="settings[remove_branding]" value="1" type="checkbox" {{ user('settings.remove_branding') ? 'checked' : '' }}>
+							<span class="sandy-switch-in"><span class="sandy-switch-box"></span></span>
+						</label>
+					</div>
+					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
 				</div>
-			</div>
-		</div>
-		<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
-	</div>
-	<!-- Buttons END -->
-	<!-- Branding Start -->
-	<div class="card customize rounded-2xl mb-10 relative">
-		@if (!plan('settings.branding'))
-		<div class="not-plan">
-			<div class="opacity-reduce"></div>
-		</div>
-		@endif
-		<div class="flex items-center justify-between">
-			<p>{{ __('Remove our branding') }}</p>
-			<label class="sandy-switch">
-				<input type="hidden" name="settings[remove_branding]" value="0">
-				<input class="sandy-switch-input" name="settings[remove_branding]" value="1" type="checkbox" {{ user('settings.remove_branding') ? 'checked' : '' }}>
-				<span class="sandy-switch-in"><span class="sandy-switch-box"></span></span>
-			</label>
-		</div>
-		<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
-	</div>
-	<!-- Branding End -->
-	<!-- Branding Start -->
-	<div class="card customize rounded-2xl mb-10 relative">
-		@if (!plan('settings.verified'))
-		<div class="not-plan">
-			<div class="opacity-reduce"></div>
-		</div>
-		@endif
-		<div class="flex items-center justify-between">
-			<p>{{ __('Verified checkmark') }}</p>
-			
-			<label class="sandy-switch">
-				<input type="hidden" name="settings[verified]" value="0">
-				<input class="sandy-switch-input" name="settings[verified]" value="1" type="checkbox" {{ user('settings.verified') ? 'checked' : '' }}>
-				<span class="sandy-switch-in"><span class="sandy-switch-box"></span></span>
-			</label>
-		</div>
-		<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
-	</div>
-	<!-- Branding End -->
-	
+				<!-- Branding End -->
+				<!-- Branding Start -->
+				<div class="card customize rounded-2xl mb-10 relative">
+					@if (!plan('settings.verified'))
+					<div class="not-plan">
+						<div class="opacity-reduce"></div>
+					</div>
+					@endif
+					<div class="flex items-center justify-between">
+						<p>{{ __('Verified checkmark') }}</p>
+
+						<label class="sandy-switch">
+							<input type="hidden" name="settings[verified]" value="0">
+							<input class="sandy-switch-input" name="settings[verified]" value="1" type="checkbox" {{ user('settings.verified') ? 'checked' : '' }}>
+							<span class="sandy-switch-in"><span class="sandy-switch-box"></span></span>
+						</label>
+					</div>
+					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
+				</div>
+				<!-- Branding End -->
+
 			</div>
 			<div class="sandy-tabs-item">
-				
+
 				<!-- Background START -->
 				<div class="card customize rounded-2xl mb-10 relative">
 					@if (!plan('settings.customize'))
@@ -189,21 +189,21 @@
 						<p class="subtitle text-gray-600">{{ __('Choose a suitable background for your page.
 						Could be picture, color or gradient.') }}</p>
 					</div>
-					
+
 					<div class="grid grid-cols-2 gap-4 mt-5">
 						<label class="sandy-big-checkbox is-html-demo">
 							<input type="radio" class="sandy-input-inner" name="settings[banner_or_background]" value="0" {{ !user('settings.banner_or_background') ? 'checked' : '' }}>
 							<div class="checkbox-inner h-full items-center">
-								
+
 								<div class="html-demo-bio has-bio-background w-full">
 									<div class="html-demo-background-main"></div>
 									<div class="flex w-full flex-col">
 										<div class="flex">
-											
+
 											<div class="html-demo-avatar"></div>
 										</div>
 										<div class="w-full">
-											
+
 											<div class="html-demo-description h-2"></div>
 											<div class="html-demo-description h-2 mt-2"></div>
 										</div>
@@ -215,16 +215,16 @@
 						<label class="sandy-big-checkbox is-html-demo">
 							<input type="radio" class="sandy-input-inner" name="settings[banner_or_background]" value="1" {{ user('settings.banner_or_background') ? 'checked' : '' }}>
 							<div class="checkbox-inner h-full items-center">
-								
+
 								<div class="html-demo-bio has-bio-banner w-full">
 									<div class="html-demo-background-banner"></div>
 									<div class="flex w-full flex-col">
 										<div class="flex">
-											
+
 											<div class="html-demo-avatar"></div>
 										</div>
 										<div class="w-full">
-											
+
 											<div class="html-demo-description h-2"></div>
 											<div class="html-demo-description h-2 mt-2"></div>
 										</div>
@@ -237,7 +237,7 @@
 					<div class="grid grid-cols-2 md:grid-cols-3 --lg:grid-cols-4-- gap-4 mt-7 switch-is-customize">
 						<label class="profile-background-types-wrapper background-picture-open">
 							<input type="radio" name="background" value="image" {{ user('background') == 'image' ? 'checked' : '' }}>
-							
+
 							<div class="profile-background-types rounded-2xl">
 								<div class="active-dot"></div>
 								<div class="icon is-ava">
@@ -247,10 +247,10 @@
 								<p>{{ __('Picture/Gif') }}</p>
 							</div>
 						</label>
-						
+
 						<label class="profile-background-types-wrapper solid-background-open">
 							<input type="radio" name="background" value="color" {{ user('background') == 'color' ? 'checked' : '' }}>
-							
+
 							<div class="profile-background-types rounded-2xl">
 								<div class="active-dot"></div>
 								<div class="icon is-ava">
@@ -275,7 +275,7 @@
 					<div class="flex">
 						<label class="profile-background-types-wrapper">
 							<input type="radio" name="background" value="" {{ user('background') == '' ? 'checked' : '' }}>
-							
+
 							<div class="profile-background-types min-h-0 h-0 cursor-pointer flex flex-row items-center rounded-2xl">
 								<p>{{ __('Reset') }}</p>
 								<div class="active-dot relative ml-2 top-0 right-0"></div>
@@ -295,31 +295,46 @@
 				<!-- Background END -->
 			</div>
 			<div class="sandy-tabs-item">
-				
-	<!-- Font Start -->
-	<div class="card customize rounded-2xl relative">
-		@if (!plan('settings.customize'))
-		@include('include.no-plan')
-		@endif
-		<div class="card-header">
-			<p class="title">{{ __('Font') }}</p>
-			<p class="subtitle">{{ __('Choose a suitable font for your page.') }}</p>
-		</div>
-		<div class="grid mt-5 grid-cols-2 gap-4">
-			@foreach (fonts() as $key => $value)
-			<label class="sandy-big-radio">
-				<input type="radio" name="font" value="{{ $key }}" class="custom-control-input" {{ user('font') == $key ? 'checked' : '' }}>
-				<div class="radio-select-inner font">
-					<div class="active-dot"></div>
-					<h1 class="{{ slugify($key) }}-font-preview">{{ $key }}</h1>
-					<p class="font-preview {{ slugify($key) }}-font-preview">{{ __($value['text'] ?? 'The quick brown fox') }}</p>
+
+				<!-- Font Start -->
+				<div class="card customize rounded-2xl relative">
+					@if (!plan('settings.customize'))
+					@include('include.no-plan')
+					@endif
+					<div class="card-header">
+						<p class="title">{{ __('Font') }}</p>
+						<p class="subtitle">{{ __('Choose a suitable font for your page.') }}</p>
+					</div>
+					<div class="grid mt-5 grid-cols-2 gap-4" id="main-font-grid">
+						@foreach (fonts() as $key => $value)
+						<label class="sandy-big-radio">
+							<input type="radio" name="font" value="{{ $key }}" class="custom-control-input" {{ user('font') == $key ? 'checked' : '' }}>
+							<div class="radio-select-inner font">
+								<div class="active-dot"></div>
+								<h1 class="{{ slugify($key) }}-font-preview">{{ $key }}</h1>
+								<p class="font-preview {{ slugify($key) }}-font-preview">{{ __($value['text'] ?? 'The quick brown fox') }}</p>
+							</div>
+						</label>
+						@endforeach
+						
+						{{-- Handle Custom Font (selected via picker but not in default list) --}}
+						@if(user('font') && !array_key_exists(user('font'), fonts()))
+						<label class="sandy-big-radio">
+							<input type="radio" name="font" value="{{ user('font') }}" class="custom-control-input" checked>
+							<div class="radio-select-inner font">
+								<div class="active-dot"></div>
+								<h1 style="font-family: '{{ user('font') }}', sans-serif;">{{ user('font') }}</h1>
+								<p class="font-preview" style="font-family: '{{ user('font') }}', sans-serif;">{{ __('The quick brown fox') }}</p>
+							</div>
+						</label>
+						@endif
+					</div>
+					<button class="font-selector-open button main w-full mt-3" type="button" onclick="FontSelector.open()">
+						<i class="flaticon-font"></i> {{ __('Browse All Fonts') }} ({{ count(json_decode(file_get_contents(base_path('sandy/Plugins/user_util/Others/1000-fonts.php')), true)) }} {{ __('available') }})
+					</button>
+					<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
 				</div>
-			</label>
-			@endforeach
-		</div>
-		<button class="sandy-expandable-btn mt-5 bg-white"><span>{{ __('Save') }}</span></button>
-	</div>
-	<!-- Font End -->
+				<!-- Font End -->
 			</div>
 		</div>
 	</div>
@@ -348,101 +363,149 @@
 						<div class="h-avatar h-56 w-full is-upload is-outline-dark text-2xl mb-5 active" data-generic-preview=".h-avatar">
 							<i class="flaticon-upload-1"></i>
 							<input type="file" name="background_video_input" id="video-upload-input" accept="video/*">
-						<video src="{{ getStorage('media/bio/background', user('background_settings.video.video')) }}"></video>
+							<video src="{{ getStorage('media/bio/background', user('background_settings.video.video')) }}"></video>
+						</div>
+						<label class="button mt-5 w-full initial" for="video-upload-input">
+							{{ __('Select a video') }}
+						</label>
 					</div>
-					<label class="button mt-5 w-full initial" for="video-upload-input">
-						{{ __('Select a video') }}
-					</label>
 				</div>
 			</div>
 		</div>
+		<button class="background-video-close" data-close-popup><i class="flaticon-close"></i></button>
+		<button class="button main mt-5">{{ __('Save') }}</button>
 	</div>
-	<button class="background-video-close" data-close-popup><i class="flaticon-close"></i></button>
-	<button class="button main mt-5">{{ __('Save') }}</button>
-</div>
-<!-- Background image popup -->
-<div data-popup=".background-picture">
-	<div class="form-input mort-main-bg rounded-2xl p-5 mb-5">
-		<label class="initial">{{ __('Background source') }}</label>
-		<select name="background_settings[image][source]" class="bg-w" data-sandy-select=".select-background-shift">
-			@foreach (['url' => 'External Url', 'upload' => 'Upload a background'] as $key => $value)
-			<option value="{{ $key }}" {{ user('background_settings.image.source') == $key ? 'selected' : '' }}>{{ __($value) }}</option>
-			@endforeach
-		</select>
-	</div>
-	<div class="mort-main-bg rounded-2xl p-5 select-background-shift">
-		<div data-sandy-open="url">
-			<div class="form-input">
-				<label>
-					{{ __('Enter url') }}
-				</label>
-				<input type="text" class="bg-w" value="{{ user('background_settings.image.external_url') }}" name="background_settings[image][external_url]">
-			</div>
+	<!-- Background image popup -->
+	<div data-popup=".background-picture">
+		<div class="form-input mort-main-bg rounded-2xl p-5 mb-5">
+			<label class="initial">{{ __('Background source') }}</label>
+			<select name="background_settings[image][source]" class="bg-w" data-sandy-select=".select-background-shift">
+				@foreach (['url' => 'External Url', 'upload' => 'Upload a background'] as $key => $value)
+				<option value="{{ $key }}" {{ user('background_settings.image.source') == $key ? 'selected' : '' }}>{{ __($value) }}</option>
+				@endforeach
+			</select>
 		</div>
-		<div data-sandy-open="upload">
-			<div class="flex items-center flex-col">
-				<div class="thumbnail-upload boxed block w-72" id="logo-thumbnail">
-					<div class="h-avatar h-56 w-full is-upload is-outline-dark text-2xl mb-5 active" data-generic-preview=".h-avatar">
-						<i class="flaticon-upload-1"></i>
-						<input type="file" name="background_image_input">
-						<img src="{{ getStorage('media/bio/background', user('background_settings.image.image')) }}" alt="">
-					</div>
-					<label class="button mt-5 w-full initial" for="logo-thumbnail-input">
-						{{ __('Select a background image') }}
+		<div class="mort-main-bg rounded-2xl p-5 select-background-shift">
+			<div data-sandy-open="url">
+				<div class="form-input">
+					<label>
+						{{ __('Enter url') }}
 					</label>
+					<input type="text" class="bg-w" value="{{ user('background_settings.image.external_url') }}" name="background_settings[image][external_url]">
+				</div>
+			</div>
+			<div data-sandy-open="upload">
+				<div class="flex items-center flex-col">
+					<div class="thumbnail-upload boxed block w-72" id="logo-thumbnail">
+						<div class="h-avatar h-56 w-full is-upload is-outline-dark text-2xl mb-5 active" data-generic-preview=".h-avatar">
+							<i class="flaticon-upload-1"></i>
+							<input type="file" name="background_image_input">
+							<img src="{{ getStorage('media/bio/background', user('background_settings.image.image')) }}" alt="">
+						</div>
+						<label class="button mt-5 w-full initial" for="logo-thumbnail-input">
+							{{ __('Select a background image') }}
+						</label>
+					</div>
 				</div>
 			</div>
 		</div>
+		<button class="background-picture-close" data-close-popup><i class="flaticon-close"></i></button>
+		<button class="button main mt-5">{{ __('Save') }}</button>
 	</div>
-	<button class="background-picture-close" data-close-popup><i class="flaticon-close"></i></button>
-	<button class="button main mt-5">{{ __('Save') }}</button>
-</div>
-<!-- Solid background popup -->
-<div data-popup=".solid-background">
-	<div class="inner-page-banner rounded-2xl">
-		<h1 class="font-bold text-lg">{{ __('Solid Color') }}</h1>
-		<p class="text-gray-400 text-xs">{{ __('Use solid color as your profile\'s background') }}</p>
-	</div>
-	<div class="form-wrap mt-7" pickr>
-		<label>{{ __('Solid Color') }}</label>
-		<input pickr-input type="hidden" name="background_settings[solid][color]" value="{{ user('background_settings.solid.color') ?? '#000' }}">
-		<div id="solid-background-color" pickr-div></div>
-	</div>
-	
-	<button class="solid-background-close" data-close-popup><i class="flaticon-close"></i></button>
-	<button class="sandy-expandable-btn main mt-5"><span>{{ __('Save') }}</span></button>
-</div>
-<!-- Gradient background popup -->
-<div data-popup=".gradient-background">
-	<div class="inner-page-banner">
-		<h1 class="font-bold text-lg">{{ __('Gradient Background') }}</h1>
-		<p class="text-gray-400 text-xs">{{ __('Use gradient background as your profile\'s background') }}</p>
-	</div>
-	<div class="grid grid-cols-2 gap-4">
-		
-		<div class="form-wrap mt-7" pickr>
-			<label>{{ __('Color 1') }}</label>
-			<input pickr-input type="hidden" name="background_settings[gradient][color_1]" value="{{ user('background_settings.gradient.color_1') ?? '#fff' }}">
-			<div id="gradient-background-color-1" pickr-div></div>
+	<!-- Solid background popup -->
+	<div data-popup=".solid-background">
+		<div class="inner-page-banner rounded-2xl">
+			<h1 class="font-bold text-lg">{{ __('Solid Color') }}</h1>
+			<p class="text-gray-400 text-xs">{{ __('Use solid color as your profile\'s background') }}</p>
 		</div>
 		<div class="form-wrap mt-7" pickr>
-			<label>{{ __('Color 2') }}</label>
-			<input pickr-input type="hidden" name="background_settings[gradient][color_2]" value="{{ user('background_settings.gradient.color_2') ?? '#fff' }}">
-			<div id="gradient-background-color-2" pickr-div></div>
+			<label>{{ __('Solid Color') }}</label>
+			<input pickr-input type="hidden" name="background_settings[solid][color]" value="{{ user('background_settings.solid.color') ?? '#000' }}">
+			<div id="solid-background-color" pickr-div></div>
 		</div>
+
+		<button class="solid-background-close" data-close-popup><i class="flaticon-close"></i></button>
+		<button class="sandy-expandable-btn main mt-5"><span>{{ __('Save') }}</span></button>
 	</div>
-	<div class="flex items-center justify-between mt-7">
-		<p>{{ __('Animate gradient') }}</p>
-		<div class="custom-switch mr-4">
-			<input type="hidden" name="background_settings[gradient][animate]" value="0">
-			
-			<input type="checkbox" class="custom-control-input" name="background_settings[gradient][animate]" id="animate-gradient" value="1" {{  user('background_settings.gradient.animate') ? 'checked' : '' }}>
-			<label class="custom-control-label" for="animate-gradient"></label>
+	<!-- Gradient background popup -->
+	<div data-popup=".gradient-background">
+		<div class="inner-page-banner">
+			<h1 class="font-bold text-lg">{{ __('Gradient Background') }}</h1>
+			<p class="text-gray-400 text-xs">{{ __('Use gradient background as your profile\'s background') }}</p>
 		</div>
+		<div class="grid grid-cols-2 gap-4">
+
+			<div class="form-wrap mt-7" pickr>
+				<label>{{ __('Color 1') }}</label>
+				<input pickr-input type="hidden" name="background_settings[gradient][color_1]" value="{{ user('background_settings.gradient.color_1') ?? '#fff' }}">
+				<div id="gradient-background-color-1" pickr-div></div>
+			</div>
+			<div class="form-wrap mt-7" pickr>
+				<label>{{ __('Color 2') }}</label>
+				<input pickr-input type="hidden" name="background_settings[gradient][color_2]" value="{{ user('background_settings.gradient.color_2') ?? '#fff' }}">
+				<div id="gradient-background-color-2" pickr-div></div>
+			</div>
+		</div>
+		<div class="flex items-center justify-between mt-7">
+			<p>{{ __('Animate gradient') }}</p>
+			<div class="custom-switch mr-4">
+				<input type="hidden" name="background_settings[gradient][animate]" value="0">
+
+				<input type="checkbox" class="custom-control-input" name="background_settings[gradient][animate]" id="animate-gradient" value="1" {{  user('background_settings.gradient.animate') ? 'checked' : '' }}>
+				<label class="custom-control-label" for="animate-gradient"></label>
+			</div>
+		</div>
+
+		<button class="gradient-background-close" data-close-popup onclick="event.preventDefault()"><i class="flaticon-close"></i></button>
+		<button class="sandy-expandable-btn main mt-5" type="submit"><span>{{ __('Save') }}</span></button>
 	</div>
-	
-	<button class="gradient-background-close" data-close-popup><i class="flaticon-close"></i></button>
-	<button class="sandy-expandable-btn main mt-5" type="submit"><span>{{ __('Save') }}</span></button>
-</div>
 </form>
+
+<!-- Font Selection Modal -->
+<!-- Font Selection Modal -->
+<div data-popup=".font-selector">
+    <div class="form-input mort-main-bg rounded-2xl p-5 mb-5">
+        <label class="initial">{{ __('Choose Font') }}</label>
+        <p class="text-gray-400 text-xs mb-3">{{ __('Select from our collection of fonts') }}</p>
+        
+        <!-- Font Picker Component Logic Integrated -->
+        <div class="relative">
+            <input type="text" id="googleFontInput" class="form-control w-full border border-gray-300 rounded-lg p-3 bg-white" autocomplete="off" placeholder="{{ __('Type a font name (e.g. Roboto)...') }}" oninput="FontSelector.search(this)">
+        </div>
+        
+        <div class="mt-4">
+            <label class="text-xs text-gray-500 mb-2 block">{{ __('Browse Fonts') }} 2</label>
+            <ul id="fontSuggestList" class="suggest-list w-full border border-gray-200 bg-white max-h-60 overflow-y-auto rounded-lg"></ul>
+        </div>
+    </div>
+    
+    <div class="mort-main-bg rounded-2xl p-5 text-center">
+        <label class="block text-gray-500 text-xs mb-2">{{ __('Preview') }}</label>
+        <div id="fontPreview" class="p-6 border rounded-xl text-3xl" style="min-height: 100px; font-family: '{{ user('font') }}', sans-serif;">
+            The quick brown fox jumps over the lazy dog
+        </div>
+    </div>
+    
+    <button class="font-selector-close" data-close-popup onclick="FontSelector.close()"><i class="flaticon-close"></i></button>
+    <button class="button main mt-5 w-full" id="apply-font-picker" type="button" onclick="FontSelector.apply()">{{ __('Apply Font') }}</button>
+</div>
+
+<style>
+    .suggest-list li {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #f3f4f6;
+    }
+    .suggest-list li:last-child {
+        border-bottom: none;
+    }
+    .suggest-list li:hover {
+        background: #f3f4f6;
+    }
+</style>
+
+<!-- FontSelector script removed - utilizing global definition in master layout -->
+
+<!-- End Font Selector Modal -->
+
 @endsection

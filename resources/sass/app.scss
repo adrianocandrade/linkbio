@@ -4280,10 +4280,13 @@ body.is-dark .is-dark-stroke{
 		    background-color: #27baf1;
 		    cursor: pointer;
 		    position: absolute;
-		    top: -20px;
-		    right: -20px;
+		    top: -7px;
+		    right: -7px;
 		    z-index: 2;
 		    transition: background-color .2s ease-in-out;
+			padding-top: 7px;
+			padding-right: 7px;
+			
 		    i{
 		    	color: #fff;
 		    }
@@ -16583,7 +16586,7 @@ body.dark .about__bg {
     width: 23%;
   }
 }
-[class^="play"] {
+[class^="play"]:not([class*="playfair"]) {
   position: absolute;
   top: 50%;
   left: 50%;
